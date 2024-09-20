@@ -1,0 +1,1792 @@
+[
+  {
+    "_index": "packets-2024-07-04",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{783FF999-72FF-4486-B984-01185D2274A2}",
+            "frame.interface_description": "乙太網路"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jul  4, 2024 21:27:41.976008000 台北標準時間",
+          "frame.time_utc": "Jul  4, 2024 13:27:41.976008000 UTC",
+          "frame.time_epoch": "1720099661.976008000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.006253000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "3.424092000",
+          "frame.number": "554",
+          "frame.len": "1031",
+          "frame.cap_len": "1031",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:pppoes:ppp:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "d8:5e:d3:aa:9d:9b",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.dst.oui": "14180051",
+            "eth.dst.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.addr": "d8:5e:d3:aa:9d:9b",
+            "eth.addr_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.addr.oui": "14180051",
+            "eth.addr.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:02:3b:10:ac:21",
+          "eth.src_tree": {
+            "eth.src_resolved": "Ericsson_10:ac:21",
+            "eth.src.oui": "571",
+            "eth.src.oui_resolved": "Ericsson",
+            "eth.addr": "00:02:3b:10:ac:21",
+            "eth.addr_resolved": "Ericsson_10:ac:21",
+            "eth.addr.oui": "571",
+            "eth.addr.oui_resolved": "Ericsson",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x8864"
+        },
+        "pppoes": {
+          "pppoe.version": "1",
+          "pppoe.type": "1",
+          "pppoe.code": "0x00",
+          "pppoe.session_id": "0x0003",
+          "pppoe.payload_length": "1011"
+        },
+        "ppp": {
+          "ppp.protocol": "0x0021"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1009",
+          "ip.id": "0x7159",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "115",
+          "ip.proto": "6",
+          "ip.checksum": "0xddc1",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "220.132.170.233",
+          "ip.addr": "220.132.170.233",
+          "ip.dst_host": "220.132.170.233",
+          "ip.host": "220.132.170.233"
+        },
+        "tcp": {
+          "tcp.srcport": "5668",
+          "tcp.dstport": "31766",
+          "tcp.port": "5668",
+          "tcp.port": "31766",
+          "tcp.stream": "15",
+          "tcp.completeness": "28",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "0",
+            "tcp.completeness.syn": "0",
+            "tcp.completeness.str": "·FDA··"
+          },
+          "tcp.len": "969",
+          "tcp.seq": "146",
+          "tcp.seq_raw": "2625301075",
+          "tcp.nxtseq": "1115",
+          "tcp.ack": "89",
+          "tcp.ack_raw": "4155258370",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "514",
+          "tcp.window_size": "514",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x6686",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.912601000",
+            "tcp.time_delta": "0.021006000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "552",
+            "tcp.analysis.ack_rtt": "0.021006000",
+            "tcp.analysis.bytes_in_flight": "969",
+            "tcp.analysis.push_bytes_sent": "969"
+          },
+          "tcp.payload": "c5:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:75:95:fd:6b:1c:45:18:c7:a7:67:5f:ac:56:5b:b5:f1:7c:6b:41:fc:41:90:01:77:67:77:67:77:c1:5f:da:88:f6:68:13:f1:52:8c:0a:12:d6:bb:ed:b9:dc:de:6d:ba:77:69:72:f1:2d:69:c0:5e:7b:62:4d:29:a2:26:c1:a2:0d:11:14:d2:e0:4b:db:b4:f1:6f:10:6c:0a:31:05:6d:73:b7:77:55:c1:3f:40:10:9f:cb:3c:6b:c5:9b:1e:37:cc:0f:73:9f:e7:e5:fb:7c:67:6e:60:0b:21:3b:09:21:7d:dd:07:82:9c:97:19:48:3b:c5:7c:aa:78:28:d8:eb:64:f2:e7:56:12:64:13:9c:ed:86:b5:01:56:17:ac:37:a3:ea:c7:8d:13:53:6f:ff:79:f9:53:43:a7:96:c6:28:53:f4:1f:af:24:c8:76:38:8c:a6:67:a2:f9:d3:8d:d9:6a:73:fa:b3:68:66:61:f6:37:b2:fe:39:25:36:92:e8:8c:a1:73:6a:6b:36:35:75:f3:f7:eb:09:b2:19:0e:1b:e3:13:d1:74:f5:7b:6b:03:39:99:24:e4:03:44:ef:e8:44:35:8d:da:86:45:2d:4b:7d:ea:46:82:6c:83:c3:9b:3f:7c:12:7d:b3:d4:98:fa:28:aa:1d:ef:ef:15:e0:31:0c:b0:51:12:40:a5:8a:c9:db:3d:cc:41:80:ad:70:d8:9d:7e:a5:ef:60:aa:77:8f:3a:3a:24:a8:a3:48:6f:ea:a4:19:a3:0a:e7:94:5b:7a:66:35:b1:1e:be:e0:0d:ed:4b:c1:5e:82:ba:df:41:70:73:27:a8:42:4a:5d:a5:ba:6a:de:fc:59:a4:dd:eb:3b:5e:b8:df:2d:0c:ba:90:76:24:79:2b:ed:16:09:6d:50:53:55:a9:61:68:7f:5f:c1:ae:3f:ff:b2:75:72:1e:34:6b:2c:2d:3c:8d:60:05:f7:3b:25:01:74:6a:2a:1a:d5:6d:d6:b5:8c:53:ab:4e:d6:2f:8c:35:ab:0b:f5:a5:33:cf:bf:f0:ec:73:4f:12:12:42:11:a3:18:63:ab:34:86:c2:6d:ca:0d:eb:af:65:d1:c2:da:d1:f3:6b:13:5f:ac:4d:7c:f5:12:e8:5e:06:7a:18:e9:bb:24:b4:06:aa:19:54:53:d4:3c:cc:bc:fd:83:6e:bf:92:75:7b:9c:8a:1b:0e:20:1e:37:70:b7:04:67:94:6b:3a:65:26:bf:f0:ab:10:be:27:28:79:af:f5:0a:e1:df:45:70:9b:04:54:c0:2c:3a:d5:b8:72:76:55:48:d7:e3:94:cb:6f:b8:c3:3d:99:4c:50:29:a0:f6:38:79:72:8f:34:80:09:8e:63:a6:35:0a:37:a3:ad:6d:c9:29:66:c3:20:93:cf:f6:0a:78:04:e1:7b:a5:30:e8:05:4e:67:37:56:d1:e9:17:2f:b5:26:bf:7e:11:8d:5a:46:74:bb:14:35:74:85:aa:8a:fa:d6:8a:90:3b:1d:84:95:7e:c7:f7:4b:b1:51:8f:20:bd:43:4a:33:d3:a0:cc:56:ac:eb:82:3e:30:94:c9:57:5e:4e:a5:52:fb:88:50:fb:30:d2:f7:dd:86:d6:20:bf:9d:fc:45:bc:06:7d:d9:9c:5f:dc:8f:44:09:f7:fb:e5:a4:c2:c0:68:fa:1f:60:92:b6:95:0f:06:85:a0:e0:15:73:43:22:6b:5c:f3:03:52:56:85:9a:55:d3:72:af:0a:b1:ea:8b:93:cd:b9:5a:1a:a7:1c:17:bc:f3:36:28:dc:4d:45:f9:09:2f:48:bf:fb:7a:a9:ec:86:69:d7:2d:b9:e0:ed:75:73:0f:62:80:2e:0c:f2:9f:00:36:34:cb:29:d3:cc:ab:d7:04:df:fa:70:ae:fd:3d:3e:5f:5f:5c:7c:86:88:02:8a:c8:3f:28:e3:99:cd:a9:c9:ed:24:ca:fd:aa:1b:06:dd:a1:e3:e5:6c:84:e3:51:27:3b:61:8b:da:16:a7:ba:c9:76:a0:45:9b:53:df:36:4f:9f:87:fb:d9:18:ab:e5:70:d8:b1:45:1f:92:f1:a6:61:53:c5:62:23:b5:8d:c2:64:ef:9d:6b:1c:9b:79:fc:7f:65:3f:2c:25:61:5a:36:e7:4f:2c:8b:cc:d1:fb:e3:f5:8b:b5:fa:a5:d9:68:fc:54:fb:56:1f:4e:de:1a:f7:23:32:5e:87:07:55:e3:f6:fc:8a:98:76:bb:ed:b4:5b:dc:83:1e:f3:11:7d:54:86:aa:16:5c:6a:dd:1e:5b:15:8a:b5:be:3b:1b:4d:55:9b:b5:cb:c8:90:00:f7:c7:a4:b0:66:b5:c7:3d:8c:70:69:d0:75:b3:ae:ef:c7:cc:bf:66:d9:25:83:15:90:8b:69:ea:09:7c:8a:0f:79:21:c0:47:3c:7f:17:2a:16:1b:65:77:27:6c:52:5b:81:bf:2e:cb:68:5d:13:1d:07:a1:97:73:0a:9e:87:62:c5:e8:3f:c5:32:e3:a1:63:07:00:00"
+        },
+        "data": {
+          "data.data": "c5:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:75:95:fd:6b:1c:45:18:c7:a7:67:5f:ac:56:5b:b5:f1:7c:6b:41:fc:41:90:01:77:67:77:67:77:c1:5f:da:88:f6:68:13:f1:52:8c:0a:12:d6:bb:ed:b9:dc:de:6d:ba:77:69:72:f1:2d:69:c0:5e:7b:62:4d:29:a2:26:c1:a2:0d:11:14:d2:e0:4b:db:b4:f1:6f:10:6c:0a:31:05:6d:73:b7:77:55:c1:3f:40:10:9f:cb:3c:6b:c5:9b:1e:37:cc:0f:73:9f:e7:e5:fb:7c:67:6e:60:0b:21:3b:09:21:7d:dd:07:82:9c:97:19:48:3b:c5:7c:aa:78:28:d8:eb:64:f2:e7:56:12:64:13:9c:ed:86:b5:01:56:17:ac:37:a3:ea:c7:8d:13:53:6f:ff:79:f9:53:43:a7:96:c6:28:53:f4:1f:af:24:c8:76:38:8c:a6:67:a2:f9:d3:8d:d9:6a:73:fa:b3:68:66:61:f6:37:b2:fe:39:25:36:92:e8:8c:a1:73:6a:6b:36:35:75:f3:f7:eb:09:b2:19:0e:1b:e3:13:d1:74:f5:7b:6b:03:39:99:24:e4:03:44:ef:e8:44:35:8d:da:86:45:2d:4b:7d:ea:46:82:6c:83:c3:9b:3f:7c:12:7d:b3:d4:98:fa:28:aa:1d:ef:ef:15:e0:31:0c:b0:51:12:40:a5:8a:c9:db:3d:cc:41:80:ad:70:d8:9d:7e:a5:ef:60:aa:77:8f:3a:3a:24:a8:a3:48:6f:ea:a4:19:a3:0a:e7:94:5b:7a:66:35:b1:1e:be:e0:0d:ed:4b:c1:5e:82:ba:df:41:70:73:27:a8:42:4a:5d:a5:ba:6a:de:fc:59:a4:dd:eb:3b:5e:b8:df:2d:0c:ba:90:76:24:79:2b:ed:16:09:6d:50:53:55:a9:61:68:7f:5f:c1:ae:3f:ff:b2:75:72:1e:34:6b:2c:2d:3c:8d:60:05:f7:3b:25:01:74:6a:2a:1a:d5:6d:d6:b5:8c:53:ab:4e:d6:2f:8c:35:ab:0b:f5:a5:33:cf:bf:f0:ec:73:4f:12:12:42:11:a3:18:63:ab:34:86:c2:6d:ca:0d:eb:af:65:d1:c2:da:d1:f3:6b:13:5f:ac:4d:7c:f5:12:e8:5e:06:7a:18:e9:bb:24:b4:06:aa:19:54:53:d4:3c:cc:bc:fd:83:6e:bf:92:75:7b:9c:8a:1b:0e:20:1e:37:70:b7:04:67:94:6b:3a:65:26:bf:f0:ab:10:be:27:28:79:af:f5:0a:e1:df:45:70:9b:04:54:c0:2c:3a:d5:b8:72:76:55:48:d7:e3:94:cb:6f:b8:c3:3d:99:4c:50:29:a0:f6:38:79:72:8f:34:80:09:8e:63:a6:35:0a:37:a3:ad:6d:c9:29:66:c3:20:93:cf:f6:0a:78:04:e1:7b:a5:30:e8:05:4e:67:37:56:d1:e9:17:2f:b5:26:bf:7e:11:8d:5a:46:74:bb:14:35:74:85:aa:8a:fa:d6:8a:90:3b:1d:84:95:7e:c7:f7:4b:b1:51:8f:20:bd:43:4a:33:d3:a0:cc:56:ac:eb:82:3e:30:94:c9:57:5e:4e:a5:52:fb:88:50:fb:30:d2:f7:dd:86:d6:20:bf:9d:fc:45:bc:06:7d:d9:9c:5f:dc:8f:44:09:f7:fb:e5:a4:c2:c0:68:fa:1f:60:92:b6:95:0f:06:85:a0:e0:15:73:43:22:6b:5c:f3:03:52:56:85:9a:55:d3:72:af:0a:b1:ea:8b:93:cd:b9:5a:1a:a7:1c:17:bc:f3:36:28:dc:4d:45:f9:09:2f:48:bf:fb:7a:a9:ec:86:69:d7:2d:b9:e0:ed:75:73:0f:62:80:2e:0c:f2:9f:00:36:34:cb:29:d3:cc:ab:d7:04:df:fa:70:ae:fd:3d:3e:5f:5f:5c:7c:86:88:02:8a:c8:3f:28:e3:99:cd:a9:c9:ed:24:ca:fd:aa:1b:06:dd:a1:e3:e5:6c:84:e3:51:27:3b:61:8b:da:16:a7:ba:c9:76:a0:45:9b:53:df:36:4f:9f:87:fb:d9:18:ab:e5:70:d8:b1:45:1f:92:f1:a6:61:53:c5:62:23:b5:8d:c2:64:ef:9d:6b:1c:9b:79:fc:7f:65:3f:2c:25:61:5a:36:e7:4f:2c:8b:cc:d1:fb:e3:f5:8b:b5:fa:a5:d9:68:fc:54:fb:56:1f:4e:de:1a:f7:23:32:5e:87:07:55:e3:f6:fc:8a:98:76:bb:ed:b4:5b:dc:83:1e:f3:11:7d:54:86:aa:16:5c:6a:dd:1e:5b:15:8a:b5:be:3b:1b:4d:55:9b:b5:cb:c8:90:00:f7:c7:a4:b0:66:b5:c7:3d:8c:70:69:d0:75:b3:ae:ef:c7:cc:bf:66:d9:25:83:15:90:8b:69:ea:09:7c:8a:0f:79:21:c0:47:3c:7f:17:2a:16:1b:65:77:27:6c:52:5b:81:bf:2e:cb:68:5d:13:1d:07:a1:97:73:0a:9e:87:62:c5:e8:3f:c5:32:e3:a1:63:07:00:00",
+          "data.len": "969"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-07-04",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{783FF999-72FF-4486-B984-01185D2274A2}",
+            "frame.interface_description": "乙太網路"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jul  4, 2024 21:27:44.847776000 台北標準時間",
+          "frame.time_utc": "Jul  4, 2024 13:27:44.847776000 UTC",
+          "frame.time_epoch": "1720099664.847776000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.002264000",
+          "frame.time_delta_displayed": "2.871768000",
+          "frame.time_relative": "6.295860000",
+          "frame.number": "945",
+          "frame.len": "945",
+          "frame.cap_len": "945",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:pppoes:ppp:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "d8:5e:d3:aa:9d:9b",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.dst.oui": "14180051",
+            "eth.dst.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.addr": "d8:5e:d3:aa:9d:9b",
+            "eth.addr_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.addr.oui": "14180051",
+            "eth.addr.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:02:3b:10:ac:21",
+          "eth.src_tree": {
+            "eth.src_resolved": "Ericsson_10:ac:21",
+            "eth.src.oui": "571",
+            "eth.src.oui_resolved": "Ericsson",
+            "eth.addr": "00:02:3b:10:ac:21",
+            "eth.addr_resolved": "Ericsson_10:ac:21",
+            "eth.addr.oui": "571",
+            "eth.addr.oui_resolved": "Ericsson",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x8864"
+        },
+        "pppoes": {
+          "pppoe.version": "1",
+          "pppoe.type": "1",
+          "pppoe.code": "0x00",
+          "pppoe.session_id": "0x0003",
+          "pppoe.payload_length": "925"
+        },
+        "ppp": {
+          "ppp.protocol": "0x0021"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "923",
+          "ip.id": "0x715a",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "115",
+          "ip.proto": "6",
+          "ip.checksum": "0xde16",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "220.132.170.233",
+          "ip.addr": "220.132.170.233",
+          "ip.dst_host": "220.132.170.233",
+          "ip.host": "220.132.170.233"
+        },
+        "tcp": {
+          "tcp.srcport": "5668",
+          "tcp.dstport": "31766",
+          "tcp.port": "5668",
+          "tcp.port": "31766",
+          "tcp.stream": "15",
+          "tcp.completeness": "28",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "0",
+            "tcp.completeness.syn": "0",
+            "tcp.completeness.str": "·FDA··"
+          },
+          "tcp.len": "883",
+          "tcp.seq": "1115",
+          "tcp.seq_raw": "2625302044",
+          "tcp.nxtseq": "1998",
+          "tcp.ack": "133",
+          "tcp.ack_raw": "4155258414",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "513",
+          "tcp.window_size": "513",
+          "tcp.window_size_scalefactor": "-1",
+          "tcp.checksum": "0x310f",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "3.784369000",
+            "tcp.time_delta": "0.022500000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "942",
+            "tcp.analysis.ack_rtt": "0.022500000",
+            "tcp.analysis.bytes_in_flight": "883",
+            "tcp.analysis.push_bytes_sent": "883"
+          },
+          "tcp.payload": "6f:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:85:94:db:4f:13:41:14:c6:87:8a:22:8a:e2:05:04:bc:10:8c:0f:46:13:63:5b:da:d2:3e:22:46:6c:02:a8:85:08:9a:10:52:70:a9:9b:d2:ae:b4:20:16:35:72:09:52:ac:82:10:42:82:94:a0:28:81:a8:11:08:ca:1d:7c:f5:d1:44:20:56:7c:10:e8:6e:8b:9a:f8:07:98:18:67:76:ce:1a:1f:98:d2:74:33:0f:93:ef:77:ce:7c:f3:9d:f9:10:83:50:02:42:28:3f:2b:47:b0:f1:65:25:16:ab:d3:6e:76:96:0b:67:ac:65:f6:91:80:0a:6d:c3:7b:a9:f8:8b:c2:5f:32:fe:6e:07:27:67:42:d3:ef:c5:a6:31:f1:d1:b3:bb:bf:66:9f:68:b4:9a:b4:53:69:e9:1f:17:54:28:1e:ef:4b:fe:5e:69:b8:53:1c:f0:86:fc:7d:52:ef:e8:c0:77:24:ff:3a:e8:82:54:f8:4b:d9:10:a3:d6:12:8c:fa:c7:0a:ad:29:d6:37:4a:7e:ef:b8:31:0a:b5:25:21:d4:0a:f2:2d:ac:2e:8c:6a:ac:d6:ea:4f:ae:aa:50:1c:de:5f:9f:ef:96:c6:e6:c4:9e:2e:c9:d7:52:98:47:b5:cd:c0:88:66:31:0c:06:c2:c8:18:c4:8c:58:bc:9f:65:b9:92:5f:60:ce:cb:d4:d4:56:53:61:03:00:b6:32:01:7a:02:30:fe:5e:a4:80:b5:86:89:b5:c6:e7:6b:8d:af:2e:e3:0e:aa:f0:29:6a:00:40:ce:97:b4:21:80:58:69:4a:5c:04:2b:bd:ed:c1:c9:ba:90:77:34:38:f7:34:fb:c2:d9:73:c7:11:72:61:59:2d:50:62:58:6d:e8:4c:c4:49:23:c2:4e:92:b3:e6:0a:76:c1:80:57:f7:7f:da:ed:4c:ad:11:6b:75:86:63:8b:d4:47:e9:61:7d:70:ca:17:9c:19:90:ea:3b:c8:29:2a:31:c3:0d:8c:58:26:83:f8:98:6e:98:fc:a6:d4:77:f3:c5:79:b4:fe:3d:d0:ee:60:39:20:6b:b5:49:2b:d4:c1:ab:9c:4b:c8:72:59:79:9b:09:fa:af:02:fd:4e:66:6d:72:05:7a:f5:9f:05:c8:41:ff:50:b8:6d:18:07:49:9c:1b:3d:0d:5a:0f:ac:71:4c:06:b9:05:bd:e6:4e:80:36:61:11:5c:9e:42:6b:45:85:5b:c9:c1:4d:00:ec:8a:08:d0:99:c2:5f:55:f2:25:09:2e:de:66:75:f0:3c:f8:77:03:e4:bb:99:1e:c8:29:f8:b9:48:d5:05:82:43:70:f0:4e:5b:35:cd:90:52:3c:9e:59:5c:2d:17:ff:04:0e:14:72:a5:ee:2a:ce:65:e1:38:37:87:03:24:27:48:e9:60:0f:8b:91:9e:21:bb:b8:ba:0c:b3:38:35:13:6e:7f:7d:09:e6:48:b9:83:bd:11:d5:3a:53:d1:17:da:41:b8:b5:05:ff:c5:37:2d:e2:90:bf:06:2c:ac:00:c6:3e:26:83:e4:40:af:7d:8c:2d:24:59:c9:e3:cb:ec:9e:1c:8e:b7:5d:e7:20:49:0e:20:ec:8f:48:d0:99:2e:2e:41:17:9d:13:e1:ae:66:69:e4:ad:d4:3d:de:e4:a7:5e:2a:3e:24:6c:c2:b8:e5:8b:a6:3e:dc:1f:11:9b:7b:8f:42:16:9d:a0:4e:8c:ac:36:16:e1:0e:48:54:f0:38:ff:9b:65:6d:79:35:85:28:46:1c:88:0c:d1:d9:57:a8:11:59:15:9e:6b:5c:ae:d5:c3:b9:4a:e0:51:51:e2:9c:14:91:90:ae:a9:5b:a6:71:0e:bf:7b:21:f5:78:43:be:59:d0:21:01:d6:64:26:40:2f:bb:60:84:79:08:3f:18:95:fa:87:d6:9b:3a:4e:80:50:31:22:65:13:40:ec:67:1a:a7:6c:de:29:38:34:1a:b0:51:b9:84:83:9b:a8:b9:25:aa:0e:4e:b7:87:06:7d:16:88:41:25:a8:0f:b1:86:49:56:6b:8c:f0:a0:e4:54:e3:1c:15:99:cd:e6:f3:88:ba:a7:e8:0f:33:ab:eb:e4:ea:01:3c:4e:e4:d1:c9:76:71:9c:b3:d4:ea:28:15:04:e5:0a:8b:01:71:64:13:04:0f:f3:80:5f:a3:f5:be:31:c9:ff:32:34:3f:c7:03:c3:0e:8c:54:e6:31:08:43:3d:1c:a0:6f:02:79:17:2d:9c:33:13:0e:a1:84:e8:2f:5d:24:44:b8:cc:07:00:00"
+        },
+        "data": {
+          "data.data": "6f:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:85:94:db:4f:13:41:14:c6:87:8a:22:8a:e2:05:04:bc:10:8c:0f:46:13:63:5b:da:d2:3e:22:46:6c:02:a8:85:08:9a:10:52:70:a9:9b:d2:ae:b4:20:16:35:72:09:52:ac:82:10:42:82:94:a0:28:81:a8:11:08:ca:1d:7c:f5:d1:44:20:56:7c:10:e8:6e:8b:9a:f8:07:98:18:67:76:ce:1a:1f:98:d2:74:33:0f:93:ef:77:ce:7c:f3:9d:f9:10:83:50:02:42:28:3f:2b:47:b0:f1:65:25:16:ab:d3:6e:76:96:0b:67:ac:65:f6:91:80:0a:6d:c3:7b:a9:f8:8b:c2:5f:32:fe:6e:07:27:67:42:d3:ef:c5:a6:31:f1:d1:b3:bb:bf:66:9f:68:b4:9a:b4:53:69:e9:1f:17:54:28:1e:ef:4b:fe:5e:69:b8:53:1c:f0:86:fc:7d:52:ef:e8:c0:77:24:ff:3a:e8:82:54:f8:4b:d9:10:a3:d6:12:8c:fa:c7:0a:ad:29:d6:37:4a:7e:ef:b8:31:0a:b5:25:21:d4:0a:f2:2d:ac:2e:8c:6a:ac:d6:ea:4f:ae:aa:50:1c:de:5f:9f:ef:96:c6:e6:c4:9e:2e:c9:d7:52:98:47:b5:cd:c0:88:66:31:0c:06:c2:c8:18:c4:8c:58:bc:9f:65:b9:92:5f:60:ce:cb:d4:d4:56:53:61:03:00:b6:32:01:7a:02:30:fe:5e:a4:80:b5:86:89:b5:c6:e7:6b:8d:af:2e:e3:0e:aa:f0:29:6a:00:40:ce:97:b4:21:80:58:69:4a:5c:04:2b:bd:ed:c1:c9:ba:90:77:34:38:f7:34:fb:c2:d9:73:c7:11:72:61:59:2d:50:62:58:6d:e8:4c:c4:49:23:c2:4e:92:b3:e6:0a:76:c1:80:57:f7:7f:da:ed:4c:ad:11:6b:75:86:63:8b:d4:47:e9:61:7d:70:ca:17:9c:19:90:ea:3b:c8:29:2a:31:c3:0d:8c:58:26:83:f8:98:6e:98:fc:a6:d4:77:f3:c5:79:b4:fe:3d:d0:ee:60:39:20:6b:b5:49:2b:d4:c1:ab:9c:4b:c8:72:59:79:9b:09:fa:af:02:fd:4e:66:6d:72:05:7a:f5:9f:05:c8:41:ff:50:b8:6d:18:07:49:9c:1b:3d:0d:5a:0f:ac:71:4c:06:b9:05:bd:e6:4e:80:36:61:11:5c:9e:42:6b:45:85:5b:c9:c1:4d:00:ec:8a:08:d0:99:c2:5f:55:f2:25:09:2e:de:66:75:f0:3c:f8:77:03:e4:bb:99:1e:c8:29:f8:b9:48:d5:05:82:43:70:f0:4e:5b:35:cd:90:52:3c:9e:59:5c:2d:17:ff:04:0e:14:72:a5:ee:2a:ce:65:e1:38:37:87:03:24:27:48:e9:60:0f:8b:91:9e:21:bb:b8:ba:0c:b3:38:35:13:6e:7f:7d:09:e6:48:b9:83:bd:11:d5:3a:53:d1:17:da:41:b8:b5:05:ff:c5:37:2d:e2:90:bf:06:2c:ac:00:c6:3e:26:83:e4:40:af:7d:8c:2d:24:59:c9:e3:cb:ec:9e:1c:8e:b7:5d:e7:20:49:0e:20:ec:8f:48:d0:99:2e:2e:41:17:9d:13:e1:ae:66:69:e4:ad:d4:3d:de:e4:a7:5e:2a:3e:24:6c:c2:b8:e5:8b:a6:3e:dc:1f:11:9b:7b:8f:42:16:9d:a0:4e:8c:ac:36:16:e1:0e:48:54:f0:38:ff:9b:65:6d:79:35:85:28:46:1c:88:0c:d1:d9:57:a8:11:59:15:9e:6b:5c:ae:d5:c3:b9:4a:e0:51:51:e2:9c:14:91:90:ae:a9:5b:a6:71:0e:bf:7b:21:f5:78:43:be:59:d0:21:01:d6:64:26:40:2f:bb:60:84:79:08:3f:18:95:fa:87:d6:9b:3a:4e:80:50:31:22:65:13:40:ec:67:1a:a7:6c:de:29:38:34:1a:b0:51:b9:84:83:9b:a8:b9:25:aa:0e:4e:b7:87:06:7d:16:88:41:25:a8:0f:b1:86:49:56:6b:8c:f0:a0:e4:54:e3:1c:15:99:cd:e6:f3:88:ba:a7:e8:0f:33:ab:eb:e4:ea:01:3c:4e:e4:d1:c9:76:71:9c:b3:d4:ea:28:15:04:e5:0a:8b:01:71:64:13:04:0f:f3:80:5f:a3:f5:be:31:c9:ff:32:34:3f:c7:03:c3:0e:8c:54:e6:31:08:43:3d:1c:a0:6f:02:79:17:2d:9c:33:13:0e:a1:84:e8:2f:5d:24:44:b8:cc:07:00:00",
+          "data.len": "883"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-07-04",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{783FF999-72FF-4486-B984-01185D2274A2}",
+            "frame.interface_description": "乙太網路"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jul  4, 2024 21:27:54.951293000 台北標準時間",
+          "frame.time_utc": "Jul  4, 2024 13:27:54.951293000 UTC",
+          "frame.time_epoch": "1720099674.951293000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.002688000",
+          "frame.time_delta_displayed": "10.103517000",
+          "frame.time_relative": "16.399377000",
+          "frame.number": "2469",
+          "frame.len": "1158",
+          "frame.cap_len": "1158",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:pppoes:ppp:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "d8:5e:d3:aa:9d:9b",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.dst.oui": "14180051",
+            "eth.dst.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.addr": "d8:5e:d3:aa:9d:9b",
+            "eth.addr_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.addr.oui": "14180051",
+            "eth.addr.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:02:3b:10:ac:21",
+          "eth.src_tree": {
+            "eth.src_resolved": "Ericsson_10:ac:21",
+            "eth.src.oui": "571",
+            "eth.src.oui_resolved": "Ericsson",
+            "eth.addr": "00:02:3b:10:ac:21",
+            "eth.addr_resolved": "Ericsson_10:ac:21",
+            "eth.addr.oui": "571",
+            "eth.addr.oui_resolved": "Ericsson",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x8864"
+        },
+        "pppoes": {
+          "pppoe.version": "1",
+          "pppoe.type": "1",
+          "pppoe.code": "0x00",
+          "pppoe.session_id": "0x0003",
+          "pppoe.payload_length": "1138"
+        },
+        "ppp": {
+          "ppp.protocol": "0x0021"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1136",
+          "ip.id": "0x7166",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "115",
+          "ip.proto": "6",
+          "ip.checksum": "0xdd35",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "220.132.170.233",
+          "ip.addr": "220.132.170.233",
+          "ip.dst_host": "220.132.170.233",
+          "ip.host": "220.132.170.233"
+        },
+        "tcp": {
+          "tcp.srcport": "5666",
+          "tcp.dstport": "31780",
+          "tcp.port": "5666",
+          "tcp.port": "31780",
+          "tcp.stream": "65",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "1096",
+          "tcp.seq": "82",
+          "tcp.seq_raw": "2608701884",
+          "tcp.nxtseq": "1178",
+          "tcp.ack": "201",
+          "tcp.ack_raw": "1745369461",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "516",
+          "tcp.window_size": "132096",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0x2a2b",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.809144000",
+            "tcp.time_delta": "0.057425000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.021319000",
+            "tcp.analysis.bytes_in_flight": "1096",
+            "tcp.analysis.push_bytes_sent": "1096"
+          },
+          "tcp.payload": "44:04:00:00:01:3f:04:00:00:0d:00:00:00:53:43:4c:6f:67:69:6e:5f:4c:6f:67:69:6e:2a:04:00:00:7b:22:61:63:63:6f:75:6e:74:49:64:22:3a:32:38:2c:22:72:65:63:6f:6d:6d:65:6e:64:65:64:41:72:65:61:22:3a:7b:22:73:65:72:76:65:72:49:64:22:3a:31:39:2c:22:73:65:72:76:65:72:4e:61:6d:65:22:3a:22:31:39:23:20:53:30:30:31:39:22:2c:22:73:65:72:76:65:72:49:70:22:3a:22:34:33:2e:31:35:39:2e:31:2e:32:32:33:22:2c:22:70:6f:72:74:22:3a:35:36:36:38:2c:22:73:65:72:76:65:72:53:74:61:74:65:22:3a:33:2c:22:69:73:4e:65:77:53:65:72:76:65:72:22:3a:31:2c:22:69:73:45:78:69:73:74:52:6f:6c:65:22:3a:30:7d:2c:22:74:68:69:72:64:50:61:72:74:79:22:3a:6e:75:6c:6c:2c:22:73:64:6b:5f:74:6f:6b:65:6e:22:3a:22:4a:49:38:51:72:34:4c:78:76:31:45:54:4a:45:61:44:75:38:69:5a:65:6d:51:65:50:33:4c:2b:50:76:4c:64:41:72:63:46:6f:31:67:64:46:47:4e:36:72:57:41:35:78:69:48:5a:45:73:41:64:62:2b:32:35:71:4a:7a:64:4e:71:79:62:33:6b:6b:41:50:6c:56:36:30:4c:71:46:31:4e:56:57:32:32:65:77:56:6f:74:46:2f:44:45:55:53:75:79:5a:4f:36:49:72:67:4a:57:68:52:50:45:30:70:69:43:51:74:6f:65:69:64:41:2f:74:66:4a:4a:4b:34:68:39:79:41:61:61:55:43:65:65:68:4b:57:77:6f:49:4d:6d:6c:72:30:5a:55:5a:71:69:30:62:6a:4a:78:5a:72:32:76:37:77:35:63:49:6a:76:47:74:7a:56:46:70:43:65:72:53:55:62:69:65:39:67:30:6e:67:54:4a:74:39:5a:53:56:70:36:59:6e:63:43:47:75:76:79:62:4b:77:4a:43:57:51:58:32:6c:67:58:4f:62:69:62:4b:30:32:78:51:78:61:62:68:74:6c:6a:72:73:2b:46:32:70:78:63:37:7a:56:78:37:38:72:30:6f:34:73:41:71:4a:46:56:4b:52:2b:66:36:58:61:30:34:34:73:4d:4e:6b:42:30:63:6b:4a:4b:63:6e:77:35:6f:68:67:43:78:50:4b:50:38:4e:32:78:2b:31:4a:6c:70:58:7a:41:30:53:39:42:50:48:72:79:77:58:59:50:58:4f:66:75:32:36:49:70:35:6c:67:4f:66:52:6d:2f:77:71:50:31:42:4d:30:42:76:6b:77:3d:3d:22:2c:22:63:61:63:68:65:41:63:22:3a:22:6d:61:72:69:6d:6f:32:30:22:2c:22:63:61:63:68:65:50:73:64:22:3a:22:6d:61:72:69:6d:6f:32:30:22:2c:22:69:73:55:73:65:41:63:74:69:63:6f:64:65:22:3a:30:2c:22:6c:6f:67:69:6e:54:6f:6b:65:6e:22:3a:22:64:55:64:4d:4d:66:78:79:30:6a:36:7a:45:61:4b:54:66:76:30:6f:37:76:6e:43:63:6d:4d:4f:45:35:68:58:2b:6d:78:6e:61:6c:43:54:7a:73:72:33:51:2b:79:38:49:41:4b:63:35:56:72:77:52:66:42:6a:62:41:6d:74:31:45:74:2b:71:30:2b:79:47:70:67:34:76:67:6b:54:6c:78:70:55:38:58:48:33:52:76:6e:71:4b:57:6a:2f:56:36:35:63:56:4c:6f:2b:5a:68:6f:5a:57:62:36:78:48:35:6e:50:30:38:5a:70:54:44:57:6a:46:61:57:68:69:63:63:73:30:49:50:49:52:37:55:70:70:58:73:6c:57:7a:41:57:46:30:65:39:31:34:74:34:5a:38:55:43:59:78:31:2b:78:6e:38:77:50:57:35:75:51:56:6e:64:50:45:63:61:44:54:54:37:32:36:61:63:4a:68:6c:52:44:61:49:43:49:64:33:73:45:76:6c:6c:34:38:59:4d:57:48:65:45:30:75:64:2b:4c:58:50:45:6e:63:62:35:66:53:36:64:79:35:54:65:79:52:33:51:4e:6d:4d:33:69:33:76:43:62:50:6c:66:6f:4f:47:51:37:6b:41:73:6d:52:4b:52:62:77:56:78:37:70:72:39:72:6c:6a:32:75:43:71:36:6b:6f:44:49:4e:4b:6c:45:41:4d:63:41:6c:70:50:6c:43:6c:59:6f:46:59:6d:39:68:67:75:4f:70:46:70:6c:33:4a:51:65:39:61:48:71:71:52:42:35:43:4d:2f:66:41:41:5a:32:76:42:46:79:74:5a:67:74:2b:74:69:72:4e:77:3d:3d:22:2c:22:6c:6f:67:69:6e:53:69:67:6e:22:3a:22:36:32:45:35:45:42:32:38:32:35:42:44:41:33:37:36:32:39:46:43:35:32:46:34:31:46:46:30:45:43:30:32:22:2c:22:63:6f:64:65:22:3a:30:2c:22:74:69:70:54:79:70:65:22:3a:31:2c:22:6d:65:73:73:61:67:65:22:3a:22:7b:5c:75:36:37:32:41:5c:75:37:37:45:35:5c:75:39:35:31:39:5c:75:38:42:45:46:7d:22:7d"
+        },
+        "data": {
+          "data.data": "44:04:00:00:01:3f:04:00:00:0d:00:00:00:53:43:4c:6f:67:69:6e:5f:4c:6f:67:69:6e:2a:04:00:00:7b:22:61:63:63:6f:75:6e:74:49:64:22:3a:32:38:2c:22:72:65:63:6f:6d:6d:65:6e:64:65:64:41:72:65:61:22:3a:7b:22:73:65:72:76:65:72:49:64:22:3a:31:39:2c:22:73:65:72:76:65:72:4e:61:6d:65:22:3a:22:31:39:23:20:53:30:30:31:39:22:2c:22:73:65:72:76:65:72:49:70:22:3a:22:34:33:2e:31:35:39:2e:31:2e:32:32:33:22:2c:22:70:6f:72:74:22:3a:35:36:36:38:2c:22:73:65:72:76:65:72:53:74:61:74:65:22:3a:33:2c:22:69:73:4e:65:77:53:65:72:76:65:72:22:3a:31:2c:22:69:73:45:78:69:73:74:52:6f:6c:65:22:3a:30:7d:2c:22:74:68:69:72:64:50:61:72:74:79:22:3a:6e:75:6c:6c:2c:22:73:64:6b:5f:74:6f:6b:65:6e:22:3a:22:4a:49:38:51:72:34:4c:78:76:31:45:54:4a:45:61:44:75:38:69:5a:65:6d:51:65:50:33:4c:2b:50:76:4c:64:41:72:63:46:6f:31:67:64:46:47:4e:36:72:57:41:35:78:69:48:5a:45:73:41:64:62:2b:32:35:71:4a:7a:64:4e:71:79:62:33:6b:6b:41:50:6c:56:36:30:4c:71:46:31:4e:56:57:32:32:65:77:56:6f:74:46:2f:44:45:55:53:75:79:5a:4f:36:49:72:67:4a:57:68:52:50:45:30:70:69:43:51:74:6f:65:69:64:41:2f:74:66:4a:4a:4b:34:68:39:79:41:61:61:55:43:65:65:68:4b:57:77:6f:49:4d:6d:6c:72:30:5a:55:5a:71:69:30:62:6a:4a:78:5a:72:32:76:37:77:35:63:49:6a:76:47:74:7a:56:46:70:43:65:72:53:55:62:69:65:39:67:30:6e:67:54:4a:74:39:5a:53:56:70:36:59:6e:63:43:47:75:76:79:62:4b:77:4a:43:57:51:58:32:6c:67:58:4f:62:69:62:4b:30:32:78:51:78:61:62:68:74:6c:6a:72:73:2b:46:32:70:78:63:37:7a:56:78:37:38:72:30:6f:34:73:41:71:4a:46:56:4b:52:2b:66:36:58:61:30:34:34:73:4d:4e:6b:42:30:63:6b:4a:4b:63:6e:77:35:6f:68:67:43:78:50:4b:50:38:4e:32:78:2b:31:4a:6c:70:58:7a:41:30:53:39:42:50:48:72:79:77:58:59:50:58:4f:66:75:32:36:49:70:35:6c:67:4f:66:52:6d:2f:77:71:50:31:42:4d:30:42:76:6b:77:3d:3d:22:2c:22:63:61:63:68:65:41:63:22:3a:22:6d:61:72:69:6d:6f:32:30:22:2c:22:63:61:63:68:65:50:73:64:22:3a:22:6d:61:72:69:6d:6f:32:30:22:2c:22:69:73:55:73:65:41:63:74:69:63:6f:64:65:22:3a:30:2c:22:6c:6f:67:69:6e:54:6f:6b:65:6e:22:3a:22:64:55:64:4d:4d:66:78:79:30:6a:36:7a:45:61:4b:54:66:76:30:6f:37:76:6e:43:63:6d:4d:4f:45:35:68:58:2b:6d:78:6e:61:6c:43:54:7a:73:72:33:51:2b:79:38:49:41:4b:63:35:56:72:77:52:66:42:6a:62:41:6d:74:31:45:74:2b:71:30:2b:79:47:70:67:34:76:67:6b:54:6c:78:70:55:38:58:48:33:52:76:6e:71:4b:57:6a:2f:56:36:35:63:56:4c:6f:2b:5a:68:6f:5a:57:62:36:78:48:35:6e:50:30:38:5a:70:54:44:57:6a:46:61:57:68:69:63:63:73:30:49:50:49:52:37:55:70:70:58:73:6c:57:7a:41:57:46:30:65:39:31:34:74:34:5a:38:55:43:59:78:31:2b:78:6e:38:77:50:57:35:75:51:56:6e:64:50:45:63:61:44:54:54:37:32:36:61:63:4a:68:6c:52:44:61:49:43:49:64:33:73:45:76:6c:6c:34:38:59:4d:57:48:65:45:30:75:64:2b:4c:58:50:45:6e:63:62:35:66:53:36:64:79:35:54:65:79:52:33:51:4e:6d:4d:33:69:33:76:43:62:50:6c:66:6f:4f:47:51:37:6b:41:73:6d:52:4b:52:62:77:56:78:37:70:72:39:72:6c:6a:32:75:43:71:36:6b:6f:44:49:4e:4b:6c:45:41:4d:63:41:6c:70:50:6c:43:6c:59:6f:46:59:6d:39:68:67:75:4f:70:46:70:6c:33:4a:51:65:39:61:48:71:71:52:42:35:43:4d:2f:66:41:41:5a:32:76:42:46:79:74:5a:67:74:2b:74:69:72:4e:77:3d:3d:22:2c:22:6c:6f:67:69:6e:53:69:67:6e:22:3a:22:36:32:45:35:45:42:32:38:32:35:42:44:41:33:37:36:32:39:46:43:35:32:46:34:31:46:46:30:45:43:30:32:22:2c:22:63:6f:64:65:22:3a:30:2c:22:74:69:70:54:79:70:65:22:3a:31:2c:22:6d:65:73:73:61:67:65:22:3a:22:7b:5c:75:36:37:32:41:5c:75:37:37:45:35:5c:75:39:35:31:39:5c:75:38:42:45:46:7d:22:7d",
+          "data.len": "1096"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-07-04",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{783FF999-72FF-4486-B984-01185D2274A2}",
+            "frame.interface_description": "乙太網路"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jul  4, 2024 21:27:57.750706000 台北標準時間",
+          "frame.time_utc": "Jul  4, 2024 13:27:57.750706000 UTC",
+          "frame.time_epoch": "1720099677.750706000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.007106000",
+          "frame.time_delta_displayed": "2.799413000",
+          "frame.time_relative": "19.198790000",
+          "frame.number": "2841",
+          "frame.len": "942",
+          "frame.cap_len": "942",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:pppoes:ppp:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "d8:5e:d3:aa:9d:9b",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.dst.oui": "14180051",
+            "eth.dst.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.addr": "d8:5e:d3:aa:9d:9b",
+            "eth.addr_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.addr.oui": "14180051",
+            "eth.addr.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:02:3b:10:ac:21",
+          "eth.src_tree": {
+            "eth.src_resolved": "Ericsson_10:ac:21",
+            "eth.src.oui": "571",
+            "eth.src.oui_resolved": "Ericsson",
+            "eth.addr": "00:02:3b:10:ac:21",
+            "eth.addr_resolved": "Ericsson_10:ac:21",
+            "eth.addr.oui": "571",
+            "eth.addr.oui_resolved": "Ericsson",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x8864"
+        },
+        "pppoes": {
+          "pppoe.version": "1",
+          "pppoe.type": "1",
+          "pppoe.code": "0x00",
+          "pppoe.session_id": "0x0003",
+          "pppoe.payload_length": "922"
+        },
+        "ppp": {
+          "ppp.protocol": "0x0021"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "920",
+          "ip.id": "0x716a",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "115",
+          "ip.proto": "6",
+          "ip.checksum": "0xde09",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "220.132.170.233",
+          "ip.addr": "220.132.170.233",
+          "ip.dst_host": "220.132.170.233",
+          "ip.host": "220.132.170.233"
+        },
+        "tcp": {
+          "tcp.srcport": "5666",
+          "tcp.dstport": "31780",
+          "tcp.port": "5666",
+          "tcp.port": "31780",
+          "tcp.stream": "65",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "880",
+          "tcp.seq": "1178",
+          "tcp.seq_raw": "2608702980",
+          "tcp.nxtseq": "2058",
+          "tcp.ack": "717",
+          "tcp.ack_raw": "1745369977",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "514",
+          "tcp.window_size": "131584",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0x035e",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "3.608557000",
+            "tcp.time_delta": "0.026475000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "2838",
+            "tcp.analysis.ack_rtt": "0.026475000",
+            "tcp.analysis.initial_rtt": "0.021319000",
+            "tcp.analysis.bytes_in_flight": "880",
+            "tcp.analysis.push_bytes_sent": "880"
+          },
+          "tcp.payload": "6c:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:c1:6a:1c:47:14:85:e1:79:80:3c:80:97:a1:bd:72:10:62:ee:bd:75:eb:d6:cc:4e:09:8a:31:18:2f:a2:ec:a2:10:84:d5:18:81:e4:11:33:a3:24:46:e8:8d:fd:10:19:eb:d8:60:ce:ec:b2:38:cb:ae:ae:e6:af:d5:47:77:55:ff:f0:d3:62:f1:62:b1:58:5c:fc:f2:76:f3:e1:e6:e3:5f:af:e7:fd:d9:ed:ed:c5:bc:fd:7b:de:be:bd:d9:ed:3f:bf:5a:2c:1e:a7:ed:fc:7e:73:77:37:7f:bc:9e:af:cf:b6:f3:d5:6e:5a:ff:f1:38:ed:9e:27:bd:b9:9e:d6:76:f2:f5:e2:dd:d5:dd:3c:ad:27:7b:f9:e3:c5:72:b9:b4:e9:db:f8:9b:fb:c3:68:8b:53:cb:d5:a9:9d:ba:c7:e1:ce:fd:66:bb:9f:d6:d9:fb:f8:36:eb:62:7f:b5:3f:3c:ee:27:d3:cd:ee:dd:fc:0f:16:31:ad:97:5f:ae:cf:ff:3d:2c:e6:b7:cd:ed:e1:be:3d:9d:7c:1f:77:8a:3b:e2:2e:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:5e:14:2f:c4:4b:12:1f:14:1f:88:0f:49:7c:45:f1:15:e2:2b:49:dc:96:ac:cc:f2:39:6f:4b:4d:fe:08:39:28:67:1a:e5:8c:99:33:38:67:1a:e7:8c:a1:33:48:67:1a:e9:8c:a9:33:58:67:1a:eb:8c:b1:33:68:67:1a:ed:8c:b9:33:78:67:1a:ef:8c:c1:33:88:67:1a:f1:8c:c9:33:98:67:1a:f3:8c:d1:33:a8:67:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:a2:77:bb:a3:97:3b:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:6f:da:a3:8f:5a:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:1a:ab:d7:a0:5e:d3:a8:d7:58:bd:06:f5:9a:46:bd:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:26:da:cb:3b:da:cc:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:1a:ab:d7:a0:5e:d3:a8:d7:58:bd:06:f5:9a:46:bd:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:29:3a:c3:38:3a:c4:80:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:af:b3:7a:1d:ea:75:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:e8:ec:f6:e8:f0:16:ea:75:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:a2:7f:56:8e:7e:5a:81:7a:a5:51:af:58:bd:82:7a:a5:51:af:58:bd:82:7a:a5:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:f8:9f:ea:05:e5:8d:f2:cb:a7:3f:4f:a6:f7:9b:eb:f9:79:65:fb:9b:fb:df:3f:dd:cf:cf:d3:ee:e6:dd:ee:ea:c3:97:25:3c:5e:3e:f4:f2:b3:cb:87:aa:f3:bc:7c:58:a5:ad:2e:1f:c6:cf:e7:bf:3e:4d:4f:ff:01:e0:11:24:4c:10:2a:00:00"
+        },
+        "data": {
+          "data.data": "6c:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:c1:6a:1c:47:14:85:e1:79:80:3c:80:97:a1:bd:72:10:62:ee:bd:75:eb:d6:cc:4e:09:8a:31:18:2f:a2:ec:a2:10:84:d5:18:81:e4:11:33:a3:24:46:e8:8d:fd:10:19:eb:d8:60:ce:ec:b2:38:cb:ae:ae:e6:af:d5:47:77:55:ff:f0:d3:62:f1:62:b1:58:5c:fc:f2:76:f3:e1:e6:e3:5f:af:e7:fd:d9:ed:ed:c5:bc:fd:7b:de:be:bd:d9:ed:3f:bf:5a:2c:1e:a7:ed:fc:7e:73:77:37:7f:bc:9e:af:cf:b6:f3:d5:6e:5a:ff:f1:38:ed:9e:27:bd:b9:9e:d6:76:f2:f5:e2:dd:d5:dd:3c:ad:27:7b:f9:e3:c5:72:b9:b4:e9:db:f8:9b:fb:c3:68:8b:53:cb:d5:a9:9d:ba:c7:e1:ce:fd:66:bb:9f:d6:d9:fb:f8:36:eb:62:7f:b5:3f:3c:ee:27:d3:cd:ee:dd:fc:0f:16:31:ad:97:5f:ae:cf:ff:3d:2c:e6:b7:cd:ed:e1:be:3d:9d:7c:1f:77:8a:3b:e2:2e:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:5e:14:2f:c4:4b:12:1f:14:1f:88:0f:49:7c:45:f1:15:e2:2b:49:dc:96:ac:cc:f2:39:6f:4b:4d:fe:08:39:28:67:1a:e5:8c:99:33:38:67:1a:e7:8c:a1:33:48:67:1a:e9:8c:a9:33:58:67:1a:eb:8c:b1:33:68:67:1a:ed:8c:b9:33:78:67:1a:ef:8c:c1:33:88:67:1a:f1:8c:c9:33:98:67:1a:f3:8c:d1:33:a8:67:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:a2:77:bb:a3:97:3b:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:6f:da:a3:8f:5a:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:1a:ab:d7:a0:5e:d3:a8:d7:58:bd:06:f5:9a:46:bd:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:26:da:cb:3b:da:cc:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:1a:ab:d7:a0:5e:d3:a8:d7:58:bd:06:f5:9a:46:bd:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:29:3a:c3:38:3a:c4:80:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:af:b3:7a:1d:ea:75:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:e8:ec:f6:e8:f0:16:ea:75:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:a2:7f:56:8e:7e:5a:81:7a:a5:51:af:58:bd:82:7a:a5:51:af:58:bd:82:7a:a5:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:f8:9f:ea:05:e5:8d:f2:cb:a7:3f:4f:a6:f7:9b:eb:f9:79:65:fb:9b:fb:df:3f:dd:cf:cf:d3:ee:e6:dd:ee:ea:c3:97:25:3c:5e:3e:f4:f2:b3:cb:87:aa:f3:bc:7c:58:a5:ad:2e:1f:c6:cf:e7:bf:3e:4d:4f:ff:01:e0:11:24:4c:10:2a:00:00",
+          "data.len": "880"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-07-04",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{783FF999-72FF-4486-B984-01185D2274A2}",
+            "frame.interface_description": "乙太網路"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jul  4, 2024 21:28:06.145830000 台北標準時間",
+          "frame.time_utc": "Jul  4, 2024 13:28:06.145830000 UTC",
+          "frame.time_epoch": "1720099686.145830000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.010349000",
+          "frame.time_delta_displayed": "8.395124000",
+          "frame.time_relative": "27.593914000",
+          "frame.number": "4138",
+          "frame.len": "1009",
+          "frame.cap_len": "1009",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:pppoes:ppp:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "d8:5e:d3:aa:9d:9b",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.dst.oui": "14180051",
+            "eth.dst.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.addr": "d8:5e:d3:aa:9d:9b",
+            "eth.addr_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.addr.oui": "14180051",
+            "eth.addr.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:02:3b:10:ac:21",
+          "eth.src_tree": {
+            "eth.src_resolved": "Ericsson_10:ac:21",
+            "eth.src.oui": "571",
+            "eth.src.oui_resolved": "Ericsson",
+            "eth.addr": "00:02:3b:10:ac:21",
+            "eth.addr_resolved": "Ericsson_10:ac:21",
+            "eth.addr.oui": "571",
+            "eth.addr.oui_resolved": "Ericsson",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x8864"
+        },
+        "pppoes": {
+          "pppoe.version": "1",
+          "pppoe.type": "1",
+          "pppoe.code": "0x00",
+          "pppoe.session_id": "0x0003",
+          "pppoe.payload_length": "989"
+        },
+        "ppp": {
+          "ppp.protocol": "0x0021"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "987",
+          "ip.id": "0x717c",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "115",
+          "ip.proto": "6",
+          "ip.checksum": "0xddb4",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "220.132.170.233",
+          "ip.addr": "220.132.170.233",
+          "ip.dst_host": "220.132.170.233",
+          "ip.host": "220.132.170.233"
+        },
+        "tcp": {
+          "tcp.srcport": "5668",
+          "tcp.dstport": "31782",
+          "tcp.port": "5668",
+          "tcp.port": "31782",
+          "tcp.stream": "91",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "947",
+          "tcp.seq": "5268",
+          "tcp.seq_raw": "1475005131",
+          "tcp.nxtseq": "6215",
+          "tcp.ack": "761",
+          "tcp.ack_raw": "1042120366",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "514",
+          "tcp.window_size": "131584",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xd5ca",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "4.388261000",
+            "tcp.time_delta": "0.020710000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "4132",
+            "tcp.analysis.ack_rtt": "0.020710000",
+            "tcp.analysis.initial_rtt": "0.019880000",
+            "tcp.analysis.bytes_in_flight": "947",
+            "tcp.analysis.push_bytes_sent": "947"
+          },
+          "tcp.payload": "af:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:6d:95:cb:6f:13:47:1c:c7:07:cc:33:bc:0b:94:52:28:a8:87:aa:12:1a:89:99:dd:9d:7d:70:41:01:a1:80:e4:e4:00:11:f4:16:99:60:4c:84:b2:0b:4e:dc:a2:f0:28:cf:d4:10:12:27:29:82:10:04:54:e1:d1:26:c1:b1:5a:08:31:0e:a2:05:d1:13:17:2e:1c:68:b9:80:bc:bb:81:4b:a5:fe:05:fc:96:f9:59:4a:94:b1:76:b5:2b:cd:7e:7e:df:df:db:bb:e7:12:b2:82:10:b2:6b:6b:dc:4b:35:35:36:ec:4c:b8:07:77:b8:fb:bd:2d:89:c6:83:1b:ef:c7:c8:6c:38:5b:07:f7:0c:b8:57:c2:7d:34:c8:f6:f9:17:ae:1d:ff:ef:71:bf:c9:a9:a5:19:94:eb:e6:1b:f8:70:1e:1c:ee:f4:dc:9a:74:c2:6d:ad:82:f7:ce:55:84:fc:4c:e4:6f:e6:74:58:30:ca:34:87:32:e6:84:43:31:32:1f:0e:c3:ab:4f:fc:ee:6c:d0:39:f0:aa:61:06:69:05:fa:22:d2:b1:e9:b4:61:51:dd:16:d4:b6:78:aa:10:23:73:e0:b0:ce:8b:67:f6:26:f7:67:08:c9:00:da:85:e8:2c:05:6a:52:a1:db:80:8a:b1:7c:8c:2c:8c:84:c7:af:06:d9:1e:bf:34:06:d7:a6:3a:d0:05:03:39:34:30:5b:61:40:50:d3:34:a8:30:c5:f3:21:69:c0:ff:73:b4:5c:ca:fa:9d:67:82:91:9f:36:23:78:1e:9f:73:14:06:18:35:21:00:cd:32:de:0d:49:e7:df:17:07:ca:c5:93:7f:db:32:ee:0b:88:ce:9d:8e:42:ba:75:d0:37:2c:a7:1e:e2:8e:12:93:68:6a:dc:86:df:9f:c6:e7:3c:05:a7:53:ce:18:d5:99:cd:7e:8f:91:25:91:e4:b5:df:fc:c1:b1:f0:d7:53:7e:a1:dd:bf:7d:f6:ee:32:a9:7d:02:6d:cc:57:d8:e0:d4:10:26:68:eb:13:f7:62:9f:9c:8b:7b:99:7a:28:f7:6e:c8:d9:61:60:8f:23:5b:a5:60:19:15:96:4d:35:66:bf:c8:cb:6a:bf:bf:75:c3:bf:3d:18:de:bb:1b:39:13:29:b7:21:bd:60:3a:cd:81:84:92:39:a6:f8:67:18:33:7e:f1:4a:70:f9:4a:b9:78:26:e8:bb:79:e7:c3:54:03:0b:15:06:2c:6a:d9:0e:e5:b6:b3:e7:df:d8:27:ff:6a:bd:96:64:cb:ae:a6:66:cf:dd:0b:2d:93:9e:e4:fd:22:25:2e:84:0d:d9:e3:4f:87:65:e4:e1:fd:1b:35:d5:b5:db:be:41:e6:47:7c:2e:56:b2:3a:f4:39:54:ad:66:44:16:bb:be:ae:36:1e:ff:ae:19:64:db:40:f6:28:a2:4b:94:a8:06:a1:db:5c:7b:39:82:23:92:cb:fb:b9:8e:b0:fb:c1:28:94:2b:72:fa:07:a4:97:2a:68:93:ea:c2:a1:9a:e6:bc:46:61:59:f2:a8:5a:93:d3:b5:4c:89:72:40:85:c5:73:79:89:06:85:7e:ff:dc:25:0e:6f:2d:80:1e:43:f4:33:05:0a:43:69:80:cf:c2:7c:8b:63:3d:91:ed:f5:cf:75:94:8b:0f:37:7c:2b:85:8f:20:bd:5c:49:0b:10:37:b9:c3:46:64:a1:b7:24:d3:ad:e9:44:f3:76:2f:95:70:ab:89:ec:b3:4a:ca:56:28:0d:68:d0:67:a6:c9:9f:fd:21:3d:9f:28:f4:84:3d:0f:19:99:aa:bd:52:81:1a:a0:6b:c3:52:12:dd:25:44:c7:0a:61:6f:f7:f5:0f:53:d1:cf:95:a8:60:9c:9a:96:fe:3f:f6:c7:3e:b7:cd:4d:79:fb:a2:a9:8a:3c:ce:20:bb:4a:c9:1a:90:6b:5b:d3:fe:2a:c8:25:5a:bd:23:bc:34:ee:17:b3:d1:2e:3b:3c:49:f8:0b:25:cc:ac:68:9f:e9:af:70:93:80:68:2a:e3:7e:8d:85:fa:1e:d1:d5:0a:54:a7:96:05:3b:d8:b6:b7:63:7b:04:7d:5d:61:ee:17:82:49:ae:a0:5f:2a:51:43:83:91:d0:8d:06:1c:c7:89:ce:5e:bf:74:33:ec:3f:1b:76:75:54:36:49:c5:ed:35:4a:03:cc:30:a8:c3:9d:cd:05:6c:ec:d2:40:38:fe:a4:5c:2a:25:70:1a:5b:90:5e:ab:a0:35:6a:39:e0:bd:26:da:87:25:ed:b7:0f:cb:eb:40:dd:d4:b8:bf:52:d3:10:37:b7:f9:20:ae:7f:58:43:e5:62:47:f9:d1:f5:60:f4:d4:7a:04:2b:c3:b1:4e:69:80:59:06:fc:7f:b0:aa:bc:2c:f6:a1:a6:64:3a:ed:b5:26:71:0d:a6:91:fd:08:b7:ab:92:be:5a:07:00:00"
+        },
+        "data": {
+          "data.data": "af:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:6d:95:cb:6f:13:47:1c:c7:07:cc:33:bc:0b:94:52:28:a8:87:aa:12:1a:89:99:dd:9d:7d:70:41:01:a1:80:e4:e4:00:11:f4:16:99:60:4c:84:b2:0b:4e:dc:a2:f0:28:cf:d4:10:12:27:29:82:10:04:54:e1:d1:26:c1:b1:5a:08:31:0e:a2:05:d1:13:17:2e:1c:68:b9:80:bc:bb:81:4b:a5:fe:05:fc:96:f9:59:4a:94:b1:76:b5:2b:cd:7e:7e:df:df:db:bb:e7:12:b2:82:10:b2:6b:6b:dc:4b:35:35:36:ec:4c:b8:07:77:b8:fb:bd:2d:89:c6:83:1b:ef:c7:c8:6c:38:5b:07:f7:0c:b8:57:c2:7d:34:c8:f6:f9:17:ae:1d:ff:ef:71:bf:c9:a9:a5:19:94:eb:e6:1b:f8:70:1e:1c:ee:f4:dc:9a:74:c2:6d:ad:82:f7:ce:55:84:fc:4c:e4:6f:e6:74:58:30:ca:34:87:32:e6:84:43:31:32:1f:0e:c3:ab:4f:fc:ee:6c:d0:39:f0:aa:61:06:69:05:fa:22:d2:b1:e9:b4:61:51:dd:16:d4:b6:78:aa:10:23:73:e0:b0:ce:8b:67:f6:26:f7:67:08:c9:00:da:85:e8:2c:05:6a:52:a1:db:80:8a:b1:7c:8c:2c:8c:84:c7:af:06:d9:1e:bf:34:06:d7:a6:3a:d0:05:03:39:34:30:5b:61:40:50:d3:34:a8:30:c5:f3:21:69:c0:ff:73:b4:5c:ca:fa:9d:67:82:91:9f:36:23:78:1e:9f:73:14:06:18:35:21:00:cd:32:de:0d:49:e7:df:17:07:ca:c5:93:7f:db:32:ee:0b:88:ce:9d:8e:42:ba:75:d0:37:2c:a7:1e:e2:8e:12:93:68:6a:dc:86:df:9f:c6:e7:3c:05:a7:53:ce:18:d5:99:cd:7e:8f:91:25:91:e4:b5:df:fc:c1:b1:f0:d7:53:7e:a1:dd:bf:7d:f6:ee:32:a9:7d:02:6d:cc:57:d8:e0:d4:10:26:68:eb:13:f7:62:9f:9c:8b:7b:99:7a:28:f7:6e:c8:d9:61:60:8f:23:5b:a5:60:19:15:96:4d:35:66:bf:c8:cb:6a:bf:bf:75:c3:bf:3d:18:de:bb:1b:39:13:29:b7:21:bd:60:3a:cd:81:84:92:39:a6:f8:67:18:33:7e:f1:4a:70:f9:4a:b9:78:26:e8:bb:79:e7:c3:54:03:0b:15:06:2c:6a:d9:0e:e5:b6:b3:e7:df:d8:27:ff:6a:bd:96:64:cb:ae:a6:66:cf:dd:0b:2d:93:9e:e4:fd:22:25:2e:84:0d:d9:e3:4f:87:65:e4:e1:fd:1b:35:d5:b5:db:be:41:e6:47:7c:2e:56:b2:3a:f4:39:54:ad:66:44:16:bb:be:ae:36:1e:ff:ae:19:64:db:40:f6:28:a2:4b:94:a8:06:a1:db:5c:7b:39:82:23:92:cb:fb:b9:8e:b0:fb:c1:28:94:2b:72:fa:07:a4:97:2a:68:93:ea:c2:a1:9a:e6:bc:46:61:59:f2:a8:5a:93:d3:b5:4c:89:72:40:85:c5:73:79:89:06:85:7e:ff:dc:25:0e:6f:2d:80:1e:43:f4:33:05:0a:43:69:80:cf:c2:7c:8b:63:3d:91:ed:f5:cf:75:94:8b:0f:37:7c:2b:85:8f:20:bd:5c:49:0b:10:37:b9:c3:46:64:a1:b7:24:d3:ad:e9:44:f3:76:2f:95:70:ab:89:ec:b3:4a:ca:56:28:0d:68:d0:67:a6:c9:9f:fd:21:3d:9f:28:f4:84:3d:0f:19:99:aa:bd:52:81:1a:a0:6b:c3:52:12:dd:25:44:c7:0a:61:6f:f7:f5:0f:53:d1:cf:95:a8:60:9c:9a:96:fe:3f:f6:c7:3e:b7:cd:4d:79:fb:a2:a9:8a:3c:ce:20:bb:4a:c9:1a:90:6b:5b:d3:fe:2a:c8:25:5a:bd:23:bc:34:ee:17:b3:d1:2e:3b:3c:49:f8:0b:25:cc:ac:68:9f:e9:af:70:93:80:68:2a:e3:7e:8d:85:fa:1e:d1:d5:0a:54:a7:96:05:3b:d8:b6:b7:63:7b:04:7d:5d:61:ee:17:82:49:ae:a0:5f:2a:51:43:83:91:d0:8d:06:1c:c7:89:ce:5e:bf:74:33:ec:3f:1b:76:75:54:36:49:c5:ed:35:4a:03:cc:30:a8:c3:9d:cd:05:6c:ec:d2:40:38:fe:a4:5c:2a:25:70:1a:5b:90:5e:ab:a0:35:6a:39:e0:bd:26:da:87:25:ed:b7:0f:cb:eb:40:dd:d4:b8:bf:52:d3:10:37:b7:f9:20:ae:7f:58:43:e5:62:47:f9:d1:f5:60:f4:d4:7a:04:2b:c3:b1:4e:69:80:59:06:fc:7f:b0:aa:bc:2c:f6:a1:a6:64:3a:ed:b5:26:71:0d:a6:91:fd:08:b7:ab:92:be:5a:07:00:00",
+          "data.len": "947"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-07-04",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{783FF999-72FF-4486-B984-01185D2274A2}",
+            "frame.interface_description": "乙太網路"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jul  4, 2024 21:28:07.745769000 台北標準時間",
+          "frame.time_utc": "Jul  4, 2024 13:28:07.745769000 UTC",
+          "frame.time_epoch": "1720099687.745769000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.006994000",
+          "frame.time_delta_displayed": "1.599939000",
+          "frame.time_relative": "29.193853000",
+          "frame.number": "4370",
+          "frame.len": "931",
+          "frame.cap_len": "931",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:pppoes:ppp:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "d8:5e:d3:aa:9d:9b",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.dst.oui": "14180051",
+            "eth.dst.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.addr": "d8:5e:d3:aa:9d:9b",
+            "eth.addr_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.addr.oui": "14180051",
+            "eth.addr.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:02:3b:10:ac:21",
+          "eth.src_tree": {
+            "eth.src_resolved": "Ericsson_10:ac:21",
+            "eth.src.oui": "571",
+            "eth.src.oui_resolved": "Ericsson",
+            "eth.addr": "00:02:3b:10:ac:21",
+            "eth.addr_resolved": "Ericsson_10:ac:21",
+            "eth.addr.oui": "571",
+            "eth.addr.oui_resolved": "Ericsson",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x8864"
+        },
+        "pppoes": {
+          "pppoe.version": "1",
+          "pppoe.type": "1",
+          "pppoe.code": "0x00",
+          "pppoe.session_id": "0x0003",
+          "pppoe.payload_length": "911"
+        },
+        "ppp": {
+          "ppp.protocol": "0x0021"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "909",
+          "ip.id": "0x717d",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "115",
+          "ip.proto": "6",
+          "ip.checksum": "0xde01",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "220.132.170.233",
+          "ip.addr": "220.132.170.233",
+          "ip.dst_host": "220.132.170.233",
+          "ip.host": "220.132.170.233"
+        },
+        "tcp": {
+          "tcp.srcport": "5668",
+          "tcp.dstport": "31782",
+          "tcp.port": "5668",
+          "tcp.port": "31782",
+          "tcp.stream": "91",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "869",
+          "tcp.seq": "6215",
+          "tcp.seq_raw": "1475006078",
+          "tcp.nxtseq": "7084",
+          "tcp.ack": "805",
+          "tcp.ack_raw": "1042120410",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "514",
+          "tcp.window_size": "131584",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xaa8f",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "5.988200000",
+            "tcp.time_delta": "0.021351000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "4368",
+            "tcp.analysis.ack_rtt": "0.021351000",
+            "tcp.analysis.initial_rtt": "0.019880000",
+            "tcp.analysis.bytes_in_flight": "869",
+            "tcp.analysis.push_bytes_sent": "869"
+          },
+          "tcp.payload": "61:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:85:94:db:4f:13:41:14:c6:07:ab:72:11:45:14:05:bc:10:7c:30:26:26:c6:2d:bd:51:5f:08:18:2c:26:85:18:20:ea:1b:59:a0:14:82:ec:86:2d:45:03:c1:1b:17:ab:50:6e:26:72:31:82:22:a2:50:da:46:10:68:8a:81:28:9a:98:f8:e2:0b:0f:5e:5e:34:dd:6e:e1:c5:c4:bf:c0:99:9d:d3:84:26:0e:36:3b:d9:26:9d:ef:37:df:39:e7:9b:ce:c5:23:94:86:10:2a:3b:6f:15:ed:75:55:15:a5:bc:50:7f:51:a8:11:0b:f8:aa:fa:b3:f3:1a:b4:1b:ff:96:85:57:1c:5e:99:78:b5:86:02:cb:4a:70:55:ee:9c:97:dd:cf:da:7e:bf:1d:d5:6a:b5:d9:67:b2:73:4c:3f:f0:e6:04:bc:a1:54:14:2c:12:2f:34:25:e1:ef:ee:74:84:1e:22:fa:d9:c1:04:70:7a:02:30:7c:98:d1:a0:64:bc:41:5e:5d:08:05:5d:b2:bb:3d:ec:bb:97:07:e2:fb:f0:d6:b0:21:3a:15:a2:60:48:22:de:a0:8c:ac:c8:fd:ae:b0:7b:62:bd:22:0e:35:61:1b:3d:40:d8:89:57:c6:bf:08:66:23:01:e4:d8:fd:b4:e6:12:d1:ea:ac:b4:d5:38:11:72:62:75:2f:a8:77:31:d5:a4:06:9d:69:c9:4b:6b:50:96:47:c2:ae:01:39:b8:84:9f:73:25:f8:74:cc:e8:03:c6:6e:26:83:23:0c:fd:af:19:ea:60:23:30:11:0a:dc:fe:98:4b:fd:3f:00:75:3c:4b:6d:32:60:b5:d6:f0:ce:a3:51:f7:28:f3:63:96:fc:e2:c2:93:20:bb:05:ef:04:a6:5c:1d:42:2e:f7:5a:83:52:c8:e1:8f:5f:c9:d3:4b:ca:cb:3b:b2:bf:4b:9e:ec:98:4a:a5:2e:6e:02:26:91:89:c9:21:18:73:64:96:ba:b0:8a:ce:72:1c:86:cb:b8:05:8d:58:de:06:f2:a4:ed:e5:a6:0a:0f:6d:63:c4:3d:28:07:c7:95:d1:0e:a5:b7:3b:6a:e1:06:30:f6:30:19:6a:1e:b9:9f:90:84:88:6b:50:ee:ec:0e:05:16:4f:9f:42:31:80:64:16:c0:68:56:4d:94:e3:24:90:bc:f1:75:55:85:20:b9:0b:ef:bd:4c:a9:49:95:7e:f1:41:0a:fb:bc:72:5f:b7:d2:ff:66:01:9b:97:f0:d9:d7:01:b0:8f:05:30:a8:29:34:73:3e:da:80:02:9b:d4:24:f1:0d:45:a2:9d:17:f2:11:6d:62:2b:30:52:98:0c:32:4a:43:ce:37:68:a2:dc:33:14:7e:34:14:0a:b4:87:87:c7:5f:6c:d2:1e:b4:00:63:3f:5e:e9:4c:86:f6:ab:0f:a2:a8:a6:81:4c:71:ab:38:95:69:80:dc:45:7d:ae:c1:4b:d5:e1:89:a9:88:df:6b:04:fb:d1:16:1c:60:aa:49:06:f4:e6:3f:10:e4:6a:a1:45:b0:8b:d5:64:fc:44:ee:04:f9:41:a6:9c:53:e5:eb:70:8b:b0:d4:ee:14:4e:e0:6f:0e:ac:6e:06:75:1a:4b:ad:37:ab:ea:cf:5e:3a:c0:8d:e7:63:f2:e4:b4:32:3b:45:9a:bd:b5:f6:43:db:03:0c:16:e8:5c:79:49:b1:d5:7a:b5:01:bb:6e:d9:32:ba:c3:ac:b6:eb:49:7e:b8:fe:20:15:47:96:fc:ca:60:ff:93:cd:d8:dc:a6:33:8f:36:aa:73:7f:3f:07:6a:ff:80:32:b0:c8:a1:58:75:c6:b6:6a:bd:f1:d3:2c:ad:dc:72:cd:26:5c:90:44:47:53:34:76:0e:00:64:fe:07:70:e5:bb:46:bd:df:c5:a2:c3:e6:28:ab:6b:10:85:4a:5c:bd:b4:e5:f6:1f:61:12:0c:6a:f3:8b:a0:77:e1:e1:5e:a5:ef:29:82:f3:a3:a3:3b:ca:54:ab:7f:c1:5c:9e:1f:ee:5e:70:42:59:5e:09:05:83:3c:1c:1f:2d:e0:18:13:a0:53:fb:37:ee:a1:05:e4:4b:cd:75:42:01:ef:b4:49:c4:30:21:34:02:e1:38:73:7c:84:a0:eb:f2:50:07:72:97:87:3e:b5:25:b1:e9:cb:62:3a:a0:d1:5f:f3:51:07:e5:bc:20:d8:a4:4b:4e:7b:6d:d7:1a:6d:42:d4:c1:5f:90:99:06:4f:b6:07:00:00"
+        },
+        "data": {
+          "data.data": "61:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:85:94:db:4f:13:41:14:c6:07:ab:72:11:45:14:05:bc:10:7c:30:26:26:c6:2d:bd:51:5f:08:18:2c:26:85:18:20:ea:1b:59:a0:14:82:ec:86:2d:45:03:c1:1b:17:ab:50:6e:26:72:31:82:22:a2:50:da:46:10:68:8a:81:28:9a:98:f8:e2:0b:0f:5e:5e:34:dd:6e:e1:c5:c4:bf:c0:99:9d:d3:84:26:0e:36:3b:d9:26:9d:ef:37:df:39:e7:9b:ce:c5:23:94:86:10:2a:3b:6f:15:ed:75:55:15:a5:bc:50:7f:51:a8:11:0b:f8:aa:fa:b3:f3:1a:b4:1b:ff:96:85:57:1c:5e:99:78:b5:86:02:cb:4a:70:55:ee:9c:97:dd:cf:da:7e:bf:1d:d5:6a:b5:d9:67:b2:73:4c:3f:f0:e6:04:bc:a1:54:14:2c:12:2f:34:25:e1:ef:ee:74:84:1e:22:fa:d9:c1:04:70:7a:02:30:7c:98:d1:a0:64:bc:41:5e:5d:08:05:5d:b2:bb:3d:ec:bb:97:07:e2:fb:f0:d6:b0:21:3a:15:a2:60:48:22:de:a0:8c:ac:c8:fd:ae:b0:7b:62:bd:22:0e:35:61:1b:3d:40:d8:89:57:c6:bf:08:66:23:01:e4:d8:fd:b4:e6:12:d1:ea:ac:b4:d5:38:11:72:62:75:2f:a8:77:31:d5:a4:06:9d:69:c9:4b:6b:50:96:47:c2:ae:01:39:b8:84:9f:73:25:f8:74:cc:e8:03:c6:6e:26:83:23:0c:fd:af:19:ea:60:23:30:11:0a:dc:fe:98:4b:fd:3f:00:75:3c:4b:6d:32:60:b5:d6:f0:ce:a3:51:f7:28:f3:63:96:fc:e2:c2:93:20:bb:05:ef:04:a6:5c:1d:42:2e:f7:5a:83:52:c8:e1:8f:5f:c9:d3:4b:ca:cb:3b:b2:bf:4b:9e:ec:98:4a:a5:2e:6e:02:26:91:89:c9:21:18:73:64:96:ba:b0:8a:ce:72:1c:86:cb:b8:05:8d:58:de:06:f2:a4:ed:e5:a6:0a:0f:6d:63:c4:3d:28:07:c7:95:d1:0e:a5:b7:3b:6a:e1:06:30:f6:30:19:6a:1e:b9:9f:90:84:88:6b:50:ee:ec:0e:05:16:4f:9f:42:31:80:64:16:c0:68:56:4d:94:e3:24:90:bc:f1:75:55:85:20:b9:0b:ef:bd:4c:a9:49:95:7e:f1:41:0a:fb:bc:72:5f:b7:d2:ff:66:01:9b:97:f0:d9:d7:01:b0:8f:05:30:a8:29:34:73:3e:da:80:02:9b:d4:24:f1:0d:45:a2:9d:17:f2:11:6d:62:2b:30:52:98:0c:32:4a:43:ce:37:68:a2:dc:33:14:7e:34:14:0a:b4:87:87:c7:5f:6c:d2:1e:b4:00:63:3f:5e:e9:4c:86:f6:ab:0f:a2:a8:a6:81:4c:71:ab:38:95:69:80:dc:45:7d:ae:c1:4b:d5:e1:89:a9:88:df:6b:04:fb:d1:16:1c:60:aa:49:06:f4:e6:3f:10:e4:6a:a1:45:b0:8b:d5:64:fc:44:ee:04:f9:41:a6:9c:53:e5:eb:70:8b:b0:d4:ee:14:4e:e0:6f:0e:ac:6e:06:75:1a:4b:ad:37:ab:ea:cf:5e:3a:c0:8d:e7:63:f2:e4:b4:32:3b:45:9a:bd:b5:f6:43:db:03:0c:16:e8:5c:79:49:b1:d5:7a:b5:01:bb:6e:d9:32:ba:c3:ac:b6:eb:49:7e:b8:fe:20:15:47:96:fc:ca:60:ff:93:cd:d8:dc:a6:33:8f:36:aa:73:7f:3f:07:6a:ff:80:32:b0:c8:a1:58:75:c6:b6:6a:bd:f1:d3:2c:ad:dc:72:cd:26:5c:90:44:47:53:34:76:0e:00:64:fe:07:70:e5:bb:46:bd:df:c5:a2:c3:e6:28:ab:6b:10:85:4a:5c:bd:b4:e5:f6:1f:61:12:0c:6a:f3:8b:a0:77:e1:e1:5e:a5:ef:29:82:f3:a3:a3:3b:ca:54:ab:7f:c1:5c:9e:1f:ee:5e:70:42:59:5e:09:05:83:3c:1c:1f:2d:e0:18:13:a0:53:fb:37:ee:a1:05:e4:4b:cd:75:42:01:ef:b4:49:c4:30:21:34:02:e1:38:73:7c:84:a0:eb:f2:50:07:72:97:87:3e:b5:25:b1:e9:cb:62:3a:a0:d1:5f:f3:51:07:e5:bc:20:d8:a4:4b:4e:7b:6d:d7:1a:6d:42:d4:c1:5f:90:99:06:4f:b6:07:00:00",
+          "data.len": "869"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-07-04",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{783FF999-72FF-4486-B984-01185D2274A2}",
+            "frame.interface_description": "乙太網路"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jul  4, 2024 21:28:12.089490000 台北標準時間",
+          "frame.time_utc": "Jul  4, 2024 13:28:12.089490000 UTC",
+          "frame.time_epoch": "1720099692.089490000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.002788000",
+          "frame.time_delta_displayed": "4.343721000",
+          "frame.time_relative": "33.537574000",
+          "frame.number": "5089",
+          "frame.len": "1158",
+          "frame.cap_len": "1158",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:pppoes:ppp:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "d8:5e:d3:aa:9d:9b",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.dst.oui": "14180051",
+            "eth.dst.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.addr": "d8:5e:d3:aa:9d:9b",
+            "eth.addr_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.addr.oui": "14180051",
+            "eth.addr.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:02:3b:10:ac:21",
+          "eth.src_tree": {
+            "eth.src_resolved": "Ericsson_10:ac:21",
+            "eth.src.oui": "571",
+            "eth.src.oui_resolved": "Ericsson",
+            "eth.addr": "00:02:3b:10:ac:21",
+            "eth.addr_resolved": "Ericsson_10:ac:21",
+            "eth.addr.oui": "571",
+            "eth.addr.oui_resolved": "Ericsson",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x8864"
+        },
+        "pppoes": {
+          "pppoe.version": "1",
+          "pppoe.type": "1",
+          "pppoe.code": "0x00",
+          "pppoe.session_id": "0x0003",
+          "pppoe.payload_length": "1138"
+        },
+        "ppp": {
+          "ppp.protocol": "0x0021"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1136",
+          "ip.id": "0x718b",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "115",
+          "ip.proto": "6",
+          "ip.checksum": "0xdd10",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "220.132.170.233",
+          "ip.addr": "220.132.170.233",
+          "ip.dst_host": "220.132.170.233",
+          "ip.host": "220.132.170.233"
+        },
+        "tcp": {
+          "tcp.srcport": "5666",
+          "tcp.dstport": "31783",
+          "tcp.port": "5666",
+          "tcp.port": "31783",
+          "tcp.stream": "127",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "1096",
+          "tcp.seq": "82",
+          "tcp.seq_raw": "3277398545",
+          "tcp.nxtseq": "1178",
+          "tcp.ack": "201",
+          "tcp.ack_raw": "1171372413",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "516",
+          "tcp.window_size": "132096",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0x70a0",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "1.678271000",
+            "tcp.time_delta": "0.023176000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.023007000",
+            "tcp.analysis.bytes_in_flight": "1096",
+            "tcp.analysis.push_bytes_sent": "1096"
+          },
+          "tcp.payload": "44:04:00:00:01:3f:04:00:00:0d:00:00:00:53:43:4c:6f:67:69:6e:5f:4c:6f:67:69:6e:2a:04:00:00:7b:22:61:63:63:6f:75:6e:74:49:64:22:3a:32:38:2c:22:72:65:63:6f:6d:6d:65:6e:64:65:64:41:72:65:61:22:3a:7b:22:73:65:72:76:65:72:49:64:22:3a:33:37:2c:22:73:65:72:76:65:72:4e:61:6d:65:22:3a:22:33:37:23:20:53:30:30:33:37:22:2c:22:73:65:72:76:65:72:49:70:22:3a:22:34:33:2e:31:35:39:2e:31:2e:32:32:33:22:2c:22:70:6f:72:74:22:3a:35:36:36:38:2c:22:73:65:72:76:65:72:53:74:61:74:65:22:3a:33:2c:22:69:73:4e:65:77:53:65:72:76:65:72:22:3a:31:2c:22:69:73:45:78:69:73:74:52:6f:6c:65:22:3a:30:7d:2c:22:74:68:69:72:64:50:61:72:74:79:22:3a:6e:75:6c:6c:2c:22:73:64:6b:5f:74:6f:6b:65:6e:22:3a:22:6e:34:65:34:2b:50:77:49:71:7a:48:2f:67:72:4c:70:47:77:62:75:46:4c:6e:7a:69:69:63:4b:4c:46:63:4e:73:2b:67:4b:53:66:55:5a:77:79:37:63:78:54:65:34:57:61:6b:7a:73:48:62:79:6f:4e:2f:4a:43:59:4b:2b:56:39:41:4c:7a:31:77:6c:75:72:51:2b:64:66:4e:62:6c:4c:66:35:37:4f:34:66:4a:4a:6d:77:78:4f:78:72:6d:6b:6b:36:43:4c:61:45:64:56:65:50:76:67:4d:32:35:49:6b:69:74:6f:65:61:74:50:75:66:4e:32:71:71:36:44:33:42:62:52:61:70:76:58:61:4e:4e:38:36:6b:42:61:52:6f:47:6b:47:68:6c:70:78:70:38:66:44:68:31:4f:5a:70:39:58:67:2f:42:65:57:34:6b:47:54:54:2b:43:43:68:44:52:70:51:6d:44:57:70:34:34:6b:78:6d:41:6a:44:66:42:71:74:2b:5a:6a:56:66:38:55:4f:48:36:47:72:47:38:50:44:74:6a:6d:55:4b:50:30:45:43:69:7a:48:35:30:77:42:55:57:65:78:43:74:52:34:57:4a:59:6e:6d:61:37:55:71:52:63:6e:67:55:47:39:4d:62:37:78:44:73:36:64:59:70:77:58:51:54:33:50:47:30:4b:55:6a:47:55:6f:58:76:4a:53:57:66:4e:75:43:75:31:32:51:36:6c:6f:6c:47:5a:34:72:70:47:36:6d:54:70:59:66:64:61:34:66:46:4f:34:39:53:30:4e:6c:4b:57:45:75:68:79:65:4c:50:55:68:6e:36:44:62:49:49:71:55:49:51:3d:3d:22:2c:22:63:61:63:68:65:41:63:22:3a:22:6d:61:72:69:6d:6f:32:30:22:2c:22:63:61:63:68:65:50:73:64:22:3a:22:6d:61:72:69:6d:6f:32:30:22:2c:22:69:73:55:73:65:41:63:74:69:63:6f:64:65:22:3a:30:2c:22:6c:6f:67:69:6e:54:6f:6b:65:6e:22:3a:22:4e:38:52:53:62:39:63:43:61:54:52:38:38:52:58:66:64:55:59:36:79:37:31:64:6f:4e:35:69:57:55:55:64:6e:30:41:73:31:6f:4c:65:61:41:6f:51:58:2f:2f:5a:76:50:4b:78:35:7a:2f:39:43:65:4c:5a:74:6e:33:6f:56:2b:38:72:56:71:52:37:77:53:42:39:47:6a:70:44:48:36:74:45:4f:74:62:79:4a:64:69:30:55:47:6a:6b:7a:6f:55:36:5a:52:6f:61:4e:74:38:72:69:65:6b:74:2f:50:78:66:4e:6a:74:36:4b:42:64:50:59:70:56:50:75:4d:38:72:66:32:6e:54:41:65:78:32:47:32:50:75:78:36:4b:74:67:4d:75:33:63:62:56:78:79:4d:31:73:32:45:45:59:4f:61:65:4c:68:64:70:45:6a:66:49:54:4f:35:54:30:48:49:52:4f:51:6a:41:70:4b:37:51:2b:48:32:48:53:56:51:51:65:53:79:32:37:78:42:68:6b:49:66:6f:36:4f:5a:59:4c:30:59:6a:6d:35:39:45:73:49:35:38:6a:2b:6a:48:68:74:5a:49:34:2b:66:62:65:56:51:39:34:53:4e:6d:4e:33:61:63:35:37:30:6b:50:43:7a:31:2b:76:37:6f:5a:30:66:32:43:5a:61:48:54:31:62:7a:53:55:52:47:4b:62:49:6f:32:34:55:79:67:72:47:42:6c:77:4d:44:30:51:53:4f:77:59:51:58:32:6f:76:34:45:4b:41:70:62:65:35:43:4e:70:70:55:35:6d:30:4a:30:52:63:6a:61:58:39:41:67:69:54:59:52:62:6b:50:71:2b:67:3d:3d:22:2c:22:6c:6f:67:69:6e:53:69:67:6e:22:3a:22:43:31:45:42:31:35:36:42:42:35:41:45:36:30:30:32:31:35:38:39:44:42:36:42:33:38:44:42:35:31:34:37:22:2c:22:63:6f:64:65:22:3a:30:2c:22:74:69:70:54:79:70:65:22:3a:31:2c:22:6d:65:73:73:61:67:65:22:3a:22:7b:5c:75:36:37:32:41:5c:75:37:37:45:35:5c:75:39:35:31:39:5c:75:38:42:45:46:7d:22:7d"
+        },
+        "data": {
+          "data.data": "44:04:00:00:01:3f:04:00:00:0d:00:00:00:53:43:4c:6f:67:69:6e:5f:4c:6f:67:69:6e:2a:04:00:00:7b:22:61:63:63:6f:75:6e:74:49:64:22:3a:32:38:2c:22:72:65:63:6f:6d:6d:65:6e:64:65:64:41:72:65:61:22:3a:7b:22:73:65:72:76:65:72:49:64:22:3a:33:37:2c:22:73:65:72:76:65:72:4e:61:6d:65:22:3a:22:33:37:23:20:53:30:30:33:37:22:2c:22:73:65:72:76:65:72:49:70:22:3a:22:34:33:2e:31:35:39:2e:31:2e:32:32:33:22:2c:22:70:6f:72:74:22:3a:35:36:36:38:2c:22:73:65:72:76:65:72:53:74:61:74:65:22:3a:33:2c:22:69:73:4e:65:77:53:65:72:76:65:72:22:3a:31:2c:22:69:73:45:78:69:73:74:52:6f:6c:65:22:3a:30:7d:2c:22:74:68:69:72:64:50:61:72:74:79:22:3a:6e:75:6c:6c:2c:22:73:64:6b:5f:74:6f:6b:65:6e:22:3a:22:6e:34:65:34:2b:50:77:49:71:7a:48:2f:67:72:4c:70:47:77:62:75:46:4c:6e:7a:69:69:63:4b:4c:46:63:4e:73:2b:67:4b:53:66:55:5a:77:79:37:63:78:54:65:34:57:61:6b:7a:73:48:62:79:6f:4e:2f:4a:43:59:4b:2b:56:39:41:4c:7a:31:77:6c:75:72:51:2b:64:66:4e:62:6c:4c:66:35:37:4f:34:66:4a:4a:6d:77:78:4f:78:72:6d:6b:6b:36:43:4c:61:45:64:56:65:50:76:67:4d:32:35:49:6b:69:74:6f:65:61:74:50:75:66:4e:32:71:71:36:44:33:42:62:52:61:70:76:58:61:4e:4e:38:36:6b:42:61:52:6f:47:6b:47:68:6c:70:78:70:38:66:44:68:31:4f:5a:70:39:58:67:2f:42:65:57:34:6b:47:54:54:2b:43:43:68:44:52:70:51:6d:44:57:70:34:34:6b:78:6d:41:6a:44:66:42:71:74:2b:5a:6a:56:66:38:55:4f:48:36:47:72:47:38:50:44:74:6a:6d:55:4b:50:30:45:43:69:7a:48:35:30:77:42:55:57:65:78:43:74:52:34:57:4a:59:6e:6d:61:37:55:71:52:63:6e:67:55:47:39:4d:62:37:78:44:73:36:64:59:70:77:58:51:54:33:50:47:30:4b:55:6a:47:55:6f:58:76:4a:53:57:66:4e:75:43:75:31:32:51:36:6c:6f:6c:47:5a:34:72:70:47:36:6d:54:70:59:66:64:61:34:66:46:4f:34:39:53:30:4e:6c:4b:57:45:75:68:79:65:4c:50:55:68:6e:36:44:62:49:49:71:55:49:51:3d:3d:22:2c:22:63:61:63:68:65:41:63:22:3a:22:6d:61:72:69:6d:6f:32:30:22:2c:22:63:61:63:68:65:50:73:64:22:3a:22:6d:61:72:69:6d:6f:32:30:22:2c:22:69:73:55:73:65:41:63:74:69:63:6f:64:65:22:3a:30:2c:22:6c:6f:67:69:6e:54:6f:6b:65:6e:22:3a:22:4e:38:52:53:62:39:63:43:61:54:52:38:38:52:58:66:64:55:59:36:79:37:31:64:6f:4e:35:69:57:55:55:64:6e:30:41:73:31:6f:4c:65:61:41:6f:51:58:2f:2f:5a:76:50:4b:78:35:7a:2f:39:43:65:4c:5a:74:6e:33:6f:56:2b:38:72:56:71:52:37:77:53:42:39:47:6a:70:44:48:36:74:45:4f:74:62:79:4a:64:69:30:55:47:6a:6b:7a:6f:55:36:5a:52:6f:61:4e:74:38:72:69:65:6b:74:2f:50:78:66:4e:6a:74:36:4b:42:64:50:59:70:56:50:75:4d:38:72:66:32:6e:54:41:65:78:32:47:32:50:75:78:36:4b:74:67:4d:75:33:63:62:56:78:79:4d:31:73:32:45:45:59:4f:61:65:4c:68:64:70:45:6a:66:49:54:4f:35:54:30:48:49:52:4f:51:6a:41:70:4b:37:51:2b:48:32:48:53:56:51:51:65:53:79:32:37:78:42:68:6b:49:66:6f:36:4f:5a:59:4c:30:59:6a:6d:35:39:45:73:49:35:38:6a:2b:6a:48:68:74:5a:49:34:2b:66:62:65:56:51:39:34:53:4e:6d:4e:33:61:63:35:37:30:6b:50:43:7a:31:2b:76:37:6f:5a:30:66:32:43:5a:61:48:54:31:62:7a:53:55:52:47:4b:62:49:6f:32:34:55:79:67:72:47:42:6c:77:4d:44:30:51:53:4f:77:59:51:58:32:6f:76:34:45:4b:41:70:62:65:35:43:4e:70:70:55:35:6d:30:4a:30:52:63:6a:61:58:39:41:67:69:54:59:52:62:6b:50:71:2b:67:3d:3d:22:2c:22:6c:6f:67:69:6e:53:69:67:6e:22:3a:22:43:31:45:42:31:35:36:42:42:35:41:45:36:30:30:32:31:35:38:39:44:42:36:42:33:38:44:42:35:31:34:37:22:2c:22:63:6f:64:65:22:3a:30:2c:22:74:69:70:54:79:70:65:22:3a:31:2c:22:6d:65:73:73:61:67:65:22:3a:22:7b:5c:75:36:37:32:41:5c:75:37:37:45:35:5c:75:39:35:31:39:5c:75:38:42:45:46:7d:22:7d",
+          "data.len": "1096"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-07-04",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{783FF999-72FF-4486-B984-01185D2274A2}",
+            "frame.interface_description": "乙太網路"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jul  4, 2024 21:28:13.134629000 台北標準時間",
+          "frame.time_utc": "Jul  4, 2024 13:28:13.134629000 UTC",
+          "frame.time_epoch": "1720099693.134629000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.001805000",
+          "frame.time_delta_displayed": "1.045139000",
+          "frame.time_relative": "34.582713000",
+          "frame.number": "5257",
+          "frame.len": "942",
+          "frame.cap_len": "942",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:pppoes:ppp:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "d8:5e:d3:aa:9d:9b",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.dst.oui": "14180051",
+            "eth.dst.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.addr": "d8:5e:d3:aa:9d:9b",
+            "eth.addr_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.addr.oui": "14180051",
+            "eth.addr.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:02:3b:10:ac:21",
+          "eth.src_tree": {
+            "eth.src_resolved": "Ericsson_10:ac:21",
+            "eth.src.oui": "571",
+            "eth.src.oui_resolved": "Ericsson",
+            "eth.addr": "00:02:3b:10:ac:21",
+            "eth.addr_resolved": "Ericsson_10:ac:21",
+            "eth.addr.oui": "571",
+            "eth.addr.oui_resolved": "Ericsson",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x8864"
+        },
+        "pppoes": {
+          "pppoe.version": "1",
+          "pppoe.type": "1",
+          "pppoe.code": "0x00",
+          "pppoe.session_id": "0x0003",
+          "pppoe.payload_length": "922"
+        },
+        "ppp": {
+          "ppp.protocol": "0x0021"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "920",
+          "ip.id": "0x718d",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "115",
+          "ip.proto": "6",
+          "ip.checksum": "0xdde6",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "220.132.170.233",
+          "ip.addr": "220.132.170.233",
+          "ip.dst_host": "220.132.170.233",
+          "ip.host": "220.132.170.233"
+        },
+        "tcp": {
+          "tcp.srcport": "5666",
+          "tcp.dstport": "31783",
+          "tcp.port": "5666",
+          "tcp.port": "31783",
+          "tcp.stream": "127",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "880",
+          "tcp.seq": "1178",
+          "tcp.seq_raw": "3277399641",
+          "tcp.nxtseq": "2058",
+          "tcp.ack": "717",
+          "tcp.ack_raw": "1171372929",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "514",
+          "tcp.window_size": "131584",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xfd58",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "2.723410000",
+            "tcp.time_delta": "0.027607000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "5250",
+            "tcp.analysis.ack_rtt": "0.027607000",
+            "tcp.analysis.initial_rtt": "0.023007000",
+            "tcp.analysis.bytes_in_flight": "880",
+            "tcp.analysis.push_bytes_sent": "880"
+          },
+          "tcp.payload": "6c:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:c1:6a:1c:47:14:85:e1:79:80:3c:80:97:a1:bd:72:10:62:ee:bd:75:eb:d6:cc:4e:09:8a:31:18:2f:a2:ec:a2:10:84:d5:18:81:e4:11:33:a3:24:46:e8:8d:fd:10:19:eb:d8:60:ce:ec:b2:38:cb:ae:ae:e6:af:d5:47:77:55:ff:f0:d3:62:f1:62:b1:58:5c:fc:f2:76:f3:e1:e6:e3:5f:af:e7:fd:d9:ed:ed:c5:bc:fd:7b:de:be:bd:d9:ed:3f:bf:5a:2c:1e:a7:ed:fc:7e:73:77:37:7f:bc:9e:af:cf:b6:f3:d5:6e:5a:ff:f1:38:ed:9e:27:bd:b9:9e:d6:76:f2:f5:e2:dd:d5:dd:3c:ad:27:7b:f9:e3:c5:72:b9:b4:e9:db:f8:9b:fb:c3:68:8b:53:cb:d5:a9:9d:ba:c7:e1:ce:fd:66:bb:9f:d6:d9:fb:f8:36:eb:62:7f:b5:3f:3c:ee:27:d3:cd:ee:dd:fc:0f:16:31:ad:97:5f:ae:cf:ff:3d:2c:e6:b7:cd:ed:e1:be:3d:9d:7c:1f:77:8a:3b:e2:2e:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:5e:14:2f:c4:4b:12:1f:14:1f:88:0f:49:7c:45:f1:15:e2:2b:49:dc:96:ac:cc:f2:39:6f:4b:4d:fe:08:39:28:67:1a:e5:8c:99:33:38:67:1a:e7:8c:a1:33:48:67:1a:e9:8c:a9:33:58:67:1a:eb:8c:b1:33:68:67:1a:ed:8c:b9:33:78:67:1a:ef:8c:c1:33:88:67:1a:f1:8c:c9:33:98:67:1a:f3:8c:d1:33:a8:67:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:a2:77:bb:a3:97:3b:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:6f:da:a3:8f:5a:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:1a:ab:d7:a0:5e:d3:a8:d7:58:bd:06:f5:9a:46:bd:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:26:da:cb:3b:da:cc:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:1a:ab:d7:a0:5e:d3:a8:d7:58:bd:06:f5:9a:46:bd:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:29:3a:c3:38:3a:c4:80:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:af:b3:7a:1d:ea:75:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:e8:ec:f6:e8:f0:16:ea:75:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:a2:7f:56:8e:7e:5a:81:7a:a5:51:af:58:bd:82:7a:a5:51:af:58:bd:82:7a:a5:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:f8:9f:ea:05:e5:8d:f2:cb:a7:3f:4f:a6:f7:9b:eb:f9:79:65:fb:9b:fb:df:3f:dd:cf:cf:d3:ee:e6:dd:ee:ea:c3:97:25:3c:5e:3e:f4:f2:b3:cb:87:aa:f3:bc:7c:58:a5:ad:2e:1f:c6:cf:e7:bf:3e:4d:4f:ff:01:e0:11:24:4c:10:2a:00:00"
+        },
+        "data": {
+          "data.data": "6c:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:c1:6a:1c:47:14:85:e1:79:80:3c:80:97:a1:bd:72:10:62:ee:bd:75:eb:d6:cc:4e:09:8a:31:18:2f:a2:ec:a2:10:84:d5:18:81:e4:11:33:a3:24:46:e8:8d:fd:10:19:eb:d8:60:ce:ec:b2:38:cb:ae:ae:e6:af:d5:47:77:55:ff:f0:d3:62:f1:62:b1:58:5c:fc:f2:76:f3:e1:e6:e3:5f:af:e7:fd:d9:ed:ed:c5:bc:fd:7b:de:be:bd:d9:ed:3f:bf:5a:2c:1e:a7:ed:fc:7e:73:77:37:7f:bc:9e:af:cf:b6:f3:d5:6e:5a:ff:f1:38:ed:9e:27:bd:b9:9e:d6:76:f2:f5:e2:dd:d5:dd:3c:ad:27:7b:f9:e3:c5:72:b9:b4:e9:db:f8:9b:fb:c3:68:8b:53:cb:d5:a9:9d:ba:c7:e1:ce:fd:66:bb:9f:d6:d9:fb:f8:36:eb:62:7f:b5:3f:3c:ee:27:d3:cd:ee:dd:fc:0f:16:31:ad:97:5f:ae:cf:ff:3d:2c:e6:b7:cd:ed:e1:be:3d:9d:7c:1f:77:8a:3b:e2:2e:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:5e:14:2f:c4:4b:12:1f:14:1f:88:0f:49:7c:45:f1:15:e2:2b:49:dc:96:ac:cc:f2:39:6f:4b:4d:fe:08:39:28:67:1a:e5:8c:99:33:38:67:1a:e7:8c:a1:33:48:67:1a:e9:8c:a9:33:58:67:1a:eb:8c:b1:33:68:67:1a:ed:8c:b9:33:78:67:1a:ef:8c:c1:33:88:67:1a:f1:8c:c9:33:98:67:1a:f3:8c:d1:33:a8:67:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:a2:77:bb:a3:97:3b:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:9c:d5:73:a8:e7:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:6f:da:a3:8f:5a:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:1a:ab:d7:a0:5e:d3:a8:d7:58:bd:06:f5:9a:46:bd:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:26:da:cb:3b:da:cc:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:1a:ab:d7:a0:5e:d3:a8:d7:58:bd:06:f5:9a:46:bd:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:29:3a:c3:38:3a:c4:80:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:2f:59:bd:84:7a:a9:51:af:b3:7a:1d:ea:75:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:e8:ec:f6:e8:f0:16:ea:75:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:1a:f5:8a:d5:2b:a8:57:a2:7f:56:8e:7e:5a:81:7a:a5:51:af:58:bd:82:7a:a5:51:af:58:bd:82:7a:a5:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:f8:9f:ea:05:e5:8d:f2:cb:a7:3f:4f:a6:f7:9b:eb:f9:79:65:fb:9b:fb:df:3f:dd:cf:cf:d3:ee:e6:dd:ee:ea:c3:97:25:3c:5e:3e:f4:f2:b3:cb:87:aa:f3:bc:7c:58:a5:ad:2e:1f:c6:cf:e7:bf:3e:4d:4f:ff:01:e0:11:24:4c:10:2a:00:00",
+          "data.len": "880"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-07-04",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{783FF999-72FF-4486-B984-01185D2274A2}",
+            "frame.interface_description": "乙太網路"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jul  4, 2024 21:28:21.064589000 台北標準時間",
+          "frame.time_utc": "Jul  4, 2024 13:28:21.064589000 UTC",
+          "frame.time_epoch": "1720099701.064589000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.003461000",
+          "frame.time_delta_displayed": "7.929960000",
+          "frame.time_relative": "42.512673000",
+          "frame.number": "6562",
+          "frame.len": "1020",
+          "frame.cap_len": "1020",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:pppoes:ppp:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "d8:5e:d3:aa:9d:9b",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.dst.oui": "14180051",
+            "eth.dst.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.addr": "d8:5e:d3:aa:9d:9b",
+            "eth.addr_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.addr.oui": "14180051",
+            "eth.addr.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:02:3b:10:ac:21",
+          "eth.src_tree": {
+            "eth.src_resolved": "Ericsson_10:ac:21",
+            "eth.src.oui": "571",
+            "eth.src.oui_resolved": "Ericsson",
+            "eth.addr": "00:02:3b:10:ac:21",
+            "eth.addr_resolved": "Ericsson_10:ac:21",
+            "eth.addr.oui": "571",
+            "eth.addr.oui_resolved": "Ericsson",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x8864"
+        },
+        "pppoes": {
+          "pppoe.version": "1",
+          "pppoe.type": "1",
+          "pppoe.code": "0x00",
+          "pppoe.session_id": "0x0003",
+          "pppoe.payload_length": "1000"
+        },
+        "ppp": {
+          "ppp.protocol": "0x0021"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "998",
+          "ip.id": "0x71a0",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "115",
+          "ip.proto": "6",
+          "ip.checksum": "0xdd85",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "220.132.170.233",
+          "ip.addr": "220.132.170.233",
+          "ip.dst_host": "220.132.170.233",
+          "ip.host": "220.132.170.233"
+        },
+        "tcp": {
+          "tcp.srcport": "5668",
+          "tcp.dstport": "31785",
+          "tcp.port": "5668",
+          "tcp.port": "31785",
+          "tcp.stream": "156",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "958",
+          "tcp.seq": "5372",
+          "tcp.seq_raw": "616267606",
+          "tcp.nxtseq": "6330",
+          "tcp.ack": "761",
+          "tcp.ack_raw": "2220333696",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "514",
+          "tcp.window_size": "131584",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0x0b3a",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "4.302641000",
+            "tcp.time_delta": "0.022706000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "6557",
+            "tcp.analysis.ack_rtt": "0.022706000",
+            "tcp.analysis.initial_rtt": "0.020753000",
+            "tcp.analysis.bytes_in_flight": "958",
+            "tcp.analysis.push_bytes_sent": "958"
+          },
+          "tcp.payload": "ba:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:6d:94:ed:6b:14:47:1c:c7:47:af:3e:a4:5a:ed:83:36:7d:d2:37:01:4b:61:68:67:77:67:1f:06:04:49:42:c1:54:2b:26:15:2d:be:91:f1:6e:2f:b7:64:b3:a7:b7:b9:24:57:5b:24:62:5b:1b:6a:f3:a2:b4:6a:93:ea:8b:44:49:15:93:94:54:4d:6a:42:0a:fe:03:91:22:24:f5:da:17:92:bd:3c:bc:a9:7f:80:42:7f:eb:cc:56:4d:66:61:38:86:b9:cf:ef:fb:7b:f8:ce:e4:d6:21:b4:05:21:f4:49:fd:de:7c:b3:97:3e:d2:c4:83:96:86:20:9b:af:e3:e9:96:c7:0f:53:68:0d:9c:6d:87:b5:0a:d6:56:58:27:2a:67:ce:47:dd:bd:5f:fc:3b:f1:93:49:31:31:19:26:4c:bf:fa:4f:0a:55:c1:e1:01:2f:e0:fb:79:9b:eb:1f:7e:17:a1:42:35:42:df:21:f1:ad:56:d0:1a:36:2c:86:4d:83:2e:dc:13:f4:fc:85:c9:c5:f1:81:ca:ad:a1:cb:4b:82:4a:e8:d4:4a:9a:ea:98:da:06:b6:4d:b2:e9:af:14:5a:0b:87:59:1e:34:d6:36:36:ed:43:a8:07:84:cf:48:f4:85:95:a8:c1:30:b5:4c:ac:db:ac:ae:9c:42:50:3e:6a:f1:7c:df:f5:f3:bd:77:10:ea:00:f6:2b:c9:ae:59:c9:ea:06:d6:35:90:66:da:c9:bf:45:d2:d1:95:a1:68:b0:6f:a1:fb:42:6b:51:50:9f:4b:7a:ad:82:06:d2:80:a6:51:a7:7e:26:85:36:c0:e1:6e:5e:ca:b8:c1:87:d9:ac:e7:ee:80:6d:27:a8:7f:29:f9:75:4a:9e:d8:1a:76:74:ab:73:46:aa:0f:f4:cd:8d:9d:5d:18:be:5e:03:9b:36:a0:4f:49:7a:bd:82:86:86:13:13:db:44:ff:a6:2c:5a:d6:ce:03:2f:0c:4d:89:94:e4:6f:d5:4a:54:73:b0:e3:58:d8:b2:c8:49:98:f4:e6:78:56:bf:8e:46:67:cf:41:e5:d1:95:f1:e8:f4:d4:2e:24:e6:2d:7b:80:5e:54:c6:30:6d:82:6d:4d:db:08:c9:c7:f9:1d:2d:06:3c:2c:b6:7a:07:f7:3d:9f:c0:06:25:ac:51:86:99:66:d4:48:ab:d5:f1:42:3a:e7:b9:7e:48:60:73:1c:a4:3b:24:bd:51:4d:1b:06:44:30:87:60:6a:f1:1f:0e:7a:85:66:2f:f0:f8:9e:1c:0f:8a:7d:08:7d:56:fd:54:fe:25:65:00:c2:20:7f:66:ef:01:f9:d8:53:19:3f:0c:6f:3a:ab:9e:28:27:e0:26:05:68:83:5f:08:a8:d3:a9:59:51:f4:c7:f9:62:1b:2f:64:dc:43:d2:a8:49:c7:36:2b:60:8a:19:18:ce:d6:cc:3f:cb:c2:2e:1d:dc:6f:f1:82:e6:8c:cb:33:ef:cb:b2:4f:48:fe:65:25:6f:51:0b:6b:26:b9:96:98:75:fc:76:e5:46:57:e5:fc:a5:6c:51:d8:25:94:f4:2b:0a:da:80:99:33:6c:99:4e:4e:b6:bc:b6:e4:46:3d:c3:f3:3f:f4:c4:85:77:3e:a3:fd:aa:82:06:ab:43:f1:70:47:ef:40:ee:b1:1d:ea:79:e8:96:ea:e0:75:49:34:ff:2f:fd:35:05:ae:61:aa:33:b8:a3:74:52:8a:cf:4d:9d:ae:fc:d6:3b:37:d1:dd:00:9b:f0:99:d4:b7:28:69:8d:e9:d8:d2:f5:03:52:7c:2f:0f:d2:6e:6d:bb:e7:f3:5d:12:6f:97:f8:56:25:4e:c0:2e:c4:d4:1e:49:b7:2f:f6:5f:8c:06:7e:99:1b:eb:8a:ae:9f:5b:e8:1f:48:0a:48:52:78:5d:11:83:60:66:58:f0:50:d0:54:59:58:2e:ba:35:38:7f:69:34:9a:f8:bd:d2:3f:f4:e3:92:18:5e:9b:0c:50:ad:0e:40:1c:ac:3b:56:f9:81:b8:ad:c7:c2:52:3a:97:df:29:e7:9e:68:bf:a1:44:2d:47:c3:36:d5:8f:26:bd:f7:bd:6c:76:b7:1b:14:4a:c6:b2:d4:df:54:e2:26:83:10:8c:7d:30:2b:de:ff:86:30:74:bd:a4:e8:24:e7:b7:d4:a4:6d:83:e1:9c:7b:b3:62:6a:1f:b9:61:e8:b9:4d:f9:f0:bd:65:53:7b:5b:4d:13:8a:0d:46:97:ee:8b:8a:2b:3f:8f:2c:7e:fd:6d:f2:3c:24:e8:3b:4a:54:67:34:4e:fb:41:e2:f4:91:9e:08:8e:bf:bf:dc:b8:ec:9e:6d:53:d3:b1:5f:2d:f3:0f:39:ab:bb:5d:77:4f:4d:8f:4c:df:9e:1e:9b:9e:8c:af:4a:9c:79:5e:06:d8:ae:0c:a0:b1:27:57:e5:d3:19:91:79:08:5f:a6:7d:a7:2c:fa:b8:44:ff:03:42:83:3c:2e:6c:07:00:00",
+          "tcp.segment_data": "ba:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:6d:94:ed:6b:14:47:1c:c7:47:af:3e:a4:5a:ed:83:36:7d:d2:37:01:4b:61:68:67:77:67:1f:06:04:49:42:c1:54:2b:26:15:2d:be:91:f1:6e:2f:b7:64:b3:a7:b7:b9:24:57:5b:24:62:5b:1b:6a:f3:a2:b4:6a:93:ea:8b:44:49:15:93:94:54:4d:6a:42:0a:fe:03:91:22:24:f5:da:17:92:bd:3c:bc:a9:7f:80:42:7f:eb:cc:56:4d:66:61:38:86:b9:cf:ef:fb:7b:f8:ce:e4:d6:21:b4:05:21:f4:49:fd:de:7c:b3:97:3e:d2:c4:83:96:86:20:9b:af:e3:e9:96:c7:0f:53:68:0d:9c:6d:87:b5:0a:d6:56:58:27:2a:67:ce:47:dd:bd:5f:fc:3b:f1:93:49:31:31:19:26:4c:bf:fa:4f:0a:55:c1:e1:01:2f:e0:fb:79:9b:eb:1f:7e:17:a1:42:35:42:df:21:f1:ad:56:d0:1a:36:2c:86:4d:83:2e:dc:13:f4:fc:85:c9:c5:f1:81:ca:ad:a1:cb:4b:82:4a:e8:d4:4a:9a:ea:98:da:06:b6:4d:b2:e9:af:14:5a:0b:87:59:1e:34:d6:36:36:ed:43:a8:07:84:cf:48:f4:85:95:a8:c1:30:b5:4c:ac:db:ac:ae:9c:42:50:3e:6a:f1:7c:df:f5:f3:bd:77:10:ea:00:f6:2b:c9:ae:59:c9:ea:06:d6:35:90:66:da:c9:bf:45:d2:d1:95:a1:68:b0:6f:a1:fb:42:6b:51:50:9f:4b:7a:ad:82:06:d2:80:a6:51:a7:7e:26:85:36:c0:e1:6e:5e:ca:b8:c1:87:d9:ac:e7:ee:80:6d:27:a8:7f:29:f9:75:4a:9e:d8:1a:76:74:ab:73:46:aa:0f:f4:cd:8d:9d:5d:18:be:5e:03:9b:36:a0:4f:49:7a:bd:82:86:86:13:13:db:44:ff:a6:2c:5a:d6:ce:03:2f:0c:4d:89:94:e4:6f:d5:4a:54:73:b0:e3:58:d8:b2:c8:49:98:f4:e6:78:56:bf:8e:46:67:cf:41:e5:d1:95:f1:e8:f4:d4:2e:24:e6:2d:7b:80:5e:54:c6:30:6d:82:6d:4d:db:08:c9:c7:f9:1d:2d:06:3c:2c:b6:7a:07:f7:3d:9f:c0:06:25:ac:51:86:99:66:d4:48:ab:d5:f1:42:3a:e7:b9:7e:48:60:73:1c:a4:3b:24:bd:51:4d:1b:06:44:30:87:60:6a:f1:1f:0e:7a:85:66:2f:f0:f8:9e:1c:0f:8a:7d:08:7d:56:fd:54:fe:25:65:00:c2:20:7f:66:ef:01:f9:d8:53:19:3f:0c:6f:3a:ab:9e:28:27:e0:26:05:68:83:5f:08:a8:d3:a9:59:51:f4:c7:f9:62:1b:2f:64:dc:43:d2:a8:49:c7:36:2b:60:8a:19:18:ce:d6:cc:3f:cb:c2:2e:1d:dc:6f:f1:82:e6:8c:cb:33:ef:cb:b2:4f:48:fe:65:25:6f:51:0b:6b:26:b9:96:98:75:fc:76:e5:46:57:e5:fc:a5:6c:51:d8:25:94:f4:2b:0a:da:80:99:33:6c:99:4e:4e:b6:bc:b6:e4:46:3d:c3:f3:3f:f4:c4:85:77:3e:a3:fd:aa:82:06:ab:43:f1:70:47:ef:40:ee:b1:1d:ea:79:e8:96:ea:e0:75:49:34:ff:2f:fd:35:05:ae:61:aa:33:b8:a3:74:52:8a:cf:4d:9d:ae:fc:d6:3b:37:d1:dd:00:9b:f0:99:d4:b7:28:69:8d:e9:d8:d2:f5:03:52:7c:2f:0f:d2:6e:6d:bb:e7:f3:5d:12:6f:97:f8:56:25:4e:c0:2e:c4:d4:1e:49:b7:2f:f6:5f:8c:06:7e:99:1b:eb:8a:ae:9f:5b:e8:1f:48:0a:48:52:78:5d:11:83:60:66:58:f0:50:d0:54:59:58:2e:ba:35:38:7f:69:34:9a:f8:bd:d2:3f:f4:e3:92:18:5e:9b:0c:50:ad:0e:40:1c:ac:3b:56:f9:81:b8:ad:c7:c2:52:3a:97:df:29:e7:9e:68:bf:a1:44:2d:47:c3:36:d5:8f:26:bd:f7:bd:6c:76:b7:1b:14:4a:c6:b2:d4:df:54:e2:26:83:10:8c:7d:30:2b:de:ff:86:30:74:bd:a4:e8:24:e7:b7:d4:a4:6d:83:e1:9c:7b:b3:62:6a:1f:b9:61:e8:b9:4d:f9:f0:bd:65:53:7b:5b:4d:13:8a:0d:46:97:ee:8b:8a:2b:3f:8f:2c:7e:fd:6d:f2:3c:24:e8:3b:4a:54:67:34:4e:fb:41:e2:f4:91:9e:08:8e:bf:bf:dc:b8:ec:9e:6d:53:d3:b1:5f:2d:f3:0f:39:ab:bb:5d:77:4f:4d:8f:4c:df:9e:1e:9b:9e:8c:af:4a:9c:79:5e:06:d8:ae:0c:a0:b1:27:57:e5:d3:19:91:79:08:5f:a6:7d:a7:2c:fa:b8:44:ff:03:42:83:3c:2e:6c:07:00:00"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-07-04",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{783FF999-72FF-4486-B984-01185D2274A2}",
+            "frame.interface_description": "乙太網路"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jul  4, 2024 21:28:22.028644000 台北標準時間",
+          "frame.time_utc": "Jul  4, 2024 13:28:22.028644000 UTC",
+          "frame.time_epoch": "1720099702.028644000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000239000",
+          "frame.time_delta_displayed": "0.964055000",
+          "frame.time_relative": "43.476728000",
+          "frame.number": "6702",
+          "frame.len": "938",
+          "frame.cap_len": "938",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:pppoes:ppp:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "d8:5e:d3:aa:9d:9b",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.dst.oui": "14180051",
+            "eth.dst.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.addr": "d8:5e:d3:aa:9d:9b",
+            "eth.addr_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.addr.oui": "14180051",
+            "eth.addr.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:02:3b:10:ac:21",
+          "eth.src_tree": {
+            "eth.src_resolved": "Ericsson_10:ac:21",
+            "eth.src.oui": "571",
+            "eth.src.oui_resolved": "Ericsson",
+            "eth.addr": "00:02:3b:10:ac:21",
+            "eth.addr_resolved": "Ericsson_10:ac:21",
+            "eth.addr.oui": "571",
+            "eth.addr.oui_resolved": "Ericsson",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x8864"
+        },
+        "pppoes": {
+          "pppoe.version": "1",
+          "pppoe.type": "1",
+          "pppoe.code": "0x00",
+          "pppoe.session_id": "0x0003",
+          "pppoe.payload_length": "918"
+        },
+        "ppp": {
+          "ppp.protocol": "0x0021"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "916",
+          "ip.id": "0x71a1",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "115",
+          "ip.proto": "6",
+          "ip.checksum": "0xddd6",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "220.132.170.233",
+          "ip.addr": "220.132.170.233",
+          "ip.dst_host": "220.132.170.233",
+          "ip.host": "220.132.170.233"
+        },
+        "tcp": {
+          "tcp.srcport": "5668",
+          "tcp.dstport": "31785",
+          "tcp.port": "5668",
+          "tcp.port": "31785",
+          "tcp.stream": "156",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "876",
+          "tcp.seq": "6330",
+          "tcp.seq_raw": "616268564",
+          "tcp.nxtseq": "7206",
+          "tcp.ack": "805",
+          "tcp.ack_raw": "2220333740",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "514",
+          "tcp.window_size": "131584",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xc306",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "5.266696000",
+            "tcp.time_delta": "0.021214000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "6698",
+            "tcp.analysis.ack_rtt": "0.021214000",
+            "tcp.analysis.initial_rtt": "0.020753000",
+            "tcp.analysis.bytes_in_flight": "876",
+            "tcp.analysis.push_bytes_sent": "876"
+          },
+          "tcp.payload": "68:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:85:94:eb:4b:14:51:18:c6:8f:6d:79:49:b3:2c:4b:ed:22:86:60:5f:2a:d4:9d:d5:19:08:ca:dd:82:c4:4b:a9:61:e0:97:38:b9:b3:ee:e0:38:ab:3b:ee:ba:9b:85:18:1a:26:e8:06:91:79:0b:89:54:ac:48:13:2b:ef:48:f8:27:44:61:a1:06:b2:b3:63:7e:a9:7f:20:e8:9c:39:67:cb:a4:b3:2d:1c:76:67:0f:cf:ef:bc:ef:73:9e:77:a6:63:00:48:06:00:54:d8:8a:5d:35:52:f5:8d:72:a8:d4:16:2a:0e:97:15:56:d7:fe:fc:61:02:d1:68:2f:1d:ad:28:b4:52:d1:6a:0e:ce:cc:eb:73:4b:5a:fb:94:d6:f5:f4:ce:f7:85:fe:1c:73:4e:c6:99:8c:9c:cd:8f:26:10:87:f6:f5:be:c5:6f:b3:c3:a1:e9:f1:91:2d:60:7c:ba:c9:17:d8:85:56:da:3f:01:d9:b9:08:90:cb:25:7e:21:a7:39:a0:52:56:50:56:5e:0a:40:20:05:80:0e:2a:37:b1:ce:17:cc:58:6d:79:b1:4e:ce:bf:26:29:f0:2a:6c:14:e5:aa:53:00:b8:53:fe:9c:bf:9b:05:e0:05:5c:3f:6f:5d:35:01:e4:05:a8:95:64:59:94:5d:03:cb:00:34:21:f9:3d:2a:df:c3:92:e7:5b:0c:b9:6d:c5:04:e2:d1:fe:65:e8:b7:8b:ca:25:87:43:12:b3:d0:a3:0f:21:da:29:22:3a:32:c2:e2:5b:21:2d:68:c3:83:c1:99:ae:cd:89:57:99:e8:a1:11:01:ee:52:40:0c:0b:90:87:5b:c8:15:12:10:20:16:ed:df:f4:28:50:f5:d4:49:95:a5:44:e7:a7:fa:58:a6:9e:c3:fa:bc:0f:ab:a4:87:26:28:d7:4a:4a:8d:5d:84:f6:b3:e8:b1:01:95:d0:4c:11:71:2c:84:05:5f:22:c7:bf:5c:a3:3d:cc:ce:87:de:b6:86:7a:87:1c:1e:d2:83:4a:01:7b:99:00:1c:23:4b:ee:7b:04:c0:5e:17:17:96:5e:2c:c0:a1:c3:77:e8:a1:e2:f8:88:62:8e:37:a1:06:12:f0:e9:d3:63:fa:d0:94:b6:30:17:7a:36:de:b3:45:3a:68:a4:8c:04:16:83:13:0c:46:11:0a:12:ce:8a:5d:56:d5:77:7c:94:a1:0d:1b:b8:8f:a9:e5:91:d6:cc:df:5f:25:11:f6:42:45:52:55:0b:f8:db:fe:44:a6:3a:1f:9f:2c:2c:23:35:b6:c7:06:55:d1:6f:45:73:18:f6:ec:77:ff:fb:99:84:3c:6c:9e:b9:25:ec:fe:e8:b8:36:36:b8:d9:d9:57:47:95:b7:29:e0:40:44:00:c7:6f:84:01:af:03:5a:47:af:f6:70:a4:8c:8e:61:b8:82:a4:ff:00:fa:d7:49:04:ab:a0:cb:e6:f4:40:a5:08:fd:56:b7:b9:7f:30:b2:3e:3f:93:8e:b1:15:ba:ab:9d:92:28:ab:d9:34:80:4d:14:70:88:09:c0:43:64:c9:5e:fa:4c:0a:28:71:79:1a:a1:db:2e:5e:df:d1:40:72:44:3d:27:8c:af:91:08:55:4a:ee:1a:49:91:60:91:13:2a:9e:41:00:6e:6d:8b:c1:61:26:83:33:18:17:56:48:0c:f4:ee:76:bd:7b:64:34:29:ca:50:35:50:f5:11:b4:52:98:ea:bc:16:e4:00:be:67:7d:12:fd:ff:18:5d:a3:36:3a:ab:b5:2d:9d:df:31:0a:29:cc:1a:f0:fb:d0:92:e3:a4:46:16:f8:45:2d:30:a1:3f:0a:e0:2c:fb:b6:4d:72:2a:13:40:06:b1:e2:2b:9d:a5:e1:e7:fa:83:4e:7d:fe:49:70:a6:07:0f:f3:f6:59:4a:63:32:b2:8d:cb:f8:44:8b:a0:89:96:e5:2c:da:85:97:02:8e:46:04:70:c2:e9:35:ea:64:c7:24:f2:a3:80:66:21:ec:e4:31:a6:93:58:2d:94:ac:93:79:ba:22:4b:5e:d1:06:dd:a2:bf:75:90:08:7d:14:70:3c:22:c0:bc:48:cb:0f:2e:b5:85:de:0c:04:17:3a:0b:69:9a:c3:83:79:82:55:be:d9:78:97:08:ab:1b:a4:fc:7a:d5:5f:ed:74:9d:a3:e5:87:d5:e9:4c:35:6f:b8:57:4e:5f:e7:45:50:2a:97:bc:50:3d:49:f5:f5:54:ff:0b:19:7f:6a:81:bb:07:00:00",
+          "tcp.segment_data": "68:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:85:94:eb:4b:14:51:18:c6:8f:6d:79:49:b3:2c:4b:ed:22:86:60:5f:2a:d4:9d:d5:19:08:ca:dd:82:c4:4b:a9:61:e0:97:38:b9:b3:ee:e0:38:ab:3b:ee:ba:9b:85:18:1a:26:e8:06:91:79:0b:89:54:ac:48:13:2b:ef:48:f8:27:44:61:a1:06:b2:b3:63:7e:a9:7f:20:e8:9c:39:67:cb:a4:b3:2d:1c:76:67:0f:cf:ef:bc:ef:73:9e:77:a6:63:00:48:06:00:54:d8:8a:5d:35:52:f5:8d:72:a8:d4:16:2a:0e:97:15:56:d7:fe:fc:61:02:d1:68:2f:1d:ad:28:b4:52:d1:6a:0e:ce:cc:eb:73:4b:5a:fb:94:d6:f5:f4:ce:f7:85:fe:1c:73:4e:c6:99:8c:9c:cd:8f:26:10:87:f6:f5:be:c5:6f:b3:c3:a1:e9:f1:91:2d:60:7c:ba:c9:17:d8:85:56:da:3f:01:d9:b9:08:90:cb:25:7e:21:a7:39:a0:52:56:50:56:5e:0a:40:20:05:80:0e:2a:37:b1:ce:17:cc:58:6d:79:b1:4e:ce:bf:26:29:f0:2a:6c:14:e5:aa:53:00:b8:53:fe:9c:bf:9b:05:e0:05:5c:3f:6f:5d:35:01:e4:05:a8:95:64:59:94:5d:03:cb:00:34:21:f9:3d:2a:df:c3:92:e7:5b:0c:b9:6d:c5:04:e2:d1:fe:65:e8:b7:8b:ca:25:87:43:12:b3:d0:a3:0f:21:da:29:22:3a:32:c2:e2:5b:21:2d:68:c3:83:c1:99:ae:cd:89:57:99:e8:a1:11:01:ee:52:40:0c:0b:90:87:5b:c8:15:12:10:20:16:ed:df:f4:28:50:f5:d4:49:95:a5:44:e7:a7:fa:58:a6:9e:c3:fa:bc:0f:ab:a4:87:26:28:d7:4a:4a:8d:5d:84:f6:b3:e8:b1:01:95:d0:4c:11:71:2c:84:05:5f:22:c7:bf:5c:a3:3d:cc:ce:87:de:b6:86:7a:87:1c:1e:d2:83:4a:01:7b:99:00:1c:23:4b:ee:7b:04:c0:5e:17:17:96:5e:2c:c0:a1:c3:77:e8:a1:e2:f8:88:62:8e:37:a1:06:12:f0:e9:d3:63:fa:d0:94:b6:30:17:7a:36:de:b3:45:3a:68:a4:8c:04:16:83:13:0c:46:11:0a:12:ce:8a:5d:56:d5:77:7c:94:a1:0d:1b:b8:8f:a9:e5:91:d6:cc:df:5f:25:11:f6:42:45:52:55:0b:f8:db:fe:44:a6:3a:1f:9f:2c:2c:23:35:b6:c7:06:55:d1:6f:45:73:18:f6:ec:77:ff:fb:99:84:3c:6c:9e:b9:25:ec:fe:e8:b8:36:36:b8:d9:d9:57:47:95:b7:29:e0:40:44:00:c7:6f:84:01:af:03:5a:47:af:f6:70:a4:8c:8e:61:b8:82:a4:ff:00:fa:d7:49:04:ab:a0:cb:e6:f4:40:a5:08:fd:56:b7:b9:7f:30:b2:3e:3f:93:8e:b1:15:ba:ab:9d:92:28:ab:d9:34:80:4d:14:70:88:09:c0:43:64:c9:5e:fa:4c:0a:28:71:79:1a:a1:db:2e:5e:df:d1:40:72:44:3d:27:8c:af:91:08:55:4a:ee:1a:49:91:60:91:13:2a:9e:41:00:6e:6d:8b:c1:61:26:83:33:18:17:56:48:0c:f4:ee:76:bd:7b:64:34:29:ca:50:35:50:f5:11:b4:52:98:ea:bc:16:e4:00:be:67:7d:12:fd:ff:18:5d:a3:36:3a:ab:b5:2d:9d:df:31:0a:29:cc:1a:f0:fb:d0:92:e3:a4:46:16:f8:45:2d:30:a1:3f:0a:e0:2c:fb:b6:4d:72:2a:13:40:06:b1:e2:2b:9d:a5:e1:e7:fa:83:4e:7d:fe:49:70:a6:07:0f:f3:f6:59:4a:63:32:b2:8d:cb:f8:44:8b:a0:89:96:e5:2c:da:85:97:02:8e:46:04:70:c2:e9:35:ea:64:c7:24:f2:a3:80:66:21:ec:e4:31:a6:93:58:2d:94:ac:93:79:ba:22:4b:5e:d1:06:dd:a2:bf:75:90:08:7d:14:70:3c:22:c0:bc:48:cb:0f:2e:b5:85:de:0c:04:17:3a:0b:69:9a:c3:83:79:82:55:be:d9:78:97:08:ab:1b:a4:fc:7a:d5:5f:ed:74:9d:a3:e5:87:d5:e9:4c:35:6f:b8:57:4e:5f:e7:45:50:2a:97:bc:50:3d:49:f5:f5:54:ff:0b:19:7f:6a:81:bb:07:00:00"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-07-04",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{783FF999-72FF-4486-B984-01185D2274A2}",
+            "frame.interface_description": "乙太網路"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jul  4, 2024 21:28:24.605594000 台北標準時間",
+          "frame.time_utc": "Jul  4, 2024 13:28:24.605594000 UTC",
+          "frame.time_epoch": "1720099704.605594000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.009134000",
+          "frame.time_delta_displayed": "2.576950000",
+          "frame.time_relative": "46.053678000",
+          "frame.number": "7108",
+          "frame.len": "1158",
+          "frame.cap_len": "1158",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:pppoes:ppp:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "d8:5e:d3:aa:9d:9b",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.dst.oui": "14180051",
+            "eth.dst.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.addr": "d8:5e:d3:aa:9d:9b",
+            "eth.addr_resolved": "GigaByteTech_aa:9d:9b",
+            "eth.addr.oui": "14180051",
+            "eth.addr.oui_resolved": "Giga-Byte Technology Co.,Ltd.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:02:3b:10:ac:21",
+          "eth.src_tree": {
+            "eth.src_resolved": "Ericsson_10:ac:21",
+            "eth.src.oui": "571",
+            "eth.src.oui_resolved": "Ericsson",
+            "eth.addr": "00:02:3b:10:ac:21",
+            "eth.addr_resolved": "Ericsson_10:ac:21",
+            "eth.addr.oui": "571",
+            "eth.addr.oui_resolved": "Ericsson",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x8864"
+        },
+        "pppoes": {
+          "pppoe.version": "1",
+          "pppoe.type": "1",
+          "pppoe.code": "0x00",
+          "pppoe.session_id": "0x0003",
+          "pppoe.payload_length": "1138"
+        },
+        "ppp": {
+          "ppp.protocol": "0x0021"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1136",
+          "ip.id": "0x71ab",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "115",
+          "ip.proto": "6",
+          "ip.checksum": "0xdcf0",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "220.132.170.233",
+          "ip.addr": "220.132.170.233",
+          "ip.dst_host": "220.132.170.233",
+          "ip.host": "220.132.170.233"
+        },
+        "tcp": {
+          "tcp.srcport": "5666",
+          "tcp.dstport": "31800",
+          "tcp.port": "5666",
+          "tcp.port": "31800",
+          "tcp.stream": "186",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "1096",
+          "tcp.seq": "82",
+          "tcp.seq_raw": "3264910682",
+          "tcp.nxtseq": "1178",
+          "tcp.ack": "201",
+          "tcp.ack_raw": "3223868009",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "516",
+          "tcp.window_size": "132096",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xb02f",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "1.042374000",
+            "tcp.time_delta": "0.070981000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.020366000",
+            "tcp.analysis.bytes_in_flight": "1096",
+            "tcp.analysis.push_bytes_sent": "1096"
+          },
+          "tcp.payload": "44:04:00:00:01:3f:04:00:00:0d:00:00:00:53:43:4c:6f:67:69:6e:5f:4c:6f:67:69:6e:2a:04:00:00:7b:22:61:63:63:6f:75:6e:74:49:64:22:3a:32:38:2c:22:72:65:63:6f:6d:6d:65:6e:64:65:64:41:72:65:61:22:3a:7b:22:73:65:72:76:65:72:49:64:22:3a:34:32:2c:22:73:65:72:76:65:72:4e:61:6d:65:22:3a:22:34:32:23:20:53:30:30:34:32:22:2c:22:73:65:72:76:65:72:49:70:22:3a:22:34:33:2e:31:35:39:2e:31:2e:32:32:33:22:2c:22:70:6f:72:74:22:3a:35:36:36:38:2c:22:73:65:72:76:65:72:53:74:61:74:65:22:3a:33:2c:22:69:73:4e:65:77:53:65:72:76:65:72:22:3a:31:2c:22:69:73:45:78:69:73:74:52:6f:6c:65:22:3a:30:7d:2c:22:74:68:69:72:64:50:61:72:74:79:22:3a:6e:75:6c:6c:2c:22:73:64:6b:5f:74:6f:6b:65:6e:22:3a:22:67:49:33:78:67:6e:4f:72:6b:57:68:4f:4d:43:62:44:6b:32:71:5a:52:44:6b:35:41:33:77:6c:74:66:55:6b:75:53:31:2b:35:33:56:62:67:4a:6e:31:71:6c:78:36:77:5a:6c:75:6b:61:37:4f:75:67:58:43:78:52:56:58:36:43:5a:7a:51:6c:55:58:4d:53:6f:37:4f:4f:44:4c:48:53:5a:45:4f:42:4c:56:70:78:51:75:73:31:65:54:34:4a:43:4a:6e:30:57:41:2b:34:77:76:38:41:7a:6e:59:4b:35:69:4d:6a:53:71:69:6f:59:4a:63:2b:6e:6a:41:6b:61:63:41:59:68:72:49:45:61:4d:4f:66:36:31:70:48:56:33:69:4b:41:44:37:51:6d:72:44:56:45:73:41:39:72:41:50:57:75:4b:6b:4c:7a:52:44:65:62:78:41:65:7a:72:68:34:6f:41:48:53:41:4d:63:38:6a:31:67:6e:47:52:4d:32:61:61:7a:41:4e:4e:36:50:63:66:4e:77:56:4a:5a:6f:77:6e:2f:4f:37:79:2f:39:39:30:32:48:56:68:45:50:70:56:2b:63:67:71:2f:74:36:4a:57:30:65:68:31:79:72:73:2b:6b:32:31:31:59:2b:30:68:4d:51:2b:54:43:73:49:4e:58:71:48:53:7a:47:45:69:33:54:57:67:51:43:67:2f:65:41:64:51:62:58:36:45:61:6d:68:57:57:56:64:35:6c:52:36:67:2b:69:59:6e:47:6b:31:74:30:50:4e:4c:4d:6d:66:72:71:54:39:55:66:4a:66:77:61:73:76:33:61:42:4b:72:44:7a:6e:2f:4c:4b:69:55:77:3d:3d:22:2c:22:63:61:63:68:65:41:63:22:3a:22:6d:61:72:69:6d:6f:32:30:22:2c:22:63:61:63:68:65:50:73:64:22:3a:22:6d:61:72:69:6d:6f:32:30:22:2c:22:69:73:55:73:65:41:63:74:69:63:6f:64:65:22:3a:30:2c:22:6c:6f:67:69:6e:54:6f:6b:65:6e:22:3a:22:67:6e:4b:75:6a:52:55:73:68:62:64:7a:6a:2f:33:2f:50:62:6b:32:50:58:64:72:4f:4c:45:70:58:59:45:68:71:35:30:33:2b:63:74:73:34:4c:48:69:39:61:6b:4f:4c:63:50:5a:51:43:61:31:67:34:44:36:55:36:65:79:45:57:38:63:33:4e:33:37:54:58:33:66:73:39:2f:72:53:59:7a:54:75:59:6a:2b:52:68:6f:45:64:49:71:36:2f:6f:77:37:64:57:78:2b:4b:30:6c:56:37:7a:74:44:68:6c:42:65:53:74:4f:55:52:4a:53:64:59:51:6a:52:39:56:6a:4a:52:65:4c:53:5a:30:6e:70:71:36:4a:54:6d:48:31:33:45:71:47:68:72:44:4f:73:45:52:63:59:79:57:72:73:38:4a:68:4a:49:75:58:42:44:35:69:61:31:71:57:69:72:74:50:55:4e:31:42:30:65:77:46:4e:72:7a:33:56:34:59:52:4e:2b:58:50:5a:63:4d:63:6d:45:4b:33:2f:51:32:2b:77:6e:39:30:53:74:65:30:47:54:36:58:36:35:42:68:55:5a:4b:30:4d:58:65:30:44:58:6d:77:76:71:57:38:67:57:7a:46:53:75:4a:32:75:50:74:4a:2b:70:4c:6f:30:37:50:50:49:6f:69:74:76:61:6e:68:75:4e:5a:39:6e:4e:65:52:42:69:4e:32:61:36:73:51:75:33:65:6c:77:61:76:56:7a:48:4b:41:6c:6e:35:70:64:36:2f:33:67:56:49:68:69:74:75:54:53:62:4d:64:48:45:68:4c:31:61:6e:64:42:72:38:2b:53:6f:34:46:74:45:41:3d:3d:22:2c:22:6c:6f:67:69:6e:53:69:67:6e:22:3a:22:34:30:41:39:30:36:32:33:36:42:32:34:46:42:39:43:30:32:37:38:32:42:41:31:45:35:38:30:32:37:35:33:22:2c:22:63:6f:64:65:22:3a:30:2c:22:74:69:70:54:79:70:65:22:3a:31:2c:22:6d:65:73:73:61:67:65:22:3a:22:7b:5c:75:36:37:32:41:5c:75:37:37:45:35:5c:75:39:35:31:39:5c:75:38:42:45:46:7d:22:7d"
+        },
+        "data": {
+          "data.data": "44:04:00:00:01:3f:04:00:00:0d:00:00:00:53:43:4c:6f:67:69:6e:5f:4c:6f:67:69:6e:2a:04:00:00:7b:22:61:63:63:6f:75:6e:74:49:64:22:3a:32:38:2c:22:72:65:63:6f:6d:6d:65:6e:64:65:64:41:72:65:61:22:3a:7b:22:73:65:72:76:65:72:49:64:22:3a:34:32:2c:22:73:65:72:76:65:72:4e:61:6d:65:22:3a:22:34:32:23:20:53:30:30:34:32:22:2c:22:73:65:72:76:65:72:49:70:22:3a:22:34:33:2e:31:35:39:2e:31:2e:32:32:33:22:2c:22:70:6f:72:74:22:3a:35:36:36:38:2c:22:73:65:72:76:65:72:53:74:61:74:65:22:3a:33:2c:22:69:73:4e:65:77:53:65:72:76:65:72:22:3a:31:2c:22:69:73:45:78:69:73:74:52:6f:6c:65:22:3a:30:7d:2c:22:74:68:69:72:64:50:61:72:74:79:22:3a:6e:75:6c:6c:2c:22:73:64:6b:5f:74:6f:6b:65:6e:22:3a:22:67:49:33:78:67:6e:4f:72:6b:57:68:4f:4d:43:62:44:6b:32:71:5a:52:44:6b:35:41:33:77:6c:74:66:55:6b:75:53:31:2b:35:33:56:62:67:4a:6e:31:71:6c:78:36:77:5a:6c:75:6b:61:37:4f:75:67:58:43:78:52:56:58:36:43:5a:7a:51:6c:55:58:4d:53:6f:37:4f:4f:44:4c:48:53:5a:45:4f:42:4c:56:70:78:51:75:73:31:65:54:34:4a:43:4a:6e:30:57:41:2b:34:77:76:38:41:7a:6e:59:4b:35:69:4d:6a:53:71:69:6f:59:4a:63:2b:6e:6a:41:6b:61:63:41:59:68:72:49:45:61:4d:4f:66:36:31:70:48:56:33:69:4b:41:44:37:51:6d:72:44:56:45:73:41:39:72:41:50:57:75:4b:6b:4c:7a:52:44:65:62:78:41:65:7a:72:68:34:6f:41:48:53:41:4d:63:38:6a:31:67:6e:47:52:4d:32:61:61:7a:41:4e:4e:36:50:63:66:4e:77:56:4a:5a:6f:77:6e:2f:4f:37:79:2f:39:39:30:32:48:56:68:45:50:70:56:2b:63:67:71:2f:74:36:4a:57:30:65:68:31:79:72:73:2b:6b:32:31:31:59:2b:30:68:4d:51:2b:54:43:73:49:4e:58:71:48:53:7a:47:45:69:33:54:57:67:51:43:67:2f:65:41:64:51:62:58:36:45:61:6d:68:57:57:56:64:35:6c:52:36:67:2b:69:59:6e:47:6b:31:74:30:50:4e:4c:4d:6d:66:72:71:54:39:55:66:4a:66:77:61:73:76:33:61:42:4b:72:44:7a:6e:2f:4c:4b:69:55:77:3d:3d:22:2c:22:63:61:63:68:65:41:63:22:3a:22:6d:61:72:69:6d:6f:32:30:22:2c:22:63:61:63:68:65:50:73:64:22:3a:22:6d:61:72:69:6d:6f:32:30:22:2c:22:69:73:55:73:65:41:63:74:69:63:6f:64:65:22:3a:30:2c:22:6c:6f:67:69:6e:54:6f:6b:65:6e:22:3a:22:67:6e:4b:75:6a:52:55:73:68:62:64:7a:6a:2f:33:2f:50:62:6b:32:50:58:64:72:4f:4c:45:70:58:59:45:68:71:35:30:33:2b:63:74:73:34:4c:48:69:39:61:6b:4f:4c:63:50:5a:51:43:61:31:67:34:44:36:55:36:65:79:45:57:38:63:33:4e:33:37:54:58:33:66:73:39:2f:72:53:59:7a:54:75:59:6a:2b:52:68:6f:45:64:49:71:36:2f:6f:77:37:64:57:78:2b:4b:30:6c:56:37:7a:74:44:68:6c:42:65:53:74:4f:55:52:4a:53:64:59:51:6a:52:39:56:6a:4a:52:65:4c:53:5a:30:6e:70:71:36:4a:54:6d:48:31:33:45:71:47:68:72:44:4f:73:45:52:63:59:79:57:72:73:38:4a:68:4a:49:75:58:42:44:35:69:61:31:71:57:69:72:74:50:55:4e:31:42:30:65:77:46:4e:72:7a:33:56:34:59:52:4e:2b:58:50:5a:63:4d:63:6d:45:4b:33:2f:51:32:2b:77:6e:39:30:53:74:65:30:47:54:36:58:36:35:42:68:55:5a:4b:30:4d:58:65:30:44:58:6d:77:76:71:57:38:67:57:7a:46:53:75:4a:32:75:50:74:4a:2b:70:4c:6f:30:37:50:50:49:6f:69:74:76:61:6e:68:75:4e:5a:39:6e:4e:65:52:42:69:4e:32:61:36:73:51:75:33:65:6c:77:61:76:56:7a:48:4b:41:6c:6e:35:70:64:36:2f:33:67:56:49:68:69:74:75:54:53:62:4d:64:48:45:68:4c:31:61:6e:64:42:72:38:2b:53:6f:34:46:74:45:41:3d:3d:22:2c:22:6c:6f:67:69:6e:53:69:67:6e:22:3a:22:34:30:41:39:30:36:32:33:36:42:32:34:46:42:39:43:30:32:37:38:32:42:41:31:45:35:38:30:32:37:35:33:22:2c:22:63:6f:64:65:22:3a:30:2c:22:74:69:70:54:79:70:65:22:3a:31:2c:22:6d:65:73:73:61:67:65:22:3a:22:7b:5c:75:36:37:32:41:5c:75:37:37:45:35:5c:75:39:35:31:39:5c:75:38:42:45:46:7d:22:7d",
+          "data.len": "1096"
+        }
+      }
+    }
+  }
+]

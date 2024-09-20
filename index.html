@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>命運迴廊全區排行</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>命運迴廊全區排行</h1>
+  <p>仅记录每个区关卡及战力榜前30名，排行越靠后与实际排名误差越大。</p>
+  <p>备注跑路為超过7天战力无变动，可能有误仅供参考</p>
+  <p>名字如果有少最后一两个英文字母请QQ群@琉紫修正，也欢迎提供自己的联盟成员名单来完善联盟纪录 另外感谢 @#81妹控 @#27夜 协助更新</p>
+
+  <div class="filter-container">
+    <label for="filter">區服篩選:</label>
+    <select id="filter"></select>
+
+    <label for="dataTypeFilter">排序順序:</label>
+    <select id="dataTypeFilter">
+      <option value="power">战力</option>
+      <option value="main">关卡</option>
+    </select>
+    
+    <label for="dateFilter">紀錄日期:</label>
+    <select id="dateFilter"></select>
+  </div>
+
+  <table id="rankings">
+    <thead>
+      <tr>
+        <th>排名</th>
+        <th>總排名</th>
+        <th>名称</th>
+        <th>战力</th>
+        <th>关卡</th>
+        <th>公会/备注</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    // 初始化全局变量，用于存储排名数据和选项数据
+    const rankings = [];
+    const filterOptions = [];
+    const dateOptions = [];
+
+    // 加载 JSON 文件并返回解析后的数据
+    const loadJSONFile = (fileName) => {
+      const timestamp = new Date().getTime(); // 获取当前时间戳
+      return fetch(`data/${fileName}?_=${timestamp}`) // 在请求 URL 中添加时间戳参数
+        .then(response => response.json())
+        .catch(error => {
+          console.error(`Error loading data/${fileName}:`, error);
+          return [];
+        });
+    };
+
+
+    // 填充下拉选项
+    const populateOptions = (selectElement, options) => {
+      selectElement.innerHTML = options.map(option => `<option value="${option.value}">${option.label}</option>`).join('');
+    };
+
+    // 渲染排名表格
+    const renderRankingsTable = (data) => {
+    const tbody = document.getElementById('rankings').querySelector('tbody');
+    const fragment = document.createDocumentFragment();
+
+    data.forEach((ranking, index) => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${index + 1}</td>
+        <td>${ranking.rank}</td>
+        <td>${ranking.name}</td>
+        <td>${ranking.power}</td>
+        <td>${ranking.mainlevel}</td>
+        <td>${ranking.alliance}</td>
+      `;
+      fragment.appendChild(tr);
+    });
+
+    tbody.innerHTML = '';
+    tbody.appendChild(fragment);
+  };
+
+
+    // 过滤排名数据
+    const filterRankings = () => {
+      const filterValue = document.getElementById('filter').value;
+      let filteredRankings;
+
+      if (filterValue === 'all') {
+        filteredRankings = rankings;
+      } else if (filterValue.startsWith('range')) {
+        const [start, end] = filterValue.slice(5).split('-').map(Number);
+        filteredRankings = rankings.filter(ranking => {
+          const matchResult = ranking.name.match(/#(\d+)/);
+          return matchResult && Number(matchResult[1]) >= start && Number(matchResult[1]) <= end;
+        });
+      } else if (filterValue.startsWith('specific')) {
+        const num = Number(filterValue.slice(8));
+        filteredRankings = rankings.filter(ranking => {
+          const matchResult = ranking.name.match(/#(\d+)/);
+          return matchResult && Number(matchResult[1]) === num;
+        });
+      }
+
+      renderRankingsTable(filteredRankings);
+    };
+
+    // 加载排名数据并根据日期和数据类型渲染表格
+    const loadRankings = (date, dataType) => {
+      loadJSONFile(`${date}_${dataType}.json`)
+        .then(data => {
+          rankings.length = 0; // 清空现有的排名数据
+          rankings.push(...Object.entries(data).map(([name, info], index) => ({
+            rank: index + 1,
+            name,
+            power: info.power || '',
+            mainlevel: info.main_level || '',
+            alliance: info.alliance || ''
+          })));
+          filterRankings(); // 过滤并渲染表格
+        });
+    };
+
+    
+    // 页面加载完成后初始化数据和事件监听器
+    // 页面加载完成后初始化数据和事件监听器
+window.addEventListener('load', () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const filterValue = urlParams.get('filter') || 'all';
+  const dataTypeValue = urlParams.get('dataType') || 'main';
+
+  // 先加载 filter_options.json 和 date_options.json
+  Promise.all([
+    loadJSONFile('filter_options.json'),
+    loadJSONFile('date_options.json')
+  ]).then(([filterData, dateData]) => {
+    filterOptions.push(...filterData);
+    dateOptions.push(...dateData);
+    
+    // 获取 date_options.json 的第一项作为 dateValue
+    const dateValue = dateOptions.length > 0 ? dateOptions[0].value : 'defaultDate'; // 设定默认值
+    
+    // 填充下拉选项
+    populateOptions(document.getElementById('filter'), filterOptions);
+    populateOptions(document.getElementById('dateFilter'), dateOptions);
+
+    // 设置下拉菜单的值
+    document.getElementById('filter').value = filterValue;
+    document.getElementById('dateFilter').value = dateValue;
+    document.getElementById('dataTypeFilter').value = dataTypeValue;
+
+    // 根据获得的 dateValue 和 dataTypeValue 加载排名数据
+    loadJSONFile(`${dateValue}_${dataTypeValue}.json`).then(rankingsData => {
+      rankings.push(...Object.entries(rankingsData).map(([name, info], index) => ({
+        rank: index + 1,
+        name,
+        power: info.power || '',
+        mainlevel: info.main_level || '',
+        alliance: info.alliance || ''
+      })));
+      filterRankings(); // 初始加载时渲染表格
+    });
+
+    // 添加事件监听器
+    document.getElementById('filter').addEventListener('change', filterRankings);
+    document.getElementById('dateFilter').addEventListener('change', () => {
+      loadRankings(document.getElementById('dateFilter').value, document.getElementById('dataTypeFilter').value);
+    });
+    document.getElementById('dataTypeFilter').addEventListener('change', () => {
+      loadRankings(document.getElementById('dateFilter').value, document.getElementById('dataTypeFilter').value);
+    });
+  });
+});
+
+  </script>
+</body>
+</html>

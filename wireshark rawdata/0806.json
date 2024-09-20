@@ -1,0 +1,2138 @@
+[
+  {
+    "_index": "packets-2024-08-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{55CF26DB-517B-4095-8178-4D99ED0444E9}",
+            "frame.interface_description": "以太网 2"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Aug  6, 2024 01:00:47.323519000 中国标准时间",
+          "frame.time_utc": "Aug  5, 2024 17:00:47.323519000 UTC",
+          "frame.time_epoch": "1722877247.323519000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.046413000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "31.106791000",
+          "frame.number": "442",
+          "frame.len": "1151",
+          "frame.cap_len": "1151",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "c8:7f:54:6e:eb:37",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.dst.oui": "13139796",
+            "eth.dst.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.addr": "c8:7f:54:6e:eb:37",
+            "eth.addr_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.addr.oui": "13139796",
+            "eth.addr.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "d8:a0:e8:b9:05:ca",
+          "eth.src_tree": {
+            "eth.src_resolved": "zte_b9:05:ca",
+            "eth.src.oui": "14196968",
+            "eth.src.oui_resolved": "zte corporation",
+            "eth.addr": "d8:a0:e8:b9:05:ca",
+            "eth.addr_resolved": "zte_b9:05:ca",
+            "eth.addr.oui": "14196968",
+            "eth.addr.oui_resolved": "zte corporation",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1137",
+          "ip.id": "0x2bd1",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "111",
+          "ip.proto": "6",
+          "ip.checksum": "0xec8d",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "192.168.1.2",
+          "ip.addr": "192.168.1.2",
+          "ip.dst_host": "192.168.1.2",
+          "ip.host": "192.168.1.2"
+        },
+        "tcp": {
+          "tcp.srcport": "5666",
+          "tcp.dstport": "14481",
+          "tcp.port": "5666",
+          "tcp.port": "14481",
+          "tcp.stream": "20",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "1097",
+          "tcp.seq": "82",
+          "tcp.seq_raw": "3910668023",
+          "tcp.nxtseq": "1179",
+          "tcp.ack": "181",
+          "tcp.ack_raw": "1343329743",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "513",
+          "tcp.window_size": "131328",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xadab",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "2.930771000",
+            "tcp.time_delta": "0.046413000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.044486000",
+            "tcp.analysis.bytes_in_flight": "1097",
+            "tcp.analysis.push_bytes_sent": "1097"
+          },
+          "tcp.payload": "45:04:00:00:01:40:04:00:00:0d:00:00:00:53:43:4c:6f:67:69:6e:5f:4c:6f:67:69:6e:2b:04:00:00:7b:22:61:63:63:6f:75:6e:74:49:64:22:3a:31:34:36:36:32:31:2c:22:72:65:63:6f:6d:6d:65:6e:64:65:64:41:72:65:61:22:3a:7b:22:73:65:72:76:65:72:49:64:22:3a:32:2c:22:73:65:72:76:65:72:4e:61:6d:65:22:3a:22:32:23:20:53:30:30:30:32:22:2c:22:73:65:72:76:65:72:49:70:22:3a:22:34:33:2e:31:35:39:2e:31:2e:32:32:33:22:2c:22:70:6f:72:74:22:3a:35:36:36:38:2c:22:73:65:72:76:65:72:53:74:61:74:65:22:3a:33:2c:22:69:73:4e:65:77:53:65:72:76:65:72:22:3a:31:2c:22:69:73:45:78:69:73:74:52:6f:6c:65:22:3a:30:7d:2c:22:74:68:69:72:64:50:61:72:74:79:22:3a:6e:75:6c:6c:2c:22:73:64:6b:5f:74:6f:6b:65:6e:22:3a:22:6f:57:57:31:59:4f:57:4d:41:64:6e:4e:6b:63:57:33:55:78:52:72:59:6d:64:64:6d:77:2b:4e:49:69:4d:33:31:59:49:64:58:77:67:66:6f:4e:79:53:41:47:6d:50:6c:47:4b:48:44:67:34:72:62:75:63:6a:73:61:74:51:70:67:6f:57:2f:56:68:76:6f:4c:35:38:62:30:31:69:44:76:55:4e:42:39:7a:6d:31:36:4e:6d:63:53:30:4f:36:43:7a:68:6e:35:75:61:79:67:4b:46:70:36:54:4b:44:31:62:4d:68:70:6f:2b:5a:48:70:35:76:4b:66:6c:78:6d:2f:37:53:46:36:49:77:4a:32:6d:6a:66:48:6d:43:58:6f:6d:41:61:4a:52:63:78:77:45:55:38:5a:45:50:7a:67:42:63:70:50:6d:2f:38:49:6a:53:31:62:67:45:67:67:62:47:43:43:34:30:30:61:64:59:51:6a:57:61:74:35:4e:52:56:51:30:4f:66:57:54:69:36:63:4a:2f:73:66:4d:7a:4b:59:4b:32:74:52:4f:71:51:4a:32:62:47:79:31:72:35:64:6e:56:4a:41:49:48:61:7a:42:32:59:51:44:72:69:4d:34:6e:37:48:7a:66:37:62:52:6d:67:36:79:78:65:34:74:76:62:49:69:7a:6d:35:4f:49:48:59:30:59:32:74:62:4c:48:6e:38:71:72:6b:56:31:57:71:6e:58:6f:70:4a:49:6a:46:4d:6d:44:6a:70:31:51:30:77:63:50:6a:54:46:66:6c:55:56:56:31:34:52:50:36:59:72:4c:72:46:54:4d:38:55:41:45:6b:72:63:41:54:4b:78:77:3d:3d:22:2c:22:63:61:63:68:65:41:63:22:3a:22:77:6f:6c:66:31:30:30:39:22:2c:22:63:61:63:68:65:50:73:64:22:3a:22:6d:69:6e:67:78:69:61:22:2c:22:69:73:55:73:65:41:63:74:69:63:6f:64:65:22:3a:30:2c:22:6c:6f:67:69:6e:54:6f:6b:65:6e:22:3a:22:71:2b:67:55:45:42:49:62:71:75:31:64:6c:2b:36:50:76:45:4f:5a:57:2b:2b:4c:63:77:73:51:6e:44:42:6e:30:36:76:33:41:42:55:37:50:57:74:4f:79:51:46:73:68:44:2b:78:33:45:74:6c:6a:4c:31:53:66:76:50:68:66:76:30:74:42:2b:78:6f:42:31:63:56:4d:4e:44:63:30:4c:4c:74:50:4d:45:50:42:4b:4a:2b:66:51:4b:53:2f:6c:71:36:72:6a:45:78:5a:58:43:54:6d:46:69:30:79:62:76:68:63:59:34:4a:51:78:55:32:71:34:4c:52:44:41:79:51:59:42:49:37:4a:67:52:56:4a:31:73:43:6b:44:64:38:4b:34:78:34:31:35:4f:75:64:77:34:42:37:32:6f:37:50:77:4b:4a:5a:47:56:79:63:6d:59:7a:70:73:4c:76:37:31:71:35:63:73:47:42:35:38:56:4f:63:70:47:54:38:73:48:6e:2f:68:68:38:44:31:32:6d:64:65:64:79:68:6d:43:45:53:30:4d:68:43:50:49:64:54:4f:7a:56:46:6a:41:6c:65:44:72:6e:55:43:7a:78:33:57:4b:35:59:63:31:54:78:66:59:72:47:73:6f:48:44:5a:41:44:75:5a:75:6a:49:59:68:53:6f:6a:6e:53:43:71:76:53:69:48:54:63:6d:59:4e:42:57:4b:48:2f:59:49:2b:70:72:44:6f:73:4b:34:57:6f:5a:2b:45:43:58:68:39:39:72:35:6a:2b:68:32:75:58:46:64:46:6c:46:75:39:44:64:69:36:31:6e:4d:6c:39:76:37:39:2b:78:4d:77:42:45:41:3d:3d:22:2c:22:6c:6f:67:69:6e:53:69:67:6e:22:3a:22:45:45:36:30:46:41:41:38:36:38:33:44:31:45:35:37:42:32:36:42:37:43:32:35:35:46:30:42:42:46:34:34:22:2c:22:63:6f:64:65:22:3a:30:2c:22:74:69:70:54:79:70:65:22:3a:31:2c:22:6d:65:73:73:61:67:65:22:3a:22:7b:5c:75:36:37:32:41:5c:75:37:37:45:35:5c:75:39:35:31:39:5c:75:38:42:45:46:7d:22:7d"
+        },
+        "data": {
+          "data.data": "45:04:00:00:01:40:04:00:00:0d:00:00:00:53:43:4c:6f:67:69:6e:5f:4c:6f:67:69:6e:2b:04:00:00:7b:22:61:63:63:6f:75:6e:74:49:64:22:3a:31:34:36:36:32:31:2c:22:72:65:63:6f:6d:6d:65:6e:64:65:64:41:72:65:61:22:3a:7b:22:73:65:72:76:65:72:49:64:22:3a:32:2c:22:73:65:72:76:65:72:4e:61:6d:65:22:3a:22:32:23:20:53:30:30:30:32:22:2c:22:73:65:72:76:65:72:49:70:22:3a:22:34:33:2e:31:35:39:2e:31:2e:32:32:33:22:2c:22:70:6f:72:74:22:3a:35:36:36:38:2c:22:73:65:72:76:65:72:53:74:61:74:65:22:3a:33:2c:22:69:73:4e:65:77:53:65:72:76:65:72:22:3a:31:2c:22:69:73:45:78:69:73:74:52:6f:6c:65:22:3a:30:7d:2c:22:74:68:69:72:64:50:61:72:74:79:22:3a:6e:75:6c:6c:2c:22:73:64:6b:5f:74:6f:6b:65:6e:22:3a:22:6f:57:57:31:59:4f:57:4d:41:64:6e:4e:6b:63:57:33:55:78:52:72:59:6d:64:64:6d:77:2b:4e:49:69:4d:33:31:59:49:64:58:77:67:66:6f:4e:79:53:41:47:6d:50:6c:47:4b:48:44:67:34:72:62:75:63:6a:73:61:74:51:70:67:6f:57:2f:56:68:76:6f:4c:35:38:62:30:31:69:44:76:55:4e:42:39:7a:6d:31:36:4e:6d:63:53:30:4f:36:43:7a:68:6e:35:75:61:79:67:4b:46:70:36:54:4b:44:31:62:4d:68:70:6f:2b:5a:48:70:35:76:4b:66:6c:78:6d:2f:37:53:46:36:49:77:4a:32:6d:6a:66:48:6d:43:58:6f:6d:41:61:4a:52:63:78:77:45:55:38:5a:45:50:7a:67:42:63:70:50:6d:2f:38:49:6a:53:31:62:67:45:67:67:62:47:43:43:34:30:30:61:64:59:51:6a:57:61:74:35:4e:52:56:51:30:4f:66:57:54:69:36:63:4a:2f:73:66:4d:7a:4b:59:4b:32:74:52:4f:71:51:4a:32:62:47:79:31:72:35:64:6e:56:4a:41:49:48:61:7a:42:32:59:51:44:72:69:4d:34:6e:37:48:7a:66:37:62:52:6d:67:36:79:78:65:34:74:76:62:49:69:7a:6d:35:4f:49:48:59:30:59:32:74:62:4c:48:6e:38:71:72:6b:56:31:57:71:6e:58:6f:70:4a:49:6a:46:4d:6d:44:6a:70:31:51:30:77:63:50:6a:54:46:66:6c:55:56:56:31:34:52:50:36:59:72:4c:72:46:54:4d:38:55:41:45:6b:72:63:41:54:4b:78:77:3d:3d:22:2c:22:63:61:63:68:65:41:63:22:3a:22:77:6f:6c:66:31:30:30:39:22:2c:22:63:61:63:68:65:50:73:64:22:3a:22:6d:69:6e:67:78:69:61:22:2c:22:69:73:55:73:65:41:63:74:69:63:6f:64:65:22:3a:30:2c:22:6c:6f:67:69:6e:54:6f:6b:65:6e:22:3a:22:71:2b:67:55:45:42:49:62:71:75:31:64:6c:2b:36:50:76:45:4f:5a:57:2b:2b:4c:63:77:73:51:6e:44:42:6e:30:36:76:33:41:42:55:37:50:57:74:4f:79:51:46:73:68:44:2b:78:33:45:74:6c:6a:4c:31:53:66:76:50:68:66:76:30:74:42:2b:78:6f:42:31:63:56:4d:4e:44:63:30:4c:4c:74:50:4d:45:50:42:4b:4a:2b:66:51:4b:53:2f:6c:71:36:72:6a:45:78:5a:58:43:54:6d:46:69:30:79:62:76:68:63:59:34:4a:51:78:55:32:71:34:4c:52:44:41:79:51:59:42:49:37:4a:67:52:56:4a:31:73:43:6b:44:64:38:4b:34:78:34:31:35:4f:75:64:77:34:42:37:32:6f:37:50:77:4b:4a:5a:47:56:79:63:6d:59:7a:70:73:4c:76:37:31:71:35:63:73:47:42:35:38:56:4f:63:70:47:54:38:73:48:6e:2f:68:68:38:44:31:32:6d:64:65:64:79:68:6d:43:45:53:30:4d:68:43:50:49:64:54:4f:7a:56:46:6a:41:6c:65:44:72:6e:55:43:7a:78:33:57:4b:35:59:63:31:54:78:66:59:72:47:73:6f:48:44:5a:41:44:75:5a:75:6a:49:59:68:53:6f:6a:6e:53:43:71:76:53:69:48:54:63:6d:59:4e:42:57:4b:48:2f:59:49:2b:70:72:44:6f:73:4b:34:57:6f:5a:2b:45:43:58:68:39:39:72:35:6a:2b:68:32:75:58:46:64:46:6c:46:75:39:44:64:69:36:31:6e:4d:6c:39:76:37:39:2b:78:4d:77:42:45:41:3d:3d:22:2c:22:6c:6f:67:69:6e:53:69:67:6e:22:3a:22:45:45:36:30:46:41:41:38:36:38:33:44:31:45:35:37:42:32:36:42:37:43:32:35:35:46:30:42:42:46:34:34:22:2c:22:63:6f:64:65:22:3a:30:2c:22:74:69:70:54:79:70:65:22:3a:31:2c:22:6d:65:73:73:61:67:65:22:3a:22:7b:5c:75:36:37:32:41:5c:75:37:37:45:35:5c:75:39:35:31:39:5c:75:38:42:45:46:7d:22:7d",
+          "data.len": "1097"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-08-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{55CF26DB-517B-4095-8178-4D99ED0444E9}",
+            "frame.interface_description": "以太网 2"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Aug  6, 2024 01:00:49.179772000 中国标准时间",
+          "frame.time_utc": "Aug  5, 2024 17:00:49.179772000 UTC",
+          "frame.time_epoch": "1722877249.179772000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.043067000",
+          "frame.time_delta_displayed": "1.856253000",
+          "frame.time_relative": "32.963044000",
+          "frame.number": "462",
+          "frame.len": "1019",
+          "frame.cap_len": "1019",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "c8:7f:54:6e:eb:37",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.dst.oui": "13139796",
+            "eth.dst.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.addr": "c8:7f:54:6e:eb:37",
+            "eth.addr_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.addr.oui": "13139796",
+            "eth.addr.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "d8:a0:e8:b9:05:ca",
+          "eth.src_tree": {
+            "eth.src_resolved": "zte_b9:05:ca",
+            "eth.src.oui": "14196968",
+            "eth.src.oui_resolved": "zte corporation",
+            "eth.addr": "d8:a0:e8:b9:05:ca",
+            "eth.addr_resolved": "zte_b9:05:ca",
+            "eth.addr.oui": "14196968",
+            "eth.addr.oui_resolved": "zte corporation",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1005",
+          "ip.id": "0x2bd3",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "111",
+          "ip.proto": "6",
+          "ip.checksum": "0xed0f",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "192.168.1.2",
+          "ip.addr": "192.168.1.2",
+          "ip.dst_host": "192.168.1.2",
+          "ip.host": "192.168.1.2"
+        },
+        "tcp": {
+          "tcp.srcport": "5666",
+          "tcp.dstport": "14481",
+          "tcp.port": "5666",
+          "tcp.port": "14481",
+          "tcp.stream": "20",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "965",
+          "tcp.seq": "1335",
+          "tcp.seq_raw": "3910669276",
+          "tcp.nxtseq": "2300",
+          "tcp.ack": "697",
+          "tcp.ack_raw": "1343330259",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "511",
+          "tcp.window_size": "130816",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0x6154",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "4.787024000",
+            "tcp.time_delta": "0.043067000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.044486000",
+            "tcp.analysis.bytes_in_flight": "965",
+            "tcp.analysis.push_bytes_sent": "965"
+          },
+          "tcp.payload": "c1:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:4d:6b:24:37:14:85:e1:fe:19:59:86:ca:d6:38:ad:7b:75:75:a5:de:39:c1:09:03:c3:2c:e2:ec:c6:21:34:e3:62:30:d8:d3:a6:bb:9d:0f:8c:17:f9:e7:e9:f1:c9:40:72:6a:17:f0:59:56:49:c5:ab:d5:43:55:49:7f:7d:bb:5a:7d:b5:5a:ad:ae:be:7f:bb:fb:78:fb:e9:d7:1f:e7:e3:c5:dd:dd:d5:bc:ff:6d:de:bf:bd:3d:1c:b7:a7:f1:a7:69:3f:7f:d8:dd:df:cf:9f:6e:e6:9b:8b:fd:bc:3d:4c:9b:f7:4f:d3:e1:65:d2:9b:9b:69:53:ce:fe:b9:78:b7:bd:9f:a7:cd:54:be:f9:fa:6a:bd:5e:97:e9:cb:fd:37:0f:a7:bb:d5:cf:4b:8c:f3:72:6e:e6:a7:91:87:dd:fe:38:6d:a2:b5:fe:65:d6:d5:71:7b:3c:3d:6e:67:d3:ed:e1:dd:fc:3b:16:31:6d:d6:9f:af:2f:ff:38:2d:e6:a7:dd:dd:69:bc:3c:9f:fd:3b:6e:14:37:c4:4d:12:77:8a:3b:e2:fe:3a:f1:f5:7f:e3:95:e2:15:f1:2a:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:3e:28:3e:10:1f:92:78:59:b3:32:eb:97:7c:59:6b:f2:0b:e4:a0:5c:79:25:e5:38:cf:cc:15:38:57:5e:c9:39:ce:33:74:05:d2:15:8d:74:85:a9:2b:b0:ae:68:ac:2b:8c:5d:81:76:45:a3:5d:61:ee:0a:bc:2b:1a:ef:0a:83:57:20:5e:d1:88:57:98:bc:02:f3:8a:c6:bc:c2:e8:15:a8:57:34:ea:19:ab:67:50:cf:34:ea:19:ab:67:50:cf:34:ea:d9:e2:e5:0e:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:5f:7c:d4:42:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:57:59:bd:0a:f5:aa:46:bd:ca:ea:55:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:d1:bf:bc:c5:cf:3c:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:8d:7a:95:d5:ab:50:af:6a:d4:ab:ac:5e:85:7a:55:a3:5e:65:f5:2a:d4:ab:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:3d:8c:c5:26:06:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:9a:5d:db:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:af:b1:7a:0d:ea:35:d1:de:ed:62:f3:16:ea:35:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:9a:77:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:e8:cc:ca:e2:d0:0a:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:46:bd:ce:ea:75:a8:d7:35:ea:75:56:af:43:bd:ae:51:af:b3:7a:1d:ea:75:d1:59:bd:c5:61:3d:a8:d7:35:ea:75:56:af:43:bd:ae:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:d0:a8:37:58:bd:01:f5:c6:ff:54:cf:29:5f:16:f9:5f:ce:a6:0f:bb:9b:f9:65:65:c7:db:87:9f:ff:7c:98:5f:a6:dd:cf:87:c3:f6:e3:e7:25:3c:5d:3f:b6:b4:8b:eb:c7:cc:cb:b8:7e:1c:51:c6:f5:63:ff:ee:f2:87:e7:e9:f9:6f:b9:0d:5d:81:85:2f:00:00"
+        },
+        "data": {
+          "data.data": "c1:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:4d:6b:24:37:14:85:e1:fe:19:59:86:ca:d6:38:ad:7b:75:75:a5:de:39:c1:09:03:c3:2c:e2:ec:c6:21:34:e3:62:30:d8:d3:a6:bb:9d:0f:8c:17:f9:e7:e9:f1:c9:40:72:6a:17:f0:59:56:49:c5:ab:d5:43:55:49:7f:7d:bb:5a:7d:b5:5a:ad:ae:be:7f:bb:fb:78:fb:e9:d7:1f:e7:e3:c5:dd:dd:d5:bc:ff:6d:de:bf:bd:3d:1c:b7:a7:f1:a7:69:3f:7f:d8:dd:df:cf:9f:6e:e6:9b:8b:fd:bc:3d:4c:9b:f7:4f:d3:e1:65:d2:9b:9b:69:53:ce:fe:b9:78:b7:bd:9f:a7:cd:54:be:f9:fa:6a:bd:5e:97:e9:cb:fd:37:0f:a7:bb:d5:cf:4b:8c:f3:72:6e:e6:a7:91:87:dd:fe:38:6d:a2:b5:fe:65:d6:d5:71:7b:3c:3d:6e:67:d3:ed:e1:dd:fc:3b:16:31:6d:d6:9f:af:2f:ff:38:2d:e6:a7:dd:dd:69:bc:3c:9f:fd:3b:6e:14:37:c4:4d:12:77:8a:3b:e2:fe:3a:f1:f5:7f:e3:95:e2:15:f1:2a:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:3e:28:3e:10:1f:92:78:59:b3:32:eb:97:7c:59:6b:f2:0b:e4:a0:5c:79:25:e5:38:cf:cc:15:38:57:5e:c9:39:ce:33:74:05:d2:15:8d:74:85:a9:2b:b0:ae:68:ac:2b:8c:5d:81:76:45:a3:5d:61:ee:0a:bc:2b:1a:ef:0a:83:57:20:5e:d1:88:57:98:bc:02:f3:8a:c6:bc:c2:e8:15:a8:57:34:ea:19:ab:67:50:cf:34:ea:19:ab:67:50:cf:34:ea:d9:e2:e5:0e:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:5f:7c:d4:42:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:57:59:bd:0a:f5:aa:46:bd:ca:ea:55:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:d1:bf:bc:c5:cf:3c:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:8d:7a:95:d5:ab:50:af:6a:d4:ab:ac:5e:85:7a:55:a3:5e:65:f5:2a:d4:ab:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:3d:8c:c5:26:06:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:9a:5d:db:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:af:b1:7a:0d:ea:35:d1:de:ed:62:f3:16:ea:35:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:9a:77:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:e8:cc:ca:e2:d0:0a:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:46:bd:ce:ea:75:a8:d7:35:ea:75:56:af:43:bd:ae:51:af:b3:7a:1d:ea:75:d1:59:bd:c5:61:3d:a8:d7:35:ea:75:56:af:43:bd:ae:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:d0:a8:37:58:bd:01:f5:c6:ff:54:cf:29:5f:16:f9:5f:ce:a6:0f:bb:9b:f9:65:65:c7:db:87:9f:ff:7c:98:5f:a6:dd:cf:87:c3:f6:e3:e7:25:3c:5d:3f:b6:b4:8b:eb:c7:cc:cb:b8:7e:1c:51:c6:f5:63:ff:ee:f2:87:e7:e9:f9:6f:b9:0d:5d:81:85:2f:00:00",
+          "data.len": "965"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-08-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{55CF26DB-517B-4095-8178-4D99ED0444E9}",
+            "frame.interface_description": "以太网 2"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Aug  6, 2024 01:00:52.559822000 中国标准时间",
+          "frame.time_utc": "Aug  5, 2024 17:00:52.559822000 UTC",
+          "frame.time_epoch": "1722877252.559822000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.043057000",
+          "frame.time_delta_displayed": "3.380050000",
+          "frame.time_relative": "36.343094000",
+          "frame.number": "484",
+          "frame.len": "1019",
+          "frame.cap_len": "1019",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "c8:7f:54:6e:eb:37",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.dst.oui": "13139796",
+            "eth.dst.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.addr": "c8:7f:54:6e:eb:37",
+            "eth.addr_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.addr.oui": "13139796",
+            "eth.addr.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "d8:a0:e8:b9:05:ca",
+          "eth.src_tree": {
+            "eth.src_resolved": "zte_b9:05:ca",
+            "eth.src.oui": "14196968",
+            "eth.src.oui_resolved": "zte corporation",
+            "eth.addr": "d8:a0:e8:b9:05:ca",
+            "eth.addr_resolved": "zte_b9:05:ca",
+            "eth.addr.oui": "14196968",
+            "eth.addr.oui_resolved": "zte corporation",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1005",
+          "ip.id": "0x2bd5",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "111",
+          "ip.proto": "6",
+          "ip.checksum": "0xed0d",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "192.168.1.2",
+          "ip.addr": "192.168.1.2",
+          "ip.dst_host": "192.168.1.2",
+          "ip.host": "192.168.1.2"
+        },
+        "tcp": {
+          "tcp.srcport": "5666",
+          "tcp.dstport": "14481",
+          "tcp.port": "5666",
+          "tcp.port": "14481",
+          "tcp.stream": "20",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "965",
+          "tcp.seq": "2456",
+          "tcp.seq_raw": "3910670397",
+          "tcp.nxtseq": "3421",
+          "tcp.ack": "1213",
+          "tcp.ack_raw": "1343330775",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "509",
+          "tcp.window_size": "130304",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0x5af1",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "8.167074000",
+            "tcp.time_delta": "0.043057000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.044486000",
+            "tcp.analysis.bytes_in_flight": "965",
+            "tcp.analysis.push_bytes_sent": "965"
+          },
+          "tcp.payload": "c1:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:4d:6b:24:37:14:85:e1:fe:19:59:86:ca:d6:38:ad:7b:75:75:a5:de:39:c1:09:03:c3:2c:e2:ec:c6:21:34:e3:62:30:d8:d3:a6:bb:9d:0f:8c:17:f9:e7:e9:f1:c9:40:72:6a:17:f0:59:56:49:c5:ab:d5:43:55:49:7f:7d:bb:5a:7d:b5:5a:ad:ae:be:7f:bb:fb:78:fb:e9:d7:1f:e7:e3:c5:dd:dd:d5:bc:ff:6d:de:bf:bd:3d:1c:b7:a7:f1:a7:69:3f:7f:d8:dd:df:cf:9f:6e:e6:9b:8b:fd:bc:3d:4c:9b:f7:4f:d3:e1:65:d2:9b:9b:69:53:ce:fe:b9:78:b7:bd:9f:a7:cd:54:be:f9:fa:6a:bd:5e:97:e9:cb:fd:37:0f:a7:bb:d5:cf:4b:8c:f3:72:6e:e6:a7:91:87:dd:fe:38:6d:a2:b5:fe:65:d6:d5:71:7b:3c:3d:6e:67:d3:ed:e1:dd:fc:3b:16:31:6d:d6:9f:af:2f:ff:38:2d:e6:a7:dd:dd:69:bc:3c:9f:fd:3b:6e:14:37:c4:4d:12:77:8a:3b:e2:fe:3a:f1:f5:7f:e3:95:e2:15:f1:2a:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:3e:28:3e:10:1f:92:78:59:b3:32:eb:97:7c:59:6b:f2:0b:e4:a0:5c:79:25:e5:38:cf:cc:15:38:57:5e:c9:39:ce:33:74:05:d2:15:8d:74:85:a9:2b:b0:ae:68:ac:2b:8c:5d:81:76:45:a3:5d:61:ee:0a:bc:2b:1a:ef:0a:83:57:20:5e:d1:88:57:98:bc:02:f3:8a:c6:bc:c2:e8:15:a8:57:34:ea:19:ab:67:50:cf:34:ea:19:ab:67:50:cf:34:ea:d9:e2:e5:0e:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:5f:7c:d4:42:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:57:59:bd:0a:f5:aa:46:bd:ca:ea:55:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:d1:bf:bc:c5:cf:3c:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:8d:7a:95:d5:ab:50:af:6a:d4:ab:ac:5e:85:7a:55:a3:5e:65:f5:2a:d4:ab:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:3d:8c:c5:26:06:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:9a:5d:db:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:af:b1:7a:0d:ea:35:d1:de:ed:62:f3:16:ea:35:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:9a:77:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:e8:cc:ca:e2:d0:0a:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:46:bd:ce:ea:75:a8:d7:35:ea:75:56:af:43:bd:ae:51:af:b3:7a:1d:ea:75:d1:59:bd:c5:61:3d:a8:d7:35:ea:75:56:af:43:bd:ae:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:d0:a8:37:58:bd:01:f5:c6:ff:54:cf:29:5f:16:f9:5f:ce:a6:0f:bb:9b:f9:65:65:c7:db:87:9f:ff:7c:98:5f:a6:dd:cf:87:c3:f6:e3:e7:25:3c:5d:3f:b6:b4:8b:eb:c7:cc:cb:b8:7e:1c:51:c6:f5:63:ff:ee:f2:87:e7:e9:f9:6f:b9:0d:5d:81:85:2f:00:00"
+        },
+        "data": {
+          "data.data": "c1:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:4d:6b:24:37:14:85:e1:fe:19:59:86:ca:d6:38:ad:7b:75:75:a5:de:39:c1:09:03:c3:2c:e2:ec:c6:21:34:e3:62:30:d8:d3:a6:bb:9d:0f:8c:17:f9:e7:e9:f1:c9:40:72:6a:17:f0:59:56:49:c5:ab:d5:43:55:49:7f:7d:bb:5a:7d:b5:5a:ad:ae:be:7f:bb:fb:78:fb:e9:d7:1f:e7:e3:c5:dd:dd:d5:bc:ff:6d:de:bf:bd:3d:1c:b7:a7:f1:a7:69:3f:7f:d8:dd:df:cf:9f:6e:e6:9b:8b:fd:bc:3d:4c:9b:f7:4f:d3:e1:65:d2:9b:9b:69:53:ce:fe:b9:78:b7:bd:9f:a7:cd:54:be:f9:fa:6a:bd:5e:97:e9:cb:fd:37:0f:a7:bb:d5:cf:4b:8c:f3:72:6e:e6:a7:91:87:dd:fe:38:6d:a2:b5:fe:65:d6:d5:71:7b:3c:3d:6e:67:d3:ed:e1:dd:fc:3b:16:31:6d:d6:9f:af:2f:ff:38:2d:e6:a7:dd:dd:69:bc:3c:9f:fd:3b:6e:14:37:c4:4d:12:77:8a:3b:e2:fe:3a:f1:f5:7f:e3:95:e2:15:f1:2a:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:3e:28:3e:10:1f:92:78:59:b3:32:eb:97:7c:59:6b:f2:0b:e4:a0:5c:79:25:e5:38:cf:cc:15:38:57:5e:c9:39:ce:33:74:05:d2:15:8d:74:85:a9:2b:b0:ae:68:ac:2b:8c:5d:81:76:45:a3:5d:61:ee:0a:bc:2b:1a:ef:0a:83:57:20:5e:d1:88:57:98:bc:02:f3:8a:c6:bc:c2:e8:15:a8:57:34:ea:19:ab:67:50:cf:34:ea:19:ab:67:50:cf:34:ea:d9:e2:e5:0e:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:5f:7c:d4:42:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:57:59:bd:0a:f5:aa:46:bd:ca:ea:55:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:d1:bf:bc:c5:cf:3c:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:8d:7a:95:d5:ab:50:af:6a:d4:ab:ac:5e:85:7a:55:a3:5e:65:f5:2a:d4:ab:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:3d:8c:c5:26:06:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:9a:5d:db:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:af:b1:7a:0d:ea:35:d1:de:ed:62:f3:16:ea:35:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:9a:77:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:e8:cc:ca:e2:d0:0a:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:46:bd:ce:ea:75:a8:d7:35:ea:75:56:af:43:bd:ae:51:af:b3:7a:1d:ea:75:d1:59:bd:c5:61:3d:a8:d7:35:ea:75:56:af:43:bd:ae:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:d0:a8:37:58:bd:01:f5:c6:ff:54:cf:29:5f:16:f9:5f:ce:a6:0f:bb:9b:f9:65:65:c7:db:87:9f:ff:7c:98:5f:a6:dd:cf:87:c3:f6:e3:e7:25:3c:5d:3f:b6:b4:8b:eb:c7:cc:cb:b8:7e:1c:51:c6:f5:63:ff:ee:f2:87:e7:e9:f9:6f:b9:0d:5d:81:85:2f:00:00",
+          "data.len": "965"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-08-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{55CF26DB-517B-4095-8178-4D99ED0444E9}",
+            "frame.interface_description": "以太网 2"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Aug  6, 2024 01:01:00.877465000 中国标准时间",
+          "frame.time_utc": "Aug  5, 2024 17:01:00.877465000 UTC",
+          "frame.time_epoch": "1722877260.877465000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.026598000",
+          "frame.time_delta_displayed": "8.317643000",
+          "frame.time_relative": "44.660737000",
+          "frame.number": "532",
+          "frame.len": "1019",
+          "frame.cap_len": "1019",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "c8:7f:54:6e:eb:37",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.dst.oui": "13139796",
+            "eth.dst.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.addr": "c8:7f:54:6e:eb:37",
+            "eth.addr_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.addr.oui": "13139796",
+            "eth.addr.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "d8:a0:e8:b9:05:ca",
+          "eth.src_tree": {
+            "eth.src_resolved": "zte_b9:05:ca",
+            "eth.src.oui": "14196968",
+            "eth.src.oui_resolved": "zte corporation",
+            "eth.addr": "d8:a0:e8:b9:05:ca",
+            "eth.addr_resolved": "zte_b9:05:ca",
+            "eth.addr.oui": "14196968",
+            "eth.addr.oui_resolved": "zte corporation",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1005",
+          "ip.id": "0x2bd8",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "111",
+          "ip.proto": "6",
+          "ip.checksum": "0xed0a",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "192.168.1.2",
+          "ip.addr": "192.168.1.2",
+          "ip.dst_host": "192.168.1.2",
+          "ip.host": "192.168.1.2"
+        },
+        "tcp": {
+          "tcp.srcport": "5666",
+          "tcp.dstport": "14481",
+          "tcp.port": "5666",
+          "tcp.port": "14481",
+          "tcp.stream": "20",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "965",
+          "tcp.seq": "3577",
+          "tcp.seq_raw": "3910671518",
+          "tcp.nxtseq": "4542",
+          "tcp.ack": "1749",
+          "tcp.ack_raw": "1343331311",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "514",
+          "tcp.window_size": "131584",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0x5473",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "16.484717000",
+            "tcp.time_delta": "0.043386000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.044486000",
+            "tcp.analysis.bytes_in_flight": "965",
+            "tcp.analysis.push_bytes_sent": "965"
+          },
+          "tcp.payload": "c1:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:4d:6b:24:37:14:85:e1:fe:19:59:86:ca:d6:38:ad:7b:75:75:a5:de:39:c1:09:03:c3:2c:e2:ec:c6:21:34:e3:62:30:d8:d3:a6:bb:9d:0f:8c:17:f9:e7:e9:f1:c9:40:72:6a:17:f0:59:56:49:c5:ab:d5:43:55:49:7f:7d:bb:5a:7d:b5:5a:ad:ae:be:7f:bb:fb:78:fb:e9:d7:1f:e7:e3:c5:dd:dd:d5:bc:ff:6d:de:bf:bd:3d:1c:b7:a7:f1:a7:69:3f:7f:d8:dd:df:cf:9f:6e:e6:9b:8b:fd:bc:3d:4c:9b:f7:4f:d3:e1:65:d2:9b:9b:69:53:ce:fe:b9:78:b7:bd:9f:a7:cd:54:be:f9:fa:6a:bd:5e:97:e9:cb:fd:37:0f:a7:bb:d5:cf:4b:8c:f3:72:6e:e6:a7:91:87:dd:fe:38:6d:a2:b5:fe:65:d6:d5:71:7b:3c:3d:6e:67:d3:ed:e1:dd:fc:3b:16:31:6d:d6:9f:af:2f:ff:38:2d:e6:a7:dd:dd:69:bc:3c:9f:fd:3b:6e:14:37:c4:4d:12:77:8a:3b:e2:fe:3a:f1:f5:7f:e3:95:e2:15:f1:2a:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:3e:28:3e:10:1f:92:78:59:b3:32:eb:97:7c:59:6b:f2:0b:e4:a0:5c:79:25:e5:38:cf:cc:15:38:57:5e:c9:39:ce:33:74:05:d2:15:8d:74:85:a9:2b:b0:ae:68:ac:2b:8c:5d:81:76:45:a3:5d:61:ee:0a:bc:2b:1a:ef:0a:83:57:20:5e:d1:88:57:98:bc:02:f3:8a:c6:bc:c2:e8:15:a8:57:34:ea:19:ab:67:50:cf:34:ea:19:ab:67:50:cf:34:ea:d9:e2:e5:0e:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:5f:7c:d4:42:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:57:59:bd:0a:f5:aa:46:bd:ca:ea:55:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:d1:bf:bc:c5:cf:3c:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:8d:7a:95:d5:ab:50:af:6a:d4:ab:ac:5e:85:7a:55:a3:5e:65:f5:2a:d4:ab:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:3d:8c:c5:26:06:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:9a:5d:db:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:af:b1:7a:0d:ea:35:d1:de:ed:62:f3:16:ea:35:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:9a:77:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:e8:cc:ca:e2:d0:0a:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:46:bd:ce:ea:75:a8:d7:35:ea:75:56:af:43:bd:ae:51:af:b3:7a:1d:ea:75:d1:59:bd:c5:61:3d:a8:d7:35:ea:75:56:af:43:bd:ae:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:d0:a8:37:58:bd:01:f5:c6:ff:54:cf:29:5f:16:f9:5f:ce:a6:0f:bb:9b:f9:65:65:c7:db:87:9f:ff:7c:98:5f:a6:dd:cf:87:c3:f6:e3:e7:25:3c:5d:3f:b6:b4:8b:eb:c7:cc:cb:b8:7e:1c:51:c6:f5:63:ff:ee:f2:87:e7:e9:f9:6f:b9:0d:5d:81:85:2f:00:00"
+        },
+        "data": {
+          "data.data": "c1:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:4d:6b:24:37:14:85:e1:fe:19:59:86:ca:d6:38:ad:7b:75:75:a5:de:39:c1:09:03:c3:2c:e2:ec:c6:21:34:e3:62:30:d8:d3:a6:bb:9d:0f:8c:17:f9:e7:e9:f1:c9:40:72:6a:17:f0:59:56:49:c5:ab:d5:43:55:49:7f:7d:bb:5a:7d:b5:5a:ad:ae:be:7f:bb:fb:78:fb:e9:d7:1f:e7:e3:c5:dd:dd:d5:bc:ff:6d:de:bf:bd:3d:1c:b7:a7:f1:a7:69:3f:7f:d8:dd:df:cf:9f:6e:e6:9b:8b:fd:bc:3d:4c:9b:f7:4f:d3:e1:65:d2:9b:9b:69:53:ce:fe:b9:78:b7:bd:9f:a7:cd:54:be:f9:fa:6a:bd:5e:97:e9:cb:fd:37:0f:a7:bb:d5:cf:4b:8c:f3:72:6e:e6:a7:91:87:dd:fe:38:6d:a2:b5:fe:65:d6:d5:71:7b:3c:3d:6e:67:d3:ed:e1:dd:fc:3b:16:31:6d:d6:9f:af:2f:ff:38:2d:e6:a7:dd:dd:69:bc:3c:9f:fd:3b:6e:14:37:c4:4d:12:77:8a:3b:e2:fe:3a:f1:f5:7f:e3:95:e2:15:f1:2a:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:3e:28:3e:10:1f:92:78:59:b3:32:eb:97:7c:59:6b:f2:0b:e4:a0:5c:79:25:e5:38:cf:cc:15:38:57:5e:c9:39:ce:33:74:05:d2:15:8d:74:85:a9:2b:b0:ae:68:ac:2b:8c:5d:81:76:45:a3:5d:61:ee:0a:bc:2b:1a:ef:0a:83:57:20:5e:d1:88:57:98:bc:02:f3:8a:c6:bc:c2:e8:15:a8:57:34:ea:19:ab:67:50:cf:34:ea:19:ab:67:50:cf:34:ea:d9:e2:e5:0e:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:5f:7c:d4:42:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:57:59:bd:0a:f5:aa:46:bd:ca:ea:55:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:d1:bf:bc:c5:cf:3c:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:8d:7a:95:d5:ab:50:af:6a:d4:ab:ac:5e:85:7a:55:a3:5e:65:f5:2a:d4:ab:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:3d:8c:c5:26:06:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:9a:5d:db:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:af:b1:7a:0d:ea:35:d1:de:ed:62:f3:16:ea:35:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:9a:77:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:e8:cc:ca:e2:d0:0a:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:46:bd:ce:ea:75:a8:d7:35:ea:75:56:af:43:bd:ae:51:af:b3:7a:1d:ea:75:d1:59:bd:c5:61:3d:a8:d7:35:ea:75:56:af:43:bd:ae:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:d0:a8:37:58:bd:01:f5:c6:ff:54:cf:29:5f:16:f9:5f:ce:a6:0f:bb:9b:f9:65:65:c7:db:87:9f:ff:7c:98:5f:a6:dd:cf:87:c3:f6:e3:e7:25:3c:5d:3f:b6:b4:8b:eb:c7:cc:cb:b8:7e:1c:51:c6:f5:63:ff:ee:f2:87:e7:e9:f9:6f:b9:0d:5d:81:85:2f:00:00",
+          "data.len": "965"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-08-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{55CF26DB-517B-4095-8178-4D99ED0444E9}",
+            "frame.interface_description": "以太网 2"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Aug  6, 2024 01:01:13.855617000 中国标准时间",
+          "frame.time_utc": "Aug  5, 2024 17:01:13.855617000 UTC",
+          "frame.time_epoch": "1722877273.855617000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.004377000",
+          "frame.time_delta_displayed": "12.978152000",
+          "frame.time_relative": "57.638889000",
+          "frame.number": "663",
+          "frame.len": "1085",
+          "frame.cap_len": "1085",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "c8:7f:54:6e:eb:37",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.dst.oui": "13139796",
+            "eth.dst.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.addr": "c8:7f:54:6e:eb:37",
+            "eth.addr_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.addr.oui": "13139796",
+            "eth.addr.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "d8:a0:e8:b9:05:ca",
+          "eth.src_tree": {
+            "eth.src_resolved": "zte_b9:05:ca",
+            "eth.src.oui": "14196968",
+            "eth.src.oui_resolved": "zte corporation",
+            "eth.addr": "d8:a0:e8:b9:05:ca",
+            "eth.addr_resolved": "zte_b9:05:ca",
+            "eth.addr.oui": "14196968",
+            "eth.addr.oui_resolved": "zte corporation",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1071",
+          "ip.id": "0x2bea",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "111",
+          "ip.proto": "6",
+          "ip.checksum": "0xecb6",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "192.168.1.2",
+          "ip.addr": "192.168.1.2",
+          "ip.dst_host": "192.168.1.2",
+          "ip.host": "192.168.1.2"
+        },
+        "tcp": {
+          "tcp.srcport": "5668",
+          "tcp.dstport": "14486",
+          "tcp.port": "5668",
+          "tcp.port": "14486",
+          "tcp.stream": "29",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "1031",
+          "tcp.seq": "4441",
+          "tcp.seq_raw": "548749599",
+          "tcp.nxtseq": "5472",
+          "tcp.ack": "737",
+          "tcp.ack_raw": "2007779039",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "513",
+          "tcp.window_size": "131328",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xa6d6",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "7.355098000",
+            "tcp.time_delta": "0.043312000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "661",
+            "tcp.analysis.ack_rtt": "0.043312000",
+            "tcp.analysis.initial_rtt": "0.044224000",
+            "tcp.analysis.bytes_in_flight": "1031",
+            "tcp.analysis.push_bytes_sent": "1031"
+          },
+          "tcp.payload": "03:04:00:00:00:1f:8b:08:00:00:00:00:00:04:00:6d:95:ed:4f:1c:45:1c:c7:67:b9:d2:5a:5a:ad:d5:3e:d8:5a:9b:98:be:f0:cd:d4:ee:ec:ce:ee:de:46:63:62:41:22:e6:80:a4:8d:af:9b:95:5e:85:00:7b:08:5c:ec:a5:da:5c:ef:3c:e0:0a:77:87:94:7a:27:70:58:8c:52:5b:5a:41:0b:14:7a:7d:78:a1:2f:4d:7c:e5:5f:c0:ed:dd:2d:36:21:be:f1:85:af:fc:cd:ed:90:54:6f:36:3b:b7:bb:99:7c:be:bf:e7:39:7b:17:42:07:10:42:67:1b:03:a1:8f:bb:3a:ce:9d:b1:ec:ee:16:fb:42:e8:b4:d5:d1:fd:85:5b:8f:ea:61:ef:38:2c:09:d6:21:58:97:4a:23:39:e7:ea:f4:e7:5b:0f:a7:88:4a:30:51:65:ac:53:f9:b7:21:09:ed:84:5d:37:5b:70:9e:c4:17:36:11:1a:3b:8c:d0:5d:e4:5d:75:b0:0e:fe:97:35:65:ac:a9:14:6b:86:f6:66:56:42:e0:03:6a:09:84:3b:ba:23:2d:8c:9d:79:86:f5:d5:b2:7e:05:6b:0a:c5:aa:a6:34:24:25:d4:00:9b:4d:56:c0:6a:ea:62:bf:ab:7e:09:4d:00:be:c2:f1:1d:b5:b8:41:30:55:75:ec:d7:94:8d:6d:af:f3:13:95:ab:f9:0b:61:84:3e:01:34:cf:d1:fa:5a:54:37:b1:ae:10:ac:98:72:fd:98:84:f6:c2:66:39:b6:5e:8e:7f:53:9e:19:2d:27:87:db:e1:3b:03:02:5f:73:81:9d:02:01:03:53:c5:c4:a6:42:fe:4e:7a:61:7f:60:45:1a:3b:43:e1:f7:e0:75:12:d8:39:ce:ee:12:b0:3a:56:a8:1f:cb:d4:2f:9d:ac:43:bb:99:df:b9:27:6e:61:d2:b9:3e:ff:16:f2:5c:bf:c1:e9:e7:04:34:05:ab:7e:4c:4c:79:81:47:5d:1e:4f:96:97:17:2e:41:d4:5f:01:ba:c8:d1:dd:02:94:60:93:6a:58:21:f4:29:38:cd:32:1a:b0:7a:fb:f6:c1:73:f0:99:68:1b:04:a0:8c:29:d8:a5:06:fd:6c:dc:4b:97:1b:1d:72:be:bb:e5:e6:67:dd:c4:e8:eb:f0:7d:11:04:b2:5c:60:4f:ad:00:35:b1:a6:69:58:d7:94:7f:8a:5e:ba:de:ed:1f:ec:0c:86:ec:f3:6d:08:0d:00:3b:cb:d9:bd:02:56:07:0e:d2:25:cb:bd:29:09:31:6f:dd:e1:2f:4b:d9:87:e5:d8:9c:33:31:05:77:62:c6:b3:7f:9d:6b:3c:2f:d4:20:1a:c5:44:a7:97:7f:95:aa:0e:06:82:b6:1d:b2:db:ba:2e:86:ec:f9:fd:12:0a:03:3f:c1:f9:17:04:3c:4b:ba:8e:a9:69:12:de:2f:6e:21:5d:ca:a5:4b:d9:55:67:64:88:f5:ea:a7:20:30:c9:05:f6:09:05:20:00:70:c0:5c:6c:f2:55:ab:56:2c:a4:61:c2:98:ed:7e:40:53:1c:7d:51:80:2a:d8:50:4d:2c:2b:e4:26:2f:78:71:2d:e5:cc:c7:ac:b0:17:76:8e:a3:fb:6b:51:c0:34:03:06:d4:d4:96:a9:af:9a:f6:40:b0:d5:ea:e9:b2:a7:7f:f1:6a:3e:cc:d9:97:04:ac:01:66:61:40:0d:f3:d8:cd:ba:aa:d9:4a:e6:e7:d2:f2:b4:0e:6f:2c:d8:24:47:5f:16:a2:8a:a9:62:d3:af:cf:0f:79:15:ab:fc:10:ad:3c:9e:75:96:32:ce:b5:ef:e1:36:78:cb:65:b8:c6:01:81:86:86:29:91:b1:41:d5:5b:1f:fa:aa:25:69:ec:09:0d:04:c3:7d:cd:96:3d:68:0d:44:4e:72:74:3b:82:83:42:09:59:53:b1:a2:c8:8b:6f:fb:aa:45:db:bc:77:63:73:6d:e9:cf:a5:dc:d3:a5:3b:61:de:35:09:2e:70:48:20:40:59:d6:b1:ea:57:df:c9:78:99:77:d6:0b:e5:2b:77:57:a0:68:ec:7c:48:73:f4:b0:00:55:d9:98:61:43:51:57:8e:ec:a8:da:7e:3f:dc:db:d7:d9:1f:8c:34:86:7a:82:ac:ea:2c:fe:cb:5c:e0:15:81:00:a4:1e:0e:0a:9d:90:db:d0:f5:6c:98:2b:e3:8f:8a:eb:79:e7:7e:7e:0f:af:c0:76:f6:8e:88:69:19:8e:27:42:3f:8a:7a:a1:bb:d7:56:9d:44:b2:34:33:e2:3c:fa:e9:14:f2:42:1f:e1:02:47:85:02:d4:d4:c0:05:f5:2f:6e:be:b4:f2:a3:93:4a:bb:53:e3:ad:6f:78:e6:47:39:fd:aa:80:86:a4:c9:0a:64:9e:1e:fd:dd:a3:37:e2:57:36:62:f7:36:e2:b7:9b:ff:47:1f:13:d0:f0:4f:04:a1:ab:86:bc:35:e7:cd:ca:e9:a0:15:1e:8c:b0:a6:65:6e:c7:39:fa:9a:10:25:a4:3a:e7:5b:59:5f:b5:f3:8a:6b:51:67:2c:51:7e:f0:ad:93:ca:16:1f:dc:61:e7:0d:d3:88:71:8d:e3:b5:1a:0a:1b:1a:15:2a:6f:9e:f8:c3:1b:9a:d6:f6:96:b6:33:ed:67:9b:91:77:56:45:39:fb:2f:68:3c:ba:16:72:07:00:00"
+        },
+        "data": {
+          "data.data": "03:04:00:00:00:1f:8b:08:00:00:00:00:00:04:00:6d:95:ed:4f:1c:45:1c:c7:67:b9:d2:5a:5a:ad:d5:3e:d8:5a:9b:98:be:f0:cd:d4:ee:ec:ce:ee:de:46:63:62:41:22:e6:80:a4:8d:af:9b:95:5e:85:00:7b:08:5c:ec:a5:da:5c:ef:3c:e0:0a:77:87:94:7a:27:70:58:8c:52:5b:5a:41:0b:14:7a:7d:78:a1:2f:4d:7c:e5:5f:c0:ed:dd:2d:36:21:be:f1:85:af:fc:cd:ed:90:54:6f:36:3b:b7:bb:99:7c:be:bf:e7:39:7b:17:42:07:10:42:67:1b:03:a1:8f:bb:3a:ce:9d:b1:ec:ee:16:fb:42:e8:b4:d5:d1:fd:85:5b:8f:ea:61:ef:38:2c:09:d6:21:58:97:4a:23:39:e7:ea:f4:e7:5b:0f:a7:88:4a:30:51:65:ac:53:f9:b7:21:09:ed:84:5d:37:5b:70:9e:c4:17:36:11:1a:3b:8c:d0:5d:e4:5d:75:b0:0e:fe:97:35:65:ac:a9:14:6b:86:f6:66:56:42:e0:03:6a:09:84:3b:ba:23:2d:8c:9d:79:86:f5:d5:b2:7e:05:6b:0a:c5:aa:a6:34:24:25:d4:00:9b:4d:56:c0:6a:ea:62:bf:ab:7e:09:4d:00:be:c2:f1:1d:b5:b8:41:30:55:75:ec:d7:94:8d:6d:af:f3:13:95:ab:f9:0b:61:84:3e:01:34:cf:d1:fa:5a:54:37:b1:ae:10:ac:98:72:fd:98:84:f6:c2:66:39:b6:5e:8e:7f:53:9e:19:2d:27:87:db:e1:3b:03:02:5f:73:81:9d:02:01:03:53:c5:c4:a6:42:fe:4e:7a:61:7f:60:45:1a:3b:43:e1:f7:e0:75:12:d8:39:ce:ee:12:b0:3a:56:a8:1f:cb:d4:2f:9d:ac:43:bb:99:df:b9:27:6e:61:d2:b9:3e:ff:16:f2:5c:bf:c1:e9:e7:04:34:05:ab:7e:4c:4c:79:81:47:5d:1e:4f:96:97:17:2e:41:d4:5f:01:ba:c8:d1:dd:02:94:60:93:6a:58:21:f4:29:38:cd:32:1a:b0:7a:fb:f6:c1:73:f0:99:68:1b:04:a0:8c:29:d8:a5:06:fd:6c:dc:4b:97:1b:1d:72:be:bb:e5:e6:67:dd:c4:e8:eb:f0:7d:11:04:b2:5c:60:4f:ad:00:35:b1:a6:69:58:d7:94:7f:8a:5e:ba:de:ed:1f:ec:0c:86:ec:f3:6d:08:0d:00:3b:cb:d9:bd:02:56:07:0e:d2:25:cb:bd:29:09:31:6f:dd:e1:2f:4b:d9:87:e5:d8:9c:33:31:05:77:62:c6:b3:7f:9d:6b:3c:2f:d4:20:1a:c5:44:a7:97:7f:95:aa:0e:06:82:b6:1d:b2:db:ba:2e:86:ec:f9:fd:12:0a:03:3f:c1:f9:17:04:3c:4b:ba:8e:a9:69:12:de:2f:6e:21:5d:ca:a5:4b:d9:55:67:64:88:f5:ea:a7:20:30:c9:05:f6:09:05:20:00:70:c0:5c:6c:f2:55:ab:56:2c:a4:61:c2:98:ed:7e:40:53:1c:7d:51:80:2a:d8:50:4d:2c:2b:e4:26:2f:78:71:2d:e5:cc:c7:ac:b0:17:76:8e:a3:fb:6b:51:c0:34:03:06:d4:d4:96:a9:af:9a:f6:40:b0:d5:ea:e9:b2:a7:7f:f1:6a:3e:cc:d9:97:04:ac:01:66:61:40:0d:f3:d8:cd:ba:aa:d9:4a:e6:e7:d2:f2:b4:0e:6f:2c:d8:24:47:5f:16:a2:8a:a9:62:d3:af:cf:0f:79:15:ab:fc:10:ad:3c:9e:75:96:32:ce:b5:ef:e1:36:78:cb:65:b8:c6:01:81:86:86:29:91:b1:41:d5:5b:1f:fa:aa:25:69:ec:09:0d:04:c3:7d:cd:96:3d:68:0d:44:4e:72:74:3b:82:83:42:09:59:53:b1:a2:c8:8b:6f:fb:aa:45:db:bc:77:63:73:6d:e9:cf:a5:dc:d3:a5:3b:61:de:35:09:2e:70:48:20:40:59:d6:b1:ea:57:df:c9:78:99:77:d6:0b:e5:2b:77:57:a0:68:ec:7c:48:73:f4:b0:00:55:d9:98:61:43:51:57:8e:ec:a8:da:7e:3f:dc:db:d7:d9:1f:8c:34:86:7a:82:ac:ea:2c:fe:cb:5c:e0:15:81:00:a4:1e:0e:0a:9d:90:db:d0:f5:6c:98:2b:e3:8f:8a:eb:79:e7:7e:7e:0f:af:c0:76:f6:8e:88:69:19:8e:27:42:3f:8a:7a:a1:bb:d7:56:9d:44:b2:34:33:e2:3c:fa:e9:14:f2:42:1f:e1:02:47:85:02:d4:d4:c0:05:f5:2f:6e:be:b4:f2:a3:93:4a:bb:53:e3:ad:6f:78:e6:47:39:fd:aa:80:86:a4:c9:0a:64:9e:1e:fd:dd:a3:37:e2:57:36:62:f7:36:e2:b7:9b:ff:47:1f:13:d0:f0:4f:04:a1:ab:86:bc:35:e7:cd:ca:e9:a0:15:1e:8c:b0:a6:65:6e:c7:39:fa:9a:10:25:a4:3a:e7:5b:59:5f:b5:f3:8a:6b:51:67:2c:51:7e:f0:ad:93:ca:16:1f:dc:61:e7:0d:d3:88:71:8d:e3:b5:1a:0a:1b:1a:15:2a:6f:9e:f8:c3:1b:9a:d6:f6:96:b6:33:ed:67:9b:91:77:56:45:39:fb:2f:68:3c:ba:16:72:07:00:00",
+          "data.len": "1031"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-08-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{55CF26DB-517B-4095-8178-4D99ED0444E9}",
+            "frame.interface_description": "以太网 2"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Aug  6, 2024 01:01:19.443489000 中国标准时间",
+          "frame.time_utc": "Aug  5, 2024 17:01:19.443489000 UTC",
+          "frame.time_epoch": "1722877279.443489000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.043700000",
+          "frame.time_delta_displayed": "5.587872000",
+          "frame.time_relative": "63.226761000",
+          "frame.number": "704",
+          "frame.len": "962",
+          "frame.cap_len": "962",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "c8:7f:54:6e:eb:37",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.dst.oui": "13139796",
+            "eth.dst.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.addr": "c8:7f:54:6e:eb:37",
+            "eth.addr_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.addr.oui": "13139796",
+            "eth.addr.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "d8:a0:e8:b9:05:ca",
+          "eth.src_tree": {
+            "eth.src_resolved": "zte_b9:05:ca",
+            "eth.src.oui": "14196968",
+            "eth.src.oui_resolved": "zte corporation",
+            "eth.addr": "d8:a0:e8:b9:05:ca",
+            "eth.addr_resolved": "zte_b9:05:ca",
+            "eth.addr.oui": "14196968",
+            "eth.addr.oui_resolved": "zte corporation",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "948",
+          "ip.id": "0x2beb",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "111",
+          "ip.proto": "6",
+          "ip.checksum": "0xed30",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "192.168.1.2",
+          "ip.addr": "192.168.1.2",
+          "ip.dst_host": "192.168.1.2",
+          "ip.host": "192.168.1.2"
+        },
+        "tcp": {
+          "tcp.srcport": "5668",
+          "tcp.dstport": "14486",
+          "tcp.port": "5668",
+          "tcp.port": "14486",
+          "tcp.stream": "29",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "908",
+          "tcp.seq": "5472",
+          "tcp.seq_raw": "548750630",
+          "tcp.nxtseq": "6380",
+          "tcp.ack": "781",
+          "tcp.ack_raw": "2007779083",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "512",
+          "tcp.window_size": "131072",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xaf0f",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "12.942970000",
+            "tcp.time_delta": "0.043700000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "703",
+            "tcp.analysis.ack_rtt": "0.043700000",
+            "tcp.analysis.initial_rtt": "0.044224000",
+            "tcp.analysis.bytes_in_flight": "908",
+            "tcp.analysis.push_bytes_sent": "908"
+          },
+          "tcp.payload": "88:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:85:95:cb:4f:13:41:18:c0:67:a9:f8:c0:f7:1b:14:0d:9e:3c:a1:6d:a1:0f:62:62:22:a0:09:5a:31:d1:78:26:0b:54:69:90:5d:6d:59:11:51:83:48:81:02:7d:88:c5:22:b6:28:89:80:48:f0:0d:8a:15:89:89:47:e3:c1:7f:41:66:b7:6b:4c:8c:1e:3c:78:f2:9b:dd:8f:c4:83:63:9b:99:6e:9b:dd:df:6f:e6:fb:e6:9b:d9:cf:2b:08:d9:42:08:39:55:e1:91:cf:fa:ea:6a:4e:8a:52:63:95:74:46:2e:17:eb:1a:3b:f5:5c:b2:1c:ee:ed:86:2e:40:2f:80:de:b6:f8:3a:ad:bd:59:a0:c1:17:34:3c:7a:f5:fb:db:61:9b:d3:55:54:5c:54:e2:fc:d8:25:18:0f:eb:89:34:5d:b8:31:f5:95:90:fe:ed:84:4c:13:f3:93:03:3d:ff:9f:b8:c3:0d:b8:7d:5f:42:20:30:13:52:e5:51:ea:1a:5b:ab:18:9e:fc:0b:b7:70:f1:92:32:c0:6d:53:38:b8:16:0b:69:2f:a7:da:14:42:6e:03:fd:04:e9:65:7c:ba:84:d1:5f:96:a6:9e:1a:c8:f4:a6:ce:00:7d:01:e8:14:d2:b9:7c:da:c6:e8:bc:90:40:f2:e0:7e:a5:e8:11:2b:7d:ec:7b:d6:2d:90:01:30:cc:a0:61:39:37:77:36:66:b0:97:fe:0a:99:d1:1f:15:5b:2b:1a:64:e5:30:fc:8c:03:3f:8a:fc:0a:ee:0c:ac:46:ee:bf:01:ce:62:f4:88:4d:e7:d7:c3:b5:19:d8:3b:c8:ae:e4:8e:6d:75:b0:b1:ed:b6:7e:81:ac:61:c1:a7:23:ea:50:44:4d:cc:d2:9e:2e:16:40:0b:48:e2:28:59:c5:97:94:32:89:5b:28:ce:31:1e:d2:87:16:f4:74:9c:0e:8e:1f:20:66:12:ef:a3:21:2f:8b:c1:de:14:16:08:9b:bb:de:7d:53:4d:bc:d5:3a:46:e9:c0:30:b4:60:92:90:4b:e0:19:44:cf:6a:be:87:2d:a5:bd:2c:17:c3:d1:3a:e6:b4:1b:f7:b4:64:9f:16:ea:3e:01:ff:a3:7f:e5:64:4d:16:89:7b:02:0b:62:f1:75:98:8e:77:88:8a:39:87:21:c4:d7:66:c1:9d:57:62:98:d2:f6:2e:fa:60:52:4f:8d:e8:c1:be:3d:c4:94:24:50:b2:2e:8b:c4:5e:db:6e:31:25:b7:66:69:30:a4:26:7b:e8:fc:b3:fd:28:e9:41:c9:7a:be:c4:28:2c:e7:ef:f7:82:91:b2:8a:06:bf:2f:d0:5c:ee:57:ea:bc:0a:44:73:11:1c:53:e8:d8:90:c5:e1:78:04:2b:c3:d6:36:13:9b:5f:9c:4b:d1:57:29:26:64:d5:11:45:c3:46:5e:79:96:b9:0c:c1:78:97:b9:b4:99:87:ed:99:77:23:f4:69:94:de:1a:83:e6:c2:4a:5d:d2:6c:e2:6a:9c:86:46:8f:0a:c6:39:50:2e:d7:b6:e1:8a:f4:22:ba:99:8b:1a:b9:74:3d:a9:b4:98:eb:99:8e:c0:d9:34:be:51:20:7e:a0:c3:48:6f:e1:d2:56:b6:bf:dd:35:3f:2d:e6:06:57:9a:6a:cf:79:eb:65:bf:f7:38:4e:bd:13:0d:5b:79:06:77:99:31:fe:ef:45:73:7f:1f:f2:37:37:78:65:a9:be:9a:90:00:e0:23:88:6f:e3:e2:46:02:dd:07:a3:66:39:d2:b9:b4:76:7d:7a:06:a6:cf:aa:39:82:f4:f6:2c:f4:b5:0f:66:0d:78:bc:92:24:4b:d5:be:4b:b2:c4:32:a0:00:37:80:8a:7c:ae:82:a5:be:c4:da:72:cc:7c:11:34:8a:be:16:51:62:d9:67:d1:5f:46:ba:80:4b:1b:27:8c:eb:07:16:90:3a:f3:98:86:23:fa:70:ec:f8:5e:b3:80:fa:50:b0:83:2b:30:ce:06:c7:a7:55:cb:cc:3d:3d:f9:46:bb:33:af:26:1f:a9:a9:31:44:49:10:af:3b:b9:0e:56:c5:a5:d6:48:b7:b9:27:d5:e9:31:68:5a:fc:5e:a6:f7:59:00:03:59:4a:43:21:d7:61:35:32:39:79:da:62:ec:db:8a:73:72:c0:ab:9c:3f:22:4a:cd:62:a0:b5:18:e9:6e:bc:ee:fa:bf:c5:51:38:91:63:24:33:13:7d:ae:be:bc:eb:c4:cd:14:42:7a:f7:7f:69:9b:b3:1a:e2:60:73:a0:1d:69:68:f5:5e:1a:8c:d3:e9:18:7b:63:b0:92:6e:43:cb:1f:91:df:e9:b0:d6:07:00:00"
+        },
+        "data": {
+          "data.data": "88:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:85:95:cb:4f:13:41:18:c0:67:a9:f8:c0:f7:1b:14:0d:9e:3c:a1:6d:a1:0f:62:62:22:a0:09:5a:31:d1:78:26:0b:54:69:90:5d:6d:59:11:51:83:48:81:02:7d:88:c5:22:b6:28:89:80:48:f0:0d:8a:15:89:89:47:e3:c1:7f:41:66:b7:6b:4c:8c:1e:3c:78:f2:9b:dd:8f:c4:83:63:9b:99:6e:9b:dd:df:6f:e6:fb:e6:9b:d9:cf:2b:08:d9:42:08:39:55:e1:91:cf:fa:ea:6a:4e:8a:52:63:95:74:46:2e:17:eb:1a:3b:f5:5c:b2:1c:ee:ed:86:2e:40:2f:80:de:b6:f8:3a:ad:bd:59:a0:c1:17:34:3c:7a:f5:fb:db:61:9b:d3:55:54:5c:54:e2:fc:d8:25:18:0f:eb:89:34:5d:b8:31:f5:95:90:fe:ed:84:4c:13:f3:93:03:3d:ff:9f:b8:c3:0d:b8:7d:5f:42:20:30:13:52:e5:51:ea:1a:5b:ab:18:9e:fc:0b:b7:70:f1:92:32:c0:6d:53:38:b8:16:0b:69:2f:a7:da:14:42:6e:03:fd:04:e9:65:7c:ba:84:d1:5f:96:a6:9e:1a:c8:f4:a6:ce:00:7d:01:e8:14:d2:b9:7c:da:c6:e8:bc:90:40:f2:e0:7e:a5:e8:11:2b:7d:ec:7b:d6:2d:90:01:30:cc:a0:61:39:37:77:36:66:b0:97:fe:0a:99:d1:1f:15:5b:2b:1a:64:e5:30:fc:8c:03:3f:8a:fc:0a:ee:0c:ac:46:ee:bf:01:ce:62:f4:88:4d:e7:d7:c3:b5:19:d8:3b:c8:ae:e4:8e:6d:75:b0:b1:ed:b6:7e:81:ac:61:c1:a7:23:ea:50:44:4d:cc:d2:9e:2e:16:40:0b:48:e2:28:59:c5:97:94:32:89:5b:28:ce:31:1e:d2:87:16:f4:74:9c:0e:8e:1f:20:66:12:ef:a3:21:2f:8b:c1:de:14:16:08:9b:bb:de:7d:53:4d:bc:d5:3a:46:e9:c0:30:b4:60:92:90:4b:e0:19:44:cf:6a:be:87:2d:a5:bd:2c:17:c3:d1:3a:e6:b4:1b:f7:b4:64:9f:16:ea:3e:01:ff:a3:7f:e5:64:4d:16:89:7b:02:0b:62:f1:75:98:8e:77:88:8a:39:87:21:c4:d7:66:c1:9d:57:62:98:d2:f6:2e:fa:60:52:4f:8d:e8:c1:be:3d:c4:94:24:50:b2:2e:8b:c4:5e:db:6e:31:25:b7:66:69:30:a4:26:7b:e8:fc:b3:fd:28:e9:41:c9:7a:be:c4:28:2c:e7:ef:f7:82:91:b2:8a:06:bf:2f:d0:5c:ee:57:ea:bc:0a:44:73:11:1c:53:e8:d8:90:c5:e1:78:04:2b:c3:d6:36:13:9b:5f:9c:4b:d1:57:29:26:64:d5:11:45:c3:46:5e:79:96:b9:0c:c1:78:97:b9:b4:99:87:ed:99:77:23:f4:69:94:de:1a:83:e6:c2:4a:5d:d2:6c:e2:6a:9c:86:46:8f:0a:c6:39:50:2e:d7:b6:e1:8a:f4:22:ba:99:8b:1a:b9:74:3d:a9:b4:98:eb:99:8e:c0:d9:34:be:51:20:7e:a0:c3:48:6f:e1:d2:56:b6:bf:dd:35:3f:2d:e6:06:57:9a:6a:cf:79:eb:65:bf:f7:38:4e:bd:13:0d:5b:79:06:77:99:31:fe:ef:45:73:7f:1f:f2:37:37:78:65:a9:be:9a:90:00:e0:23:88:6f:e3:e2:46:02:dd:07:a3:66:39:d2:b9:b4:76:7d:7a:06:a6:cf:aa:39:82:f4:f6:2c:f4:b5:0f:66:0d:78:bc:92:24:4b:d5:be:4b:b2:c4:32:a0:00:37:80:8a:7c:ae:82:a5:be:c4:da:72:cc:7c:11:34:8a:be:16:51:62:d9:67:d1:5f:46:ba:80:4b:1b:27:8c:eb:07:16:90:3a:f3:98:86:23:fa:70:ec:f8:5e:b3:80:fa:50:b0:83:2b:30:ce:06:c7:a7:55:cb:cc:3d:3d:f9:46:bb:33:af:26:1f:a9:a9:31:44:49:10:af:3b:b9:0e:56:c5:a5:d6:48:b7:b9:27:d5:e9:31:68:5a:fc:5e:a6:f7:59:00:03:59:4a:43:21:d7:61:35:32:39:79:da:62:ec:db:8a:73:72:c0:ab:9c:3f:22:4a:cd:62:a0:b5:18:e9:6e:bc:ee:fa:bf:c5:51:38:91:63:24:33:13:7d:ae:be:bc:eb:c4:cd:14:42:7a:f7:7f:69:9b:b3:1a:e2:60:73:a0:1d:69:68:f5:5e:1a:8c:d3:e9:18:7b:63:b0:92:6e:43:cb:1f:91:df:e9:b0:d6:07:00:00",
+          "data.len": "908"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-08-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{55CF26DB-517B-4095-8178-4D99ED0444E9}",
+            "frame.interface_description": "以太网 2"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Aug  6, 2024 01:01:33.053174000 中国标准时间",
+          "frame.time_utc": "Aug  5, 2024 17:01:33.053174000 UTC",
+          "frame.time_epoch": "1722877293.053174000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.034670000",
+          "frame.time_delta_displayed": "13.609685000",
+          "frame.time_relative": "76.836446000",
+          "frame.number": "874",
+          "frame.len": "1151",
+          "frame.cap_len": "1151",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "c8:7f:54:6e:eb:37",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.dst.oui": "13139796",
+            "eth.dst.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.addr": "c8:7f:54:6e:eb:37",
+            "eth.addr_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.addr.oui": "13139796",
+            "eth.addr.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "d8:a0:e8:b9:05:ca",
+          "eth.src_tree": {
+            "eth.src_resolved": "zte_b9:05:ca",
+            "eth.src.oui": "14196968",
+            "eth.src.oui_resolved": "zte corporation",
+            "eth.addr": "d8:a0:e8:b9:05:ca",
+            "eth.addr_resolved": "zte_b9:05:ca",
+            "eth.addr.oui": "14196968",
+            "eth.addr.oui_resolved": "zte corporation",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1137",
+          "ip.id": "0x2bfb",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "111",
+          "ip.proto": "6",
+          "ip.checksum": "0xec63",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "192.168.1.2",
+          "ip.addr": "192.168.1.2",
+          "ip.dst_host": "192.168.1.2",
+          "ip.host": "192.168.1.2"
+        },
+        "tcp": {
+          "tcp.srcport": "5666",
+          "tcp.dstport": "14489",
+          "tcp.port": "5666",
+          "tcp.port": "14489",
+          "tcp.stream": "34",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "1097",
+          "tcp.seq": "82",
+          "tcp.seq_raw": "4005923730",
+          "tcp.nxtseq": "1179",
+          "tcp.ack": "201",
+          "tcp.ack_raw": "3782519813",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "513",
+          "tcp.window_size": "131328",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xa868",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "1.743975000",
+            "tcp.time_delta": "0.043217000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.046774000",
+            "tcp.analysis.bytes_in_flight": "1097",
+            "tcp.analysis.push_bytes_sent": "1097"
+          },
+          "tcp.payload": "45:04:00:00:01:40:04:00:00:0d:00:00:00:53:43:4c:6f:67:69:6e:5f:4c:6f:67:69:6e:2b:04:00:00:7b:22:61:63:63:6f:75:6e:74:49:64:22:3a:31:34:36:36:32:31:2c:22:72:65:63:6f:6d:6d:65:6e:64:65:64:41:72:65:61:22:3a:7b:22:73:65:72:76:65:72:49:64:22:3a:31:2c:22:73:65:72:76:65:72:4e:61:6d:65:22:3a:22:31:23:20:53:30:30:30:31:22:2c:22:73:65:72:76:65:72:49:70:22:3a:22:34:33:2e:31:35:39:2e:31:2e:32:32:33:22:2c:22:70:6f:72:74:22:3a:35:36:36:38:2c:22:73:65:72:76:65:72:53:74:61:74:65:22:3a:33:2c:22:69:73:4e:65:77:53:65:72:76:65:72:22:3a:31:2c:22:69:73:45:78:69:73:74:52:6f:6c:65:22:3a:30:7d:2c:22:74:68:69:72:64:50:61:72:74:79:22:3a:6e:75:6c:6c:2c:22:73:64:6b:5f:74:6f:6b:65:6e:22:3a:22:66:44:56:35:4d:59:52:63:35:36:52:2b:36:76:44:4c:38:35:49:6f:4d:70:70:5a:7a:35:54:33:51:59:55:2f:36:4e:56:7a:30:73:6e:56:65:70:59:63:35:2b:79:5a:73:52:53:68:39:32:6b:2f:34:35:38:70:4b:33:70:46:68:6d:50:4d:68:78:66:39:30:76:50:79:38:53:55:43:63:79:55:39:6e:65:4d:30:41:73:30:33:66:35:61:35:50:53:62:51:33:37:35:44:7a:69:6c:72:6a:42:4f:53:4b:43:6d:32:35:33:4c:61:49:75:41:6a:35:5a:2b:63:2f:4d:4f:51:43:30:75:6d:5a:69:2b:65:77:55:32:37:46:5a:75:33:66:4a:39:4d:70:33:38:2f:6f:32:79:61:4e:56:6d:75:61:34:53:6e:52:2f:4d:42:5a:43:4c:2b:32:76:56:51:4d:4c:48:56:35:73:61:71:62:72:5a:39:6e:36:48:31:56:50:4f:55:6f:59:35:36:37:70:67:78:58:4b:54:32:32:49:6c:6a:51:50:78:42:54:35:31:51:55:37:6b:4c:44:41:4d:71:69:66:54:49:4d:33:53:79:4e:42:4b:79:75:6f:6c:6c:54:4f:4a:44:42:75:50:69:76:67:69:64:35:5a:68:4b:53:63:2f:55:63:43:36:41:45:65:31:72:67:69:2b:62:48:33:4e:4d:77:2b:4f:67:53:4d:4f:35:70:35:58:62:4d:69:4c:51:36:68:67:4a:46:59:73:73:55:76:65:54:41:41:78:52:38:36:31:32:52:53:46:6a:54:48:31:4e:76:31:61:67:61:39:6e:6b:6a:64:6e:71:6b:51:3d:3d:22:2c:22:63:61:63:68:65:41:63:22:3a:22:77:6f:6c:66:31:30:30:39:22:2c:22:63:61:63:68:65:50:73:64:22:3a:22:6d:69:6e:67:78:69:61:22:2c:22:69:73:55:73:65:41:63:74:69:63:6f:64:65:22:3a:30:2c:22:6c:6f:67:69:6e:54:6f:6b:65:6e:22:3a:22:77:4f:39:6f:51:67:67:55:57:58:64:35:42:57:55:71:37:69:76:65:35:4f:5a:37:41:5a:31:6b:71:39:59:2b:30:65:35:46:44:41:54:4b:45:6e:57:4c:4b:6e:7a:46:55:47:32:4b:2b:65:42:75:44:6c:55:33:77:2f:35:46:65:6b:58:55:6f:64:79:52:70:4c:4d:53:2f:36:69:6f:2f:52:76:6c:38:75:42:36:68:7a:6b:69:4d:53:36:73:52:49:48:32:77:6e:70:6d:71:73:66:64:51:47:7a:68:59:41:44:71:30:45:4c:38:4e:6c:47:32:76:6e:76:4a:6b:34:46:38:74:6d:52:4b:4e:39:74:65:39:52:2f:37:50:67:50:73:54:44:66:33:4e:74:45:56:37:57:50:64:47:76:43:50:69:65:6b:6b:57:37:50:36:46:4e:72:68:35:61:50:41:32:45:78:56:49:6a:6c:30:48:6b:35:31:64:58:65:6e:64:68:49:76:4f:6e:73:77:38:79:48:69:4a:57:76:4b:77:75:73:43:30:45:4b:36:4f:49:49:6b:47:35:7a:76:44:2f:73:54:30:78:38:54:66:47:74:48:37:6f:79:71:6e:36:43:55:54:61:61:35:44:57:73:54:48:4c:64:47:62:6b:59:31:34:57:7a:74:44:75:43:6c:56:32:47:6d:6f:65:46:51:31:65:42:49:41:36:42:59:37:2b:71:67:4a:5a:65:31:6e:68:57:6a:48:6b:76:68:71:33:55:2b:4d:55:37:54:4c:4e:35:78:6c:50:4a:44:2f:41:43:56:6a:2b:36:75:31:63:6f:35:74:59:32:55:50:44:79:32:52:41:3d:3d:22:2c:22:6c:6f:67:69:6e:53:69:67:6e:22:3a:22:45:31:37:45:38:34:30:35:31:34:31:39:30:39:36:31:38:39:33:45:37:37:31:31:30:42:38:42:35:34:37:43:22:2c:22:63:6f:64:65:22:3a:30:2c:22:74:69:70:54:79:70:65:22:3a:31:2c:22:6d:65:73:73:61:67:65:22:3a:22:7b:5c:75:36:37:32:41:5c:75:37:37:45:35:5c:75:39:35:31:39:5c:75:38:42:45:46:7d:22:7d"
+        },
+        "data": {
+          "data.data": "45:04:00:00:01:40:04:00:00:0d:00:00:00:53:43:4c:6f:67:69:6e:5f:4c:6f:67:69:6e:2b:04:00:00:7b:22:61:63:63:6f:75:6e:74:49:64:22:3a:31:34:36:36:32:31:2c:22:72:65:63:6f:6d:6d:65:6e:64:65:64:41:72:65:61:22:3a:7b:22:73:65:72:76:65:72:49:64:22:3a:31:2c:22:73:65:72:76:65:72:4e:61:6d:65:22:3a:22:31:23:20:53:30:30:30:31:22:2c:22:73:65:72:76:65:72:49:70:22:3a:22:34:33:2e:31:35:39:2e:31:2e:32:32:33:22:2c:22:70:6f:72:74:22:3a:35:36:36:38:2c:22:73:65:72:76:65:72:53:74:61:74:65:22:3a:33:2c:22:69:73:4e:65:77:53:65:72:76:65:72:22:3a:31:2c:22:69:73:45:78:69:73:74:52:6f:6c:65:22:3a:30:7d:2c:22:74:68:69:72:64:50:61:72:74:79:22:3a:6e:75:6c:6c:2c:22:73:64:6b:5f:74:6f:6b:65:6e:22:3a:22:66:44:56:35:4d:59:52:63:35:36:52:2b:36:76:44:4c:38:35:49:6f:4d:70:70:5a:7a:35:54:33:51:59:55:2f:36:4e:56:7a:30:73:6e:56:65:70:59:63:35:2b:79:5a:73:52:53:68:39:32:6b:2f:34:35:38:70:4b:33:70:46:68:6d:50:4d:68:78:66:39:30:76:50:79:38:53:55:43:63:79:55:39:6e:65:4d:30:41:73:30:33:66:35:61:35:50:53:62:51:33:37:35:44:7a:69:6c:72:6a:42:4f:53:4b:43:6d:32:35:33:4c:61:49:75:41:6a:35:5a:2b:63:2f:4d:4f:51:43:30:75:6d:5a:69:2b:65:77:55:32:37:46:5a:75:33:66:4a:39:4d:70:33:38:2f:6f:32:79:61:4e:56:6d:75:61:34:53:6e:52:2f:4d:42:5a:43:4c:2b:32:76:56:51:4d:4c:48:56:35:73:61:71:62:72:5a:39:6e:36:48:31:56:50:4f:55:6f:59:35:36:37:70:67:78:58:4b:54:32:32:49:6c:6a:51:50:78:42:54:35:31:51:55:37:6b:4c:44:41:4d:71:69:66:54:49:4d:33:53:79:4e:42:4b:79:75:6f:6c:6c:54:4f:4a:44:42:75:50:69:76:67:69:64:35:5a:68:4b:53:63:2f:55:63:43:36:41:45:65:31:72:67:69:2b:62:48:33:4e:4d:77:2b:4f:67:53:4d:4f:35:70:35:58:62:4d:69:4c:51:36:68:67:4a:46:59:73:73:55:76:65:54:41:41:78:52:38:36:31:32:52:53:46:6a:54:48:31:4e:76:31:61:67:61:39:6e:6b:6a:64:6e:71:6b:51:3d:3d:22:2c:22:63:61:63:68:65:41:63:22:3a:22:77:6f:6c:66:31:30:30:39:22:2c:22:63:61:63:68:65:50:73:64:22:3a:22:6d:69:6e:67:78:69:61:22:2c:22:69:73:55:73:65:41:63:74:69:63:6f:64:65:22:3a:30:2c:22:6c:6f:67:69:6e:54:6f:6b:65:6e:22:3a:22:77:4f:39:6f:51:67:67:55:57:58:64:35:42:57:55:71:37:69:76:65:35:4f:5a:37:41:5a:31:6b:71:39:59:2b:30:65:35:46:44:41:54:4b:45:6e:57:4c:4b:6e:7a:46:55:47:32:4b:2b:65:42:75:44:6c:55:33:77:2f:35:46:65:6b:58:55:6f:64:79:52:70:4c:4d:53:2f:36:69:6f:2f:52:76:6c:38:75:42:36:68:7a:6b:69:4d:53:36:73:52:49:48:32:77:6e:70:6d:71:73:66:64:51:47:7a:68:59:41:44:71:30:45:4c:38:4e:6c:47:32:76:6e:76:4a:6b:34:46:38:74:6d:52:4b:4e:39:74:65:39:52:2f:37:50:67:50:73:54:44:66:33:4e:74:45:56:37:57:50:64:47:76:43:50:69:65:6b:6b:57:37:50:36:46:4e:72:68:35:61:50:41:32:45:78:56:49:6a:6c:30:48:6b:35:31:64:58:65:6e:64:68:49:76:4f:6e:73:77:38:79:48:69:4a:57:76:4b:77:75:73:43:30:45:4b:36:4f:49:49:6b:47:35:7a:76:44:2f:73:54:30:78:38:54:66:47:74:48:37:6f:79:71:6e:36:43:55:54:61:61:35:44:57:73:54:48:4c:64:47:62:6b:59:31:34:57:7a:74:44:75:43:6c:56:32:47:6d:6f:65:46:51:31:65:42:49:41:36:42:59:37:2b:71:67:4a:5a:65:31:6e:68:57:6a:48:6b:76:68:71:33:55:2b:4d:55:37:54:4c:4e:35:78:6c:50:4a:44:2f:41:43:56:6a:2b:36:75:31:63:6f:35:74:59:32:55:50:44:79:32:52:41:3d:3d:22:2c:22:6c:6f:67:69:6e:53:69:67:6e:22:3a:22:45:31:37:45:38:34:30:35:31:34:31:39:30:39:36:31:38:39:33:45:37:37:31:31:30:42:38:42:35:34:37:43:22:2c:22:63:6f:64:65:22:3a:30:2c:22:74:69:70:54:79:70:65:22:3a:31:2c:22:6d:65:73:73:61:67:65:22:3a:22:7b:5c:75:36:37:32:41:5c:75:37:37:45:35:5c:75:39:35:31:39:5c:75:38:42:45:46:7d:22:7d",
+          "data.len": "1097"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-08-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{55CF26DB-517B-4095-8178-4D99ED0444E9}",
+            "frame.interface_description": "以太网 2"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Aug  6, 2024 01:01:34.846596000 中国标准时间",
+          "frame.time_utc": "Aug  5, 2024 17:01:34.846596000 UTC",
+          "frame.time_epoch": "1722877294.846596000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.045373000",
+          "frame.time_delta_displayed": "1.793422000",
+          "frame.time_relative": "78.629868000",
+          "frame.number": "935",
+          "frame.len": "1019",
+          "frame.cap_len": "1019",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "c8:7f:54:6e:eb:37",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.dst.oui": "13139796",
+            "eth.dst.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.addr": "c8:7f:54:6e:eb:37",
+            "eth.addr_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.addr.oui": "13139796",
+            "eth.addr.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "d8:a0:e8:b9:05:ca",
+          "eth.src_tree": {
+            "eth.src_resolved": "zte_b9:05:ca",
+            "eth.src.oui": "14196968",
+            "eth.src.oui_resolved": "zte corporation",
+            "eth.addr": "d8:a0:e8:b9:05:ca",
+            "eth.addr_resolved": "zte_b9:05:ca",
+            "eth.addr.oui": "14196968",
+            "eth.addr.oui_resolved": "zte corporation",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1005",
+          "ip.id": "0x2bfe",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "111",
+          "ip.proto": "6",
+          "ip.checksum": "0xece4",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "192.168.1.2",
+          "ip.addr": "192.168.1.2",
+          "ip.dst_host": "192.168.1.2",
+          "ip.host": "192.168.1.2"
+        },
+        "tcp": {
+          "tcp.srcport": "5666",
+          "tcp.dstport": "14489",
+          "tcp.port": "5666",
+          "tcp.port": "14489",
+          "tcp.stream": "34",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "965",
+          "tcp.seq": "1335",
+          "tcp.seq_raw": "4005924983",
+          "tcp.nxtseq": "2300",
+          "tcp.ack": "717",
+          "tcp.ack_raw": "3782520329",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "511",
+          "tcp.window_size": "130816",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0x376a",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "3.537397000",
+            "tcp.time_delta": "0.045373000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.046774000",
+            "tcp.analysis.bytes_in_flight": "965",
+            "tcp.analysis.push_bytes_sent": "965"
+          },
+          "tcp.payload": "c1:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:4d:6b:24:37:14:85:e1:fe:19:59:86:ca:d6:38:ad:7b:75:75:a5:de:39:c1:09:03:c3:2c:e2:ec:c6:21:34:e3:62:30:d8:d3:a6:bb:9d:0f:8c:17:f9:e7:e9:f1:c9:40:72:6a:17:f0:59:56:49:c5:ab:d5:43:55:49:7f:7d:bb:5a:7d:b5:5a:ad:ae:be:7f:bb:fb:78:fb:e9:d7:1f:e7:e3:c5:dd:dd:d5:bc:ff:6d:de:bf:bd:3d:1c:b7:a7:f1:a7:69:3f:7f:d8:dd:df:cf:9f:6e:e6:9b:8b:fd:bc:3d:4c:9b:f7:4f:d3:e1:65:d2:9b:9b:69:53:ce:fe:b9:78:b7:bd:9f:a7:cd:54:be:f9:fa:6a:bd:5e:97:e9:cb:fd:37:0f:a7:bb:d5:cf:4b:8c:f3:72:6e:e6:a7:91:87:dd:fe:38:6d:a2:b5:fe:65:d6:d5:71:7b:3c:3d:6e:67:d3:ed:e1:dd:fc:3b:16:31:6d:d6:9f:af:2f:ff:38:2d:e6:a7:dd:dd:69:bc:3c:9f:fd:3b:6e:14:37:c4:4d:12:77:8a:3b:e2:fe:3a:f1:f5:7f:e3:95:e2:15:f1:2a:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:3e:28:3e:10:1f:92:78:59:b3:32:eb:97:7c:59:6b:f2:0b:e4:a0:5c:79:25:e5:38:cf:cc:15:38:57:5e:c9:39:ce:33:74:05:d2:15:8d:74:85:a9:2b:b0:ae:68:ac:2b:8c:5d:81:76:45:a3:5d:61:ee:0a:bc:2b:1a:ef:0a:83:57:20:5e:d1:88:57:98:bc:02:f3:8a:c6:bc:c2:e8:15:a8:57:34:ea:19:ab:67:50:cf:34:ea:19:ab:67:50:cf:34:ea:d9:e2:e5:0e:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:5f:7c:d4:42:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:57:59:bd:0a:f5:aa:46:bd:ca:ea:55:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:d1:bf:bc:c5:cf:3c:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:8d:7a:95:d5:ab:50:af:6a:d4:ab:ac:5e:85:7a:55:a3:5e:65:f5:2a:d4:ab:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:3d:8c:c5:26:06:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:9a:5d:db:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:af:b1:7a:0d:ea:35:d1:de:ed:62:f3:16:ea:35:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:9a:77:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:e8:cc:ca:e2:d0:0a:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:46:bd:ce:ea:75:a8:d7:35:ea:75:56:af:43:bd:ae:51:af:b3:7a:1d:ea:75:d1:59:bd:c5:61:3d:a8:d7:35:ea:75:56:af:43:bd:ae:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:d0:a8:37:58:bd:01:f5:c6:ff:54:cf:29:5f:16:f9:5f:ce:a6:0f:bb:9b:f9:65:65:c7:db:87:9f:ff:7c:98:5f:a6:dd:cf:87:c3:f6:e3:e7:25:3c:5d:3f:b6:b4:8b:eb:c7:cc:cb:b8:7e:1c:51:c6:f5:63:ff:ee:f2:87:e7:e9:f9:6f:b9:0d:5d:81:85:2f:00:00"
+        },
+        "data": {
+          "data.data": "c1:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:4d:6b:24:37:14:85:e1:fe:19:59:86:ca:d6:38:ad:7b:75:75:a5:de:39:c1:09:03:c3:2c:e2:ec:c6:21:34:e3:62:30:d8:d3:a6:bb:9d:0f:8c:17:f9:e7:e9:f1:c9:40:72:6a:17:f0:59:56:49:c5:ab:d5:43:55:49:7f:7d:bb:5a:7d:b5:5a:ad:ae:be:7f:bb:fb:78:fb:e9:d7:1f:e7:e3:c5:dd:dd:d5:bc:ff:6d:de:bf:bd:3d:1c:b7:a7:f1:a7:69:3f:7f:d8:dd:df:cf:9f:6e:e6:9b:8b:fd:bc:3d:4c:9b:f7:4f:d3:e1:65:d2:9b:9b:69:53:ce:fe:b9:78:b7:bd:9f:a7:cd:54:be:f9:fa:6a:bd:5e:97:e9:cb:fd:37:0f:a7:bb:d5:cf:4b:8c:f3:72:6e:e6:a7:91:87:dd:fe:38:6d:a2:b5:fe:65:d6:d5:71:7b:3c:3d:6e:67:d3:ed:e1:dd:fc:3b:16:31:6d:d6:9f:af:2f:ff:38:2d:e6:a7:dd:dd:69:bc:3c:9f:fd:3b:6e:14:37:c4:4d:12:77:8a:3b:e2:fe:3a:f1:f5:7f:e3:95:e2:15:f1:2a:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:3e:28:3e:10:1f:92:78:59:b3:32:eb:97:7c:59:6b:f2:0b:e4:a0:5c:79:25:e5:38:cf:cc:15:38:57:5e:c9:39:ce:33:74:05:d2:15:8d:74:85:a9:2b:b0:ae:68:ac:2b:8c:5d:81:76:45:a3:5d:61:ee:0a:bc:2b:1a:ef:0a:83:57:20:5e:d1:88:57:98:bc:02:f3:8a:c6:bc:c2:e8:15:a8:57:34:ea:19:ab:67:50:cf:34:ea:19:ab:67:50:cf:34:ea:d9:e2:e5:0e:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:5f:7c:d4:42:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:57:59:bd:0a:f5:aa:46:bd:ca:ea:55:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:d1:bf:bc:c5:cf:3c:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:8d:7a:95:d5:ab:50:af:6a:d4:ab:ac:5e:85:7a:55:a3:5e:65:f5:2a:d4:ab:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:3d:8c:c5:26:06:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:9a:5d:db:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:af:b1:7a:0d:ea:35:d1:de:ed:62:f3:16:ea:35:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:9a:77:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:e8:cc:ca:e2:d0:0a:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:46:bd:ce:ea:75:a8:d7:35:ea:75:56:af:43:bd:ae:51:af:b3:7a:1d:ea:75:d1:59:bd:c5:61:3d:a8:d7:35:ea:75:56:af:43:bd:ae:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:d0:a8:37:58:bd:01:f5:c6:ff:54:cf:29:5f:16:f9:5f:ce:a6:0f:bb:9b:f9:65:65:c7:db:87:9f:ff:7c:98:5f:a6:dd:cf:87:c3:f6:e3:e7:25:3c:5d:3f:b6:b4:8b:eb:c7:cc:cb:b8:7e:1c:51:c6:f5:63:ff:ee:f2:87:e7:e9:f9:6f:b9:0d:5d:81:85:2f:00:00",
+          "data.len": "965"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-08-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{55CF26DB-517B-4095-8178-4D99ED0444E9}",
+            "frame.interface_description": "以太网 2"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Aug  6, 2024 01:01:38.213319000 中国标准时间",
+          "frame.time_utc": "Aug  5, 2024 17:01:38.213319000 UTC",
+          "frame.time_epoch": "1722877298.213319000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.045477000",
+          "frame.time_delta_displayed": "3.366723000",
+          "frame.time_relative": "81.996591000",
+          "frame.number": "970",
+          "frame.len": "1019",
+          "frame.cap_len": "1019",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "c8:7f:54:6e:eb:37",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.dst.oui": "13139796",
+            "eth.dst.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.addr": "c8:7f:54:6e:eb:37",
+            "eth.addr_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.addr.oui": "13139796",
+            "eth.addr.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "d8:a0:e8:b9:05:ca",
+          "eth.src_tree": {
+            "eth.src_resolved": "zte_b9:05:ca",
+            "eth.src.oui": "14196968",
+            "eth.src.oui_resolved": "zte corporation",
+            "eth.addr": "d8:a0:e8:b9:05:ca",
+            "eth.addr_resolved": "zte_b9:05:ca",
+            "eth.addr.oui": "14196968",
+            "eth.addr.oui_resolved": "zte corporation",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1005",
+          "ip.id": "0x2c00",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "111",
+          "ip.proto": "6",
+          "ip.checksum": "0xece2",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "192.168.1.2",
+          "ip.addr": "192.168.1.2",
+          "ip.dst_host": "192.168.1.2",
+          "ip.host": "192.168.1.2"
+        },
+        "tcp": {
+          "tcp.srcport": "5666",
+          "tcp.dstport": "14489",
+          "tcp.port": "5666",
+          "tcp.port": "14489",
+          "tcp.stream": "34",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "965",
+          "tcp.seq": "2456",
+          "tcp.seq_raw": "4005926104",
+          "tcp.nxtseq": "3421",
+          "tcp.ack": "1233",
+          "tcp.ack_raw": "3782520845",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "509",
+          "tcp.window_size": "130304",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0x3107",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "6.904120000",
+            "tcp.time_delta": "0.045477000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.046774000",
+            "tcp.analysis.bytes_in_flight": "965",
+            "tcp.analysis.push_bytes_sent": "965"
+          },
+          "tcp.payload": "c1:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:4d:6b:24:37:14:85:e1:fe:19:59:86:ca:d6:38:ad:7b:75:75:a5:de:39:c1:09:03:c3:2c:e2:ec:c6:21:34:e3:62:30:d8:d3:a6:bb:9d:0f:8c:17:f9:e7:e9:f1:c9:40:72:6a:17:f0:59:56:49:c5:ab:d5:43:55:49:7f:7d:bb:5a:7d:b5:5a:ad:ae:be:7f:bb:fb:78:fb:e9:d7:1f:e7:e3:c5:dd:dd:d5:bc:ff:6d:de:bf:bd:3d:1c:b7:a7:f1:a7:69:3f:7f:d8:dd:df:cf:9f:6e:e6:9b:8b:fd:bc:3d:4c:9b:f7:4f:d3:e1:65:d2:9b:9b:69:53:ce:fe:b9:78:b7:bd:9f:a7:cd:54:be:f9:fa:6a:bd:5e:97:e9:cb:fd:37:0f:a7:bb:d5:cf:4b:8c:f3:72:6e:e6:a7:91:87:dd:fe:38:6d:a2:b5:fe:65:d6:d5:71:7b:3c:3d:6e:67:d3:ed:e1:dd:fc:3b:16:31:6d:d6:9f:af:2f:ff:38:2d:e6:a7:dd:dd:69:bc:3c:9f:fd:3b:6e:14:37:c4:4d:12:77:8a:3b:e2:fe:3a:f1:f5:7f:e3:95:e2:15:f1:2a:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:3e:28:3e:10:1f:92:78:59:b3:32:eb:97:7c:59:6b:f2:0b:e4:a0:5c:79:25:e5:38:cf:cc:15:38:57:5e:c9:39:ce:33:74:05:d2:15:8d:74:85:a9:2b:b0:ae:68:ac:2b:8c:5d:81:76:45:a3:5d:61:ee:0a:bc:2b:1a:ef:0a:83:57:20:5e:d1:88:57:98:bc:02:f3:8a:c6:bc:c2:e8:15:a8:57:34:ea:19:ab:67:50:cf:34:ea:19:ab:67:50:cf:34:ea:d9:e2:e5:0e:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:5f:7c:d4:42:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:57:59:bd:0a:f5:aa:46:bd:ca:ea:55:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:d1:bf:bc:c5:cf:3c:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:8d:7a:95:d5:ab:50:af:6a:d4:ab:ac:5e:85:7a:55:a3:5e:65:f5:2a:d4:ab:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:3d:8c:c5:26:06:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:9a:5d:db:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:af:b1:7a:0d:ea:35:d1:de:ed:62:f3:16:ea:35:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:9a:77:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:e8:cc:ca:e2:d0:0a:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:46:bd:ce:ea:75:a8:d7:35:ea:75:56:af:43:bd:ae:51:af:b3:7a:1d:ea:75:d1:59:bd:c5:61:3d:a8:d7:35:ea:75:56:af:43:bd:ae:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:d0:a8:37:58:bd:01:f5:c6:ff:54:cf:29:5f:16:f9:5f:ce:a6:0f:bb:9b:f9:65:65:c7:db:87:9f:ff:7c:98:5f:a6:dd:cf:87:c3:f6:e3:e7:25:3c:5d:3f:b6:b4:8b:eb:c7:cc:cb:b8:7e:1c:51:c6:f5:63:ff:ee:f2:87:e7:e9:f9:6f:b9:0d:5d:81:85:2f:00:00"
+        },
+        "data": {
+          "data.data": "c1:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:4d:6b:24:37:14:85:e1:fe:19:59:86:ca:d6:38:ad:7b:75:75:a5:de:39:c1:09:03:c3:2c:e2:ec:c6:21:34:e3:62:30:d8:d3:a6:bb:9d:0f:8c:17:f9:e7:e9:f1:c9:40:72:6a:17:f0:59:56:49:c5:ab:d5:43:55:49:7f:7d:bb:5a:7d:b5:5a:ad:ae:be:7f:bb:fb:78:fb:e9:d7:1f:e7:e3:c5:dd:dd:d5:bc:ff:6d:de:bf:bd:3d:1c:b7:a7:f1:a7:69:3f:7f:d8:dd:df:cf:9f:6e:e6:9b:8b:fd:bc:3d:4c:9b:f7:4f:d3:e1:65:d2:9b:9b:69:53:ce:fe:b9:78:b7:bd:9f:a7:cd:54:be:f9:fa:6a:bd:5e:97:e9:cb:fd:37:0f:a7:bb:d5:cf:4b:8c:f3:72:6e:e6:a7:91:87:dd:fe:38:6d:a2:b5:fe:65:d6:d5:71:7b:3c:3d:6e:67:d3:ed:e1:dd:fc:3b:16:31:6d:d6:9f:af:2f:ff:38:2d:e6:a7:dd:dd:69:bc:3c:9f:fd:3b:6e:14:37:c4:4d:12:77:8a:3b:e2:fe:3a:f1:f5:7f:e3:95:e2:15:f1:2a:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:3e:28:3e:10:1f:92:78:59:b3:32:eb:97:7c:59:6b:f2:0b:e4:a0:5c:79:25:e5:38:cf:cc:15:38:57:5e:c9:39:ce:33:74:05:d2:15:8d:74:85:a9:2b:b0:ae:68:ac:2b:8c:5d:81:76:45:a3:5d:61:ee:0a:bc:2b:1a:ef:0a:83:57:20:5e:d1:88:57:98:bc:02:f3:8a:c6:bc:c2:e8:15:a8:57:34:ea:19:ab:67:50:cf:34:ea:19:ab:67:50:cf:34:ea:d9:e2:e5:0e:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:5f:7c:d4:42:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:57:59:bd:0a:f5:aa:46:bd:ca:ea:55:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:d1:bf:bc:c5:cf:3c:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:8d:7a:95:d5:ab:50:af:6a:d4:ab:ac:5e:85:7a:55:a3:5e:65:f5:2a:d4:ab:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:3d:8c:c5:26:06:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:9a:5d:db:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:af:b1:7a:0d:ea:35:d1:de:ed:62:f3:16:ea:35:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:9a:77:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:e8:cc:ca:e2:d0:0a:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:46:bd:ce:ea:75:a8:d7:35:ea:75:56:af:43:bd:ae:51:af:b3:7a:1d:ea:75:d1:59:bd:c5:61:3d:a8:d7:35:ea:75:56:af:43:bd:ae:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:d0:a8:37:58:bd:01:f5:c6:ff:54:cf:29:5f:16:f9:5f:ce:a6:0f:bb:9b:f9:65:65:c7:db:87:9f:ff:7c:98:5f:a6:dd:cf:87:c3:f6:e3:e7:25:3c:5d:3f:b6:b4:8b:eb:c7:cc:cb:b8:7e:1c:51:c6:f5:63:ff:ee:f2:87:e7:e9:f9:6f:b9:0d:5d:81:85:2f:00:00",
+          "data.len": "965"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-08-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{55CF26DB-517B-4095-8178-4D99ED0444E9}",
+            "frame.interface_description": "以太网 2"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Aug  6, 2024 01:01:40.631320000 中国标准时间",
+          "frame.time_utc": "Aug  5, 2024 17:01:40.631320000 UTC",
+          "frame.time_epoch": "1722877300.631320000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.029631000",
+          "frame.time_delta_displayed": "2.418001000",
+          "frame.time_relative": "84.414592000",
+          "frame.number": "988",
+          "frame.len": "1019",
+          "frame.cap_len": "1019",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "c8:7f:54:6e:eb:37",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.dst.oui": "13139796",
+            "eth.dst.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.addr": "c8:7f:54:6e:eb:37",
+            "eth.addr_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.addr.oui": "13139796",
+            "eth.addr.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "d8:a0:e8:b9:05:ca",
+          "eth.src_tree": {
+            "eth.src_resolved": "zte_b9:05:ca",
+            "eth.src.oui": "14196968",
+            "eth.src.oui_resolved": "zte corporation",
+            "eth.addr": "d8:a0:e8:b9:05:ca",
+            "eth.addr_resolved": "zte_b9:05:ca",
+            "eth.addr.oui": "14196968",
+            "eth.addr.oui_resolved": "zte corporation",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1005",
+          "ip.id": "0x2c02",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "111",
+          "ip.proto": "6",
+          "ip.checksum": "0xece0",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "192.168.1.2",
+          "ip.addr": "192.168.1.2",
+          "ip.dst_host": "192.168.1.2",
+          "ip.host": "192.168.1.2"
+        },
+        "tcp": {
+          "tcp.srcport": "5666",
+          "tcp.dstport": "14489",
+          "tcp.port": "5666",
+          "tcp.port": "14489",
+          "tcp.stream": "34",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "965",
+          "tcp.seq": "3577",
+          "tcp.seq_raw": "4005927225",
+          "tcp.nxtseq": "4542",
+          "tcp.ack": "1749",
+          "tcp.ack_raw": "3782521361",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "514",
+          "tcp.window_size": "131584",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0x2a9d",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "9.322121000",
+            "tcp.time_delta": "0.045484000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.046774000",
+            "tcp.analysis.bytes_in_flight": "965",
+            "tcp.analysis.push_bytes_sent": "965"
+          },
+          "tcp.payload": "c1:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:4d:6b:24:37:14:85:e1:fe:19:59:86:ca:d6:38:ad:7b:75:75:a5:de:39:c1:09:03:c3:2c:e2:ec:c6:21:34:e3:62:30:d8:d3:a6:bb:9d:0f:8c:17:f9:e7:e9:f1:c9:40:72:6a:17:f0:59:56:49:c5:ab:d5:43:55:49:7f:7d:bb:5a:7d:b5:5a:ad:ae:be:7f:bb:fb:78:fb:e9:d7:1f:e7:e3:c5:dd:dd:d5:bc:ff:6d:de:bf:bd:3d:1c:b7:a7:f1:a7:69:3f:7f:d8:dd:df:cf:9f:6e:e6:9b:8b:fd:bc:3d:4c:9b:f7:4f:d3:e1:65:d2:9b:9b:69:53:ce:fe:b9:78:b7:bd:9f:a7:cd:54:be:f9:fa:6a:bd:5e:97:e9:cb:fd:37:0f:a7:bb:d5:cf:4b:8c:f3:72:6e:e6:a7:91:87:dd:fe:38:6d:a2:b5:fe:65:d6:d5:71:7b:3c:3d:6e:67:d3:ed:e1:dd:fc:3b:16:31:6d:d6:9f:af:2f:ff:38:2d:e6:a7:dd:dd:69:bc:3c:9f:fd:3b:6e:14:37:c4:4d:12:77:8a:3b:e2:fe:3a:f1:f5:7f:e3:95:e2:15:f1:2a:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:3e:28:3e:10:1f:92:78:59:b3:32:eb:97:7c:59:6b:f2:0b:e4:a0:5c:79:25:e5:38:cf:cc:15:38:57:5e:c9:39:ce:33:74:05:d2:15:8d:74:85:a9:2b:b0:ae:68:ac:2b:8c:5d:81:76:45:a3:5d:61:ee:0a:bc:2b:1a:ef:0a:83:57:20:5e:d1:88:57:98:bc:02:f3:8a:c6:bc:c2:e8:15:a8:57:34:ea:19:ab:67:50:cf:34:ea:19:ab:67:50:cf:34:ea:d9:e2:e5:0e:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:5f:7c:d4:42:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:57:59:bd:0a:f5:aa:46:bd:ca:ea:55:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:d1:bf:bc:c5:cf:3c:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:8d:7a:95:d5:ab:50:af:6a:d4:ab:ac:5e:85:7a:55:a3:5e:65:f5:2a:d4:ab:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:3d:8c:c5:26:06:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:9a:5d:db:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:af:b1:7a:0d:ea:35:d1:de:ed:62:f3:16:ea:35:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:9a:77:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:e8:cc:ca:e2:d0:0a:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:46:bd:ce:ea:75:a8:d7:35:ea:75:56:af:43:bd:ae:51:af:b3:7a:1d:ea:75:d1:59:bd:c5:61:3d:a8:d7:35:ea:75:56:af:43:bd:ae:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:d0:a8:37:58:bd:01:f5:c6:ff:54:cf:29:5f:16:f9:5f:ce:a6:0f:bb:9b:f9:65:65:c7:db:87:9f:ff:7c:98:5f:a6:dd:cf:87:c3:f6:e3:e7:25:3c:5d:3f:b6:b4:8b:eb:c7:cc:cb:b8:7e:1c:51:c6:f5:63:ff:ee:f2:87:e7:e9:f9:6f:b9:0d:5d:81:85:2f:00:00"
+        },
+        "data": {
+          "data.data": "c1:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:4d:6b:24:37:14:85:e1:fe:19:59:86:ca:d6:38:ad:7b:75:75:a5:de:39:c1:09:03:c3:2c:e2:ec:c6:21:34:e3:62:30:d8:d3:a6:bb:9d:0f:8c:17:f9:e7:e9:f1:c9:40:72:6a:17:f0:59:56:49:c5:ab:d5:43:55:49:7f:7d:bb:5a:7d:b5:5a:ad:ae:be:7f:bb:fb:78:fb:e9:d7:1f:e7:e3:c5:dd:dd:d5:bc:ff:6d:de:bf:bd:3d:1c:b7:a7:f1:a7:69:3f:7f:d8:dd:df:cf:9f:6e:e6:9b:8b:fd:bc:3d:4c:9b:f7:4f:d3:e1:65:d2:9b:9b:69:53:ce:fe:b9:78:b7:bd:9f:a7:cd:54:be:f9:fa:6a:bd:5e:97:e9:cb:fd:37:0f:a7:bb:d5:cf:4b:8c:f3:72:6e:e6:a7:91:87:dd:fe:38:6d:a2:b5:fe:65:d6:d5:71:7b:3c:3d:6e:67:d3:ed:e1:dd:fc:3b:16:31:6d:d6:9f:af:2f:ff:38:2d:e6:a7:dd:dd:69:bc:3c:9f:fd:3b:6e:14:37:c4:4d:12:77:8a:3b:e2:fe:3a:f1:f5:7f:e3:95:e2:15:f1:2a:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:3e:28:3e:10:1f:92:78:59:b3:32:eb:97:7c:59:6b:f2:0b:e4:a0:5c:79:25:e5:38:cf:cc:15:38:57:5e:c9:39:ce:33:74:05:d2:15:8d:74:85:a9:2b:b0:ae:68:ac:2b:8c:5d:81:76:45:a3:5d:61:ee:0a:bc:2b:1a:ef:0a:83:57:20:5e:d1:88:57:98:bc:02:f3:8a:c6:bc:c2:e8:15:a8:57:34:ea:19:ab:67:50:cf:34:ea:19:ab:67:50:cf:34:ea:d9:e2:e5:0e:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:5f:7c:d4:42:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:57:59:bd:0a:f5:aa:46:bd:ca:ea:55:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:d1:bf:bc:c5:cf:3c:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:8d:7a:95:d5:ab:50:af:6a:d4:ab:ac:5e:85:7a:55:a3:5e:65:f5:2a:d4:ab:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:3d:8c:c5:26:06:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:9a:5d:db:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:af:b1:7a:0d:ea:35:d1:de:ed:62:f3:16:ea:35:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:9a:77:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:e8:cc:ca:e2:d0:0a:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:46:bd:ce:ea:75:a8:d7:35:ea:75:56:af:43:bd:ae:51:af:b3:7a:1d:ea:75:d1:59:bd:c5:61:3d:a8:d7:35:ea:75:56:af:43:bd:ae:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:d0:a8:37:58:bd:01:f5:c6:ff:54:cf:29:5f:16:f9:5f:ce:a6:0f:bb:9b:f9:65:65:c7:db:87:9f:ff:7c:98:5f:a6:dd:cf:87:c3:f6:e3:e7:25:3c:5d:3f:b6:b4:8b:eb:c7:cc:cb:b8:7e:1c:51:c6:f5:63:ff:ee:f2:87:e7:e9:f9:6f:b9:0d:5d:81:85:2f:00:00",
+          "data.len": "965"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-08-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{55CF26DB-517B-4095-8178-4D99ED0444E9}",
+            "frame.interface_description": "以太网 2"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Aug  6, 2024 01:01:43.714477000 中国标准时间",
+          "frame.time_utc": "Aug  5, 2024 17:01:43.714477000 UTC",
+          "frame.time_epoch": "1722877303.714477000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.045560000",
+          "frame.time_delta_displayed": "3.083157000",
+          "frame.time_relative": "87.497749000",
+          "frame.number": "1007",
+          "frame.len": "1019",
+          "frame.cap_len": "1019",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "c8:7f:54:6e:eb:37",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.dst.oui": "13139796",
+            "eth.dst.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.addr": "c8:7f:54:6e:eb:37",
+            "eth.addr_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.addr.oui": "13139796",
+            "eth.addr.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "d8:a0:e8:b9:05:ca",
+          "eth.src_tree": {
+            "eth.src_resolved": "zte_b9:05:ca",
+            "eth.src.oui": "14196968",
+            "eth.src.oui_resolved": "zte corporation",
+            "eth.addr": "d8:a0:e8:b9:05:ca",
+            "eth.addr_resolved": "zte_b9:05:ca",
+            "eth.addr.oui": "14196968",
+            "eth.addr.oui_resolved": "zte corporation",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1005",
+          "ip.id": "0x2c04",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "111",
+          "ip.proto": "6",
+          "ip.checksum": "0xecde",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "192.168.1.2",
+          "ip.addr": "192.168.1.2",
+          "ip.dst_host": "192.168.1.2",
+          "ip.host": "192.168.1.2"
+        },
+        "tcp": {
+          "tcp.srcport": "5666",
+          "tcp.dstport": "14489",
+          "tcp.port": "5666",
+          "tcp.port": "14489",
+          "tcp.stream": "34",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "965",
+          "tcp.seq": "4698",
+          "tcp.seq_raw": "4005928346",
+          "tcp.nxtseq": "5663",
+          "tcp.ack": "2265",
+          "tcp.ack_raw": "3782521877",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "512",
+          "tcp.window_size": "131072",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0x243a",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "12.405278000",
+            "tcp.time_delta": "0.045560000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.046774000",
+            "tcp.analysis.bytes_in_flight": "965",
+            "tcp.analysis.push_bytes_sent": "965"
+          },
+          "tcp.payload": "c1:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:4d:6b:24:37:14:85:e1:fe:19:59:86:ca:d6:38:ad:7b:75:75:a5:de:39:c1:09:03:c3:2c:e2:ec:c6:21:34:e3:62:30:d8:d3:a6:bb:9d:0f:8c:17:f9:e7:e9:f1:c9:40:72:6a:17:f0:59:56:49:c5:ab:d5:43:55:49:7f:7d:bb:5a:7d:b5:5a:ad:ae:be:7f:bb:fb:78:fb:e9:d7:1f:e7:e3:c5:dd:dd:d5:bc:ff:6d:de:bf:bd:3d:1c:b7:a7:f1:a7:69:3f:7f:d8:dd:df:cf:9f:6e:e6:9b:8b:fd:bc:3d:4c:9b:f7:4f:d3:e1:65:d2:9b:9b:69:53:ce:fe:b9:78:b7:bd:9f:a7:cd:54:be:f9:fa:6a:bd:5e:97:e9:cb:fd:37:0f:a7:bb:d5:cf:4b:8c:f3:72:6e:e6:a7:91:87:dd:fe:38:6d:a2:b5:fe:65:d6:d5:71:7b:3c:3d:6e:67:d3:ed:e1:dd:fc:3b:16:31:6d:d6:9f:af:2f:ff:38:2d:e6:a7:dd:dd:69:bc:3c:9f:fd:3b:6e:14:37:c4:4d:12:77:8a:3b:e2:fe:3a:f1:f5:7f:e3:95:e2:15:f1:2a:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:3e:28:3e:10:1f:92:78:59:b3:32:eb:97:7c:59:6b:f2:0b:e4:a0:5c:79:25:e5:38:cf:cc:15:38:57:5e:c9:39:ce:33:74:05:d2:15:8d:74:85:a9:2b:b0:ae:68:ac:2b:8c:5d:81:76:45:a3:5d:61:ee:0a:bc:2b:1a:ef:0a:83:57:20:5e:d1:88:57:98:bc:02:f3:8a:c6:bc:c2:e8:15:a8:57:34:ea:19:ab:67:50:cf:34:ea:19:ab:67:50:cf:34:ea:d9:e2:e5:0e:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:5f:7c:d4:42:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:57:59:bd:0a:f5:aa:46:bd:ca:ea:55:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:d1:bf:bc:c5:cf:3c:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:8d:7a:95:d5:ab:50:af:6a:d4:ab:ac:5e:85:7a:55:a3:5e:65:f5:2a:d4:ab:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:3d:8c:c5:26:06:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:9a:5d:db:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:af:b1:7a:0d:ea:35:d1:de:ed:62:f3:16:ea:35:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:9a:77:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:e8:cc:ca:e2:d0:0a:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:46:bd:ce:ea:75:a8:d7:35:ea:75:56:af:43:bd:ae:51:af:b3:7a:1d:ea:75:d1:59:bd:c5:61:3d:a8:d7:35:ea:75:56:af:43:bd:ae:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:d0:a8:37:58:bd:01:f5:c6:ff:54:cf:29:5f:16:f9:5f:ce:a6:0f:bb:9b:f9:65:65:c7:db:87:9f:ff:7c:98:5f:a6:dd:cf:87:c3:f6:e3:e7:25:3c:5d:3f:b6:b4:8b:eb:c7:cc:cb:b8:7e:1c:51:c6:f5:63:ff:ee:f2:87:e7:e9:f9:6f:b9:0d:5d:81:85:2f:00:00"
+        },
+        "data": {
+          "data.data": "c1:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:bd:da:4d:6b:24:37:14:85:e1:fe:19:59:86:ca:d6:38:ad:7b:75:75:a5:de:39:c1:09:03:c3:2c:e2:ec:c6:21:34:e3:62:30:d8:d3:a6:bb:9d:0f:8c:17:f9:e7:e9:f1:c9:40:72:6a:17:f0:59:56:49:c5:ab:d5:43:55:49:7f:7d:bb:5a:7d:b5:5a:ad:ae:be:7f:bb:fb:78:fb:e9:d7:1f:e7:e3:c5:dd:dd:d5:bc:ff:6d:de:bf:bd:3d:1c:b7:a7:f1:a7:69:3f:7f:d8:dd:df:cf:9f:6e:e6:9b:8b:fd:bc:3d:4c:9b:f7:4f:d3:e1:65:d2:9b:9b:69:53:ce:fe:b9:78:b7:bd:9f:a7:cd:54:be:f9:fa:6a:bd:5e:97:e9:cb:fd:37:0f:a7:bb:d5:cf:4b:8c:f3:72:6e:e6:a7:91:87:dd:fe:38:6d:a2:b5:fe:65:d6:d5:71:7b:3c:3d:6e:67:d3:ed:e1:dd:fc:3b:16:31:6d:d6:9f:af:2f:ff:38:2d:e6:a7:dd:dd:69:bc:3c:9f:fd:3b:6e:14:37:c4:4d:12:77:8a:3b:e2:fe:3a:f1:f5:7f:e3:95:e2:15:f1:2a:89:07:c5:03:f1:90:c4:1b:c5:1b:e2:4d:12:4f:8a:27:e2:29:89:77:8a:77:c4:bb:24:3e:28:3e:10:1f:92:78:59:b3:32:eb:97:7c:59:6b:f2:0b:e4:a0:5c:79:25:e5:38:cf:cc:15:38:57:5e:c9:39:ce:33:74:05:d2:15:8d:74:85:a9:2b:b0:ae:68:ac:2b:8c:5d:81:76:45:a3:5d:61:ee:0a:bc:2b:1a:ef:0a:83:57:20:5e:d1:88:57:98:bc:02:f3:8a:c6:bc:c2:e8:15:a8:57:34:ea:19:ab:67:50:cf:34:ea:19:ab:67:50:cf:34:ea:d9:e2:e5:0e:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:63:f5:0c:ea:99:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:67:f5:1c:ea:b9:46:3d:5f:7c:d4:42:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:e7:ac:9e:43:3d:d7:a8:57:59:bd:0a:f5:aa:46:bd:ca:ea:55:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:d1:bf:bc:c5:cf:3c:a8:57:35:ea:55:56:af:42:bd:aa:51:af:b2:7a:15:ea:55:8d:7a:95:d5:ab:50:af:6a:d4:ab:ac:5e:85:7a:55:a3:5e:65:f5:2a:d4:ab:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:1a:f5:82:d5:0b:a8:17:a2:3d:8c:c5:26:06:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:c1:ea:05:d4:0b:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:9a:5d:db:c6:ea:35:a8:d7:34:ea:35:56:af:41:bd:a6:51:af:b1:7a:0d:ea:35:d1:de:ed:62:f3:16:ea:35:8d:7a:8d:d5:6b:50:af:69:d4:6b:ac:5e:83:7a:4d:a3:5e:63:f5:1a:d4:6b:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:1a:f5:92:d5:4b:a8:97:9a:77:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:46:bd:64:f5:12:ea:a5:e8:cc:ca:e2:d0:0a:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:c9:ea:25:d4:4b:8d:7a:9d:d5:eb:50:af:6b:d4:eb:ac:5e:87:7a:5d:a3:5e:67:f5:3a:d4:eb:1a:f5:3a:ab:d7:a1:5e:d7:a8:d7:59:bd:0e:f5:ba:46:bd:ce:ea:75:a8:d7:35:ea:75:56:af:43:bd:ae:51:af:b3:7a:1d:ea:75:d1:59:bd:c5:61:3d:a8:d7:35:ea:75:56:af:43:bd:ae:51:6f:b0:7a:03:ea:0d:8d:7a:83:d5:1b:50:6f:68:d4:1b:ac:de:80:7a:43:a3:de:60:f5:06:d4:1b:1a:f5:06:ab:37:a0:de:d0:a8:37:58:bd:01:f5:c6:ff:54:cf:29:5f:16:f9:5f:ce:a6:0f:bb:9b:f9:65:65:c7:db:87:9f:ff:7c:98:5f:a6:dd:cf:87:c3:f6:e3:e7:25:3c:5d:3f:b6:b4:8b:eb:c7:cc:cb:b8:7e:1c:51:c6:f5:63:ff:ee:f2:87:e7:e9:f9:6f:b9:0d:5d:81:85:2f:00:00",
+          "data.len": "965"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-08-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{55CF26DB-517B-4095-8178-4D99ED0444E9}",
+            "frame.interface_description": "以太网 2"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Aug  6, 2024 01:01:59.131283000 中国标准时间",
+          "frame.time_utc": "Aug  5, 2024 17:01:59.131283000 UTC",
+          "frame.time_epoch": "1722877319.131283000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.029126000",
+          "frame.time_delta_displayed": "15.416806000",
+          "frame.time_relative": "102.914555000",
+          "frame.number": "1129",
+          "frame.len": "1008",
+          "frame.cap_len": "1008",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "c8:7f:54:6e:eb:37",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.dst.oui": "13139796",
+            "eth.dst.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.addr": "c8:7f:54:6e:eb:37",
+            "eth.addr_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.addr.oui": "13139796",
+            "eth.addr.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "d8:a0:e8:b9:05:ca",
+          "eth.src_tree": {
+            "eth.src_resolved": "zte_b9:05:ca",
+            "eth.src.oui": "14196968",
+            "eth.src.oui_resolved": "zte corporation",
+            "eth.addr": "d8:a0:e8:b9:05:ca",
+            "eth.addr_resolved": "zte_b9:05:ca",
+            "eth.addr.oui": "14196968",
+            "eth.addr.oui_resolved": "zte corporation",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "994",
+          "ip.id": "0x2c16",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "111",
+          "ip.proto": "6",
+          "ip.checksum": "0xecd7",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "192.168.1.2",
+          "ip.addr": "192.168.1.2",
+          "ip.dst_host": "192.168.1.2",
+          "ip.host": "192.168.1.2"
+        },
+        "tcp": {
+          "tcp.srcport": "5668",
+          "tcp.dstport": "14495",
+          "tcp.port": "5668",
+          "tcp.port": "14495",
+          "tcp.stream": "44",
+          "tcp.completeness": "63",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "1",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "RFDASS"
+          },
+          "tcp.len": "954",
+          "tcp.seq": "4562",
+          "tcp.seq_raw": "2868203451",
+          "tcp.nxtseq": "5516",
+          "tcp.ack": "761",
+          "tcp.ack_raw": "141021324",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "512",
+          "tcp.window_size": "131072",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xee19",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "8.915035000",
+            "tcp.time_delta": "0.043878000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "1127",
+            "tcp.analysis.ack_rtt": "0.043878000",
+            "tcp.analysis.initial_rtt": "0.044390000",
+            "tcp.analysis.bytes_in_flight": "954",
+            "tcp.analysis.push_bytes_sent": "954"
+          },
+          "tcp.payload": "b6:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:6d:95:df:6b:1c:55:14:c7:ef:36:4d:63:b5:fe:aa:89:d5:aa:ed:83:88:0a:57:3a:f7:c7:fc:12:41:b6:36:a5:c6:10:68:44:21:a0:c8:64:3b:89:43:36:33:76:7f:98:26:35:54:b0:29:6b:e2:36:d6:46:69:d2:6d:63:d2:c4:50:da:c2:c6:1f:10:63:52:1f:44:7c:f1:cf:d8:d9:ed:3e:f9:e2:8b:6f:9e:dd:7b:16:4a:73:77:e7:32:2c:b3:9f:ef:39:f7:9c:ef:3d:f3:5e:07:21:9d:84:90:77:df:ea:8d:86:83:d4:47:fd:5e:38:f2:76:38:14:1d:f5:52:23:85:7a:3b:69:87:67:87:60:25:60:75:c1:3a:5b:2d:5c:89:a7:af:4e:fe:b3:b5:60:1b:54:30:87:32:26:a2:1b:09:b2:0f:1e:56:2f:6d:d4:d7:b7:e2:f2:6c:7d:6a:fd:d8:cb:84:cc:1d:20:64:91:a8:cf:ae:9d:02:02:04:6c:4e:0d:cb:48:ac:26:c8:de:86:c0:f2:54:65:63:3b:2e:cf:4d:e6:09:39:03:f4:45:a4:db:76:d2:5c:40:78:83:32:e9:be:89:74:7f:34:18:84:47:33:de:b8:07:74:06:e8:02:d2:bb:b5:b4:c1:19:65:ae:bd:7a:5b:d1:c9:f0:d4:f8:f1:0c:6c:bf:51:8e:1c:d0:17:90:6e:d7:d0:06:95:06:a3:c2:b2:7f:5d:53:f4:60:30:3c:e8:85:f0:7d:83:a8:cc:27:91:de:b3:93:86:a2:71:66:42:f6:ac:7e:5b:15:ee:64:de:0f:73:41:d8:eb:8f:05:d9:f7:fb:08:c9:82:c0:39:14:e8:d0:08:58:54:5a:9c:3a:86:f1:ea:8a:12:88:67:bf:8b:bf:2e:c6:ab:db:b5:c5:3b:43:7d:2a:83:cf:51:e0:21:8d:80:49:1d:13:2a:20:ed:81:52:a2:99:62:77:7a:d4:4b:45:af:60:f2:9f:21:ba:57:83:4a:6a:4a:83:5a:ae:28:2f:a8:d8:b5:cd:9f:ee:cd:fe:58:bf:33:57:bb:38:73:04:c1:b3:78:7f:58:2b:20:5c:4e:4d:c7:e8:18:68:6b:46:88:cb:d3:f1:ca:4d:b8:6c:f8:71:1a:c2:7f:8a:f4:23:1a:5a:50:07:c2:9b:52:74:ce:ec:6e:d2:3d:d1:a9:c0:3f:e1:a5:d3:fb:31:f9:16:bd:4f:43:43:5c:db:a2:16:67:7f:61:f2:f5:bb:f3:b5:85:f3:95:ad:ef:2b:9b:9b:2f:61:f8:33:28:f0:a8:46:80:51:1b:96:c9:d8:11:a8:7c:7b:33:fc:88:9f:e9:79:80:7c:4c:4b:32:30:bb:30:c5:07:bf:a8:92:d7:36:97:e3:f2:95:46:bb:1b:68:0e:d1:c7:b5:a8:c1:4d:6a:d8:e2:cf:9b:ca:6d:7d:41:6a:a4:3b:9d:0e:b2:a3:79:45:b5:dc:f6:84:86:36:a8:cd:1b:66:e1:93:8b:2a:70:90:cb:0e:44:f9:d7:88:3a:24:63:88:3e:a9:45:4d:ee:42:70:7e:61:4d:a1:d5:9f:ef:de:fb:66:5e:12:65:51:0c:4e:f6:6b:51:21:24:e4:ec:fe:7b:3d:d1:f4:70:32:0d:7d:3a:9e:7c:e7:81:1e:3f:a5:65:b9:29:29:13:56:fd:56:a2:59:90:da:fc:76:3c:7b:a9:b2:f1:65:5c:fc:a2:b2:51:f8:10:8f:c8:04:6a:74:e2:ba:4f:c3:85:26:c3:c6:99:1c:2d:a9:3e:9d:f0:bd:4c:ae:01:66:ee:4b:bc:4b:07:9a:96:49:5d:e9:76:5d:57:5b:ee:f7:82:09:3f:73:18:cd:d5:3a:95:4f:6b:49:09:f6:b0:9c:bf:17:54:d6:d5:99:62:5c:2a:57:af:fd:5e:9d:de:8e:8b:4b:04:ab:36:8e:12:07:76:4a:38:d4:76:60:a2:0a:71:0e:c7:4a:3c:55:6a:5c:df:fe:30:91:57:70:16:e1:67:b4:30:f4:99:99:ce:c1:35:b5:e5:e4:70:e8:67:5f:c4:a8:a7:11:7c:56:07:5a:ae:a4:dc:71:87:ff:6b:53:ce:2c:2d:c6:57:cb:dd:48:7e:82:e4:41:1d:69:4a:a8:b4:90:d1:72:a2:39:65:7b:47:bd:a8:1b:ff:df:ea:f0:73:3a:4e:ba:30:00:85:bd:b4:a4:cc:d1:13:79:61:72:d0:7f:1d:cd:d1:f2:e4:f3:5a:14:bc:e1:58:7c:cc:6f:6b:8e:97:93:f9:20:0c:7b:c7:c3:d4:c7:02:a9:56:c2:2f:e8:68:ee:c0:1b:47:d8:7f:ac:a8:ee:82:a1:e2:cb:c5:21:ac:6e:06:c9:43:5a:52:b8:94:4b:e7:fc:0d:f4:e4:57:b7:2a:bf:cd:d5:0a:eb:d5:e9:cb:f0:d6:3b:86:68:88:f7:ff:01:5e:86:51:2c:59:07:00:00"
+        },
+        "data": {
+          "data.data": "b6:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:6d:95:df:6b:1c:55:14:c7:ef:36:4d:63:b5:fe:aa:89:d5:aa:ed:83:88:0a:57:3a:f7:c7:fc:12:41:b6:36:a5:c6:10:68:44:21:a0:c8:64:3b:89:43:36:33:76:7f:98:26:35:54:b0:29:6b:e2:36:d6:46:69:d2:6d:63:d2:c4:50:da:c2:c6:1f:10:63:52:1f:44:7c:f1:cf:d8:d9:ed:3e:f9:e2:8b:6f:9e:dd:7b:16:4a:73:77:e7:32:2c:b3:9f:ef:39:f7:9c:ef:3d:f3:5e:07:21:9d:84:90:77:df:ea:8d:86:83:d4:47:fd:5e:38:f2:76:38:14:1d:f5:52:23:85:7a:3b:69:87:67:87:60:25:60:75:c1:3a:5b:2d:5c:89:a7:af:4e:fe:b3:b5:60:1b:54:30:87:32:26:a2:1b:09:b2:0f:1e:56:2f:6d:d4:d7:b7:e2:f2:6c:7d:6a:fd:d8:cb:84:cc:1d:20:64:91:a8:cf:ae:9d:02:02:04:6c:4e:0d:cb:48:ac:26:c8:de:86:c0:f2:54:65:63:3b:2e:cf:4d:e6:09:39:03:f4:45:a4:db:76:d2:5c:40:78:83:32:e9:be:89:74:7f:34:18:84:47:33:de:b8:07:74:06:e8:02:d2:bb:b5:b4:c1:19:65:ae:bd:7a:5b:d1:c9:f0:d4:f8:f1:0c:6c:bf:51:8e:1c:d0:17:90:6e:d7:d0:06:95:06:a3:c2:b2:7f:5d:53:f4:60:30:3c:e8:85:f0:7d:83:a8:cc:27:91:de:b3:93:86:a2:71:66:42:f6:ac:7e:5b:15:ee:64:de:0f:73:41:d8:eb:8f:05:d9:f7:fb:08:c9:82:c0:39:14:e8:d0:08:58:54:5a:9c:3a:86:f1:ea:8a:12:88:67:bf:8b:bf:2e:c6:ab:db:b5:c5:3b:43:7d:2a:83:cf:51:e0:21:8d:80:49:1d:13:2a:20:ed:81:52:a2:99:62:77:7a:d4:4b:45:af:60:f2:9f:21:ba:57:83:4a:6a:4a:83:5a:ae:28:2f:a8:d8:b5:cd:9f:ee:cd:fe:58:bf:33:57:bb:38:73:04:c1:b3:78:7f:58:2b:20:5c:4e:4d:c7:e8:18:68:6b:46:88:cb:d3:f1:ca:4d:b8:6c:f8:71:1a:c2:7f:8a:f4:23:1a:5a:50:07:c2:9b:52:74:ce:ec:6e:d2:3d:d1:a9:c0:3f:e1:a5:d3:fb:31:f9:16:bd:4f:43:43:5c:db:a2:16:67:7f:61:f2:f5:bb:f3:b5:85:f3:95:ad:ef:2b:9b:9b:2f:61:f8:33:28:f0:a8:46:80:51:1b:96:c9:d8:11:a8:7c:7b:33:fc:88:9f:e9:79:80:7c:4c:4b:32:30:bb:30:c5:07:bf:a8:92:d7:36:97:e3:f2:95:46:bb:1b:68:0e:d1:c7:b5:a8:c1:4d:6a:d8:e2:cf:9b:ca:6d:7d:41:6a:a4:3b:9d:0e:b2:a3:79:45:b5:dc:f6:84:86:36:a8:cd:1b:66:e1:93:8b:2a:70:90:cb:0e:44:f9:d7:88:3a:24:63:88:3e:a9:45:4d:ee:42:70:7e:61:4d:a1:d5:9f:ef:de:fb:66:5e:12:65:51:0c:4e:f6:6b:51:21:24:e4:ec:fe:7b:3d:d1:f4:70:32:0d:7d:3a:9e:7c:e7:81:1e:3f:a5:65:b9:29:29:13:56:fd:56:a2:59:90:da:fc:76:3c:7b:a9:b2:f1:65:5c:fc:a2:b2:51:f8:10:8f:c8:04:6a:74:e2:ba:4f:c3:85:26:c3:c6:99:1c:2d:a9:3e:9d:f0:bd:4c:ae:01:66:ee:4b:bc:4b:07:9a:96:49:5d:e9:76:5d:57:5b:ee:f7:82:09:3f:73:18:cd:d5:3a:95:4f:6b:49:09:f6:b0:9c:bf:17:54:d6:d5:99:62:5c:2a:57:af:fd:5e:9d:de:8e:8b:4b:04:ab:36:8e:12:07:76:4a:38:d4:76:60:a2:0a:71:0e:c7:4a:3c:55:6a:5c:df:fe:30:91:57:70:16:e1:67:b4:30:f4:99:99:ce:c1:35:b5:e5:e4:70:e8:67:5f:c4:a8:a7:11:7c:56:07:5a:ae:a4:dc:71:87:ff:6b:53:ce:2c:2d:c6:57:cb:dd:48:7e:82:e4:41:1d:69:4a:a8:b4:90:d1:72:a2:39:65:7b:47:bd:a8:1b:ff:df:ea:f0:73:3a:4e:ba:30:00:85:bd:b4:a4:cc:d1:13:79:61:72:d0:7f:1d:cd:d1:f2:e4:f3:5a:14:bc:e1:58:7c:cc:6f:6b:8e:97:93:f9:20:0c:7b:c7:c3:d4:c7:02:a9:56:c2:2f:e8:68:ee:c0:1b:47:d8:7f:ac:a8:ee:82:a1:e2:cb:c5:21:ac:6e:06:c9:43:5a:52:b8:94:4b:e7:fc:0d:f4:e4:57:b7:2a:bf:cd:d5:0a:eb:d5:e9:cb:f0:d6:3b:86:68:88:f7:ff:01:5e:86:51:2c:59:07:00:00",
+          "data.len": "954"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-08-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{55CF26DB-517B-4095-8178-4D99ED0444E9}",
+            "frame.interface_description": "以太网 2"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Aug  6, 2024 01:02:02.976246000 中国标准时间",
+          "frame.time_utc": "Aug  5, 2024 17:02:02.976246000 UTC",
+          "frame.time_epoch": "1722877322.976246000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.044072000",
+          "frame.time_delta_displayed": "3.844963000",
+          "frame.time_relative": "106.759518000",
+          "frame.number": "1153",
+          "frame.len": "929",
+          "frame.cap_len": "929",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "c8:7f:54:6e:eb:37",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.dst.oui": "13139796",
+            "eth.dst.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.addr": "c8:7f:54:6e:eb:37",
+            "eth.addr_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.addr.oui": "13139796",
+            "eth.addr.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "d8:a0:e8:b9:05:ca",
+          "eth.src_tree": {
+            "eth.src_resolved": "zte_b9:05:ca",
+            "eth.src.oui": "14196968",
+            "eth.src.oui_resolved": "zte corporation",
+            "eth.addr": "d8:a0:e8:b9:05:ca",
+            "eth.addr_resolved": "zte_b9:05:ca",
+            "eth.addr.oui": "14196968",
+            "eth.addr.oui_resolved": "zte corporation",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "915",
+          "ip.id": "0x2c18",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "111",
+          "ip.proto": "6",
+          "ip.checksum": "0xed24",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "192.168.1.2",
+          "ip.addr": "192.168.1.2",
+          "ip.dst_host": "192.168.1.2",
+          "ip.host": "192.168.1.2"
+        },
+        "tcp": {
+          "tcp.srcport": "5668",
+          "tcp.dstport": "14495",
+          "tcp.port": "5668",
+          "tcp.port": "14495",
+          "tcp.stream": "44",
+          "tcp.completeness": "63",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "1",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "RFDASS"
+          },
+          "tcp.len": "875",
+          "tcp.seq": "5516",
+          "tcp.seq_raw": "2868204405",
+          "tcp.nxtseq": "6391",
+          "tcp.ack": "825",
+          "tcp.ack_raw": "141021388",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "512",
+          "tcp.window_size": "131072",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xc8c8",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "12.759998000",
+            "tcp.time_delta": "0.044072000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "1152",
+            "tcp.analysis.ack_rtt": "0.044072000",
+            "tcp.analysis.initial_rtt": "0.044390000",
+            "tcp.analysis.bytes_in_flight": "875",
+            "tcp.analysis.push_bytes_sent": "875"
+          },
+          "tcp.payload": "67:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:85:95:db:4f:13:41:14:c6:a7:22:20:8a:77:14:bc:86:17:af:09:81:de:5b:63:34:80:10:44:24:91:26:1a:12:8d:d9:96:05:d6:b6:bb:b0:a5:42:45:12:a3:82:08:29:b5:8a:44:1a:2e:82:a0:21:4a:28:12:93:52:6e:0f:c4:68:8c:7f:46:b7:a5:4f:be:f8:a4:2f:ce:ec:9c:3e:48:32:a5:bb:93:4d:b3:fb:fd:ce:f9:ce:39:b3:fb:3d:1b:a1:3c:84:90:ad:bc:46:6a:12:1c:77:eb:38:d1:79:55:6c:94:ca:38:87:b3:37:99:89:b2:f0:bd:93:78:69:f0:2a:c0:ab:33:16:59:4a:44:d7:94:ee:05:c5:3f:d1:f5:6b:39:a4:d5:99:0a:8b:0a:75:d2:3b:0d:ca:c5:f7:e3:c1:48:72:7e:59:09:07:92:dd:f3:57:ce:20:34:98:8f:d0:38:a2:bf:6d:2c:86:c5:4a:10:66:cd:b4:06:e5:10:c6:64:77:2c:b2:a2:84:07:bb:bc:08:75:60:c0:00:00:32:58:00:b3:91:00:2c:d3:9f:28:a0:54:6c:f0:55:ca:d8:09:71:d6:86:01:3d:00:d8:ce:02:98:48:06:5a:f3:b9:29:ea:42:09:0c:29:2f:fc:ca:f4:4a:62:7c:b6:b1:96:26:f1:08:18:99:4c:86:45:75:f1:75:86:26:51:2b:38:9c:15:2e:97:e0:71:7b:a9:b0:0b:00:59:4c:80:99:00:0c:e1:10:4d:22:11:5d:d8:08:7c:4e:ce:0e:26:06:fa:8b:41:db:09:d7:6c:16:c3:48:18:5a:e3:37:60:24:57:87:13:a1:a7:b1:e5:b7:b1:68:f4:14:fe:df:8a:8d:74:00:63:07:93:41:aa:69:b0:64:d7:67:a8:46:94:70:9f:32:35:83:4f:33:00:ee:03:20:27:2d:40:af:ad:1f:d1:a8:66:2b:5c:6e:ce:21:9d:45:b4:8e:0f:41:bd:93:a9:36:90:f0:a6:bf:1f:35:aa:cd:7b:9c:9d:97:05:f1:34:04:f7:80:7c:d7:16:f2:f3:73:b4:02:1b:af:57:e3:43:73:1b:2f:1f:c7:a2:63:24:61:0f:66:b4:03:23:97:c9:28:21:0c:eb:e2:07:da:4a:bb:d0:64:e7:44:7c:5c:04:0f:a9:56:ee:66:01:0c:16:b5:84:eb:d0:86:78:38:12:5f:0b:c6:96:fb:12:4b:cf:52:49:a4:8c:ec:61:32:c8:c6:d2:1b:dd:b8:8a:64:e6:aa:78:4e:6e:bb:83:87:51:c6:62:18:29:b4:37:ad:58:ab:4d:e2:22:92:67:12:c3:2b:4a:20:18:8b:3c:57:fc:4f:62:91:5e:82:21:39:3c:00:cc:3e:26:86:74:d2:58:72:fb:0b:ed:64:22:3a:a9:84:df:dc:ac:a5:ad:68:03:f5:7e:a6:5a:a7:96:b1:9d:cf:50:bb:7d:c3:2b:88:62:8d:4f:74:34:eb:41:d9:02:d7:03:4c:82:96:c4:d7:ad:4f:d1:f8:38:7b:e5:95:bf:d1:4b:b3:97:41:7d:90:a9:2e:51:d5:3f:43:b4:08:f1:7e:bf:32:12:8e:8f:ae:c5:fb:56:f0:13:08:1a:e1:03:4c:5e:5a:8c:c1:5a:3c:45:1b:51:2d:39:79:b9:7a:d3:66:3a:84:57:3e:53:6c:ea:1a:a7:06:84:36:4f:bd:e4:2d:42:b4:8b:a9:39:3c:cc:8a:ac:b7:aa:91:6b:70:17:49:01:6d:9c:d8:20:73:55:82:cb:95:9a:03:09:08:f9:4c:82:45:2d:c1:c4:04:dd:4c:d5:12:27:96:da:f9:0b:90:7d:2a:81:82:b4:72:83:b5:07:d2:b7:39:7d:bc:cc:5d:da:34:c1:47:d2:ab:4b:7e:8f:d1:e0:a5:ae:06:81:af:2c:bd:86:fe:7f:8d:1c:4d:2b:d7:59:fe:8c:d1:5d:68:eb:c0:af:91:66:41:e4:4d:00:48:99:3f:96:1e:60:be:0c:df:95:3a:c9:2e:88:65:32:e7:e3:bc:b4:7a:bd:00:38:ce:04:98:55:fb:d7:47:e9:36:ae:94:f9:06:fc:2e:72:94:73:ee:96:d4:10:3a:81:71:82:c9:30:a9:8c:1f:4b:b4:87:b7:38:17:1e:1f:fc:61:e0:5a:37:11:4e:6e:41:d0:ad:52:1b:c9:c5:35:25:f8:1e:9f:d5:20:14:e1:fa:0f:ee:80:79:60:cc:07:00:00"
+        },
+        "data": {
+          "data.data": "67:03:00:00:00:1f:8b:08:00:00:00:00:00:04:00:85:95:db:4f:13:41:14:c6:a7:22:20:8a:77:14:bc:86:17:af:09:81:de:5b:63:34:80:10:44:24:91:26:1a:12:8d:d9:96:05:d6:b6:bb:b0:a5:42:45:12:a3:82:08:29:b5:8a:44:1a:2e:82:a0:21:4a:28:12:93:52:6e:0f:c4:68:8c:7f:46:b7:a5:4f:be:f8:a4:2f:ce:ec:9c:3e:48:32:a5:bb:93:4d:b3:fb:fd:ce:f9:ce:39:b3:fb:3d:1b:a1:3c:84:90:ad:bc:46:6a:12:1c:77:eb:38:d1:79:55:6c:94:ca:38:87:b3:37:99:89:b2:f0:bd:93:78:69:f0:2a:c0:ab:33:16:59:4a:44:d7:94:ee:05:c5:3f:d1:f5:6b:39:a4:d5:99:0a:8b:0a:75:d2:3b:0d:ca:c5:f7:e3:c1:48:72:7e:59:09:07:92:dd:f3:57:ce:20:34:98:8f:d0:38:a2:bf:6d:2c:86:c5:4a:10:66:cd:b4:06:e5:10:c6:64:77:2c:b2:a2:84:07:bb:bc:08:75:60:c0:00:00:32:58:00:b3:91:00:2c:d3:9f:28:a0:54:6c:f0:55:ca:d8:09:71:d6:86:01:3d:00:d8:ce:02:98:48:06:5a:f3:b9:29:ea:42:09:0c:29:2f:fc:ca:f4:4a:62:7c:b6:b1:96:26:f1:08:18:99:4c:86:45:75:f1:75:86:26:51:2b:38:9c:15:2e:97:e0:71:7b:a9:b0:0b:00:59:4c:80:99:00:0c:e1:10:4d:22:11:5d:d8:08:7c:4e:ce:0e:26:06:fa:8b:41:db:09:d7:6c:16:c3:48:18:5a:e3:37:60:24:57:87:13:a1:a7:b1:e5:b7:b1:68:f4:14:fe:df:8a:8d:74:00:63:07:93:41:aa:69:b0:64:d7:67:a8:46:94:70:9f:32:35:83:4f:33:00:ee:03:20:27:2d:40:af:ad:1f:d1:a8:66:2b:5c:6e:ce:21:9d:45:b4:8e:0f:41:bd:93:a9:36:90:f0:a6:bf:1f:35:aa:cd:7b:9c:9d:97:05:f1:34:04:f7:80:7c:d7:16:f2:f3:73:b4:02:1b:af:57:e3:43:73:1b:2f:1f:c7:a2:63:24:61:0f:66:b4:03:23:97:c9:28:21:0c:eb:e2:07:da:4a:bb:d0:64:e7:44:7c:5c:04:0f:a9:56:ee:66:01:0c:16:b5:84:eb:d0:86:78:38:12:5f:0b:c6:96:fb:12:4b:cf:52:49:a4:8c:ec:61:32:c8:c6:d2:1b:dd:b8:8a:64:e6:aa:78:4e:6e:bb:83:87:51:c6:62:18:29:b4:37:ad:58:ab:4d:e2:22:92:67:12:c3:2b:4a:20:18:8b:3c:57:fc:4f:62:91:5e:82:21:39:3c:00:cc:3e:26:86:74:d2:58:72:fb:0b:ed:64:22:3a:a9:84:df:dc:ac:a5:ad:68:03:f5:7e:a6:5a:a7:96:b1:9d:cf:50:bb:7d:c3:2b:88:62:8d:4f:74:34:eb:41:d9:02:d7:03:4c:82:96:c4:d7:ad:4f:d1:f8:38:7b:e5:95:bf:d1:4b:b3:97:41:7d:90:a9:2e:51:d5:3f:43:b4:08:f1:7e:bf:32:12:8e:8f:ae:c5:fb:56:f0:13:08:1a:e1:03:4c:5e:5a:8c:c1:5a:3c:45:1b:51:2d:39:79:b9:7a:d3:66:3a:84:57:3e:53:6c:ea:1a:a7:06:84:36:4f:bd:e4:2d:42:b4:8b:a9:39:3c:cc:8a:ac:b7:aa:91:6b:70:17:49:01:6d:9c:d8:20:73:55:82:cb:95:9a:03:09:08:f9:4c:82:45:2d:c1:c4:04:dd:4c:d5:12:27:96:da:f9:0b:90:7d:2a:81:82:b4:72:83:b5:07:d2:b7:39:7d:bc:cc:5d:da:34:c1:47:d2:ab:4b:7e:8f:d1:e0:a5:ae:06:81:af:2c:bd:86:fe:7f:8d:1c:4d:2b:d7:59:fe:8c:d1:5d:68:eb:c0:af:91:66:41:e4:4d:00:48:99:3f:96:1e:60:be:0c:df:95:3a:c9:2e:88:65:32:e7:e3:bc:b4:7a:bd:00:38:ce:04:98:55:fb:d7:47:e9:36:ae:94:f9:06:fc:2e:72:94:73:ee:96:d4:10:3a:81:71:82:c9:30:a9:8c:1f:4b:b4:87:b7:38:17:1e:1f:fc:61:e0:5a:37:11:4e:6e:41:d0:ad:52:1b:c9:c5:35:25:f8:1e:9f:d5:20:14:e1:fa:0f:ee:80:79:60:cc:07:00:00",
+          "data.len": "875"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-08-06",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{55CF26DB-517B-4095-8178-4D99ED0444E9}",
+            "frame.interface_description": "以太网 2"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Aug  6, 2024 01:02:17.967776000 中国标准时间",
+          "frame.time_utc": "Aug  5, 2024 17:02:17.967776000 UTC",
+          "frame.time_epoch": "1722877337.967776000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.030849000",
+          "frame.time_delta_displayed": "14.991530000",
+          "frame.time_relative": "121.751048000",
+          "frame.number": "1347",
+          "frame.len": "1151",
+          "frame.cap_len": "1151",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:data",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "c8:7f:54:6e:eb:37",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.dst.oui": "13139796",
+            "eth.dst.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.addr": "c8:7f:54:6e:eb:37",
+            "eth.addr_resolved": "ASUSTekCOMPU_6e:eb:37",
+            "eth.addr.oui": "13139796",
+            "eth.addr.oui_resolved": "ASUSTek COMPUTER INC.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "d8:a0:e8:b9:05:ca",
+          "eth.src_tree": {
+            "eth.src_resolved": "zte_b9:05:ca",
+            "eth.src.oui": "14196968",
+            "eth.src.oui_resolved": "zte corporation",
+            "eth.addr": "d8:a0:e8:b9:05:ca",
+            "eth.addr_resolved": "zte_b9:05:ca",
+            "eth.addr.oui": "14196968",
+            "eth.addr.oui_resolved": "zte corporation",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1137",
+          "ip.id": "0x2c28",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "111",
+          "ip.proto": "6",
+          "ip.checksum": "0xec36",
+          "ip.checksum.status": "2",
+          "ip.src": "43.159.1.223",
+          "ip.addr": "43.159.1.223",
+          "ip.src_host": "43.159.1.223",
+          "ip.host": "43.159.1.223",
+          "ip.dst": "192.168.1.2",
+          "ip.addr": "192.168.1.2",
+          "ip.dst_host": "192.168.1.2",
+          "ip.host": "192.168.1.2"
+        },
+        "tcp": {
+          "tcp.srcport": "5666",
+          "tcp.dstport": "14500",
+          "tcp.port": "5666",
+          "tcp.port": "14500",
+          "tcp.stream": "52",
+          "tcp.completeness": "15",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "··DASS"
+          },
+          "tcp.len": "1097",
+          "tcp.seq": "82",
+          "tcp.seq_raw": "655953864",
+          "tcp.nxtseq": "1179",
+          "tcp.ack": "201",
+          "tcp.ack_raw": "1061557217",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "513",
+          "tcp.window_size": "131328",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xca63",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "2.055622000",
+            "tcp.time_delta": "0.047746000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.045162000",
+            "tcp.analysis.bytes_in_flight": "1097",
+            "tcp.analysis.push_bytes_sent": "1097"
+          },
+          "tcp.payload": "45:04:00:00:01:40:04:00:00:0d:00:00:00:53:43:4c:6f:67:69:6e:5f:4c:6f:67:69:6e:2b:04:00:00:7b:22:61:63:63:6f:75:6e:74:49:64:22:3a:31:34:36:36:32:31:2c:22:72:65:63:6f:6d:6d:65:6e:64:65:64:41:72:65:61:22:3a:7b:22:73:65:72:76:65:72:49:64:22:3a:32:2c:22:73:65:72:76:65:72:4e:61:6d:65:22:3a:22:32:23:20:53:30:30:30:32:22:2c:22:73:65:72:76:65:72:49:70:22:3a:22:34:33:2e:31:35:39:2e:31:2e:32:32:33:22:2c:22:70:6f:72:74:22:3a:35:36:36:38:2c:22:73:65:72:76:65:72:53:74:61:74:65:22:3a:33:2c:22:69:73:4e:65:77:53:65:72:76:65:72:22:3a:31:2c:22:69:73:45:78:69:73:74:52:6f:6c:65:22:3a:30:7d:2c:22:74:68:69:72:64:50:61:72:74:79:22:3a:6e:75:6c:6c:2c:22:73:64:6b:5f:74:6f:6b:65:6e:22:3a:22:52:48:65:55:4b:6a:78:75:54:49:6a:72:6e:58:32:36:36:54:6a:4b:2f:51:42:47:30:79:66:78:65:49:4a:75:7a:45:6f:41:7a:79:70:36:51:66:4b:67:31:32:78:4d:65:36:6e:77:34:7a:34:61:43:6b:49:51:4a:6f:4d:4e:4f:66:75:62:30:50:4a:6d:4a:4d:42:32:6a:4f:65:66:49:67:61:50:6f:73:32:4e:56:6c:76:73:66:47:53:61:44:4b:68:51:65:6e:30:67:7a:6b:32:69:33:69:61:2b:6a:76:55:4b:6a:50:69:38:67:79:55:49:4e:6a:68:62:36:36:7a:66:4d:75:66:79:37:74:31:4d:69:62:50:69:46:42:77:6f:75:4e:6c:4a:6e:64:6b:41:30:50:38:76:70:44:43:2b:6c:6f:6f:57:41:45:48:48:2f:62:73:75:59:74:6f:38:71:6f:6a:49:4a:7a:4c:6a:38:71:61:4c:31:66:7a:4e:4b:39:4a:6b:46:64:56:76:7a:43:2b:2f:2f:62:30:32:43:71:35:2b:5a:30:70:66:35:76:37:6e:56:4e:73:32:49:6b:79:6f:46:73:67:54:58:77:6f:4b:70:66:66:65:32:36:78:72:6c:63:72:6d:55:4c:34:57:4e:56:54:73:71:6c:64:4b:64:34:4e:38:4d:42:2b:35:48:76:46:61:47:62:75:42:7a:46:4e:30:41:4f:45:7a:33:65:50:65:6e:69:51:57:4f:4e:70:50:5a:4a:30:7a:46:32:59:75:33:76:6b:72:52:66:33:56:65:7a:67:41:58:6f:4c:79:4e:32:68:34:31:6e:52:45:64:69:42:38:6a:30:55:39:42:51:3d:3d:22:2c:22:63:61:63:68:65:41:63:22:3a:22:77:6f:6c:66:31:30:30:39:22:2c:22:63:61:63:68:65:50:73:64:22:3a:22:6d:69:6e:67:78:69:61:22:2c:22:69:73:55:73:65:41:63:74:69:63:6f:64:65:22:3a:30:2c:22:6c:6f:67:69:6e:54:6f:6b:65:6e:22:3a:22:4d:55:6e:6b:4a:6d:4b:63:75:39:67:39:4a:4e:66:52:43:48:36:46:4f:61:2f:79:61:6c:4b:70:73:41:53:46:45:34:39:64:36:79:36:44:45:66:44:49:7a:64:34:34:64:48:65:48:66:34:69:54:74:45:42:48:52:61:32:52:4e:4f:34:73:56:62:6c:75:64:2f:58:56:63:68:36:59:77:65:67:43:4e:6d:45:44:32:45:51:65:4c:2b:6f:38:76:6a:36:69:53:68:54:66:49:30:4c:62:4e:39:68:63:7a:59:42:6b:71:51:6e:62:4f:45:58:52:4a:47:38:6c:5a:39:38:6b:71:6a:6e:7a:4b:70:70:7a:47:7a:6e:32:69:46:72:4d:79:59:34:45:4c:35:5a:35:79:6a:6b:43:31:42:6f:57:38:45:47:31:35:76:65:5a:30:70:56:6f:77:73:56:54:36:34:67:46:5a:63:41:4a:53:63:34:73:45:78:6c:66:4e:74:4e:38:74:65:31:32:62:30:38:35:41:73:42:37:54:67:4b:57:76:79:74:4e:67:52:42:52:7a:73:39:79:71:70:41:4b:6e:54:49:4f:52:4b:4b:71:4f:6d:70:42:68:67:30:73:47:77:4e:77:48:7a:4c:61:39:44:50:59:39:66:50:72:38:75:61:56:59:74:48:57:4c:70:63:32:4e:6d:30:55:61:72:51:38:4e:54:6f:69:75:4b:38:68:30:36:7a:6a:45:42:38:75:77:75:6d:58:6f:36:76:4b:63:6f:59:56:4d:63:6d:39:66:37:36:76:59:4b:5a:49:4f:36:5a:35:50:73:33:66:59:66:34:54:71:66:4c:2b:44:67:3d:3d:22:2c:22:6c:6f:67:69:6e:53:69:67:6e:22:3a:22:38:31:31:36:41:32:43:32:34:33:35:32:46:44:36:34:36:37:31:43:44:31:44:36:33:31:30:38:46:39:41:30:22:2c:22:63:6f:64:65:22:3a:30:2c:22:74:69:70:54:79:70:65:22:3a:31:2c:22:6d:65:73:73:61:67:65:22:3a:22:7b:5c:75:36:37:32:41:5c:75:37:37:45:35:5c:75:39:35:31:39:5c:75:38:42:45:46:7d:22:7d"
+        },
+        "data": {
+          "data.data": "45:04:00:00:01:40:04:00:00:0d:00:00:00:53:43:4c:6f:67:69:6e:5f:4c:6f:67:69:6e:2b:04:00:00:7b:22:61:63:63:6f:75:6e:74:49:64:22:3a:31:34:36:36:32:31:2c:22:72:65:63:6f:6d:6d:65:6e:64:65:64:41:72:65:61:22:3a:7b:22:73:65:72:76:65:72:49:64:22:3a:32:2c:22:73:65:72:76:65:72:4e:61:6d:65:22:3a:22:32:23:20:53:30:30:30:32:22:2c:22:73:65:72:76:65:72:49:70:22:3a:22:34:33:2e:31:35:39:2e:31:2e:32:32:33:22:2c:22:70:6f:72:74:22:3a:35:36:36:38:2c:22:73:65:72:76:65:72:53:74:61:74:65:22:3a:33:2c:22:69:73:4e:65:77:53:65:72:76:65:72:22:3a:31:2c:22:69:73:45:78:69:73:74:52:6f:6c:65:22:3a:30:7d:2c:22:74:68:69:72:64:50:61:72:74:79:22:3a:6e:75:6c:6c:2c:22:73:64:6b:5f:74:6f:6b:65:6e:22:3a:22:52:48:65:55:4b:6a:78:75:54:49:6a:72:6e:58:32:36:36:54:6a:4b:2f:51:42:47:30:79:66:78:65:49:4a:75:7a:45:6f:41:7a:79:70:36:51:66:4b:67:31:32:78:4d:65:36:6e:77:34:7a:34:61:43:6b:49:51:4a:6f:4d:4e:4f:66:75:62:30:50:4a:6d:4a:4d:42:32:6a:4f:65:66:49:67:61:50:6f:73:32:4e:56:6c:76:73:66:47:53:61:44:4b:68:51:65:6e:30:67:7a:6b:32:69:33:69:61:2b:6a:76:55:4b:6a:50:69:38:67:79:55:49:4e:6a:68:62:36:36:7a:66:4d:75:66:79:37:74:31:4d:69:62:50:69:46:42:77:6f:75:4e:6c:4a:6e:64:6b:41:30:50:38:76:70:44:43:2b:6c:6f:6f:57:41:45:48:48:2f:62:73:75:59:74:6f:38:71:6f:6a:49:4a:7a:4c:6a:38:71:61:4c:31:66:7a:4e:4b:39:4a:6b:46:64:56:76:7a:43:2b:2f:2f:62:30:32:43:71:35:2b:5a:30:70:66:35:76:37:6e:56:4e:73:32:49:6b:79:6f:46:73:67:54:58:77:6f:4b:70:66:66:65:32:36:78:72:6c:63:72:6d:55:4c:34:57:4e:56:54:73:71:6c:64:4b:64:34:4e:38:4d:42:2b:35:48:76:46:61:47:62:75:42:7a:46:4e:30:41:4f:45:7a:33:65:50:65:6e:69:51:57:4f:4e:70:50:5a:4a:30:7a:46:32:59:75:33:76:6b:72:52:66:33:56:65:7a:67:41:58:6f:4c:79:4e:32:68:34:31:6e:52:45:64:69:42:38:6a:30:55:39:42:51:3d:3d:22:2c:22:63:61:63:68:65:41:63:22:3a:22:77:6f:6c:66:31:30:30:39:22:2c:22:63:61:63:68:65:50:73:64:22:3a:22:6d:69:6e:67:78:69:61:22:2c:22:69:73:55:73:65:41:63:74:69:63:6f:64:65:22:3a:30:2c:22:6c:6f:67:69:6e:54:6f:6b:65:6e:22:3a:22:4d:55:6e:6b:4a:6d:4b:63:75:39:67:39:4a:4e:66:52:43:48:36:46:4f:61:2f:79:61:6c:4b:70:73:41:53:46:45:34:39:64:36:79:36:44:45:66:44:49:7a:64:34:34:64:48:65:48:66:34:69:54:74:45:42:48:52:61:32:52:4e:4f:34:73:56:62:6c:75:64:2f:58:56:63:68:36:59:77:65:67:43:4e:6d:45:44:32:45:51:65:4c:2b:6f:38:76:6a:36:69:53:68:54:66:49:30:4c:62:4e:39:68:63:7a:59:42:6b:71:51:6e:62:4f:45:58:52:4a:47:38:6c:5a:39:38:6b:71:6a:6e:7a:4b:70:70:7a:47:7a:6e:32:69:46:72:4d:79:59:34:45:4c:35:5a:35:79:6a:6b:43:31:42:6f:57:38:45:47:31:35:76:65:5a:30:70:56:6f:77:73:56:54:36:34:67:46:5a:63:41:4a:53:63:34:73:45:78:6c:66:4e:74:4e:38:74:65:31:32:62:30:38:35:41:73:42:37:54:67:4b:57:76:79:74:4e:67:52:42:52:7a:73:39:79:71:70:41:4b:6e:54:49:4f:52:4b:4b:71:4f:6d:70:42:68:67:30:73:47:77:4e:77:48:7a:4c:61:39:44:50:59:39:66:50:72:38:75:61:56:59:74:48:57:4c:70:63:32:4e:6d:30:55:61:72:51:38:4e:54:6f:69:75:4b:38:68:30:36:7a:6a:45:42:38:75:77:75:6d:58:6f:36:76:4b:63:6f:59:56:4d:63:6d:39:66:37:36:76:59:4b:5a:49:4f:36:5a:35:50:73:33:66:59:66:34:54:71:66:4c:2b:44:67:3d:3d:22:2c:22:6c:6f:67:69:6e:53:69:67:6e:22:3a:22:38:31:31:36:41:32:43:32:34:33:35:32:46:44:36:34:36:37:31:43:44:31:44:36:33:31:30:38:46:39:41:30:22:2c:22:63:6f:64:65:22:3a:30:2c:22:74:69:70:54:79:70:65:22:3a:31:2c:22:6d:65:73:73:61:67:65:22:3a:22:7b:5c:75:36:37:32:41:5c:75:37:37:45:35:5c:75:39:35:31:39:5c:75:38:42:45:46:7d:22:7d",
+          "data.len": "1097"
+        }
+      }
+    }
+  }
+]
