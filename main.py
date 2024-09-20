@@ -177,7 +177,8 @@ def packet_analysis(player_data,packets,corrections,record_server):
                     record_server.append(server)
                 cache_data = []
 
-        except (OSError, IOError) as e:
+        except (OSError, IOError, EOFError) as e:
+            cache_data = []
             print(f"{server} 處理 gzip 文件時發生錯誤：", e)
 
         except zlib.error as e:
@@ -203,8 +204,8 @@ if __name__ == '__main__':
     packets = read_json(f'wireshark rawdata/{output_date}.json')
     player_data,record_server = packet_analysis(player_data,packets,corrections,record_server)
 
-    # packets = read_json(f'wireshark rawdata/{output_date}01.json')
-    # player_data,record_server = packet_analysis(player_data,packets,corrections,record_server)
+    packets = read_json(f'wireshark rawdata/{output_date}01.json')
+    player_data,record_server = packet_analysis(player_data,packets,corrections,record_server)
     # packets = read_json(f'wireshark rawdata/{output_date}02.json')
     # player_data,record_server = packet_analysis(player_data,packets,corrections,record_server)
     # packets = read_json(f'wireshark rawdata/{output_date}03.json')
@@ -217,6 +218,6 @@ if __name__ == '__main__':
     player_data=alliance_data(player_data)
 
 
-    Data_collation(player_data,output_date,DEBUG)
+    Data_collation(player_data,output_date)
 
     
