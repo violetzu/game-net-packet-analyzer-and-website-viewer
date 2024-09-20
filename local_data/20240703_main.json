@@ -104,11 +104,6 @@
         "main_level": "131-1",
         "alliance": "可爱又迷人的"
     },
-    "#42 白鹤淮": {
-        "power": "51,369,534",
-        "main_level": "131-1",
-        "alliance": "可爱又迷人的"
-    },
     "#60 SprinG": {
         "power": "71,228,733",
         "main_level": "130-46",
@@ -142,22 +137,17 @@
     "#30 四杀": {
         "power": "44,127,857",
         "main_level": "127-45",
-        "alliance": "夜澀"
+        "alliance": "可爱又迷人的"
     },
     "#27 Meaqua": {
         "power": "55,441,798",
         "main_level": "126-3",
-        "alliance": "ロスモンティス"
+        "alliance": "可爱又迷人的"
     },
     "#02 摸鱼小酱": {
         "power": "65,390,385",
         "main_level": "126-2",
         "alliance": "迷人又可爱的"
-    },
-    "#19 朝比奈真東": {
-        "power": "54,832,204",
-        "main_level": "121-3",
-        "alliance": "可爱又迷人的"
     },
     "#48 不负遇见": {
         "power": "52,384,130",
@@ -172,11 +162,6 @@
     "#01 琉紫": {
         "power": "60,527,279",
         "main_level": "112-45",
-        "alliance": "可爱又迷人的"
-    },
-    "#37 RonGrant": {
-        "power": "61,724,136",
-        "main_level": "111-27",
         "alliance": "可爱又迷人的"
     },
     "#01 JayChou": {
@@ -287,7 +272,7 @@
     "#28 opop123": {
         "power": "48,578,930",
         "main_level": "106-22",
-        "alliance": "夜澀"
+        "alliance": "可爱又迷人的"
     },
     "#12 暴超小萝莉": {
         "power": "58,946,878",
@@ -414,11 +399,6 @@
         "main_level": "104-25",
         "alliance": "迷人又可爱的"
     },
-    "#37 念予千殇": {
-        "power": "45,664,565",
-        "main_level": "104-25",
-        "alliance": "迷人又可爱的"
-    },
     "#44 面对疾风吧": {
         "power": "35,686,755",
         "main_level": "104-25",
@@ -537,7 +517,7 @@
     "#30 香香哒": {
         "power": "38,314,936",
         "main_level": "103-28",
-        "alliance": "ロスモンティス"
+        "alliance": "迷人又可爱的"
     },
     "#17 ENDING": {
         "power": "36,517,773",
@@ -553,11 +533,6 @@
         "power": "48,787,210",
         "main_level": "103-26",
         "alliance": "迷人又可爱的"
-    },
-    "#37 百合换": {
-        "power": "50,029,009",
-        "main_level": "103-25",
-        "alliance": "可爱又迷人的"
     },
     "#30 老马": {
         "power": "39,152,544",
@@ -614,11 +589,6 @@
         "main_level": "103-13",
         "alliance": null
     },
-    "#19 偃月": {
-        "power": "46,939,747",
-        "main_level": "102-30",
-        "alliance": null
-    },
     "#12 冫氵水淼": {
         "power": "60,230,807",
         "main_level": "102-28",
@@ -662,17 +632,12 @@
     "#32 夜雨十年灯": {
         "power": "53,579,789",
         "main_level": "102-24",
-        "alliance": "ロスモンティス"
+        "alliance": null
     },
     "#50 洛浅浅": {
         "power": "44,818,297",
         "main_level": "102-24",
-        "alliance": "ロスモンティス"
-    },
-    "#42 fanQAQ": {
-        "power": "42,473,750",
-        "main_level": "102-24",
-        "alliance": "迷人又可爱的"
+        "alliance": "跑路了"
     },
     "#53 settl": {
         "power": "30,516,566",
@@ -994,11 +959,6 @@
         "main_level": "96-25",
         "alliance": null
     },
-    "#37 NoLube": {
-        "power": "47,385,871",
-        "main_level": "96-22",
-        "alliance": null
-    },
     "#03 Mirilya": {
         "power": "48,093,574",
         "main_level": "96-18",
@@ -1074,11 +1034,6 @@
         "main_level": "94-51",
         "alliance": "可爱又迷人的"
     },
-    "#37 给我康康": {
-        "power": "46,538,875",
-        "main_level": "94-37",
-        "alliance": "ロスモンティス"
-    },
     "#01 逆天非酋": {
         "power": "48,823,126",
         "main_level": "94-28",
@@ -1152,7 +1107,7 @@
     "#51 ReneYates": {
         "power": "53,620,005",
         "main_level": "94-17",
-        "alliance": "夜澀"
+        "alliance": "跑路了"
     },
     "#51 PatriciaLowe": {
         "power": "22,300,891",
@@ -1172,11 +1127,6 @@
     "#43 NathanRiva": {
         "power": "25,406,338",
         "main_level": "93-27",
-        "alliance": null
-    },
-    "#42 TinaPatel": {
-        "power": "54,059,092",
-        "main_level": "93-25",
         "alliance": null
     },
     "#33 TristaRyan": {
@@ -1289,11 +1239,6 @@
         "main_level": "91-22",
         "alliance": null
     },
-    "#37 鸢一": {
-        "power": "40,647,274",
-        "main_level": "90-34",
-        "alliance": "跑路了"
-    },
     "#16 心如止水": {
         "power": "27,486,885",
         "main_level": "90-29",
@@ -1312,7 +1257,7 @@
     "#32 蓼蓼": {
         "power": "18,594,852",
         "main_level": "90-28",
-        "alliance": "ロスモンティス"
+        "alliance": "跑路了"
     },
     "#20 My3bIkaHT": {
         "power": "35,813,759",
@@ -1432,11 +1377,6 @@
     "#35 辩论": {
         "power": null,
         "main_level": "89-25",
-        "alliance": null
-    },
-    "#42 killelo": {
-        "power": "39,465,279",
-        "main_level": "89-18",
         "alliance": null
     },
     "#52 鱼丶": {
@@ -2007,7 +1947,7 @@
     "#06 夭夭": {
         "power": "39,446,423",
         "main_level": "81-25",
-        "alliance": "ロスモンティス"
+        "alliance": "跑路了"
     },
     "#54 ElliotBe": {
         "power": "27,025,221",
@@ -2102,15 +2042,10 @@
     "#01 菲洛": {
         "power": "37,732,579",
         "main_level": "80-25",
-        "alliance": "夜澀"
+        "alliance": "跑路了"
     },
     "#30 天下少狂": {
         "power": "34,133,508",
-        "main_level": "80-25",
-        "alliance": null
-    },
-    "#19 龙泽囖拉": {
-        "power": "33,958,881",
         "main_level": "80-25",
         "alliance": null
     },
@@ -2152,7 +2087,7 @@
     "#27 这游戏真难": {
         "power": "28,489,856",
         "main_level": "80-22",
-        "alliance": "ロスモンティス"
+        "alliance": "跑路了"
     },
     "#63 对酌与苍天": {
         "power": "29,575,223",
@@ -2197,7 +2132,7 @@
     "#36 芩芩公主": {
         "power": "14,920,856",
         "main_level": "79-28",
-        "alliance": "ロスモンティス"
+        "alliance": "跑路了"
     },
     "#52 Flora0811": {
         "power": "19,438,921",
@@ -2342,7 +2277,7 @@
     "#36 Asashimo": {
         "power": "26,498,692",
         "main_level": "78-6",
-        "alliance": "ロスモンティス"
+        "alliance": "跑路了"
     },
     "#71 阿欧": {
         "power": null,
@@ -3154,15 +3089,10 @@
         "main_level": "75-18",
         "alliance": "跑路了"
     },
-    "#42 HaydenEffi": {
-        "power": "22,434,048",
-        "main_level": "75-18",
-        "alliance": null
-    },
     "#07 萝莉教头": {
         "power": "20,683,959",
         "main_level": "75-18",
-        "alliance": "ロスモンティス"
+        "alliance": "跑路了"
     },
     "#60 白说丶": {
         "power": "20,524,863",
@@ -3239,11 +3169,6 @@
         "main_level": "75-15",
         "alliance": null
     },
-    "#42 夜不语": {
-        "power": "22,071,826",
-        "main_level": "75-15",
-        "alliance": null
-    },
     "#70 rousi": {
         "power": "21,848,326",
         "main_level": "75-15",
@@ -3281,11 +3206,6 @@
     },
     "#20 星之梦": {
         "power": "17,965,375",
-        "main_level": "75-15",
-        "alliance": "跑路了"
-    },
-    "#37 糞GAM": {
-        "power": "17,558,301",
         "main_level": "75-15",
         "alliance": "跑路了"
     },
@@ -3426,11 +3346,6 @@
     },
     "#48 MoiraSims": {
         "power": "28,304,281",
-        "main_level": "74-28",
-        "alliance": null
-    },
-    "#37 雨婷私密处": {
-        "power": "23,100,308",
         "main_level": "74-28",
         "alliance": null
     },
@@ -3674,11 +3589,6 @@
         "main_level": "72-30",
         "alliance": null
     },
-    "#37 LouTran": {
-        "power": "21,456,473",
-        "main_level": "72-29",
-        "alliance": "跑路了"
-    },
     "#20 微凉": {
         "power": "35,288,890",
         "main_level": "72-28",
@@ -3748,11 +3658,6 @@
         "power": "14,640,718",
         "main_level": "72-27",
         "alliance": null
-    },
-    "#37 荒废的王": {
-        "power": "13,427,534",
-        "main_level": "72-27",
-        "alliance": "跑路了"
     },
     "#46 taylo": {
         "power": "28,962,120",
@@ -4004,11 +3909,6 @@
         "main_level": "71-20",
         "alliance": null
     },
-    "#37 舒克丶": {
-        "power": "15,848,856",
-        "main_level": "71-20",
-        "alliance": "跑路了"
-    },
     "#22 Unicorned2": {
         "power": "15,471,960",
         "main_level": "71-19",
@@ -4159,11 +4059,6 @@
         "main_level": "69-29",
         "alliance": null
     },
-    "#42 bunasumi": {
-        "power": "18,570,711",
-        "main_level": "69-29",
-        "alliance": null
-    },
     "#65 BlackLilly": {
         "power": "16,712,566",
         "main_level": "69-29",
@@ -4172,7 +4067,7 @@
     "#18 浅陌": {
         "power": "14,505,878",
         "main_level": "69-29",
-        "alliance": "ロスモンティス"
+        "alliance": "跑路了"
     },
     "#76 妹控": {
         "power": "13,416,766",
@@ -4226,11 +4121,6 @@
     },
     "#62 MonaBrock": {
         "power": "26,210,176",
-        "main_level": "69-27",
-        "alliance": null
-    },
-    "#37 ai": {
-        "power": "24,345,479",
         "main_level": "69-27",
         "alliance": null
     },
@@ -4532,7 +4422,7 @@
     "#24 寒月凝墨": {
         "power": "11,023,047",
         "main_level": "68-20",
-        "alliance": "ロスモンティス"
+        "alliance": "跑路了"
     },
     "#30 烟雨凭生": {
         "power": null,
@@ -4616,11 +4506,6 @@
     },
     "#60 Karlinab": {
         "power": "21,229,563",
-        "main_level": "67-27",
-        "alliance": null
-    },
-    "#37 班友琴": {
-        "power": "17,218,812",
         "main_level": "67-27",
         "alliance": null
     },
@@ -4717,11 +4602,6 @@
     "#64 MaddoxMori": {
         "power": "21,419,833",
         "main_level": "66-28",
-        "alliance": null
-    },
-    "#19 CRYSTINA1": {
-        "power": "31,076,832",
-        "main_level": "66-27",
         "alliance": null
     },
     "#50 木玉": {
@@ -4874,11 +4754,6 @@
         "main_level": "65-29",
         "alliance": null
     },
-    "#19 シャル": {
-        "power": "14,069,658",
-        "main_level": "65-28",
-        "alliance": null
-    },
     "#62 NuvoleBianche": {
         "power": "21,332,149",
         "main_level": "65-27",
@@ -4922,7 +4797,7 @@
     "#38 宁凡": {
         "power": "15,344,022",
         "main_level": "65-26",
-        "alliance": "夜澀"
+        "alliance": "跑路了"
     },
     "#70 BruceOen": {
         "power": "14,342,436",
@@ -5068,11 +4943,6 @@
         "power": "15,462,827",
         "main_level": "64-26",
         "alliance": "跑路了"
-    },
-    "#42 walkingdea": {
-        "power": "14,923,715",
-        "main_level": "64-26",
-        "alliance": null
     },
     "#29 wal": {
         "power": null,
@@ -5439,11 +5309,6 @@
         "main_level": "61-9",
         "alliance": null
     },
-    "#19 我一爱你GOD": {
-        "power": "14,703,492",
-        "main_level": "61-9",
-        "alliance": null
-    },
     "#26 NathanielGr": {
         "power": "29,539,410",
         "main_level": "61-6",
@@ -5683,11 +5548,6 @@
         "power": null,
         "main_level": "56-34",
         "alliance": null
-    },
-    "#37 BertramHoga": {
-        "power": "15,516,619",
-        "main_level": "56-29",
-        "alliance": "跑路了"
     },
     "#48 JudeKane": {
         "power": "23,120,135",
@@ -5994,11 +5854,6 @@
         "main_level": "54-52",
         "alliance": null
     },
-    "#37 北斗七星": {
-        "power": "18,238,965",
-        "main_level": "54-52",
-        "alliance": null
-    },
     "#45 逸曦": {
         "power": "17,462,668",
         "main_level": "54-52",
@@ -6257,7 +6112,7 @@
     "#15 Iliziax": {
         "power": "22,180,813",
         "main_level": "54-37",
-        "alliance": "ロスモンティス"
+        "alliance": "跑路了"
     },
     "#73 Twistzz": {
         "power": null,
@@ -6384,11 +6239,6 @@
         "main_level": "54-1",
         "alliance": "跑路了"
     },
-    "#37 雨婷": {
-        "power": "16,359,229",
-        "main_level": "54-1",
-        "alliance": null
-    },
     "#14 不完了": {
         "power": null,
         "main_level": "54-0",
@@ -6504,11 +6354,6 @@
         "main_level": "53-48",
         "alliance": null
     },
-    "#37 梦语": {
-        "power": null,
-        "main_level": "53-48",
-        "alliance": null
-    },
     "#36 MgEscape": {
         "power": "14,003,595",
         "main_level": "53-47",
@@ -6558,11 +6403,6 @@
         "power": "12,900,814",
         "main_level": "53-39",
         "alliance": null
-    },
-    "#83 小手B冰凉": {
-        "power": "6,484,334",
-        "main_level": "53-36",
-        "alliance": "迷人又可爱的"
     },
     "#31 弟中之弟": {
         "power": "30,920,411",
@@ -6684,11 +6524,6 @@
         "main_level": "52-49",
         "alliance": null
     },
-    "#37 dnzngod": {
-        "power": "14,501,673",
-        "main_level": "52-49",
-        "alliance": "跑路了"
-    },
     "#69 WhatTre": {
         "power": "12,577,866",
         "main_level": "52-49",
@@ -6716,11 +6551,6 @@
     },
     "#64 BernieOrr": {
         "power": "15,347,626",
-        "main_level": "52-48",
-        "alliance": null
-    },
-    "#42 幻流星": {
-        "power": "14,646,150",
         "main_level": "52-48",
         "alliance": null
     },
@@ -6919,11 +6749,6 @@
         "main_level": "51-52",
         "alliance": null
     },
-    "#42 LIND": {
-        "power": null,
-        "main_level": "51-52",
-        "alliance": null
-    },
     "#57 NickyLeach": {
         "power": "20,393,782",
         "main_level": "51-50",
@@ -7020,11 +6845,6 @@
         "alliance": null
     },
     "#48 EmmaHi": {
-        "power": null,
-        "main_level": "51-48",
-        "alliance": null
-    },
-    "#42 巨石强森": {
         "power": null,
         "main_level": "51-48",
         "alliance": null
@@ -7266,11 +7086,6 @@
     },
     "#41 XI": {
         "power": "15,738,601",
-        "main_level": "50-49",
-        "alliance": "跑路了"
-    },
-    "#37 godgu": {
-        "power": "14,076,533",
         "main_level": "50-49",
         "alliance": "跑路了"
     },
@@ -7549,11 +7364,6 @@
         "main_level": "49-50",
         "alliance": null
     },
-    "#37 飞天符": {
-        "power": "20,578,208",
-        "main_level": "49-49",
-        "alliance": "跑路了"
-    },
     "#34 MilfKing": {
         "power": "20,483,622",
         "main_level": "49-49",
@@ -7608,11 +7418,6 @@
         "power": "18,464,655",
         "main_level": "49-48",
         "alliance": "跑路了"
-    },
-    "#42 dlss": {
-        "power": "18,098,597",
-        "main_level": "49-48",
-        "alliance": null
     },
     "#32 Koizumi": {
         "power": "17,996,005",
@@ -7707,7 +7512,7 @@
     "#24 箭竹": {
         "power": "22,204,637",
         "main_level": "49-47",
-        "alliance": "夜澀"
+        "alliance": "跑路了"
     },
     "#17 Dostiea": {
         "power": "20,227,442",
@@ -7788,11 +7593,6 @@
         "power": "19,849,705",
         "main_level": "49-45",
         "alliance": null
-    },
-    "#37 TNMLLX": {
-        "power": "17,329,345",
-        "main_level": "49-45",
-        "alliance": "跑路了"
     },
     "#38 SkylerWood": {
         "power": "11,500,392",
@@ -7882,11 +7682,6 @@
     "#63 TomBest": {
         "power": "13,916,407",
         "main_level": "49-4",
-        "alliance": null
-    },
-    "#19 Mok": {
-        "power": null,
-        "main_level": "49-3",
         "alliance": null
     },
     "#80 苏月影": {
@@ -8014,11 +7809,6 @@
         "main_level": "48-46",
         "alliance": null
     },
-    "#19 持之以恒": {
-        "power": "8,702,966",
-        "main_level": "48-46",
-        "alliance": null
-    },
     "#82 鲨鱼拌饭l": {
         "power": "5,430,208",
         "main_level": "48-46",
@@ -8053,11 +7843,6 @@
         "power": "13,578,475",
         "main_level": "48-41",
         "alliance": "跑路了"
-    },
-    "#42 vanis": {
-        "power": "21,305,702",
-        "main_level": "48-38",
-        "alliance": null
     },
     "#51 天灵夏瑶雅": {
         "power": null,
@@ -8304,11 +8089,6 @@
         "main_level": "47-49",
         "alliance": "跑路了"
     },
-    "#42 CaseyBan": {
-        "power": "12,417,473",
-        "main_level": "47-49",
-        "alliance": null
-    },
     "#18 OneM": {
         "power": "12,369,600",
         "main_level": "47-49",
@@ -8347,7 +8127,7 @@
     "#20 Laller": {
         "power": "17,017,967",
         "main_level": "47-48",
-        "alliance": "ロスモンティス"
+        "alliance": "跑路了"
     },
     "#65 GabeSoli": {
         "power": "13,002,800",
@@ -8519,11 +8299,6 @@
         "main_level": "47-0",
         "alliance": null
     },
-    "#37 路璐": {
-        "power": "14,618,025",
-        "main_level": "47-0",
-        "alliance": null
-    },
     "#74 Sonikku": {
         "power": "10,890,688",
         "main_level": "46-53",
@@ -8556,11 +8331,6 @@
     },
     "#57 雪帝": {
         "power": "15,605,692",
-        "main_level": "46-52",
-        "alliance": null
-    },
-    "#37 译瑶": {
-        "power": "15,278,661",
         "main_level": "46-52",
         "alliance": null
     },
@@ -8647,7 +8417,7 @@
     "#15 nagis": {
         "power": "13,860,705",
         "main_level": "46-50",
-        "alliance": "ロスモンティス"
+        "alliance": "跑路了"
     },
     "#76 Pancakes": {
         "power": null,
@@ -8722,7 +8492,7 @@
     "#31 傲雪小天": {
         "power": "19,506,848",
         "main_level": "46-48",
-        "alliance": "ロスモンティス"
+        "alliance": "跑路了"
     },
     "#08 Abua": {
         "power": "17,399,020",
@@ -8769,11 +8539,6 @@
         "main_level": "46-48",
         "alliance": "跑路了"
     },
-    "#42 小刘哥": {
-        "power": "10,294,590",
-        "main_level": "46-48",
-        "alliance": null
-    },
     "#74 AIDEN": {
         "power": "10,220,673",
         "main_level": "46-48",
@@ -8814,20 +8579,10 @@
         "main_level": "46-48",
         "alliance": null
     },
-    "#42 ZaoChua": {
-        "power": null,
-        "main_level": "46-48",
-        "alliance": null
-    },
     "#15 LabRa": {
         "power": "18,164,917",
         "main_level": "46-47",
         "alliance": "跑路了"
-    },
-    "#42 Barchiel": {
-        "power": "18,149,913",
-        "main_level": "46-47",
-        "alliance": null
     },
     "#65 Summercolo": {
         "power": "15,789,572",
@@ -8857,11 +8612,6 @@
     "#21 大萘子璃璃": {
         "power": "12,727,847",
         "main_level": "46-47",
-        "alliance": "跑路了"
-    },
-    "#37 MosesSimon": {
-        "power": "17,789,189",
-        "main_level": "46-46",
         "alliance": "跑路了"
     },
     "#54 小胸妹": {
@@ -8994,11 +8744,6 @@
         "main_level": "46-46",
         "alliance": null
     },
-    "#37 GlenFros": {
-        "power": null,
-        "main_level": "46-46",
-        "alliance": null
-    },
     "#34 寒御风": {
         "power": "18,061,458",
         "main_level": "46-45",
@@ -9119,11 +8864,6 @@
         "main_level": "46-37",
         "alliance": null
     },
-    "#19 Mosi": {
-        "power": "12,634,276",
-        "main_level": "46-36",
-        "alliance": null
-    },
     "#02 Heart": {
         "power": "9,620,714",
         "main_level": "46-35",
@@ -9197,11 +8937,6 @@
     "#49 AidenHess": {
         "power": "17,386,551",
         "main_level": "46-6",
-        "alliance": null
-    },
-    "#19 ZeroCrai": {
-        "power": "9,296,769",
-        "main_level": "46-2",
         "alliance": null
     },
     "#54 RiverBi": {
@@ -9304,20 +9039,10 @@
         "main_level": "45-51",
         "alliance": null
     },
-    "#42 Moutarde": {
-        "power": "17,210,134",
-        "main_level": "45-50",
-        "alliance": null
-    },
     "#15 ALeve": {
         "power": "16,829,892",
         "main_level": "45-50",
         "alliance": "跑路了"
-    },
-    "#19 風華月影": {
-        "power": "15,711,553",
-        "main_level": "45-50",
-        "alliance": null
     },
     "#12 MaxterD": {
         "power": "14,974,569",
@@ -9337,11 +9062,6 @@
     "#10 Patchouul": {
         "power": null,
         "main_level": "45-50",
-        "alliance": null
-    },
-    "#42 VirginiaKhan": {
-        "power": "18,133,145",
-        "main_level": "45-49",
         "alliance": null
     },
     "#34 Lilxc": {
@@ -9373,11 +9093,6 @@
         "power": "13,823,520",
         "main_level": "45-49",
         "alliance": "跑路了"
-    },
-    "#37 明珠": {
-        "power": "13,770,088",
-        "main_level": "45-49",
-        "alliance": null
     },
     "#53 luoerph": {
         "power": "13,280,408",
@@ -9744,11 +9459,6 @@
         "main_level": "44-49",
         "alliance": null
     },
-    "#42 玅玥": {
-        "power": null,
-        "main_level": "44-49",
-        "alliance": null
-    },
     "#05 ERU": {
         "power": "10,764,595",
         "main_level": "44-48",
@@ -9789,11 +9499,6 @@
         "main_level": "44-30",
         "alliance": null
     },
-    "#37 红绾人": {
-        "power": "13,044,919",
-        "main_level": "44-30",
-        "alliance": "跑路了"
-    },
     "#05 私とシテミテ": {
         "power": "21,189,015",
         "main_level": "44-26",
@@ -9808,11 +9513,6 @@
         "power": "10,096,037",
         "main_level": "44-15",
         "alliance": "跑路了"
-    },
-    "#42 米南娜妹儿": {
-        "power": "18,886,660",
-        "main_level": "44-6",
-        "alliance": null
     },
     "#04 No": {
         "power": null,
@@ -9837,16 +9537,6 @@
     "#75 安眠": {
         "power": null,
         "main_level": "43-52",
-        "alliance": null
-    },
-    "#37 ArvinBaue": {
-        "power": null,
-        "main_level": "43-52",
-        "alliance": null
-    },
-    "#42 Aye可畏": {
-        "power": "13,889,658",
-        "main_level": "43-51",
         "alliance": null
     },
     "#22 wildchik": {
@@ -10018,11 +9708,6 @@
         "power": "12,040,514",
         "main_level": "43-4",
         "alliance": "跑路了"
-    },
-    "#37 冫冫冫": {
-        "power": "12,793,725",
-        "main_level": "43-3",
-        "alliance": null
     },
     "#08 鸭鸭卡卡": {
         "power": "12,713,557",
@@ -10204,11 +9889,6 @@
         "main_level": "42-49",
         "alliance": null
     },
-    "#37 TannerPugh": {
-        "power": null,
-        "main_level": "42-49",
-        "alliance": null
-    },
     "#77 TammyHay": {
         "power": null,
         "main_level": "42-46",
@@ -10294,20 +9974,10 @@
         "main_level": "41-52",
         "alliance": null
     },
-    "#42 天琊绝世": {
-        "power": null,
-        "main_level": "41-52",
-        "alliance": null
-    },
     "#11 SptnB32": {
         "power": "12,573,075",
         "main_level": "41-51",
         "alliance": "跑路了"
-    },
-    "#19 RoryWalls": {
-        "power": "10,540,101",
-        "main_level": "41-51",
-        "alliance": null
     },
     "#78 GeoffreyLogan": {
         "power": "9,568,412",
@@ -10399,11 +10069,6 @@
         "main_level": "41-49",
         "alliance": "跑路了"
     },
-    "#19 origami": {
-        "power": "7,909,785",
-        "main_level": "41-49",
-        "alliance": null
-    },
     "#38 MarkMor": {
         "power": null,
         "main_level": "41-49",
@@ -10488,11 +10153,6 @@
         "power": "9,801,740",
         "main_level": "41-27",
         "alliance": "跑路了"
-    },
-    "#19 Tomomin": {
-        "power": "10,202,494",
-        "main_level": "41-9",
-        "alliance": null
     },
     "#44 Kennch": {
         "power": "13,861,308",
@@ -10609,11 +10269,6 @@
         "main_level": "40-50",
         "alliance": null
     },
-    "#42 CaseyBal": {
-        "power": null,
-        "main_level": "40-50",
-        "alliance": null
-    },
     "#20 GEOdeZZ": {
         "power": "12,496,893",
         "main_level": "40-49",
@@ -10633,11 +10288,6 @@
         "power": "10,845,929",
         "main_level": "40-49",
         "alliance": "跑路了"
-    },
-    "#19 WebsterRees": {
-        "power": "10,172,000",
-        "main_level": "40-49",
-        "alliance": null
     },
     "#39 BretCoo": {
         "power": "10,106,922",
@@ -10729,11 +10379,6 @@
         "main_level": "40-49",
         "alliance": null
     },
-    "#42 爱米": {
-        "power": null,
-        "main_level": "40-49",
-        "alliance": null
-    },
     "#78 JeromeMcke": {
         "power": null,
         "main_level": "40-30",
@@ -10749,20 +10394,10 @@
         "main_level": "40-27",
         "alliance": "跑路了"
     },
-    "#42 OliveCarey": {
-        "power": null,
-        "main_level": "40-9",
-        "alliance": null
-    },
     "#02 itsYo": {
         "power": "10,722,802",
         "main_level": "40-6",
         "alliance": "跑路了"
-    },
-    "#42 俄洛伊": {
-        "power": null,
-        "main_level": "40-3",
-        "alliance": null
     },
     "#18 デビル": {
         "power": "10,557,077",
@@ -10813,11 +10448,6 @@
         "power": "19,897,816",
         "main_level": "39-49",
         "alliance": "跑路了"
-    },
-    "#42 psych": {
-        "power": "10,908,286",
-        "main_level": "39-49",
-        "alliance": null
     },
     "#21 sayak": {
         "power": "9,006,786",
@@ -10872,7 +10502,7 @@
     "#43 大魚乾": {
         "power": "11,150,230",
         "main_level": "39-12",
-        "alliance": "夜澀"
+        "alliance": "跑路了"
     },
     "#18 ReedHale": {
         "power": null,
@@ -10914,11 +10544,6 @@
         "main_level": "38-50",
         "alliance": null
     },
-    "#42 KaiRiva": {
-        "power": null,
-        "main_level": "38-50",
-        "alliance": null
-    },
     "#17 JudeCar": {
         "power": "11,477,218",
         "main_level": "38-49",
@@ -10936,11 +10561,6 @@
     },
     "#79 BevisReed": {
         "power": "7,423,830",
-        "main_level": "38-49",
-        "alliance": null
-    },
-    "#83 YMzzL": {
-        "power": "3,466,493",
         "main_level": "38-49",
         "alliance": null
     },
@@ -11009,11 +10629,6 @@
         "main_level": "37-52",
         "alliance": null
     },
-    "#19 幻葬": {
-        "power": "10,658,742",
-        "main_level": "37-50",
-        "alliance": null
-    },
     "#21 tmtt": {
         "power": "10,651,348",
         "main_level": "37-50",
@@ -11064,11 +10679,6 @@
         "main_level": "37-49",
         "alliance": null
     },
-    "#19 莉莉安娜": {
-        "power": null,
-        "main_level": "37-49",
-        "alliance": null
-    },
     "#81 BigF": {
         "power": "7,210,807",
         "main_level": "37-42",
@@ -11097,11 +10707,6 @@
     "#17 孰华予": {
         "power": null,
         "main_level": "37-0",
-        "alliance": null
-    },
-    "#19 NickyLeigh": {
-        "power": null,
-        "main_level": "36-52",
         "alliance": null
     },
     "#23 玄烨": {
@@ -11138,11 +10743,6 @@
         "power": "8,794,851",
         "main_level": "36-49",
         "alliance": "跑路了"
-    },
-    "#19 冰凝": {
-        "power": "8,759,082",
-        "main_level": "36-49",
-        "alliance": null
     },
     "#20 Akih": {
         "power": "8,466,163",
@@ -11209,24 +10809,9 @@
         "main_level": "36-49",
         "alliance": null
     },
-    "#19 蔷薇水晶": {
-        "power": null,
-        "main_level": "36-49",
-        "alliance": null
-    },
-    "#19 我爱你GOD2": {
-        "power": null,
-        "main_level": "36-48",
-        "alliance": null
-    },
     "#80 漩涡鸣人": {
         "power": "8,637,849",
         "main_level": "36-47",
-        "alliance": null
-    },
-    "#19 ClydeMayer": {
-        "power": "13,685,301",
-        "main_level": "36-44",
         "alliance": null
     },
     "#79 SandraBrit": {
@@ -11237,11 +10822,6 @@
     "#79 无洺依伊": {
         "power": null,
         "main_level": "36-42",
-        "alliance": null
-    },
-    "#19 赤曈狼": {
-        "power": "8,182,649",
-        "main_level": "36-31",
         "alliance": null
     },
     "#21 kilsweet": {
@@ -11304,11 +10884,6 @@
         "main_level": "35-50",
         "alliance": null
     },
-    "#19 云秋": {
-        "power": "10,175,178",
-        "main_level": "35-49",
-        "alliance": null
-    },
     "#21 GregaryPat": {
         "power": "9,355,938",
         "main_level": "35-49",
@@ -11364,16 +10939,6 @@
         "main_level": "35-49",
         "alliance": null
     },
-    "#19 Ginom": {
-        "power": null,
-        "main_level": "35-49",
-        "alliance": null
-    },
-    "#83 Roll": {
-        "power": null,
-        "main_level": "35-49",
-        "alliance": null
-    },
     "#10 JuliusElli": {
         "power": "7,401,281",
         "main_level": "35-35",
@@ -11403,11 +10968,6 @@
         "power": "10,311,208",
         "main_level": "35-9",
         "alliance": "跑路了"
-    },
-    "#19 LuckyXII": {
-        "power": "10,275,290",
-        "main_level": "35-1",
-        "alliance": null
     },
     "#23 Yatendouj": {
         "power": "8,599,622",
@@ -11489,16 +11049,6 @@
         "main_level": "34-49",
         "alliance": null
     },
-    "#19 Greenbamboo": {
-        "power": null,
-        "main_level": "34-49",
-        "alliance": null
-    },
-    "#19 月音未羽": {
-        "power": null,
-        "main_level": "34-49",
-        "alliance": null
-    },
     "#79 BevisWeb": {
         "power": null,
         "main_level": "34-42",
@@ -11538,11 +11088,6 @@
         "power": "13,361,222",
         "main_level": "34-10",
         "alliance": "跑路了"
-    },
-    "#19 ZeroRe": {
-        "power": "8,431,369",
-        "main_level": "34-0",
-        "alliance": null
     },
     "#26 Jinni": {
         "power": "7,523,101",
@@ -11747,11 +11292,6 @@
     "#82 溪流萦绕": {
         "power": "7,184,712",
         "main_level": "32-48",
-        "alliance": null
-    },
-    "#83 DeliaHal": {
-        "power": "2,864,198",
-        "main_level": "32-42",
         "alliance": null
     },
     "#23 CathyKn": {
@@ -12009,11 +11549,6 @@
         "main_level": "27-49",
         "alliance": "跑路了"
     },
-    "#83 LuckySta": {
-        "power": "5,636,185",
-        "main_level": "27-49",
-        "alliance": null
-    },
     "#26 GojoDolls": {
         "power": "4,956,690",
         "main_level": "27-49",
@@ -12044,11 +11579,6 @@
         "main_level": "26-49",
         "alliance": null
     },
-    "#83 离想": {
-        "power": "3,376,931",
-        "main_level": "26-49",
-        "alliance": null
-    },
     "#82 feiyingpuhu": {
         "power": "4,706,418",
         "main_level": "25-52",
@@ -12069,16 +11599,6 @@
         "main_level": "25-49",
         "alliance": "跑路了"
     },
-    "#83 LIVESELL": {
-        "power": "2,229,740",
-        "main_level": "25-49",
-        "alliance": null
-    },
-    "#83 GlenTerr": {
-        "power": "4,082,168",
-        "main_level": "25-33",
-        "alliance": null
-    },
     "#26 SweetDevilY": {
         "power": "5,302,594",
         "main_level": "25-5",
@@ -12094,129 +11614,24 @@
         "main_level": "24-50",
         "alliance": "跑路了"
     },
-    "#83 摸你一下下": {
-        "power": "4,666,851",
-        "main_level": "24-49",
-        "alliance": null
-    },
-    "#83 LewisWes": {
-        "power": null,
-        "main_level": "24-27",
-        "alliance": null
-    },
-    "#83 Cclou": {
-        "power": "3,791,878",
-        "main_level": "23-49",
-        "alliance": null
-    },
-    "#83 EmoXi": {
-        "power": null,
-        "main_level": "23-49",
-        "alliance": null
-    },
     "#26 Tine": {
         "power": "3,919,652",
         "main_level": "22-50",
         "alliance": "跑路了"
-    },
-    "#83 VivianDa": {
-        "power": null,
-        "main_level": "22-6",
-        "alliance": null
     },
     "#26 詹姆士上将": {
         "power": "3,909,916",
         "main_level": "21-52",
         "alliance": "跑路了"
     },
-    "#83 villai": {
-        "power": null,
-        "main_level": "21-52",
-        "alliance": null
-    },
-    "#83 吻舞双全": {
-        "power": "3,355,553",
-        "main_level": "21-50",
-        "alliance": null
-    },
-    "#83 WebsterBowe": {
-        "power": "3,386,346",
-        "main_level": "21-49",
-        "alliance": null
-    },
-    "#83 叽叽": {
-        "power": "2,922,005",
-        "main_level": "21-49",
-        "alliance": null
-    },
     "#26 Wast": {
         "power": null,
         "main_level": "21-49",
-        "alliance": null
-    },
-    "#83 Bre": {
-        "power": "3,191,306",
-        "main_level": "21-22",
         "alliance": null
     },
     "#26 CarrWals": {
         "power": "6,126,009",
         "main_level": "21-5",
         "alliance": "跑路了"
-    },
-    "#83 符芙福了": {
-        "power": "3,351,243",
-        "main_level": "21-0",
-        "alliance": null
-    },
-    "#83 SampsonGof": {
-        "power": null,
-        "main_level": "20-52",
-        "alliance": null
-    },
-    "#83 此生可念": {
-        "power": "3,604,344",
-        "main_level": "20-50",
-        "alliance": null
-    },
-    "#83 Samxe": {
-        "power": null,
-        "main_level": "20-50",
-        "alliance": null
-    },
-    "#83 CameronFeli": {
-        "power": "3,291,638",
-        "main_level": "20-49",
-        "alliance": null
-    },
-    "#83 Hy6acuH": {
-        "power": "3,263,538",
-        "main_level": "20-49",
-        "alliance": null
-    },
-    "#83 Yux汐": {
-        "power": "3,146,023",
-        "main_level": "20-49",
-        "alliance": null
-    },
-    "#83 张pau": {
-        "power": "2,990,103",
-        "main_level": "20-49",
-        "alliance": null
-    },
-    "#83 Noodleswonto": {
-        "power": "2,970,655",
-        "main_level": "20-49",
-        "alliance": null
-    },
-    "#83 玖玥之殇": {
-        "power": null,
-        "main_level": "20-49",
-        "alliance": null
-    },
-    "#83 hellovenu": {
-        "power": null,
-        "main_level": "20-49",
-        "alliance": null
     }
 }
