@@ -48,7 +48,6 @@ def get_ranking(player_data,cache_data,server,corrections):
                 break
             except UnicodeDecodeError:
                 # 到最後一個都檢查不出來
-
                 if j == -3:
                     print(encode_data)
                
@@ -70,37 +69,27 @@ def alliance_data(player_data):
 
     return player_data
 
-
-def update_json_files(local_path, server_path, data, DEBUG):
-    write_json(local_path, data)
-    if not DEBUG:
-        write_json(server_path, data)
-
-def date_record(date,DEBUG):
+def date_record(date):
     month, day = date[:2], date[2:]
-    local_path = Path("local_data/date_options.json")
-    server_path = Path("data/date_options.json")
-
-    date_options = read_json(server_path)
+    path = "data/date_options.json"
+    date_options = read_json(path)
 
     new_date = {"value": f"2024{month}{day}", "label": f"2024/{month}/{day}"}
     if new_date not in date_options:
         date_options.insert(0, new_date)
 
-    update_json_files(local_path, server_path, date_options, DEBUG)
+    write_json(path, date_options)
 
-def server_record(server,DEBUG):
-    local_path = Path("local_data/filter_options.json")
-    server_path = Path("data/filter_options.json")
-
-    filter_options = read_json(server_path)
+def server_record(server):
+    path="data/filter_options.json"
+    filter_options = read_json(path)
 
     new_servers = [{"value": f"specific{i}", "label": f"#{i}"} for i in range(1, server + 1)]
     filter_options.extend([server for server in new_servers if server not in filter_options])
 
-    update_json_files(local_path, server_path, filter_options, DEBUG)
+    write_json(path, filter_options)
 
-def Data_collation(data, output_date, DEBUG):
+def Data_collation(data, output_date):
     def safe_int(value, default=0):
         try:
             return int(value.replace(",", ""))
@@ -115,8 +104,7 @@ def Data_collation(data, output_date, DEBUG):
         # 按main_level排序，拆分日期进行年月排序
         parts = item[1]["main_level"].split("-")
         return tuple(safe_int(part) for part in parts[:2])
-    
-    base_path = Path("data")
+
     
     for type_key in ["power", "main_level"]:
         filtered_data = {k: v for k, v in data.items() if v.get(type_key)}
@@ -130,13 +118,10 @@ def Data_collation(data, output_date, DEBUG):
             sorted_data = dict(sorted(pre_sorted_by_power, key=lambda x: sort_by_main_level(x), reverse=True))
 
         file_type = "main" if type_key == "main_level" else "power"
-        if not DEBUG:
-            file_path = base_path / f"2024{output_date}_{file_type}.json"
-            write_json(file_path, sorted_data)
-        file_path = Path("local_data") / f"2024{output_date}_{file_type}.json"
+        file_path = f"data/2024{output_date}_{file_type}.json"
         write_json(file_path, sorted_data)
        
-    date_record(output_date,DEBUG)
+    date_record(output_date)
 
 
 def packet_analysis(player_data,packets,corrections,record_server):
@@ -164,7 +149,7 @@ def packet_analysis(player_data,packets,corrections,record_server):
                     data_len.append(next_packet_len)
                 else:
                     continue
-                print(Complete_data)
+                # print(Complete_data)
                 binary_data = gzip.decompress(bytes.fromhex(Complete_data[10:]))
                 # SCLogic_RankInfoBack
                 if b'\x53\x43\x4c\x6f\x67\x69\x63\x5f\x52\x61\x6e\x6b\x49\x6e\x66\x6f\x42\x61\x63\x6b' != binary_data[8:28]:
@@ -214,7 +199,6 @@ if __name__ == '__main__':
     debug_result=[]
     data_len=[]
     record_server=[]
-    printf={key: [] for key in range(1, 101)}
 
     packets = read_json(f'wireshark rawdata/{output_date}.json')
     player_data,record_server = packet_analysis(player_data,packets,corrections,record_server)
@@ -226,12 +210,10 @@ if __name__ == '__main__':
     # packets = read_json(f'wireshark rawdata/{output_date}03.json')
     # player_data,record_server = packet_analysis(player_data,packets,corrections,record_server)
     
-    # print(printf)
     missing_servers = [i for i in range(1, max(record_server)+1) if i not in record_server]
     print(f'共{max(record_server)}區； 少{", ".join(map(str, missing_servers))}區')
 
-    server_record(max(record_server),DEBUG)
-    # write_txt('result',debug_result)
+    server_record(max(record_server))
     player_data=alliance_data(player_data)
 
 
