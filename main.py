@@ -210,7 +210,7 @@ if __name__ == '__main__':
     # output_date = datetime.now(timezone.utc).strftime("%m%d")
     output_date = '0920'
 
-    corrections = read_json('corrections2.json')
+    corrections = read_json('corrections.json')
     
     player_data={}
     debug_result=[]
