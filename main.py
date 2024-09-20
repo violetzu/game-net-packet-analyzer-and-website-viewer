@@ -159,12 +159,9 @@ def packet_analysis(player_data,packets,corrections,record_server):
 
                 if Complete_data is None:
                     continue
-              
-                # print(Complete_data)
-         
+
                 binary_data =  gzip.decompress(bytes.fromhex(Complete_data[10:]))
     
-
                 # SCLogic_RankInfoBack
                 if b'\x53\x43\x4c\x6f\x67\x69\x63\x5f\x52\x61\x6e\x6b\x49\x6e\x66\x6f\x42\x61\x63\x6b' != binary_data[8:28]:
                     continue
@@ -181,7 +178,6 @@ def packet_analysis(player_data,packets,corrections,record_server):
             
             elif packet_data[26:52] == '53434c6f67696e5f4c6f67696e':  # "SCLogin_Login" 標識檢查
                 binary_data = bytes.fromhex(packet_data[128:168])
-                # binary_data = bytes.fromhex(packet_data)
                 # print(binary_data)
 
                 server = int(LOGIN_PATTERN.search(binary_data).group(1))
