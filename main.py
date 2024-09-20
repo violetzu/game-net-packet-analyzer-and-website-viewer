@@ -127,6 +127,8 @@ def Data_collation(data, output_date):
 def packet_analysis(player_data,packets,corrections,record_server):
     PATTERN = re.compile(rb'\x00\x00\x00(.*?)\x00', re.DOTALL)
     LOGIN_PATTERN = re.compile(rb'"serverId":(.*?),', re.DOTALL)
+    # packets = sorted(packets, key=lambda x: int(x["_source"]["layers"]["tcp"]["tcp.seq_raw"]))
+
 
     server=0
     cache_data = []
@@ -135,22 +137,34 @@ def packet_analysis(player_data,packets,corrections,record_server):
     for no,packet in enumerate(packets): 
         packet_data = packet["_source"]["layers"]["tcp"]['tcp.payload'].replace(":", "") 
         packet_len = int(packet["_source"]["layers"]["tcp"]['tcp.len'])
-        packet_seq = int(packet["_source"]["layers"]["tcp"]['tcp.seq'])
-
+        packet_seq = int(packet["_source"]["layers"]["tcp"]["tcp.seq_raw"])
+        Complete_data=None
+        
         try:
             if packet_data[10:14] == '1f8b':  # Gzip 文件頭檢查
-                next_packet_data = packets[no+1]["_source"]["layers"]["tcp"]['tcp.payload'].replace(":", "")
-                next_packet_len = int(packets[no+1]["_source"]["layers"]["tcp"]['tcp.len'])
+                next_packet_seq=packet_seq+packet_len
                 if packet_data[-4:] == '0000':  # Gzip 結尾檢查
                     Complete_data = packet_data      
                     data_len.append(packet_len)         
-                elif next_packet_data[-4:] == '0000':   # 下一個封包結尾檢查
-                    Complete_data = packet_data + next_packet_data
-                    data_len.append(next_packet_len)
                 else:
+                    for i in [1,-1,2,-2]:
+                        possible_packet_seq = int(packets[no+i]["_source"]["layers"]["tcp"]["tcp.seq_raw"])
+                        possible_packet_len = int(packets[no+i]["_source"]["layers"]["tcp"]['tcp.len'])
+                        possible_packet_data = packets[no+i]["_source"]["layers"]["tcp"]['tcp.payload'].replace(":", "")
+                        if possible_packet_seq == next_packet_seq and possible_packet_data[-4:] == '0000':
+                        # 下一個封包結尾檢查
+                            Complete_data = packet_data + possible_packet_data
+                            data_len.append(possible_packet_len)
+                            break
+
+                if Complete_data is None:
                     continue
+              
                 # print(Complete_data)
-                binary_data = gzip.decompress(bytes.fromhex(Complete_data[10:]))
+         
+                binary_data =  gzip.decompress(bytes.fromhex(Complete_data[10:]))
+    
+
                 # SCLogic_RankInfoBack
                 if b'\x53\x43\x4c\x6f\x67\x69\x63\x5f\x52\x61\x6e\x6b\x49\x6e\x66\x6f\x42\x61\x63\x6b' != binary_data[8:28]:
                     continue
@@ -168,9 +182,10 @@ def packet_analysis(player_data,packets,corrections,record_server):
             elif packet_data[26:52] == '53434c6f67696e5f4c6f67696e':  # "SCLogin_Login" 標識檢查
                 binary_data = bytes.fromhex(packet_data[128:168])
                 # binary_data = bytes.fromhex(packet_data)
-                print(binary_data)
+                # print(binary_data)
 
                 server = int(LOGIN_PATTERN.search(binary_data).group(1))
+                print(server,packet_seq)
                 player_data = get_ranking(player_data, cache_data, server, corrections)
                 data_len.append(packet_len)
                 if cache_data != []:
@@ -179,7 +194,8 @@ def packet_analysis(player_data,packets,corrections,record_server):
 
         except (OSError, IOError, EOFError) as e:
             cache_data = []
-            print(f"{server} 處理 gzip 文件時發生錯誤：", e)
+            print(f"{packet_seq} 處理 gzip 文件時發生錯誤：", e)
+            print(Complete_data[10:])
 
         except zlib.error as e:
             print(f"Decompression error: {e}")  
