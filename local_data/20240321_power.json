@@ -1,0 +1,7007 @@
+{
+    "#01 \u95f2\u51fa\u5c41\u6765": {
+        "power": "81,655,301",
+        "main_level": "109-28",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#12 HJMX": {
+        "power": "80,351,812",
+        "main_level": "112-6",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#03 \u61a7\u61ac\u660e\u5929": {
+        "power": "73,285,650",
+        "main_level": "112-6",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#18 DennyAyala": {
+        "power": "67,646,341",
+        "main_level": "112-6",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#01 ChristBruce": {
+        "power": "62,687,542",
+        "main_level": "91-23",
+        "alliance": null
+    },
+    "#01 DaLaDiDaLa": {
+        "power": "60,104,256",
+        "main_level": "103-6",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#28 \u7c73\u62c9": {
+        "power": "60,074,529",
+        "main_level": "101-27",
+        "alliance": null
+    },
+    "#11 \u9759\u5973\u5176\u59dd": {
+        "power": "56,409,082",
+        "main_level": "109-24",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#01 ILuckyI": {
+        "power": "51,926,043",
+        "main_level": "112-6",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#08 Fiona\u5654": {
+        "power": "50,160,596",
+        "main_level": "105-28",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#07 \u7802\u591c\u5b50": {
+        "power": "50,006,393",
+        "main_level": "108-24",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#05 \u8010\u6454\u738b\u79d1\u6bd4": {
+        "power": "49,349,351",
+        "main_level": "108-28",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#28 \u5996\u5996\u5e7b\u60f3": {
+        "power": "48,758,899",
+        "main_level": "112-6",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#04 Sango37": {
+        "power": "48,495,678",
+        "main_level": "103-28",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#01 JayChou": {
+        "power": "46,548,947",
+        "main_level": "105-22",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#01 \u91d1\u65fc\u70a1\u549a\u549a": {
+        "power": "45,616,218",
+        "main_level": "104-22",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#12 SimonaWhyet": {
+        "power": "43,193,960",
+        "main_level": "104-25",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#03 \u82b1\u51db": {
+        "power": "42,493,792",
+        "main_level": "104-24",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#31 Misaaaaa": {
+        "power": "41,987,516",
+        "main_level": "95-3",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#05 \u68a6\u53f6": {
+        "power": "41,738,750",
+        "main_level": "104-28",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#43 rua\u4f18\u9999\u8089\u817f": {
+        "power": "41,326,867",
+        "main_level": "108-28",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#01 \u9752\u829d": {
+        "power": "40,973,693",
+        "main_level": "105-28",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#05 \u4eba\u4e4b\u521d": {
+        "power": "40,894,388",
+        "main_level": "103-28",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#07 \u3086\u3044\u3086\u3044": {
+        "power": "40,526,099",
+        "main_level": "93-25",
+        "alliance": null
+    },
+    "#03 \u971c\u967d": {
+        "power": "39,721,246",
+        "main_level": "103-28",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#08 \u662f\u53ea\u91ce\u732a": {
+        "power": "39,535,395",
+        "main_level": "103-24",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#16 \u30e1\u30ab\u30e9\u30d6": {
+        "power": "38,844,875",
+        "main_level": "94-25",
+        "alliance": null
+    },
+    "#03 94\u9ed1\u661f": {
+        "power": "38,744,072",
+        "main_level": "91-28",
+        "alliance": null
+    },
+    "#03 \u7eef\u6da9": {
+        "power": "38,307,443",
+        "main_level": "81-25",
+        "alliance": "\u591c\u6f80"
+    },
+    "#07 \u57ce\u5fc6\u503e\u57ce": {
+        "power": "38,248,961",
+        "main_level": "83-25",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#01 \u963f\u9ed4\u5566": {
+        "power": "37,987,078",
+        "main_level": "97-25",
+        "alliance": null
+    },
+    "#15 fearnothing": {
+        "power": "37,824,888",
+        "main_level": "95-25",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#16 \u8d64\u9704": {
+        "power": "37,808,860",
+        "main_level": "104-22",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#02 \u6478\u9c7c\u5c0f\u9171": {
+        "power": "37,714,600",
+        "main_level": "102-28",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#01 \u7409\u7d2b": {
+        "power": "37,711,286",
+        "main_level": "105-25",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#24 \u62db\u6843\u82b1": {
+        "power": "37,644,108",
+        "main_level": "103-24",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#10 \u5343\u5c71\u66ae\u96ea": {
+        "power": "37,626,380",
+        "main_level": "102-28",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#01 \u9ece\u660e\u65f6\u5206": {
+        "power": "37,531,790",
+        "main_level": "96-28",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#23 Schierling": {
+        "power": "37,327,256",
+        "main_level": "81-28",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#09 \u67d1\u6ab8\u51c9\u7b90": {
+        "power": "37,300,006",
+        "main_level": "93-25",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#27 libai": {
+        "power": "37,157,141",
+        "main_level": "106-22",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#36 Sleider": {
+        "power": "36,827,864",
+        "main_level": "90-15",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#04 MartinaEvan": {
+        "power": "36,585,637",
+        "main_level": "97-21",
+        "alliance": null
+    },
+    "#04 MiiKAGE": {
+        "power": "36,457,745",
+        "main_level": "96-25",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#14 \u541b\u77e5\u5426": {
+        "power": "35,890,703",
+        "main_level": "105-28",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#01 \u70b9\u70df\u770b\u7247": {
+        "power": "34,964,748",
+        "main_level": "78-28",
+        "alliance": null
+    },
+    "#40 DragonessYun": {
+        "power": "34,665,675",
+        "main_level": "75-15",
+        "alliance": null
+    },
+    "#05 \u5bc4\u6446": {
+        "power": "34,638,533",
+        "main_level": "89-27",
+        "alliance": null
+    },
+    "#06 \u5c18\u57c3": {
+        "power": "34,546,388",
+        "main_level": "99-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#12 \u51ab\u6c35\u6c34\u6dfc": {
+        "power": "34,525,524",
+        "main_level": "90-7",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#10 Squidprince": {
+        "power": "34,512,702",
+        "main_level": "75-15",
+        "alliance": null
+    },
+    "#09 \u53f6\u77e5\u79cb": {
+        "power": "34,271,797",
+        "main_level": "101-25",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#07 \u8c98\u998d\u5377": {
+        "power": "34,217,298",
+        "main_level": "104-22",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#01 \u5e7b\u706d": {
+        "power": "34,021,383",
+        "main_level": "87-28",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#03 Mim": {
+        "power": "33,779,466",
+        "main_level": "88-15",
+        "alliance": null
+    },
+    "#01 \u843d\u4e5d\u5ddd": {
+        "power": "32,566,611",
+        "main_level": "101-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#01 \u6d6e\u534e\u9690": {
+        "power": "32,495,563",
+        "main_level": "85-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#15 Inacamp": {
+        "power": "32,222,529",
+        "main_level": "74-38",
+        "alliance": null
+    },
+    "#32 \u591c\u96e8\u5341\u5e74\u706f": {
+        "power": "32,215,620",
+        "main_level": "82-23",
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#16 \u627f\u5f71": {
+        "power": "31,780,813",
+        "main_level": "93-25",
+        "alliance": null
+    },
+    "#15 \u52a0\u52a0\u8389": {
+        "power": "31,681,839",
+        "main_level": "95-25",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#18 RiverAlsop": {
+        "power": "31,126,806",
+        "main_level": "102-24",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#14 MagEvan": {
+        "power": "30,843,518",
+        "main_level": "82-28",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#06 RivaMeg": {
+        "power": "30,675,984",
+        "main_level": "93-28",
+        "alliance": null
+    },
+    "#02 \u6885\u4e3d\u5c14": {
+        "power": "30,372,060",
+        "main_level": "89-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#27 PeterParker": {
+        "power": "30,287,480",
+        "main_level": "104-24",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#36 \u5929\u4f7f\u5706\u821e\u66f2": {
+        "power": "30,120,627",
+        "main_level": "78-25",
+        "alliance": null
+    },
+    "#07 ArcheNorth": {
+        "power": "30,071,731",
+        "main_level": "82-28",
+        "alliance": "\u591c\u6f80"
+    },
+    "#11 LancePound": {
+        "power": "30,065,992",
+        "main_level": "84-25",
+        "alliance": null
+    },
+    "#15 TonySharp": {
+        "power": "30,052,729",
+        "main_level": "75-25",
+        "alliance": null
+    },
+    "#20 \u661f\u523b\u591c\u66f2": {
+        "power": "29,849,234",
+        "main_level": "85-28",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#13 HoneyLeigh": {
+        "power": "29,615,055",
+        "main_level": "74-26",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#06 \u592d\u592d": {
+        "power": "29,497,235",
+        "main_level": "75-45",
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#20 My3blkaHT": {
+        "power": "29,492,031",
+        "main_level": "80-25",
+        "alliance": null
+    },
+    "#38 \u672c\u95f4\u5fc3\u94c3": {
+        "power": "29,454,269",
+        "main_level": "97-25",
+        "alliance": null
+    },
+    "#04 lori": {
+        "power": "29,359,691",
+        "main_level": null,
+        "alliance": null
+    },
+    "#01 Artheon": {
+        "power": "28,995,762",
+        "main_level": null,
+        "alliance": null
+    },
+    "#12 Orvillewhyet": {
+        "power": "28,917,092",
+        "main_level": "79-28",
+        "alliance": null
+    },
+    "#05 \u502a\u513f": {
+        "power": "28,885,946",
+        "main_level": "99-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#06 cvikky": {
+        "power": "28,688,611",
+        "main_level": "54-46",
+        "alliance": null
+    },
+    "#08 3567AEgir\u30b7\u30b0\u30de": {
+        "power": "28,623,612",
+        "main_level": "99-28",
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#01 \u9006\u5929\u975e\u914b": {
+        "power": "28,584,272",
+        "main_level": "76-28",
+        "alliance": null
+    },
+    "#27 \u8fd9\u6e38\u620f\u771f\u96be": {
+        "power": "28,489,856",
+        "main_level": "80-22",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#35 ossia": {
+        "power": "28,487,525",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#14 \u9500\u9b42\u59b9\u59b9\u56e2": {
+        "power": "28,459,961",
+        "main_level": "77-18",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#04 BevisSusan": {
+        "power": "28,211,810",
+        "main_level": "52-0",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#12 \u66b4\u8d85\u5c0f\u841d\u8389": {
+        "power": "28,062,364",
+        "main_level": "78-0",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#12 \u54e5\u54e5\u7684\u5e78\u5974": {
+        "power": "27,953,397",
+        "main_level": "98-25",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#21 \u6162\u6162\u4f24\u5fc3": {
+        "power": "27,924,285",
+        "main_level": "82-15",
+        "alliance": "\u591c\u6f80"
+    },
+    "#01 \u4e0d\u5982": {
+        "power": "27,515,835",
+        "main_level": "82-26",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "\u30e4\u30e8\u30f0": {
+        "power": "27,495,919",
+        "main_level": "70-27",
+        "alliance": null
+    },
+    "#37 \u7ed9\u6211\u5eb7\u5eb7": {
+        "power": "27,463,760",
+        "main_level": "88-38",
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#28 Antinua": {
+        "power": "27,288,439",
+        "main_level": "72-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#11 \u6027\u672c\u5584": {
+        "power": "27,287,028",
+        "main_level": "96-25",
+        "alliance": null
+    },
+    "#09 SRX": {
+        "power": "27,035,169",
+        "main_level": "57-0",
+        "alliance": null
+    },
+    "#38 LorraineStark": {
+        "power": "27,032,466",
+        "main_level": "85-25",
+        "alliance": null
+    },
+    "#07 \u8be1\u5f02\u5723\u7075": {
+        "power": "26,935,672",
+        "main_level": "54-1",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#22 SammyMason": {
+        "power": "26,834,335",
+        "main_level": "65-26",
+        "alliance": null
+    },
+    "#20 \u96ea\u8389\u9732": {
+        "power": "26,788,749",
+        "main_level": "94-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#03 \u7b26\u79bb": {
+        "power": "26,765,194",
+        "main_level": "100-27",
+        "alliance": null
+    },
+    "#01 \u9e7f\u5e7d\u5e7d": {
+        "power": "26,764,085",
+        "main_level": "80-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#09 \u7384\u80fd\u6539\u547d": {
+        "power": "26,763,390",
+        "main_level": "97-15",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#30 BangBus": {
+        "power": "26,639,429",
+        "main_level": "69-27",
+        "alliance": null
+    },
+    "#18 GIGACHODE": {
+        "power": "26,609,779",
+        "main_level": "74-27",
+        "alliance": null
+    },
+    "#21 \u6c34\u51b0\u6708": {
+        "power": "26,578,683",
+        "main_level": "86-25",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "\u3068\u308a\u308a\u3093": {
+        "power": "26,518,476",
+        "main_level": null,
+        "alliance": null
+    },
+    "#19 \u671d\u6bd4\u5948\u771f\u6771": {
+        "power": "26,299,989",
+        "main_level": "100-26",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#08 \u5ff5\u96e8": {
+        "power": "26,191,341",
+        "main_level": "66-27",
+        "alliance": null
+    },
+    "#22 \u6a31\u591c\u60a0\u5e0c": {
+        "power": "26,142,164",
+        "main_level": "100-25",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#27 Alfie0o": {
+        "power": "26,007,226",
+        "main_level": null,
+        "alliance": null
+    },
+    "#45 4\u53f7\u75c5\u623f": {
+        "power": "25,959,498",
+        "main_level": "102-24",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#01 \u5982\u98ce\u4f34\u543e\u8eab": {
+        "power": "25,696,758",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#07 \u5e0c\u8f89": {
+        "power": "25,576,650",
+        "main_level": "76-15",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#01 LennonNixon": {
+        "power": "25,454,423",
+        "main_level": null,
+        "alliance": null
+    },
+    "#06 \u7a7a\u8033": {
+        "power": "25,360,457",
+        "main_level": "77-17",
+        "alliance": null
+    },
+    "#25 \u5e0c\u9732": {
+        "power": "25,338,797",
+        "main_level": "72-27",
+        "alliance": null
+    },
+    "#12 mika": {
+        "power": "25,312,266",
+        "main_level": "94-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#28 \u7a0b\u5453": {
+        "power": "25,298,366",
+        "main_level": "79-27",
+        "alliance": null
+    },
+    "#09 adas": {
+        "power": "25,202,353",
+        "main_level": "87-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#13 Lulubay": {
+        "power": "25,111,373",
+        "main_level": "65-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#20 LustyAngel": {
+        "power": "25,107,622",
+        "main_level": "63-27",
+        "alliance": null
+    },
+    "#13 \u7d2b\u77b3\u51dd\u5a55": {
+        "power": "25,102,972",
+        "main_level": "95-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#15 \u6708\u4e0b\u5929\u4f7f": {
+        "power": "25,070,441",
+        "main_level": "76-25",
+        "alliance": "\u591c\u6f80"
+    },
+    "#15 Ghorgsi": {
+        "power": "25,060,884",
+        "main_level": "80-25",
+        "alliance": null
+    },
+    "#12 \u5343\u672c": {
+        "power": "24,995,675",
+        "main_level": "52-18",
+        "alliance": null
+    },
+    "#03 Lander": {
+        "power": "24,932,803",
+        "main_level": "52-49",
+        "alliance": null
+    },
+    "#07 \u54c6\u5566\u62c9A\u841d\u4e8f\u5143\u53e4\u4e5d": {
+        "power": "24,879,745",
+        "main_level": "78-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#05 \u5341\u5341\u624c')\u535c\u5341\u5341": {
+        "power": "24,739,248",
+        "main_level": "52-50",
+        "alliance": null
+    },
+    "#06 Unicon": {
+        "power": "24,667,638",
+        "main_level": "84-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#03 NickSilas": {
+        "power": "24,495,894",
+        "main_level": "65-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#37 RonGrant": {
+        "power": "24,475,888",
+        "main_level": "85-31",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#01 Bob": {
+        "power": "24,398,511",
+        "main_level": "96-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#06 \u7eaf\u771f\u5c11\u5973": {
+        "power": "24,388,935",
+        "main_level": "94-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#07 \u7231\u95e8`": {
+        "power": "24,383,211",
+        "main_level": "98-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#01 \u83f2\u6d1b": {
+        "power": "24,361,879",
+        "main_level": null,
+        "alliance": "\u591c\u6f80"
+    },
+    "#20 Lemonmi": {
+        "power": "24,295,790",
+        "main_level": "75-25",
+        "alliance": "\u591c\u6f80"
+    },
+    "#11 \u6168\u5f71": {
+        "power": "24,200,587",
+        "main_level": "67-28",
+        "alliance": null
+    },
+    "#09 .\u5f71\u4e4b\u591c": {
+        "power": "24,132,904",
+        "main_level": null,
+        "alliance": null
+    },
+    "#22 Pikachu": {
+        "power": "24,061,361",
+        "main_level": "77-15",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#30 \u5343\u5802\u745b\u91cc\u534e": {
+        "power": "23,976,573",
+        "main_level": "76-28",
+        "alliance": null
+    },
+    "#34 dreamlight": {
+        "power": "23,882,280",
+        "main_level": "75-27",
+        "alliance": null
+    },
+    "#01 Lamp": {
+        "power": "23,824,028",
+        "main_level": "94-16",
+        "alliance": null
+    },
+    "#27 Meaqua": {
+        "power": "23,778,379",
+        "main_level": "93-25",
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#14 \u51b0\u4e5d": {
+        "power": "23,775,507",
+        "main_level": "73-27",
+        "alliance": null
+    },
+    "#33 JessWeiss": {
+        "power": "23,762,513",
+        "main_level": "72-27",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#30 SadBum": {
+        "power": "23,695,026",
+        "main_level": "69-28",
+        "alliance": null
+    },
+    "#28 BrookShaw": {
+        "power": "23,665,426",
+        "main_level": "75-15",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#09 Misaka": {
+        "power": "23,564,912",
+        "main_level": "75-25",
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#18 \u9e23\u55e8\u55e8": {
+        "power": "23,485,628",
+        "main_level": "54-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#08 \u5315\u5941\u51e1": {
+        "power": "23,414,543",
+        "main_level": null,
+        "alliance": null
+    },
+    "#28 \u56f9\u50bb\u5446\u840c": {
+        "power": "23,317,023",
+        "main_level": null,
+        "alliance": null
+    },
+    "#23 \u7396\u757f": {
+        "power": "23,252,883",
+        "main_level": "67-27",
+        "alliance": null
+    },
+    "#13 \u5f7c\u5cb8\u82b1\u5f00": {
+        "power": "23,053,496",
+        "main_level": "83-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#01 \u56db\u7cf8\u4e43": {
+        "power": "23,020,912",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#17 IAmBack": {
+        "power": "22,992,879",
+        "main_level": "95-15",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#30 \u97f6\u534e\u672a\u592e": {
+        "power": "22,937,281",
+        "main_level": "84-28",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#06 \u5927\u840c\u795e": {
+        "power": "22,756,867",
+        "main_level": "48-23",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#04 \u8309\u8389\u5599\u8336": {
+        "power": "22,717,366",
+        "main_level": "44-50",
+        "alliance": null
+    },
+    "#11 sugarll": {
+        "power": "22,699,350",
+        "main_level": "49-49",
+        "alliance": null
+    },
+    "#35 KirovReporting": {
+        "power": "22,687,431",
+        "main_level": "92-25",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#14 Adahaya": {
+        "power": "22,596,971",
+        "main_level": "51-52",
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#16 \u590f\u7eb1\u6cab": {
+        "power": "22,498,595",
+        "main_level": "81-15",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#37 NoLube": {
+        "power": "22,494,444",
+        "main_level": "75-15",
+        "alliance": null
+    },
+    "#06 \u65f6\u7948": {
+        "power": "22,483,171",
+        "main_level": "82-25",
+        "alliance": null
+    },
+    "#21 \u5c9b\u98ce": {
+        "power": "22,377,911",
+        "main_level": "85-22",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#27 \u9759\u767d": {
+        "power": "22,377,309",
+        "main_level": "65-27",
+        "alliance": null
+    },
+    "#28 \u732b\u7cdf\u516e": {
+        "power": "22,362,836",
+        "main_level": "66-27",
+        "alliance": null
+    },
+    "#28 \u4ece\u5c0f\u559d\u5230\u5927": {
+        "power": "22,320,643",
+        "main_level": "65-27",
+        "alliance": null
+    },
+    "#40 \u840c`\u6b63\u4e49": {
+        "power": "22,275,098",
+        "main_level": "75-28",
+        "alliance": null
+    },
+    "#11 SptnB312": {
+        "power": "22,201,492",
+        "main_level": "50-41",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#38 ascen": {
+        "power": "22,082,080",
+        "main_level": "50-46",
+        "alliance": null
+    },
+    "#22 Erwinknox": {
+        "power": "22,066,584",
+        "main_level": "72-27",
+        "alliance": null
+    },
+    "#05 \u3002\u5fd7\u5bf8\u4e59": {
+        "power": "22,065,544",
+        "main_level": "49-48",
+        "alliance": null
+    },
+    "#27 Janetstone": {
+        "power": "21,981,075",
+        "main_level": "75-25",
+        "alliance": null
+    },
+    "#26 NatMeyer": {
+        "power": "21,907,306",
+        "main_level": "90-8",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#36 \u5b9b\u82e5\u5929\u5802": {
+        "power": "21,831,439",
+        "main_level": "85-18",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#05 \u767d\u732b\u8981\u6da9\u6da9": {
+        "power": "21,797,239",
+        "main_level": "95-28",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#18 Arcrenciel": {
+        "power": "21,794,402",
+        "main_level": "55-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#07 \u884c\u554a": {
+        "power": "21,731,755",
+        "main_level": "63-29",
+        "alliance": null
+    },
+    "#27 Kiss": {
+        "power": "21,634,061",
+        "main_level": "66-27",
+        "alliance": null
+    },
+    "#06 \u8fe6\u83ab\u857e\u5a1c": {
+        "power": "21,627,328",
+        "main_level": "75-25",
+        "alliance": null
+    },
+    "#13 \u949f\u8309\u96c5": {
+        "power": "21,523,835",
+        "main_level": "75-17",
+        "alliance": null
+    },
+    "#28 \u660e\u8d8a": {
+        "power": "21,519,162",
+        "main_level": "74-26",
+        "alliance": null
+    },
+    "#29 \u5c0f\u56db": {
+        "power": "21,488,688",
+        "main_level": "75-15",
+        "alliance": null
+    },
+    "#17 ENDING": {
+        "power": "21,467,082",
+        "main_level": "95-26",
+        "alliance": null
+    },
+    "#27 Zoocom35": {
+        "power": "21,435,773",
+        "main_level": null,
+        "alliance": null
+    },
+    "#28 Wike": {
+        "power": "21,373,158",
+        "main_level": "73-20",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#32 \u308a\u3093\u306d": {
+        "power": "21,372,202",
+        "main_level": "78-27",
+        "alliance": "\u591c\u6f80"
+    },
+    "#28 PhilWong": {
+        "power": "21,346,182",
+        "main_level": "75-15",
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#28 Heikeke": {
+        "power": "21,342,283",
+        "main_level": "70-16",
+        "alliance": null
+    },
+    "#06 shulalala": {
+        "power": "21,332,521",
+        "main_level": null,
+        "alliance": null
+    },
+    "#15 \u83f2\u5229\u514b\u65af": {
+        "power": "21,281,826",
+        "main_level": "76-28",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#05 \u80d6\u6a58\u732b": {
+        "power": "21,251,280",
+        "main_level": "51-52",
+        "alliance": null
+    },
+    "#32 AlexHorne": {
+        "power": "21,133,054",
+        "main_level": "90-25",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#04 \u4fb5\u9097\u3009)": {
+        "power": "21,116,606",
+        "main_level": null,
+        "alliance": null
+    },
+    "#30 BLTZ": {
+        "power": "21,099,636",
+        "main_level": null,
+        "alliance": null
+    },
+    "#30 Ailj": {
+        "power": "21,085,436",
+        "main_level": "54-49",
+        "alliance": null
+    },
+    "#25 Himelg45": {
+        "power": "21,056,665",
+        "main_level": "51-52",
+        "alliance": null
+    },
+    "#28 EmmaHenry": {
+        "power": "21,012,376",
+        "main_level": "72-26",
+        "alliance": null
+    },
+    "#15 MadMaddy": {
+        "power": "20,990,229",
+        "main_level": "53-0",
+        "alliance": null
+    },
+    "#11 affenkoenig": {
+        "power": "20,973,502",
+        "main_level": "73-28",
+        "alliance": null
+    },
+    "#17 Elsiechen": {
+        "power": "20,885,153",
+        "main_level": "50-0",
+        "alliance": null
+    },
+    "#37 \u5ff5\u4e88\u5343\u6b87": {
+        "power": "20,719,475",
+        "main_level": "76-25",
+        "alliance": null
+    },
+    "#01 CloseupFantasy": {
+        "power": "20,716,133",
+        "main_level": null,
+        "alliance": null
+    },
+    "#18 \u6bd2\u6b81": {
+        "power": "20,701,486",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#01 \u4e8e\u52011": {
+        "power": "20,653,990",
+        "main_level": null,
+        "alliance": null
+    },
+    "#15 yishuo": {
+        "power": "20,650,709",
+        "main_level": "46-46",
+        "alliance": null
+    },
+    "#15 Zerorie": {
+        "power": "20,578,076",
+        "main_level": null,
+        "alliance": null
+    },
+    "#01 \u6a31\u795e": {
+        "power": "20,545,020",
+        "main_level": null,
+        "alliance": null
+    },
+    "#10 LennonLucas": {
+        "power": "20,508,048",
+        "main_level": "81-28",
+        "alliance": null
+    },
+    "#29 Musega": {
+        "power": "20,486,218",
+        "main_level": "49-46",
+        "alliance": null
+    },
+    "#27 \u6597\u602868": {
+        "power": "20,456,284",
+        "main_level": null,
+        "alliance": null
+    },
+    "#02 bigbanana": {
+        "power": "20,401,367",
+        "main_level": "50-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#07 \u53e4\u660e\u5730\u4e09\u9c9c": {
+        "power": "20,331,695",
+        "main_level": "48-41",
+        "alliance": null
+    },
+    "#23 \u83ab\u70e6": {
+        "power": "20,301,218",
+        "main_level": "72-20",
+        "alliance": null
+    },
+    "#27 Elo": {
+        "power": "20,298,938",
+        "main_level": "76-25",
+        "alliance": null
+    },
+    "#27 \u5357\u5b89": {
+        "power": "20,296,691",
+        "main_level": "67-26",
+        "alliance": null
+    },
+    "#06 \u72c2\u6f9c": {
+        "power": "20,243,254",
+        "main_level": "81-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#17 Dostiea": {
+        "power": "20,227,442",
+        "main_level": "49-47",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#07 \u841d\u8389\u6559\u5934": {
+        "power": "20,209,383",
+        "main_level": "75-18",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#19 CRYSTINAI": {
+        "power": "20,158,088",
+        "main_level": "46-45",
+        "alliance": null
+    },
+    "#28 JeffreyTyler": {
+        "power": "20,088,087",
+        "main_level": "75-18",
+        "alliance": null
+    },
+    "#16 \u73ed\u68ee\u65af\u7279": {
+        "power": "20,086,824",
+        "main_level": "52-46",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#27 Vulpes": {
+        "power": "20,063,103",
+        "main_level": "80-27",
+        "alliance": null
+    },
+    "#32 Hellowking": {
+        "power": "20,000,504",
+        "main_level": "85-25",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#21 \u5929\u9a81": {
+        "power": "19,986,742",
+        "main_level": "77-28",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#28 masaahi": {
+        "power": "19,946,981",
+        "main_level": null,
+        "alliance": null
+    },
+    "#28 LUCK": {
+        "power": "19,924,613",
+        "main_level": "71-26",
+        "alliance": null
+    },
+    "#42 TinaPatel": {
+        "power": "19,873,550",
+        "main_level": "54-45",
+        "alliance": null
+    },
+    "#41 LuxAeterna": {
+        "power": "19,850,025",
+        "main_level": "81-25",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#19 \u9f99\u6cfd\u566c\u62c9": {
+        "power": "19,849,089",
+        "main_level": "68-15",
+        "alliance": null
+    },
+    "#04 Cierdwynz": {
+        "power": "19,835,678",
+        "main_level": "48-6",
+        "alliance": null
+    },
+    "#27 Keitarou": {
+        "power": "19,822,400",
+        "main_level": null,
+        "alliance": null
+    },
+    "#06 \u767d\u91d1\u540c\u76df": {
+        "power": "19,821,044",
+        "main_level": "50-52",
+        "alliance": null
+    },
+    "#09 IsabelBilly": {
+        "power": "19,785,180",
+        "main_level": "53-46",
+        "alliance": null
+    },
+    "#28 GeoffreyPate": {
+        "power": "19,733,661",
+        "main_level": "75-18",
+        "alliance": null
+    },
+    "#31 AshtonHobbs": {
+        "power": "19,713,482",
+        "main_level": "73-28",
+        "alliance": null
+    },
+    "#23 Yaman": {
+        "power": "19,698,410",
+        "main_level": "46-46",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#10 DickLew": {
+        "power": "19,658,698",
+        "main_level": "72-26",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#12 txzme": {
+        "power": "19,605,859",
+        "main_level": "75-28",
+        "alliance": null
+    },
+    "#08 Tomoyo": {
+        "power": "19,604,009",
+        "main_level": "68-27",
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#04 Natalie": {
+        "power": "19,584,895",
+        "main_level": "77-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#21 IngridEstes": {
+        "power": "19,581,729",
+        "main_level": "75-15",
+        "alliance": null
+    },
+    "#31 JMC": {
+        "power": "19,564,524",
+        "main_level": "72-28",
+        "alliance": "\u591c\u6f80"
+    },
+    "#29 Jungleo": {
+        "power": "19,538,275",
+        "main_level": "75-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#08 yotinol": {
+        "power": "19,512,779",
+        "main_level": "50-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#12 cobra": {
+        "power": "19,506,926",
+        "main_level": "59-27",
+        "alliance": null
+    },
+    "#19 \u5043\u6708": {
+        "power": "19,482,925",
+        "main_level": "77-25",
+        "alliance": null
+    },
+    "#30 \u8001\u9a6c": {
+        "power": "19,477,714",
+        "main_level": "81-25",
+        "alliance": null
+    },
+    "#31 LEONqiqi777": {
+        "power": "19,445,304",
+        "main_level": "85-23",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#28 FrankyLove": {
+        "power": "19,423,232",
+        "main_level": "65-27",
+        "alliance": null
+    },
+    "#06 RalapAly": {
+        "power": "19,412,219",
+        "main_level": "72-27",
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#28 opop123": {
+        "power": "19,352,594",
+        "main_level": null,
+        "alliance": "\u591c\u6f80"
+    },
+    "#30 BING": {
+        "power": "19,308,582",
+        "main_level": "54-48",
+        "alliance": null
+    },
+    "#36 \u6cc9\u6c34": {
+        "power": "19,286,824",
+        "main_level": "73-26",
+        "alliance": null
+    },
+    "#15 Iliziax": {
+        "power": "19,264,806",
+        "main_level": "50-14",
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#28 \u767d\u7389\u6c64": {
+        "power": "19,255,684",
+        "main_level": null,
+        "alliance": null
+    },
+    "#29 StevenHays": {
+        "power": "19,228,927",
+        "main_level": "54-48",
+        "alliance": null
+    },
+    "#24 \u521d\u604b": {
+        "power": "19,112,786",
+        "main_level": "75-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#43 Silenceorion": {
+        "power": "19,111,798",
+        "main_level": null,
+        "alliance": null
+    },
+    "#27 \u7231\u5728\u8def\u4e0a": {
+        "power": "19,103,504",
+        "main_level": null,
+        "alliance": null
+    },
+    "#28 NickyRiley": {
+        "power": "19,101,426",
+        "main_level": null,
+        "alliance": null
+    },
+    "#28 qqq": {
+        "power": "19,010,293",
+        "main_level": "83-25",
+        "alliance": null
+    },
+    "#35 \u8fa9\u8bba": {
+        "power": "19,009,024",
+        "main_level": "83-25",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#24 \u521d\u854a": {
+        "power": "18,964,738",
+        "main_level": "75-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#18 MargueriteMoore": {
+        "power": "18,938,484",
+        "main_level": "63-17",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#28 HeartQueen": {
+        "power": "18,907,176",
+        "main_level": null,
+        "alliance": null
+    },
+    "#27 \u4e00\u96bd\u9cb7\u9edb": {
+        "power": "18,893,493",
+        "main_level": "67-26",
+        "alliance": null
+    },
+    "#27 Keitaroul": {
+        "power": "18,865,993",
+        "main_level": null,
+        "alliance": null
+    },
+    "#31 DeliaNash": {
+        "power": "18,820,356",
+        "main_level": "51-46",
+        "alliance": null
+    },
+    "#15 Tomokanai": {
+        "power": "18,750,475",
+        "main_level": "54-49",
+        "alliance": null
+    },
+    "#13 \u4e59\u5c11\u5341": {
+        "power": "18,740,264",
+        "main_level": "71-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#20 \u5fc3`\u6674": {
+        "power": "18,733,448",
+        "main_level": "72-42",
+        "alliance": null
+    },
+    "#29 Pinkoppai": {
+        "power": "18,718,197",
+        "main_level": "54-25",
+        "alliance": null
+    },
+    "#13 \u5b53\u4e00\u5dfe": {
+        "power": "18,716,678",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#32 Zjust": {
+        "power": "18,709,503",
+        "main_level": "82-23",
+        "alliance": null
+    },
+    "#20 \u51db\u677e": {
+        "power": "18,663,489",
+        "main_level": "55-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#30 HoneyHenry": {
+        "power": "18,640,227",
+        "main_level": "63-26",
+        "alliance": null
+    },
+    "#08 XiAix": {
+        "power": "18,634,383",
+        "main_level": "47-48",
+        "alliance": null
+    },
+    "#27 \u68a7\u6850m": {
+        "power": "18,630,026",
+        "main_level": "72-26",
+        "alliance": null
+    },
+    "#32 \u84fc\u84fc": {
+        "power": "18,594,852",
+        "main_level": "90-28",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#28 \u4e16\u7eaa\u4f73\u4eba": {
+        "power": "18,556,821",
+        "main_level": null,
+        "alliance": null
+    },
+    "#07 \u82b1\u5c09\u9662\u591c": {
+        "power": "18,542,195",
+        "main_level": "75-25",
+        "alliance": null
+    },
+    "#12 LanceField": {
+        "power": "18,499,433",
+        "main_level": "76-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#27 ArchePeck": {
+        "power": "18,497,186",
+        "main_level": "69-27",
+        "alliance": null
+    },
+    "#26 RinRyugu": {
+        "power": "18,464,655",
+        "main_level": "49-48",
+        "alliance": null
+    },
+    "#12 \u82bd\u8863\u7c89\u9999": {
+        "power": "18,464,020",
+        "main_level": null,
+        "alliance": null
+    },
+    "#47 \u516b\u6708\u5eff\u516b": {
+        "power": "18,441,386",
+        "main_level": "68-26",
+        "alliance": null
+    },
+    "#31 HumphreyNash": {
+        "power": "18,434,628",
+        "main_level": "71-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#27 tonizhuang": {
+        "power": "18,350,311",
+        "main_level": null,
+        "alliance": null
+    },
+    "#34 JadenMayo": {
+        "power": "18,346,151",
+        "main_level": "54-49",
+        "alliance": null
+    },
+    "#07 Sexiaogu": {
+        "power": "18,309,852",
+        "main_level": "46-51",
+        "alliance": null
+    },
+    "#29 \u6c5f\u57ce": {
+        "power": "18,307,491",
+        "main_level": "51-49",
+        "alliance": null
+    },
+    "#28 C|33\u4ed1": {
+        "power": "18,267,978",
+        "main_level": null,
+        "alliance": null
+    },
+    "#34 CadenBush": {
+        "power": "18,263,729",
+        "main_level": "50-48",
+        "alliance": null
+    },
+    "#20 LosMonstis": {
+        "power": "18,233,187",
+        "main_level": "57-28",
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#34 Spooky": {
+        "power": "18,217,539",
+        "main_level": "51-48",
+        "alliance": null
+    },
+    "#41 \u30ea\u30ea\u30ea\u30bd": {
+        "power": "18,216,320",
+        "main_level": "70-4",
+        "alliance": null
+    },
+    "#30 \u56db\u6740": {
+        "power": "18,213,383",
+        "main_level": "94-25",
+        "alliance": "\u591c\u6f80"
+    },
+    "#28 \u9e7f\u9e7f\u9e7f": {
+        "power": "18,185,566",
+        "main_level": "65-27",
+        "alliance": null
+    },
+    "#15 LabRat": {
+        "power": "18,164,917",
+        "main_level": "46-47",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#07 \u60c5\u6df1\u4f3c\u6d77": {
+        "power": "18,161,665",
+        "main_level": "82-28",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#03 \u4f0d\u7396\u9171": {
+        "power": "18,115,785",
+        "main_level": "72-28",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#28 AlwaysMeng": {
+        "power": "18,106,966",
+        "main_level": "72-26",
+        "alliance": null
+    },
+    "#25 FrankieCase": {
+        "power": "18,095,802",
+        "main_level": "66-25",
+        "alliance": null
+    },
+    "#35 \u51cc\u4e5d\u5e7d": {
+        "power": "18,075,337",
+        "main_level": "76-25",
+        "alliance": null
+    },
+    "#32 \u629a\u6478\u5979\u8033\u6735": {
+        "power": "18,070,577",
+        "main_level": "54-48",
+        "alliance": null
+    },
+    "#14 SixGod": {
+        "power": "18,059,542",
+        "main_level": "52-2",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#32 CoC": {
+        "power": "18,036,368",
+        "main_level": "75-25",
+        "alliance": null
+    },
+    "#29 Walx": {
+        "power": "18,018,723",
+        "main_level": "64-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#29 \u5de55\u4e86\u4e2b": {
+        "power": "17,967,436",
+        "main_level": null,
+        "alliance": null
+    },
+    "#20 \u661f\u4e4b\u68a6": {
+        "power": "17,965,375",
+        "main_level": "75-15",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#13 IsidoreRomeo": {
+        "power": "17,793,800",
+        "main_level": "46-11",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#08 stellarmoment": {
+        "power": "17,775,057",
+        "main_level": "64-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#27 JoWells": {
+        "power": "17,677,051",
+        "main_level": null,
+        "alliance": null
+    },
+    "#24 \u7bad\u7af9": {
+        "power": "17,661,759",
+        "main_level": "46-4",
+        "alliance": "\u591c\u6f80"
+    },
+    "#07 VictorNora": {
+        "power": "17,657,017",
+        "main_level": "75-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#17 poporia": {
+        "power": "17,656,210",
+        "main_level": "47-47",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#09 \u6155\u7ea2\u5c18": {
+        "power": "17,650,261",
+        "main_level": "72-19",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#31 \u5f1f\u4e2d\u4e4b\u5f1f": {
+        "power": "17,611,626",
+        "main_level": "47-7",
+        "alliance": null
+    },
+    "#30 Communified": {
+        "power": "17,571,019",
+        "main_level": "63-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#27 MorganBarr": {
+        "power": "17,535,991",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#02 QuentinLewis": {
+        "power": "17,519,557",
+        "main_level": null,
+        "alliance": null
+    },
+    "#38 \u756a\u8304\u897f\u7ea2\u67ff": {
+        "power": "17,490,481",
+        "main_level": "66-27",
+        "alliance": null
+    },
+    "#18 DoMijn": {
+        "power": "17,484,963",
+        "main_level": "56-41",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#37 \u767e\u5408\u6362": {
+        "power": "17,435,242",
+        "main_level": "75-25",
+        "alliance": null
+    },
+    "#30 Himeryu": {
+        "power": "17,422,810",
+        "main_level": "50-49",
+        "alliance": null
+    },
+    "#33 Lass201": {
+        "power": "17,403,816",
+        "main_level": "74-8",
+        "alliance": null
+    },
+    "#32 \u58a8\u6f13\u6b4c": {
+        "power": "17,403,484",
+        "main_level": "68-23",
+        "alliance": null
+    },
+    "#27 Helena": {
+        "power": "17,356,666",
+        "main_level": "64-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#20 Kanakokana": {
+        "power": "17,340,068",
+        "main_level": "53-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#19 miuH": {
+        "power": "17,329,216",
+        "main_level": null,
+        "alliance": null
+    },
+    "#32 NathanielHale": {
+        "power": "17,325,742",
+        "main_level": "53-52",
+        "alliance": null
+    },
+    "#22 KAXIII": {
+        "power": "17,317,592",
+        "main_level": "46-46",
+        "alliance": null
+    },
+    "#27 SuohMikoto": {
+        "power": "17,273,477",
+        "main_level": "66-17",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#33 TheZadaric": {
+        "power": "17,264,001",
+        "main_level": null,
+        "alliance": null
+    },
+    "#29 HaleHale": {
+        "power": "17,261,481",
+        "main_level": "46-46",
+        "alliance": null
+    },
+    "#27 \u4e00\u96bd\u5927\u732b": {
+        "power": "17,198,399",
+        "main_level": "67-22",
+        "alliance": null
+    },
+    "#29 \u73a9\u5bb6\u540d\u5b57": {
+        "power": "17,159,417",
+        "main_level": null,
+        "alliance": null
+    },
+    "#16 Tigerfist": {
+        "power": "17,084,569",
+        "main_level": "71-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#10 HerbertBryan": {
+        "power": "17,074,451",
+        "main_level": "75-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#25 \u6211\u4e86\u4e2a\u53bb": {
+        "power": "17,060,556",
+        "main_level": "48-49",
+        "alliance": null
+    },
+    "#20 Laller": {
+        "power": "17,017,967",
+        "main_level": "47-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#04 \u72ee\u767d\u7261\u4e39": {
+        "power": "17,015,449",
+        "main_level": "76-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#07 Iriskim": {
+        "power": "16,963,570",
+        "main_level": null,
+        "alliance": null
+    },
+    "#16 WEN": {
+        "power": "16,948,788",
+        "main_level": "49-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#15 \u864e\u91cc\u864e\u6c14": {
+        "power": "16,943,909",
+        "main_level": "47-5",
+        "alliance": null
+    },
+    "#15 Mobiuslnfinity": {
+        "power": "16,918,733",
+        "main_level": "47-28",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#07 NickHill": {
+        "power": "16,906,889",
+        "main_level": "88-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#37 \u9e22\u4e00": {
+        "power": "16,900,206",
+        "main_level": "75-15",
+        "alliance": null
+    },
+    "#33 Sorena": {
+        "power": "16,897,601",
+        "main_level": "52-47",
+        "alliance": null
+    },
+    "#27 LazyDay": {
+        "power": "16,892,680",
+        "main_level": "65-26",
+        "alliance": null
+    },
+    "#03 \u7231\u841d\u8389": {
+        "power": "16,866,589",
+        "main_level": "46-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#05 \u79c1\u5315\u3009\u4e09\u4e8d": {
+        "power": "16,859,594",
+        "main_level": null,
+        "alliance": null
+    },
+    "#18 ZoraBond": {
+        "power": "16,840,844",
+        "main_level": "64-27",
+        "alliance": null
+    },
+    "#17 \u5885\u5343\u65e9\u7231\u97f3": {
+        "power": "16,814,020",
+        "main_level": "77-25",
+        "alliance": null
+    },
+    "#38 \u661f\u91ce\u8f89\u7f8e": {
+        "power": "16,771,890",
+        "main_level": "48-0",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#30 AkiCoco": {
+        "power": "16,739,435",
+        "main_level": null,
+        "alliance": null
+    },
+    "#05 \u7ea2\u6708": {
+        "power": "16,699,838",
+        "main_level": "54-28",
+        "alliance": null
+    },
+    "#36 Asashimo": {
+        "power": "16,698,047",
+        "main_level": "69-29",
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#08 UriahBlack": {
+        "power": "16,697,201",
+        "main_level": null,
+        "alliance": null
+    },
+    "#33 \u5927\u7535\u68cd": {
+        "power": "16,661,791",
+        "main_level": "64-27",
+        "alliance": null
+    },
+    "#45 \u60f3\u505a\u5927\u54e5": {
+        "power": "16,607,865",
+        "main_level": "64-27",
+        "alliance": null
+    },
+    "#41 Edison": {
+        "power": "16,582,864",
+        "main_level": "66-20",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#44 \u5982\u68a6\u4ee4": {
+        "power": "16,559,870",
+        "main_level": "79-26",
+        "alliance": null
+    },
+    "#05 bibubiubiubiu": {
+        "power": "16,559,059",
+        "main_level": "75-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#36 \u8089\u591a\u591a006": {
+        "power": "16,551,586",
+        "main_level": "74-27",
+        "alliance": null
+    },
+    "#25 AntoniaBerg": {
+        "power": "16,541,290",
+        "main_level": "74-27",
+        "alliance": "\u591c\u6f80"
+    },
+    "#26 \u5e7c5\u5fd7523": {
+        "power": "16,529,061",
+        "main_level": null,
+        "alliance": null
+    },
+    "#29 \u9648\u7b11": {
+        "power": "16,503,660",
+        "main_level": "68-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#11 \u8352\u5ddd": {
+        "power": "16,482,527",
+        "main_level": "79-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#24 fafatitle": {
+        "power": "16,467,479",
+        "main_level": "72-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#31 \u72d0\u767d\u8863": {
+        "power": "16,438,925",
+        "main_level": "51-28",
+        "alliance": null
+    },
+    "#03 findoufender": {
+        "power": "16,429,389",
+        "main_level": "54-46",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#05 \u83b1\u513f|": {
+        "power": "16,418,016",
+        "main_level": null,
+        "alliance": null
+    },
+    "#30 JokoWidodo": {
+        "power": "16,410,533",
+        "main_level": null,
+        "alliance": null
+    },
+    "#33 XIAhan": {
+        "power": "16,394,013",
+        "main_level": "73-27",
+        "alliance": "\u591c\u6f80"
+    },
+    "#33 \u708e\u590f\u51c9\u98ce": {
+        "power": "16,393,491",
+        "main_level": "46-46",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#25 Gaialuna": {
+        "power": "16,366,478",
+        "main_level": "47-46",
+        "alliance": null
+    },
+    "#36 Vignem": {
+        "power": "16,351,988",
+        "main_level": "46-46",
+        "alliance": null
+    },
+    "#27 compass": {
+        "power": "16,345,059",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#36 BernieRuiz": {
+        "power": "16,313,278",
+        "main_level": "63-17",
+        "alliance": null
+    },
+    "#14 \u67d2\u69b7": {
+        "power": "16,283,985",
+        "main_level": "57-16",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#33 TristaRyan": {
+        "power": "16,262,966",
+        "main_level": "65-27",
+        "alliance": null
+    },
+    "#30 BillyRosS": {
+        "power": "16,243,478",
+        "main_level": null,
+        "alliance": null
+    },
+    "#09 JudithLily": {
+        "power": "16,226,180",
+        "main_level": null,
+        "alliance": null
+    },
+    "#30 EdenDale": {
+        "power": "16,211,760",
+        "main_level": null,
+        "alliance": null
+    },
+    "#40 \u80e7\u7391": {
+        "power": "16,203,768",
+        "main_level": null,
+        "alliance": null
+    },
+    "#30 \u5929\u4e0b\u5c11\u72c2": {
+        "power": "16,194,249",
+        "main_level": "52-49",
+        "alliance": null
+    },
+    "#15 Ascend": {
+        "power": "16,171,915",
+        "main_level": "45-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#13 Mambaout": {
+        "power": "16,164,655",
+        "main_level": null,
+        "alliance": null
+    },
+    "#32 Nunu888": {
+        "power": "16,140,391",
+        "main_level": "75-15",
+        "alliance": null
+    },
+    "#39 Zhagu50": {
+        "power": "16,110,585",
+        "main_level": null,
+        "alliance": null
+    },
+    "#02 \u53d6\u540d\u597d\u77ed": {
+        "power": "16,088,629",
+        "main_level": "69-17",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#35 billy": {
+        "power": "16,046,507",
+        "main_level": "76-27",
+        "alliance": null
+    },
+    "#06 \u6ce2\u8499\u6211\u7684\u5b9d": {
+        "power": "16,030,338",
+        "main_level": "77-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#16 TimeFantasy": {
+        "power": "15,968,521",
+        "main_level": "81-6",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#31 \u674e\u94c1\u86cb": {
+        "power": "15,962,089",
+        "main_level": "46-48",
+        "alliance": null
+    },
+    "#29 MLier": {
+        "power": "15,942,040",
+        "main_level": "50-47",
+        "alliance": null
+    },
+    "#04 \u6d74\u89c1\u82b1\u9999": {
+        "power": "15,910,024",
+        "main_level": "80-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#15 ALevel": {
+        "power": "15,903,961",
+        "main_level": "45-50",
+        "alliance": null
+    },
+    "#03 Strian": {
+        "power": "15,878,161",
+        "main_level": "48-11",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#29 Sho": {
+        "power": "15,877,858",
+        "main_level": "63-28",
+        "alliance": null
+    },
+    "#20 \u5fae\u51c9": {
+        "power": "15,862,557",
+        "main_level": "41-4",
+        "alliance": null
+    },
+    "#02 Elmaco": {
+        "power": "15,842,097",
+        "main_level": "55-31",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#37 \u8212\u514b`": {
+        "power": "15,836,295",
+        "main_level": null,
+        "alliance": null
+    },
+    "#37 \u98de\u5929\u7b26": {
+        "power": "15,787,984",
+        "main_level": "46-46",
+        "alliance": null
+    },
+    "#12 \u9ed1\u7f8a\u541b\u4e3b": {
+        "power": "15,767,428",
+        "main_level": null,
+        "alliance": null
+    },
+    "#30 SkylerMoses": {
+        "power": "15,764,123",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#30 NightVoyager": {
+        "power": "15,720,370",
+        "main_level": "80-25",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#19 \u5703\u8403\u6708\u5f71": {
+        "power": "15,711,553",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#03 \u862d\u4e38": {
+        "power": "15,700,846",
+        "main_level": "48-45",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#26 \u5929\u745c": {
+        "power": "15,691,036",
+        "main_level": "46-46",
+        "alliance": null
+    },
+    "#08 SolomonVogt": {
+        "power": "15,689,453",
+        "main_level": "47-20",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#31 \u767d\u7cd6\u7cd6": {
+        "power": "15,609,252",
+        "main_level": "46-0",
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#09 \u517b\u773c\u65e7\u597d": {
+        "power": "15,559,763",
+        "main_level": "75-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#29 W\u4e0d\u662f": {
+        "power": "15,539,066",
+        "main_level": "47-50",
+        "alliance": null
+    },
+    "#02 RobinBray": {
+        "power": "15,537,174",
+        "main_level": null,
+        "alliance": null
+    },
+    "#05 GGBond": {
+        "power": "15,508,619",
+        "main_level": "88-28",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#12 \u72c2\u5384\u8537\u8587": {
+        "power": "15,498,398",
+        "main_level": "75-25",
+        "alliance": null
+    },
+    "#29 Billiekey": {
+        "power": "15,498,091",
+        "main_level": "46-46",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#34 BKstar": {
+        "power": "15,462,827",
+        "main_level": "64-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#22 VirginiaBoyer": {
+        "power": "15,459,511",
+        "main_level": "46-0",
+        "alliance": null
+    },
+    "#14 Jennylouis": {
+        "power": "15,453,132",
+        "main_level": "43-50",
+        "alliance": null
+    },
+    "#07 RonTwainck": {
+        "power": "15,395,313",
+        "main_level": "54-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#12 \u7ae0\u8d21\u4e8c\u6c34": {
+        "power": "15,390,731",
+        "main_level": "64-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#04 \u5929\u66c9\u5f97": {
+        "power": "15,377,903",
+        "main_level": null,
+        "alliance": null
+    },
+    "#18 Marycarey": {
+        "power": "15,325,097",
+        "main_level": "42-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#40 PhongSudng": {
+        "power": "15,317,923",
+        "main_level": "68-27",
+        "alliance": null
+    },
+    "#40 '\u624d>": {
+        "power": "15,312,652",
+        "main_level": "64-26",
+        "alliance": null
+    },
+    "#34 QuinnRoach": {
+        "power": "15,243,575",
+        "main_level": "64-27",
+        "alliance": null
+    },
+    "#35 haitang": {
+        "power": "15,215,500",
+        "main_level": "55-45",
+        "alliance": null
+    },
+    "#20 \u540d\u96ea\u8587\u8587": {
+        "power": "15,205,960",
+        "main_level": "46-46",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#31 MarshallMarsh": {
+        "power": "15,165,579",
+        "main_level": "71-24",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#24 Mope": {
+        "power": "15,142,745",
+        "main_level": "43-9",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#36 \u6e05\u98ce\u98de\u7d6e": {
+        "power": "15,129,826",
+        "main_level": "49-49",
+        "alliance": null
+    },
+    "#22 Unicorned2": {
+        "power": "15,114,411",
+        "main_level": "71-19",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#09 HeySong": {
+        "power": "15,098,036",
+        "main_level": "52-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#31 De\u9b54oN": {
+        "power": "15,091,317",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#33 d\u5728\u5929\u4e0a\u4e56": {
+        "power": "15,089,469",
+        "main_level": null,
+        "alliance": null
+    },
+    "#32 GOODMAN": {
+        "power": "15,054,746",
+        "main_level": "50-48",
+        "alliance": null
+    },
+    "#29 Notorious": {
+        "power": "15,021,460",
+        "main_level": null,
+        "alliance": null
+    },
+    "#46 \u82b8\u9704SSS": {
+        "power": "15,016,439",
+        "main_level": "75-27",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#40 kesil": {
+        "power": "14,995,562",
+        "main_level": "52-0",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#12 MaxterDen": {
+        "power": "14,974,569",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#13 CGTranSa": {
+        "power": "14,966,532",
+        "main_level": "66-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#37 BertramHogan": {
+        "power": "14,961,878",
+        "main_level": "54-49",
+        "alliance": null
+    },
+    "#03 PagMan": {
+        "power": "14,948,603",
+        "main_level": "75-18",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#29 Zestiria": {
+        "power": "14,945,452",
+        "main_level": "46-46",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#08 DrewMilne": {
+        "power": "14,941,454",
+        "main_level": "80-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#16 \u5fc3\u5982\u6b62\u6c34": {
+        "power": "14,941,213",
+        "main_level": "77-25",
+        "alliance": null
+    },
+    "#36 \u554a\u55e8\u65af": {
+        "power": "14,932,991",
+        "main_level": "72-27",
+        "alliance": null
+    },
+    "#34 KiranBaird": {
+        "power": "14,925,688",
+        "main_level": "45-51",
+        "alliance": null
+    },
+    "#14 PykEugeo": {
+        "power": "14,900,626",
+        "main_level": "54-45",
+        "alliance": null
+    },
+    "#15 \u4fca\u73ae": {
+        "power": "14,881,915",
+        "main_level": "47-52",
+        "alliance": null
+    },
+    "#35 TracyDuffy": {
+        "power": "14,865,787",
+        "main_level": "70-26",
+        "alliance": null
+    },
+    "#36 \u7cef\u7c73\u4e38": {
+        "power": "14,845,298",
+        "main_level": "46-2",
+        "alliance": null
+    },
+    "#41 Mintttea": {
+        "power": "14,833,692",
+        "main_level": "55-48",
+        "alliance": null
+    },
+    "#34 \"\u96e8": {
+        "power": "14,827,262",
+        "main_level": null,
+        "alliance": null
+    },
+    "#38 \u514b\u7f57\u6885\u5185": {
+        "power": "14,813,114",
+        "main_level": "47-46",
+        "alliance": null
+    },
+    "#30 BretPratt": {
+        "power": "14,809,706",
+        "main_level": "54-47",
+        "alliance": null
+    },
+    "#29 \u840c\u65b0": {
+        "power": "14,796,166",
+        "main_level": "46-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#40 \u6765\u70b9\u72f1\u5352": {
+        "power": "14,735,776",
+        "main_level": "72-26",
+        "alliance": null
+    },
+    "#13 \u55b5\u55b5\u9972\u517b\u5458": {
+        "power": "14,727,809",
+        "main_level": "75-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#19 \u6211\u4e00\u7231\u4f60G00": {
+        "power": "14,703,492",
+        "main_level": "61-9",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#30 Seria": {
+        "power": "14,683,097",
+        "main_level": null,
+        "alliance": null
+    },
+    "#42 \u5e7b\u6d41\u661f": {
+        "power": "14,646,150",
+        "main_level": "52-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#25 \u98d2\u7fbd\u5c9a": {
+        "power": "14,633,164",
+        "main_level": "43-2",
+        "alliance": "\u591c\u6f80"
+    },
+    "#30 \u60f3\u5165\u975e\u975e": {
+        "power": "14,631,512",
+        "main_level": "72-27",
+        "alliance": null
+    },
+    "#50 \u6d1b\u6d45\u6d45": {
+        "power": "14,607,344",
+        "main_level": "68-20",
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#18 Rinsler": {
+        "power": "14,588,019",
+        "main_level": null,
+        "alliance": null
+    },
+    "#30 LesleyWolfe": {
+        "power": "14,544,841",
+        "main_level": null,
+        "alliance": null
+    },
+    "#14 \u79cb\u5c71\u5c0f\u5e73": {
+        "power": "14,540,992",
+        "main_level": null,
+        "alliance": null
+    },
+    "#02 \u7eb3\u83f2\u9b54\u738b": {
+        "power": "14,540,693",
+        "main_level": "67-24",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#31 KATOR": {
+        "power": "14,535,479",
+        "main_level": "45-52",
+        "alliance": null
+    },
+    "#40 Kevedo": {
+        "power": "14,526,517",
+        "main_level": "49-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#18 \u6d45\u964c": {
+        "power": "14,505,878",
+        "main_level": "69-29",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#09 Ferron": {
+        "power": "14,503,077",
+        "main_level": "75-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#37 dnzngod": {
+        "power": "14,501,673",
+        "main_level": "52-49",
+        "alliance": null
+    },
+    "#42 bunasumi": {
+        "power": "14,495,106",
+        "main_level": "57-33",
+        "alliance": null
+    },
+    "#07 \u9ed1\u6fd1\u51c9": {
+        "power": "14,490,909",
+        "main_level": "70-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#20 tatta": {
+        "power": "14,480,785",
+        "main_level": "39-49",
+        "alliance": null
+    },
+    "#15 Elyase": {
+        "power": "14,464,678",
+        "main_level": "46-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#23 JudyWMinn": {
+        "power": "14,462,385",
+        "main_level": "56-0",
+        "alliance": null
+    },
+    "#34 Lilxc": {
+        "power": "14,453,301",
+        "main_level": "42-49",
+        "alliance": null
+    },
+    "#05 \u4e5c\u5315>\u4e8d{\u4e86": {
+        "power": "14,426,524",
+        "main_level": null,
+        "alliance": null
+    },
+    "#18 \u8389\u97f3": {
+        "power": "14,412,991",
+        "main_level": "55-47",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#29 \u6ce1\u6ce1": {
+        "power": "14,405,231",
+        "main_level": "46-46",
+        "alliance": null
+    },
+    "#02 \u5c0a\u5929\u5929": {
+        "power": "14,392,580",
+        "main_level": "55-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#12 \u5927\u8857": {
+        "power": "14,381,774",
+        "main_level": "46-49",
+        "alliance": null
+    },
+    "#35 AdolphEstes": {
+        "power": "14,368,084",
+        "main_level": "76-27",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#04 Ursulaoccam": {
+        "power": "14,367,074",
+        "main_level": "85-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#07 hobb33": {
+        "power": "14,363,168",
+        "main_level": null,
+        "alliance": null
+    },
+    "#30 \u9999\u9999\u5566": {
+        "power": "14,327,631",
+        "main_level": null,
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#15 Satan": {
+        "power": "14,307,739",
+        "main_level": null,
+        "alliance": null
+    },
+    "#34 \u9ed1\u9ed1\u9ed1\u9ed1\u8d1e": {
+        "power": "14,302,932",
+        "main_level": "49-49",
+        "alliance": null
+    },
+    "#30 PatriciaPerry": {
+        "power": "14,285,068",
+        "main_level": null,
+        "alliance": null
+    },
+    "#09 HerbertDewey": {
+        "power": "14,278,258",
+        "main_level": "61-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#48 \u4e0d\u8d1f\u9047\u89c1": {
+        "power": "14,277,519",
+        "main_level": "69-28",
+        "alliance": null
+    },
+    "#32 Louisl": {
+        "power": "14,273,470",
+        "main_level": "43-53",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#30 JackieDrake": {
+        "power": "14,246,823",
+        "main_level": "48-48",
+        "alliance": null
+    },
+    "#29 Potatooo": {
+        "power": "14,245,855",
+        "main_level": "53-49",
+        "alliance": null
+    },
+    "#12 kid": {
+        "power": "14,196,303",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#05 \u7231\u8389": {
+        "power": "14,186,919",
+        "main_level": "82-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#47 ZEROZ": {
+        "power": "14,174,381",
+        "main_level": "69-29",
+        "alliance": null
+    },
+    "#10 \u5341\u533a\u533a\u957f": {
+        "power": "14,147,657",
+        "main_level": "46-46",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#04 TonyByron": {
+        "power": "14,104,389",
+        "main_level": "45-8",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#35 intothecloud": {
+        "power": "14,104,116",
+        "main_level": "51-48",
+        "alliance": null
+    },
+    "#37 godgun": {
+        "power": "14,076,533",
+        "main_level": "50-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#19 \u3009\u4e2d\u513f": {
+        "power": "14,069,658",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#29 \u597d\u5927\u7684\u80f8\u5668": {
+        "power": "14,045,772",
+        "main_level": "55-49",
+        "alliance": null
+    },
+    "#42 fanQAQ": {
+        "power": "14,039,335",
+        "main_level": "71-27",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#12 MeroyAbbot": {
+        "power": "14,024,970",
+        "main_level": "82-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#31 CarrPetty": {
+        "power": "14,007,189",
+        "main_level": null,
+        "alliance": null
+    },
+    "#11 AdaSophy": {
+        "power": "13,992,281",
+        "main_level": "54-2",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#04 kiwi": {
+        "power": "13,973,620",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#32 \u6674\u51f0\u58a8\u6c34": {
+        "power": "13,961,055",
+        "main_level": "45-49",
+        "alliance": null
+    },
+    "#25 \u4eba\u95f4\u80f8\u5668": {
+        "power": "13,956,879",
+        "main_level": "40-49",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#07 Yahaha": {
+        "power": "13,941,785",
+        "main_level": "46-47",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#13 \u8def\u751f\u82b1": {
+        "power": "13,933,825",
+        "main_level": "53-28",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#37 TNMLLX": {
+        "power": "13,929,323",
+        "main_level": "46-45",
+        "alliance": null
+    },
+    "#03 D71\u513f0\u4e0b\u507b": {
+        "power": "13,925,322",
+        "main_level": "60-3",
+        "alliance": null
+    },
+    "#30 00\u5e7b\u972a00": {
+        "power": "13,921,842",
+        "main_level": null,
+        "alliance": null
+    },
+    "#29 JamieFry": {
+        "power": "13,913,046",
+        "main_level": "69-29",
+        "alliance": null
+    },
+    "#16 \u7b80\u76f4\u4e86": {
+        "power": "13,899,847",
+        "main_level": "76-27",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#42 Walkingdead": {
+        "power": "13,863,188",
+        "main_level": "63-27",
+        "alliance": null
+    },
+    "#16 Litek": {
+        "power": "13,845,473",
+        "main_level": "46-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#15 nagis": {
+        "power": "13,844,591",
+        "main_level": "46-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#17 atri": {
+        "power": "13,831,874",
+        "main_level": "44-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#34 SunshineSeeMay": {
+        "power": "13,823,520",
+        "main_level": "45-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#38 GregaryReid": {
+        "power": "13,805,934",
+        "main_level": "43-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#08 ANYS": {
+        "power": "13,791,312",
+        "main_level": "62-2",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#17 \u4f60\u8001\u5a46\u771f\u68d2": {
+        "power": "13,771,856",
+        "main_level": "35-24",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#41 \u7fd8\u8bfe\u5c0f\u516c\u4e3e": {
+        "power": "13,757,795",
+        "main_level": "43-49",
+        "alliance": null
+    },
+    "#32 RenePatel": {
+        "power": "13,753,752",
+        "main_level": "49-46",
+        "alliance": null
+    },
+    "#43 \u795e\u5934\u9b3c\u8138": {
+        "power": "13,750,616",
+        "main_level": "46-46",
+        "alliance": null
+    },
+    "#29 World": {
+        "power": "13,710,027",
+        "main_level": "54-50",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#39 \u7396\u7396\u4e0d\u8bd7\u610f": {
+        "power": "13,694,460",
+        "main_level": "45-40",
+        "alliance": null
+    },
+    "#19 ClydeMayer": {
+        "power": "13,685,301",
+        "main_level": "36-44",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#24 WillyOscar": {
+        "power": "13,652,268",
+        "main_level": "43-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#13 BlueDeath": {
+        "power": "13,648,487",
+        "main_level": null,
+        "alliance": null
+    },
+    "#14 XLilith": {
+        "power": "13,633,234",
+        "main_level": "44-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#29 \u98ce\u7d6e": {
+        "power": "13,629,102",
+        "main_level": null,
+        "alliance": null
+    },
+    "#08 Griseldaleigh": {
+        "power": "13,625,286",
+        "main_level": "56-42",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#35 \u5b88\u956c\u91d1\u78fa": {
+        "power": "13,621,182",
+        "main_level": "79-26",
+        "alliance": null
+    },
+    "#18 Kenol": {
+        "power": "13,610,258",
+        "main_level": "42-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#33 \u768e\u6708\u95fb\u8d8a\u9999": {
+        "power": "13,590,711",
+        "main_level": "45-50",
+        "alliance": null
+    },
+    "#48 \u51cc\u8fb0\u6eaa": {
+        "power": "13,586,246",
+        "main_level": "69-27",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#34 GabrielleSalas": {
+        "power": "13,580,378",
+        "main_level": "47-46",
+        "alliance": null
+    },
+    "#10 \u592a\u5927": {
+        "power": "13,578,475",
+        "main_level": "48-41",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#33 MyronScott": {
+        "power": "13,572,642",
+        "main_level": "46-46",
+        "alliance": null
+    },
+    "#34 SCLSKY": {
+        "power": "13,563,534",
+        "main_level": "41-49",
+        "alliance": null
+    },
+    "#22 \u5b5a\u5315\u8c46\u771f": {
+        "power": "13,559,699",
+        "main_level": "48-1",
+        "alliance": null
+    },
+    "#38 Kumako": {
+        "power": "13,550,427",
+        "main_level": "42-49",
+        "alliance": null
+    },
+    "#32 Koizumi": {
+        "power": "13,547,299",
+        "main_level": "46-30",
+        "alliance": null
+    },
+    "#31 BlackWai": {
+        "power": "13,535,920",
+        "main_level": "59-15",
+        "alliance": null
+    },
+    "#23 (\u5315'\u4e661^": {
+        "power": "13,529,302",
+        "main_level": "41-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#36 \u7384\u5b87\u5b99": {
+        "power": "13,528,873",
+        "main_level": "41-49",
+        "alliance": null
+    },
+    "#43 \u527f\u6c42": {
+        "power": "13,520,934",
+        "main_level": "68-26",
+        "alliance": null
+    },
+    "#02 AndyFrank": {
+        "power": "13,494,967",
+        "main_level": "69-20",
+        "alliance": null
+    },
+    "#36 \u82a9\u82a9\u516c\u4e3b": {
+        "power": "13,482,928",
+        "main_level": "76-28",
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#20 \u8776\u8863\u98de\u821e": {
+        "power": "13,470,954",
+        "main_level": "51-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#37 \u8352\u5e9f\u7684\u738b": {
+        "power": "13,427,534",
+        "main_level": "72-27",
+        "alliance": null
+    },
+    "#22 Stinger": {
+        "power": "13,373,732",
+        "main_level": "41-34",
+        "alliance": null
+    },
+    "#17 LynnHays": {
+        "power": "13,355,382",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#34 BoyceRojas": {
+        "power": "13,275,782",
+        "main_level": "55-52",
+        "alliance": null
+    },
+    "#05 DanielPound": {
+        "power": "13,248,665",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#38 \u7231\u5764\u4eba\u58eb": {
+        "power": "13,232,226",
+        "main_level": "75-15",
+        "alliance": null
+    },
+    "#32 Moshdiver": {
+        "power": "13,218,326",
+        "main_level": "42-49",
+        "alliance": null
+    },
+    "#26 JudithDuke": {
+        "power": "13,217,091",
+        "main_level": "42-50",
+        "alliance": null
+    },
+    "#17 \u6c90\u96ea": {
+        "power": "13,209,077",
+        "main_level": "50-0",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#43 LKT": {
+        "power": "13,200,391",
+        "main_level": "44-49",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#23 VeDa": {
+        "power": "13,196,587",
+        "main_level": "32-18",
+        "alliance": null
+    },
+    "#16 \u5165\u9053\u6b63\u5b97": {
+        "power": "13,189,239",
+        "main_level": "44-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#26 NathanielGray": {
+        "power": "13,183,232",
+        "main_level": "46-51",
+        "alliance": null
+    },
+    "#14 Jose": {
+        "power": "13,170,168",
+        "main_level": "44-41",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#11 \u5e7c\u5200\u5c0f\u4e1b\u96e8": {
+        "power": "13,166,988",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#16 Kode713": {
+        "power": "13,153,820",
+        "main_level": null,
+        "alliance": null
+    },
+    "#33 AngelaFox": {
+        "power": "13,142,703",
+        "main_level": "48-28",
+        "alliance": null
+    },
+    "#07 Callme\u5973\u58ec": {
+        "power": "13,139,491",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#12 ChestySista": {
+        "power": "13,136,818",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#40 ExpectoMomento": {
+        "power": "13,122,452",
+        "main_level": "40-49",
+        "alliance": null
+    },
+    "#29 \u5703\u7d6e": {
+        "power": "13,118,819",
+        "main_level": null,
+        "alliance": null
+    },
+    "#33 KIMOJI": {
+        "power": "13,104,395",
+        "main_level": "66-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#24 \u4e09\u597d\u841d\u8389": {
+        "power": "13,097,311",
+        "main_level": "72-24",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#09 \u7231\u665a\u4ead\u8fb9": {
+        "power": "13,076,777",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#31 Clio": {
+        "power": "13,071,034",
+        "main_level": "54-48",
+        "alliance": null
+    },
+    "#38 Westlife": {
+        "power": "13,059,438",
+        "main_level": "42-52",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#37 \u7ea2\u7efe\u4eba": {
+        "power": "13,044,919",
+        "main_level": "44-30",
+        "alliance": null
+    },
+    "#08 RivaBryan": {
+        "power": "13,040,564",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#12 MooreBach": {
+        "power": "13,023,246",
+        "main_level": null,
+        "alliance": null
+    },
+    "#31 LizBass": {
+        "power": "13,019,718",
+        "main_level": "52-45",
+        "alliance": null
+    },
+    "#33 \u9acc\u5578\u7fbd": {
+        "power": "13,018,710",
+        "main_level": null,
+        "alliance": null
+    },
+    "#15 mellow": {
+        "power": "13,003,960",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#13 \u7f8e\u79c0\u88ce\u9b54": {
+        "power": "12,995,522",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#31 \u50b2\u96ea\u5c0f\u5929": {
+        "power": "12,943,068",
+        "main_level": null,
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#29 MoiraFloyd": {
+        "power": "12,934,160",
+        "main_level": null,
+        "alliance": null
+    },
+    "#07 Letitiaoccam": {
+        "power": "12,931,388",
+        "main_level": null,
+        "alliance": null
+    },
+    "#22 wildchik": {
+        "power": "12,930,456",
+        "main_level": "43-51",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#18 \u671d\u6bd4\u5948\u771fH": {
+        "power": "12,872,631",
+        "main_level": "75-15",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#22 ElsaDuke": {
+        "power": "12,857,026",
+        "main_level": "34-11",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#42 \u767d\u9e64\u6dee": {
+        "power": "12,850,460",
+        "main_level": "84-27",
+        "alliance": "\u53ef\u7231\u53c8\u8ff7\u4eba\u7684"
+    },
+    "#23 JeanCole": {
+        "power": "12,847,274",
+        "main_level": "37-44",
+        "alliance": null
+    },
+    "#31 LeeHicks": {
+        "power": "12,843,612",
+        "main_level": "69-27",
+        "alliance": null
+    },
+    "#20 StevenNoble": {
+        "power": "12,838,663",
+        "main_level": "51-5",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#13 WendySharp": {
+        "power": "12,820,342",
+        "main_level": "50-34",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#07 AlVaNora": {
+        "power": "12,819,106",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#04 JeffBuck": {
+        "power": "12,807,367",
+        "main_level": "69-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#36 LaneJohn": {
+        "power": "12,807,009",
+        "main_level": "41-2",
+        "alliance": null
+    },
+    "#09 LinhNhj": {
+        "power": "12,790,642",
+        "main_level": "47-46",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#23 TusNalgas": {
+        "power": "12,780,294",
+        "main_level": "45-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#33 \u52a0\u5de5\u4f1a": {
+        "power": "12,779,083",
+        "main_level": "54-30",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#16 Mrferrymanzh": {
+        "power": "12,773,990",
+        "main_level": "47-47",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#42 Moutarde": {
+        "power": "12,768,327",
+        "main_level": "41-49",
+        "alliance": null
+    },
+    "#16 \u52ff\u5fd8": {
+        "power": "12,762,050",
+        "main_level": "47-9",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#04 Mimichan": {
+        "power": "12,738,852",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#34 Blanchepayne": {
+        "power": "12,727,609",
+        "main_level": "40-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#14 PatrickSapir": {
+        "power": "12,723,959",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#36 KaiSen": {
+        "power": "12,715,639",
+        "main_level": "46-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#08 \u9e2d\u9e2d\u5361\u5361": {
+        "power": "12,713,557",
+        "main_level": "43-2",
+        "alliance": null
+    },
+    "#07 \u5730\u5e73\u954d": {
+        "power": "12,696,293",
+        "main_level": null,
+        "alliance": null
+    },
+    "#48 TerryHugh": {
+        "power": "12,687,843",
+        "main_level": "50-48",
+        "alliance": null
+    },
+    "#41 EllisGlass": {
+        "power": "12,683,880",
+        "main_level": "52-48",
+        "alliance": null
+    },
+    "#35 SqC": {
+        "power": "12,670,216",
+        "main_level": "66-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#12 dddddd": {
+        "power": "12,668,048",
+        "main_level": "59-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#13 \u52ff\u5fd8\u6211": {
+        "power": "12,666,515",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#38 Wrightclark": {
+        "power": "12,663,543",
+        "main_level": null,
+        "alliance": null
+    },
+    "#21 MarcusDixon": {
+        "power": "12,662,602",
+        "main_level": "49-6",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#41 NeoDraco": {
+        "power": "12,631,147",
+        "main_level": "50-47",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#22 fooooo": {
+        "power": "12,598,613",
+        "main_level": "36-52",
+        "alliance": null
+    },
+    "#06 Ferdinandlouis": {
+        "power": "12,592,246",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#48 EmmaHix": {
+        "power": "12,579,985",
+        "main_level": "51-47",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#02 \u9f99\u7684\u4f20\u4eba": {
+        "power": "12,576,621",
+        "main_level": "57-15",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#11 SptnB320": {
+        "power": "12,573,075",
+        "main_level": "41-51",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#16 Stereokiller": {
+        "power": "12,567,313",
+        "main_level": "44-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#33 msytic": {
+        "power": "12,548,604",
+        "main_level": "45-1",
+        "alliance": null
+    },
+    "#05 \u5e7c\u4e00": {
+        "power": "12,546,597",
+        "main_level": null,
+        "alliance": null
+    },
+    "#31 Sneaky": {
+        "power": "12,519,134",
+        "main_level": null,
+        "alliance": null
+    },
+    "#15 \u6697\u51b0\u96ea\u6708": {
+        "power": "12,508,686",
+        "main_level": "49-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#20 GEOdeZZZ": {
+        "power": "12,496,893",
+        "main_level": "40-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#20 Chaqwin": {
+        "power": "12,490,314",
+        "main_level": "53-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#31 ken": {
+        "power": "12,486,867",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#39 JeffHenry": {
+        "power": "12,480,785",
+        "main_level": "44-49",
+        "alliance": null
+    },
+    "#16 Rayleesimon": {
+        "power": "12,447,986",
+        "main_level": "46-49",
+        "alliance": null
+    },
+    "#39 GaleForceWind": {
+        "power": "12,447,380",
+        "main_level": "40-49",
+        "alliance": null
+    },
+    "#13 \u745e\u5e78": {
+        "power": "12,446,864",
+        "main_level": "53-4",
+        "alliance": null
+    },
+    "#14 NoBody": {
+        "power": "12,440,290",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#35 Noyni": {
+        "power": "12,435,907",
+        "main_level": "47-48",
+        "alliance": null
+    },
+    "#31 HerbertDrake": {
+        "power": "12,433,829",
+        "main_level": "50-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#05 TammyBilly": {
+        "power": "12,430,612",
+        "main_level": null,
+        "alliance": null
+    },
+    "#31 Love\u9992\u5934": {
+        "power": "12,424,404",
+        "main_level": null,
+        "alliance": null
+    },
+    "#40 \u867e\u7c73": {
+        "power": "12,398,920",
+        "main_level": "42-50",
+        "alliance": null
+    },
+    "#41 BaiRuiQi": {
+        "power": "12,389,316",
+        "main_level": "43-52",
+        "alliance": null
+    },
+    "#15 Gerdalf": {
+        "power": "12,387,560",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#18 OneM": {
+        "power": "12,369,600",
+        "main_level": "47-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#47 Einhart": {
+        "power": "12,361,931",
+        "main_level": "46-49",
+        "alliance": null
+    },
+    "#07 \u5e7c5Cy": {
+        "power": "12,361,522",
+        "main_level": null,
+        "alliance": null
+    },
+    "#18 CasperGott": {
+        "power": "12,360,934",
+        "main_level": "39-49",
+        "alliance": null
+    },
+    "#31 Gllinme": {
+        "power": "12,347,241",
+        "main_level": "67-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#12 YehudiGrey": {
+        "power": "12,345,914",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#20 \u96ea\u9732": {
+        "power": "12,335,112",
+        "main_level": "72-6",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#14 Luluwei": {
+        "power": "12,324,661",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#06 \u4e43\u5b50\u5927\u5927": {
+        "power": "12,311,616",
+        "main_level": "70-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#29 \u59ec\u59ae\u6cf0\u5a9a": {
+        "power": "12,298,560",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#38 RowanEvans": {
+        "power": "12,274,680",
+        "main_level": "46-0",
+        "alliance": null
+    },
+    "#14 Skyfo": {
+        "power": "12,274,444",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#22 \u6536\u85cf\u5bb6\u7f8a": {
+        "power": "12,260,416",
+        "main_level": null,
+        "alliance": null
+    },
+    "#03 Akubra": {
+        "power": "12,258,218",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#39 QuentinJoyce": {
+        "power": "12,252,500",
+        "main_level": "41-52",
+        "alliance": null
+    },
+    "#31 LoganAvery": {
+        "power": "12,206,181",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#09 Xem": {
+        "power": "12,159,491",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#34 \u542c\u96e8\u671b\u4e91": {
+        "power": "12,157,332",
+        "main_level": "44-49",
+        "alliance": null
+    },
+    "#38 KinkyLeia": {
+        "power": "12,145,519",
+        "main_level": null,
+        "alliance": null
+    },
+    "#16 \u661f\u5f71": {
+        "power": "12,139,546",
+        "main_level": "45-40",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#36 BBBG": {
+        "power": "12,118,088",
+        "main_level": "40-50",
+        "alliance": null
+    },
+    "#34 ShadowHunterl3": {
+        "power": "12,081,567",
+        "main_level": "50-48",
+        "alliance": null
+    },
+    "#09 \u6d1b\u6c34\u4e09\u5343": {
+        "power": "12,049,782",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#35 JoyVance": {
+        "power": "12,040,514",
+        "main_level": "43-4",
+        "alliance": null
+    },
+    "#45 gnepuil": {
+        "power": "12,030,953",
+        "main_level": "59-15",
+        "alliance": null
+    },
+    "#34 KiranSloan": {
+        "power": "12,020,112",
+        "main_level": "47-30",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#34 \u5bd2\u5fa1\u98ce": {
+        "power": "11,988,219",
+        "main_level": "40-50",
+        "alliance": null
+    },
+    "#34 Macros": {
+        "power": "11,979,535",
+        "main_level": "46-52",
+        "alliance": null
+    },
+    "#11 RiNora": {
+        "power": "11,976,634",
+        "main_level": "42-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#41 XIER": {
+        "power": "11,960,001",
+        "main_level": "46-46",
+        "alliance": null
+    },
+    "#11 aZlp": {
+        "power": "11,958,461",
+        "main_level": "48-48",
+        "alliance": null
+    },
+    "#13 \u4e09\u4e09\u6211\u8001\u5a46": {
+        "power": "11,939,568",
+        "main_level": "67-40",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#04 Sunmay": {
+        "power": "11,939,085",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#17 JudyCraig": {
+        "power": "11,933,450",
+        "main_level": "47-32",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#03 I3RIZ": {
+        "power": "11,919,455",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#42 killelo": {
+        "power": "11,910,190",
+        "main_level": null,
+        "alliance": null
+    },
+    "#12 FutakiNagi": {
+        "power": "11,861,076",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#51 Reneyates": {
+        "power": "11,854,471",
+        "main_level": "50-31",
+        "alliance": null
+    },
+    "#33 BevisBass": {
+        "power": "11,837,371",
+        "main_level": null,
+        "alliance": null
+    },
+    "#16 Nepenthes": {
+        "power": "11,837,192",
+        "main_level": "48-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#33 LiptonOwo": {
+        "power": "11,774,895",
+        "main_level": "60-4",
+        "alliance": null
+    },
+    "#44 \u9762\u5bf9\u75be\u98ce\u5427": {
+        "power": "11,769,379",
+        "main_level": "75-25",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#09 \u591c\u660e\u7fbd": {
+        "power": "11,744,448",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#19 Blairkemp": {
+        "power": "11,744,433",
+        "main_level": null,
+        "alliance": null
+    },
+    "#13 \u5c0f\u591c\u5b50": {
+        "power": "11,734,166",
+        "main_level": "52-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#15 VoleUA": {
+        "power": "11,727,582",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#14 Magl": {
+        "power": "11,724,653",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#42 Virginiakhan": {
+        "power": "11,712,682",
+        "main_level": "38-49",
+        "alliance": null
+    },
+    "#35 \u5217!}": {
+        "power": "11,710,545",
+        "main_level": null,
+        "alliance": null
+    },
+    "#41 weirdo": {
+        "power": "11,709,490",
+        "main_level": "42-49",
+        "alliance": null
+    },
+    "#31 \u62b9\u8336\u661f\u51b0\u6868": {
+        "power": "11,709,024",
+        "main_level": null,
+        "alliance": null
+    },
+    "#15 ArleneVogt": {
+        "power": "11,699,365",
+        "main_level": "69-17",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#40 ZeroPatel": {
+        "power": "11,675,342",
+        "main_level": "44-49",
+        "alliance": null
+    },
+    "#32 \u4e2d\u7530\u771f": {
+        "power": "11,668,935",
+        "main_level": null,
+        "alliance": null
+    },
+    "#33 Dantydan": {
+        "power": "11,668,420",
+        "main_level": null,
+        "alliance": null
+    },
+    "#12 \u767d\u8272\u9051\u5599\u8006": {
+        "power": "11,667,150",
+        "main_level": null,
+        "alliance": null
+    },
+    "#39 AliDoyle": {
+        "power": "11,665,495",
+        "main_level": "46-45",
+        "alliance": null
+    },
+    "#38 BillySnow": {
+        "power": "11,659,345",
+        "main_level": "45-52",
+        "alliance": null
+    },
+    "#18 Aegis": {
+        "power": "11,639,970",
+        "main_level": "40-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#15 Kamrem": {
+        "power": "11,632,743",
+        "main_level": null,
+        "alliance": null
+    },
+    "#38 Elysia)": {
+        "power": "11,632,488",
+        "main_level": "68-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#12 Quinn": {
+        "power": "11,621,075",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#38 dmm": {
+        "power": "11,614,588",
+        "main_level": "49-40",
+        "alliance": null
+    },
+    "#37 \u5317\u6597\u4e03\u661f": {
+        "power": "11,612,310",
+        "main_level": "46-35",
+        "alliance": null
+    },
+    "#16 Huli": {
+        "power": "11,603,113",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#25 qqqWWW": {
+        "power": "11,598,849",
+        "main_level": "39-49",
+        "alliance": null
+    },
+    "#32 Wlllbllbld": {
+        "power": "11,598,536",
+        "main_level": "41-0",
+        "alliance": null
+    },
+    "#08 \u53e4\u621f": {
+        "power": "11,551,279",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#11 \u51f0\u795eF": {
+        "power": "11,548,460",
+        "main_level": null,
+        "alliance": null
+    },
+    "#09 \u9a97\u5c0f\u9699": {
+        "power": "11,535,476",
+        "main_level": null,
+        "alliance": null
+    },
+    "#39 NeverMorse": {
+        "power": "11,501,646",
+        "main_level": "75-27",
+        "alliance": null
+    },
+    "#38 SkylerWoods": {
+        "power": "11,492,578",
+        "main_level": "48-49",
+        "alliance": null
+    },
+    "#03 Velskud": {
+        "power": "11,492,494",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#17 JudeCarr": {
+        "power": "11,477,218",
+        "main_level": "38-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#44 Jayarez": {
+        "power": "11,446,281",
+        "main_level": "43-49",
+        "alliance": null
+    },
+    "#16 random": {
+        "power": "11,436,054",
+        "main_level": null,
+        "alliance": null
+    },
+    "#03 Ciri": {
+        "power": "11,427,881",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#16 [\u53ec9\u4eba": {
+        "power": "11,425,856",
+        "main_level": null,
+        "alliance": null
+    },
+    "#05 \u6d1b\u6c34)\u8bd7\u610f": {
+        "power": "11,424,062",
+        "main_level": "68-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#50 Ayaner": {
+        "power": "11,422,453",
+        "main_level": "64-27",
+        "alliance": null
+    },
+    "#31 XSun": {
+        "power": "11,416,579",
+        "main_level": "47-46",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#09 Akari7271": {
+        "power": "11,408,472",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#06 qiemaker": {
+        "power": "11,401,747",
+        "main_level": "75-19",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#41 \u522b\u6253\u6211\u561b": {
+        "power": "11,397,044",
+        "main_level": "41-49",
+        "alliance": null
+    },
+    "#42 Barchiels": {
+        "power": "11,386,445",
+        "main_level": "37-49",
+        "alliance": null
+    },
+    "#02 Joker": {
+        "power": "11,384,750",
+        "main_level": "40-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#40 NoelWood": {
+        "power": "11,383,474",
+        "main_level": null,
+        "alliance": null
+    },
+    "#34 \u795e\u706f": {
+        "power": "11,373,160",
+        "main_level": "44-41",
+        "alliance": null
+    },
+    "#40 GabriellePace": {
+        "power": "11,373,077",
+        "main_level": "40-52",
+        "alliance": "\u591c\u6f80"
+    },
+    "#06 lanWoolf": {
+        "power": "11,366,897",
+        "main_level": "47-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#21 Hyrian": {
+        "power": "11,353,217",
+        "main_level": "38-32",
+        "alliance": null
+    },
+    "#37 \u5f20\u8d77\u7075": {
+        "power": "11,323,403",
+        "main_level": null,
+        "alliance": null
+    },
+    "#21 Lohich223": {
+        "power": "11,304,340",
+        "main_level": "40-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#08 Zeng": {
+        "power": "11,280,913",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#13 \u963f\u5a07": {
+        "power": "11,258,929",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#40 HANABI": {
+        "power": "11,257,505",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#16 Lena": {
+        "power": "11,254,970",
+        "main_level": "46-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#16 Brugarune": {
+        "power": "11,254,597",
+        "main_level": "43-30",
+        "alliance": null
+    },
+    "#17 \u5885\u59ec\u80e4\u5983\u96ea": {
+        "power": "11,246,523",
+        "main_level": null,
+        "alliance": null
+    },
+    "#45 \u901a\u5929\u5854": {
+        "power": "11,238,174",
+        "main_level": "44-49",
+        "alliance": null
+    },
+    "#03 LeilaField": {
+        "power": "11,216,112",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#38 \u5b81\u51e1": {
+        "power": "11,215,508",
+        "main_level": "45-49",
+        "alliance": "\u591c\u6f80"
+    },
+    "#11 \u963f\u65af\u6258\u513f\u6708": {
+        "power": "11,191,440",
+        "main_level": "38-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#35 HuldaFoley": {
+        "power": "11,177,858",
+        "main_level": "41-5",
+        "alliance": null
+    },
+    "#12 \u6709\u5f97\u6709\u5931": {
+        "power": "11,164,984",
+        "main_level": "63-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#16 Sicko": {
+        "power": "11,156,613",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#14 Tuyu": {
+        "power": "11,126,643",
+        "main_level": "46-31",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#39 WXXX": {
+        "power": "11,091,654",
+        "main_level": "40-49",
+        "alliance": null
+    },
+    "#13 Skybule": {
+        "power": "11,083,270",
+        "main_level": null,
+        "alliance": null
+    },
+    "#16 Effie": {
+        "power": "11,073,604",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#13 \u952e\u76d8\u732b": {
+        "power": "11,067,231",
+        "main_level": null,
+        "alliance": null
+    },
+    "#08 \u5bfb\u627e\u4f0a\u7538\u56ed": {
+        "power": "11,051,822",
+        "main_level": "72-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#36 \u751f\u9ae6\u53ef\u6206": {
+        "power": "11,047,310",
+        "main_level": null,
+        "alliance": null
+    },
+    "#04 \u7ed3\u57ce\u68a8\u6597": {
+        "power": "11,036,594",
+        "main_level": "49-49",
+        "alliance": null
+    },
+    "#02 NickEllis": {
+        "power": "11,025,073",
+        "main_level": "68-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#40 EarlLara": {
+        "power": "11,023,252",
+        "main_level": "40-49",
+        "alliance": null
+    },
+    "#24 \u5bd2\u6708\u51dd\u58a8": {
+        "power": "11,023,047",
+        "main_level": "68-20",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#47 \u52fe\u52fe\u53c8\u4e22\u4e22": {
+        "power": "11,005,037",
+        "main_level": "52-49",
+        "alliance": null
+    },
+    "#09 noevis": {
+        "power": "11,000,778",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#34 JoanFord": {
+        "power": "11,000,317",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#42 \u4fc4\u6d1b\u4f0a": {
+        "power": "10,980,899",
+        "main_level": "39-3",
+        "alliance": null
+    },
+    "#38 \u661f\u67ab\u96ea\u7fbd": {
+        "power": "10,973,612",
+        "main_level": "46-42",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#37 GlenFrost": {
+        "power": "10,970,403",
+        "main_level": "46-46",
+        "alliance": null
+    },
+    "#45 RobinSmall": {
+        "power": "10,953,675",
+        "main_level": "40-49",
+        "alliance": null
+    },
+    "#38 devilyy": {
+        "power": "10,951,099",
+        "main_level": null,
+        "alliance": null
+    },
+    "#18 \u72d0\u8a00\u9e3e\u8bed": {
+        "power": "10,946,494",
+        "main_level": "52-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#33 Danecash": {
+        "power": "10,937,498",
+        "main_level": null,
+        "alliance": null
+    },
+    "#46 \u5fc3\u6709\u4f59\u5b63": {
+        "power": "10,929,282",
+        "main_level": "37-49",
+        "alliance": null
+    },
+    "#39 Ethellyons": {
+        "power": "10,926,585",
+        "main_level": "42-49",
+        "alliance": null
+    },
+    "#19 Mosi": {
+        "power": "10,926,335",
+        "main_level": "46-28",
+        "alliance": null
+    },
+    "#39 \u4f60\u8001\u5a46\u597d\u68d2": {
+        "power": "10,922,776",
+        "main_level": "52-46",
+        "alliance": null
+    },
+    "#11 IsidoreMicah": {
+        "power": "10,915,899",
+        "main_level": "49-45",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#05 lili": {
+        "power": "10,914,150",
+        "main_level": "75-25",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#39 Hyppo": {
+        "power": "10,907,853",
+        "main_level": "75-25",
+        "alliance": null
+    },
+    "#41 \u654c\u7f9e": {
+        "power": "10,901,852",
+        "main_level": "44-49",
+        "alliance": null
+    },
+    "#06 Athena": {
+        "power": "10,886,701",
+        "main_level": null,
+        "alliance": null
+    },
+    "#34 \u683c\u4e50": {
+        "power": "10,885,690",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#19 MatthewMccoy": {
+        "power": "10,884,360",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#35 \u8f6f\u7cd6": {
+        "power": "10,871,360",
+        "main_level": "63-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#24 Cuchulainne": {
+        "power": "10,838,316",
+        "main_level": "31-5",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#16 \u521d\u516d": {
+        "power": "10,828,917",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#11 tomokana": {
+        "power": "10,822,501",
+        "main_level": "42-6",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#14 ClownHUN": {
+        "power": "10,818,468",
+        "main_level": null,
+        "alliance": null
+    },
+    "#04 LouFrank": {
+        "power": "10,812,847",
+        "main_level": "47-53",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#37 pierrot": {
+        "power": "10,790,387",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#52 OswaldDay": {
+        "power": "10,790,316",
+        "main_level": "64-26",
+        "alliance": null
+    },
+    "#39 Faya": {
+        "power": "10,788,618",
+        "main_level": "75-15",
+        "alliance": null
+    },
+    "#42 HaydenEffie": {
+        "power": "10,778,909",
+        "main_level": "46-45",
+        "alliance": null
+    },
+    "#11 \u5bf8\u4e09": {
+        "power": "10,767,696",
+        "main_level": "37-52",
+        "alliance": null
+    },
+    "#05 ERU": {
+        "power": "10,764,595",
+        "main_level": "44-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#19 Sandrock": {
+        "power": "10,758,278",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#38 \u6211\u7684\u5c0f\u5ba0\u7269": {
+        "power": "10,748,902",
+        "main_level": "43-31",
+        "alliance": null
+    },
+    "#44 \u6c7d\u6cb9\u6876": {
+        "power": "10,735,959",
+        "main_level": null,
+        "alliance": null
+    },
+    "#02 itsYou": {
+        "power": "10,722,802",
+        "main_level": "40-6",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#03 \u65e9\u5b89\u7684\u62c9": {
+        "power": "10,717,934",
+        "main_level": "48-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#06 \u767d\u6bdb\u841d\u8389": {
+        "power": "10,716,499",
+        "main_level": "58-18",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#18 Tigran": {
+        "power": "10,716,273",
+        "main_level": "38-31",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#03 \u6b62\u5fc3\u4e4b\u521d": {
+        "power": "10,714,598",
+        "main_level": "52-46",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#03 MonaGrace": {
+        "power": "10,713,783",
+        "main_level": "68-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#35 TomFrost": {
+        "power": "10,708,669",
+        "main_level": "54-44",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#41 \u516c\u5b50\u4fe1\u9675": {
+        "power": "10,707,765",
+        "main_level": "38-49",
+        "alliance": null
+    },
+    "#37 aic": {
+        "power": "10,702,822",
+        "main_level": "46-48",
+        "alliance": null
+    },
+    "#23 bigd": {
+        "power": "10,700,313",
+        "main_level": "33-16",
+        "alliance": null
+    },
+    "#11 \u5229\u5179\u4e0e\u9752\u9e1f": {
+        "power": "10,699,567",
+        "main_level": "49-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#40 Hannahochoa": {
+        "power": "10,699,218",
+        "main_level": null,
+        "alliance": null
+    },
+    "#17 \u8d64\u7fbd#\u529e\u5786": {
+        "power": "10,687,196",
+        "main_level": null,
+        "alliance": null
+    },
+    "#14 LUUHARI": {
+        "power": "10,671,865",
+        "main_level": "51-30",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#34 Gametoon": {
+        "power": "10,670,394",
+        "main_level": null,
+        "alliance": null
+    },
+    "#34 NatalieBoone": {
+        "power": "10,667,302",
+        "main_level": "43-49",
+        "alliance": null
+    },
+    "#19 \u5e7b\u846c": {
+        "power": "10,658,742",
+        "main_level": "37-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#04 \u84dd\u5929\u767d\u4e91": {
+        "power": "10,656,614",
+        "main_level": "69-29",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#21 tmtt": {
+        "power": "10,651,348",
+        "main_level": "37-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#42 Vaniss": {
+        "power": "10,647,628",
+        "main_level": "37-49",
+        "alliance": null
+    },
+    "#23 \u9cb8\u7435": {
+        "power": "10,632,968",
+        "main_level": "46-53",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#41 \u51db\u821e": {
+        "power": "10,631,181",
+        "main_level": "37-49",
+        "alliance": null
+    },
+    "#25 Enternalmayhem": {
+        "power": "10,613,555",
+        "main_level": "41-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#14 Zlkrh": {
+        "power": "10,598,191",
+        "main_level": "46-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#20 \u5df4\u5c14\u7684\u72d7": {
+        "power": "10,587,670",
+        "main_level": "42-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#32 Evilia": {
+        "power": "10,577,661",
+        "main_level": null,
+        "alliance": null
+    },
+    "#05 MaryBuck": {
+        "power": "10,577,574",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#03 MaricoHal": {
+        "power": "10,575,872",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#46 laohei": {
+        "power": "10,575,374",
+        "main_level": "60-26",
+        "alliance": null
+    },
+    "#42 \u59ae\u5a1c\u8299": {
+        "power": "10,563,610",
+        "main_level": null,
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#41 \u78a7\u5e93\u8389\u5e0c\u5854": {
+        "power": "10,558,796",
+        "main_level": "41-52",
+        "alliance": null
+    },
+    "#37 \u68a6\u8bed": {
+        "power": "10,556,356",
+        "main_level": "53-29",
+        "alliance": null
+    },
+    "#19 RoryWalls": {
+        "power": "10,540,101",
+        "main_level": "41-51",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#44 Mryoung": {
+        "power": "10,538,670",
+        "main_level": "50-46",
+        "alliance": null
+    },
+    "#24 Krystal": {
+        "power": "10,533,966",
+        "main_level": "42-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#13 \u68a6\u672b": {
+        "power": "10,532,596",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#02 \u6d3e\u8499": {
+        "power": "10,529,022",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#38 MelCain": {
+        "power": "10,523,753",
+        "main_level": null,
+        "alliance": null
+    },
+    "#43 \u556a\u556apa": {
+        "power": "10,522,967",
+        "main_level": "46-49",
+        "alliance": "\u591c\u6f80"
+    },
+    "#35 \u8428\u83f2\u6d1b\u65af": {
+        "power": "10,519,462",
+        "main_level": "41-49",
+        "alliance": null
+    },
+    "#35 babal": {
+        "power": "10,517,730",
+        "main_level": "42-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#10 Mizuki": {
+        "power": "10,509,152",
+        "main_level": "66-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#33 \u6ef4\u561f\u6ef4\u561f\u6ef4": {
+        "power": "10,494,839",
+        "main_level": "44-51",
+        "alliance": null
+    },
+    "#40 \u65b0\u5907\u5fd8": {
+        "power": "10,491,372",
+        "main_level": "45-30",
+        "alliance": null
+    },
+    "#32 02Q": {
+        "power": "10,484,404",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#36 \u5927\u90fd\u5e02": {
+        "power": "10,465,789",
+        "main_level": "70-27",
+        "alliance": "\u591c\u6f80"
+    },
+    "#23 \u7384\u70e8": {
+        "power": "10,451,789",
+        "main_level": "36-50",
+        "alliance": null
+    },
+    "#34 \u77b3\u6708": {
+        "power": "10,450,345",
+        "main_level": "53-46",
+        "alliance": null
+    },
+    "#05 DeKses": {
+        "power": "10,446,086",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#13 AtsuyUK": {
+        "power": "10,431,023",
+        "main_level": "48-51",
+        "alliance": null
+    },
+    "#08 \u98ce\u98ce": {
+        "power": "10,427,960",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#32 Jiyome": {
+        "power": "10,422,816",
+        "main_level": null,
+        "alliance": null
+    },
+    "#39 \u95ee\u5251": {
+        "power": "10,411,569",
+        "main_level": "71-27",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#38 ERi": {
+        "power": "10,407,668",
+        "main_level": null,
+        "alliance": null
+    },
+    "#46 SOla": {
+        "power": "10,406,988",
+        "main_level": "46-46",
+        "alliance": null
+    },
+    "#39 ThirdFire": {
+        "power": "10,400,245",
+        "main_level": "44-49",
+        "alliance": null
+    },
+    "#49 RiverBeach": {
+        "power": "10,379,764",
+        "main_level": "38-53",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#45 ZEROS": {
+        "power": "10,361,497",
+        "main_level": "54-30",
+        "alliance": null
+    },
+    "#09 \u8c82\u883c\u4e0a\u5c0f\u88d4": {
+        "power": "10,357,716",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#33 TreepSk": {
+        "power": "10,355,104",
+        "main_level": null,
+        "alliance": null
+    },
+    "#06 BelindaHugh": {
+        "power": "10,352,336",
+        "main_level": "47-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#41 \u5f71\u5203": {
+        "power": "10,349,484",
+        "main_level": null,
+        "alliance": null
+    },
+    "#33 LeeMarsh": {
+        "power": "10,349,289",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#13 B\u4ed9": {
+        "power": "10,345,491",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#35 AlvaWolfe": {
+        "power": "10,344,653",
+        "main_level": "37-32",
+        "alliance": null
+    },
+    "#40 Emilita7": {
+        "power": "10,319,889",
+        "main_level": "68-26",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#14 Takamina": {
+        "power": "10,312,246",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#20 KSEd": {
+        "power": "10,311,208",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#38 KitAvery": {
+        "power": "10,304,209",
+        "main_level": null,
+        "alliance": null
+    },
+    "#42 \u5c0f\u5218\u54e5": {
+        "power": "10,294,590",
+        "main_level": "46-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#08 Abuai": {
+        "power": "10,289,282",
+        "main_level": null,
+        "alliance": "\u30ed\u30b9\u30e2\u30f3\u30c6\u30a3\u30b9"
+    },
+    "#41 YettaBarr": {
+        "power": "10,285,943",
+        "main_level": "40-49",
+        "alliance": null
+    },
+    "#19 LuckyXIII": {
+        "power": "10,275,290",
+        "main_level": "35-1",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#17 gjs": {
+        "power": "10,273,571",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#19 Sdgln": {
+        "power": "10,273,549",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#14 \u5f52\u67d2": {
+        "power": "10,254,475",
+        "main_level": "49-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#02 \u767d\u53d1\u4e09\u5343\u4e08": {
+        "power": "10,254,136",
+        "main_level": "46-11",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#40 \u54c8\u5bc6\u74dc": {
+        "power": "10,244,048",
+        "main_level": null,
+        "alliance": null
+    },
+    "#40 DickWhite": {
+        "power": "10,234,062",
+        "main_level": "40-49",
+        "alliance": null
+    },
+    "#21 \u7eee\u7eee\u7eee\u7eee": {
+        "power": "10,231,635",
+        "main_level": "63-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#46 \u65e0\u6240\u4e8b\u4e8b": {
+        "power": "10,225,734",
+        "main_level": "46-27",
+        "alliance": null
+    },
+    "#04 Ruchi": {
+        "power": "10,225,104",
+        "main_level": "45-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#38 fnplaxx": {
+        "power": "10,213,058",
+        "main_level": null,
+        "alliance": null
+    },
+    "#43 ChanningNeal": {
+        "power": "10,205,558",
+        "main_level": "46-46",
+        "alliance": null
+    },
+    "#19 Tomomin": {
+        "power": "10,202,494",
+        "main_level": "41-9",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#18 \u6625\u7802\u4ec1": {
+        "power": "10,200,442",
+        "main_level": "38-0",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "\u73a9\u5bb6\u540d\u5b57": {
+        "power": "10,191,775",
+        "main_level": null,
+        "alliance": null
+    },
+    "#42 \u5de8\u77f3\u5f3a\u68ee": {
+        "power": "10,187,108",
+        "main_level": "50-48",
+        "alliance": null
+    },
+    "#04 SAK": {
+        "power": "10,183,925",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#13 XXxDarkWjndxxx": {
+        "power": "10,177,639",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#41 \u6570-\u6570\u4e8c\u7684": {
+        "power": "10,173,710",
+        "main_level": null,
+        "alliance": null
+    },
+    "#19 WebsterReese": {
+        "power": "10,172,000",
+        "main_level": "40-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#40 JeanBass": {
+        "power": "10,168,698",
+        "main_level": "51-30",
+        "alliance": null
+    },
+    "#37 \u96e8\u5a77": {
+        "power": "10,162,610",
+        "main_level": "42-49",
+        "alliance": null
+    },
+    "#32 \u542c\u98ce": {
+        "power": "10,158,029",
+        "main_level": "45-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#40 lueyun": {
+        "power": "10,154,141",
+        "main_level": "39-50",
+        "alliance": null
+    },
+    "#32 \u5927\u54aa\u54aa\u771f\u5927": {
+        "power": "10,123,538",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#18 BroderickGrant": {
+        "power": "10,120,187",
+        "main_level": "44-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#22 \u3008\u300b^\u51fb\u675e": {
+        "power": "10,101,635",
+        "main_level": null,
+        "alliance": null
+    },
+    "#46 PZooo": {
+        "power": "10,097,716",
+        "main_level": "53-48",
+        "alliance": null
+    },
+    "#03 ch\u6ca1\u6709\u65a7\u6728": {
+        "power": "10,096,037",
+        "main_level": "44-15",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#20 \u96f7\u7535\u5c06\u519b": {
+        "power": "10,090,018",
+        "main_level": "40-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#09 JeanBess": {
+        "power": "10,088,192",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#40 \u9149\u65f6": {
+        "power": "10,069,291",
+        "main_level": "41-47",
+        "alliance": null
+    },
+    "#40 Isidorekline": {
+        "power": "10,062,793",
+        "main_level": "40-49",
+        "alliance": null
+    },
+    "#34 WiMAX": {
+        "power": "10,058,921",
+        "main_level": null,
+        "alliance": null
+    },
+    "#04 Sadist": {
+        "power": "10,051,482",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#38 IngemarMoore": {
+        "power": "10,048,824",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#05 \u968f\u610f": {
+        "power": "10,025,665",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#13 \u4e09\u4e91\u5929": {
+        "power": "10,017,729",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#21 MarciaHorn": {
+        "power": "10,016,967",
+        "main_level": "42-28",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#24 \u5927\u6839\u54e5\u54e5": {
+        "power": "10,012,440",
+        "main_level": "32-0",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#37 \u5929\u884c\u8005jsk": {
+        "power": "10,009,826",
+        "main_level": null,
+        "alliance": null
+    },
+    "#11 \u70c2\u6389\u4e86": {
+        "power": "10,007,320",
+        "main_level": "75-15",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#17 \u5256\u525e\u5168\u7518": {
+        "power": "10,003,956",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#32 \u83b2\u534e'": {
+        "power": "10,000,330",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#32 ElroyRees": {
+        "power": "9,997,902",
+        "main_level": null,
+        "alliance": null
+    },
+    "#41 \u5361\u5361\u897f": {
+        "power": "9,977,424",
+        "main_level": "46-48",
+        "alliance": null
+    },
+    "#39 PrimaMarsh": {
+        "power": "9,975,830",
+        "main_level": "72-21",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#33 AMing": {
+        "power": "9,967,474",
+        "main_level": "41-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#36 #d\u8a48[\u5b50": {
+        "power": "9,967,335",
+        "main_level": null,
+        "alliance": null
+    },
+    "#41 ZXC1234": {
+        "power": "9,963,670",
+        "main_level": "44-49",
+        "alliance": null
+    },
+    "#17 InaPerez": {
+        "power": "9,953,519",
+        "main_level": "40-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#35 Zhukhadal": {
+        "power": "9,952,997",
+        "main_level": null,
+        "alliance": null
+    },
+    "#44 MosesGuy": {
+        "power": "9,952,309",
+        "main_level": "63-17",
+        "alliance": null
+    },
+    "#37 \u5929\u4e0b\u4e5d\u6d41": {
+        "power": "9,944,648",
+        "main_level": null,
+        "alliance": null
+    },
+    "#39 NoelLara": {
+        "power": "9,924,742",
+        "main_level": "41-49",
+        "alliance": null
+    },
+    "#04 BuckBryan": {
+        "power": "9,915,203",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#38 KaiCash": {
+        "power": "9,912,037",
+        "main_level": null,
+        "alliance": null
+    },
+    "#17 Mhirrabelle": {
+        "power": "9,905,252",
+        "main_level": "36-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#39 \u6c5f\u6e56": {
+        "power": "9,902,378",
+        "main_level": "71-27",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#44 wdfdhj": {
+        "power": "9,901,831",
+        "main_level": "36-49",
+        "alliance": null
+    },
+    "#08 qfyjj": {
+        "power": "9,899,529",
+        "main_level": "45-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#39 GlennBrady": {
+        "power": "9,892,927",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#05 playerl": {
+        "power": "9,885,364",
+        "main_level": "63-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#40 CaseyParry": {
+        "power": "9,873,602",
+        "main_level": null,
+        "alliance": null
+    },
+    "#48 Gamevuive": {
+        "power": "9,870,211",
+        "main_level": null,
+        "alliance": null
+    },
+    "#45 QuinnBach": {
+        "power": "9,844,887",
+        "main_level": "47-50",
+        "alliance": null
+    },
+    "#37 \u767e\u90e8": {
+        "power": "9,844,730",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#09 TsuMai": {
+        "power": "9,844,411",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#24 Khaira": {
+        "power": "9,842,699",
+        "main_level": null,
+        "alliance": null
+    },
+    "#21 GiveYouColorcc": {
+        "power": "9,841,728",
+        "main_level": "45-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#37 Kiriba": {
+        "power": "9,835,587",
+        "main_level": null,
+        "alliance": null
+    },
+    "#22 \u987b\u62ff": {
+        "power": "9,833,672",
+        "main_level": "48-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#44 RichardNwt": {
+        "power": "9,829,241",
+        "main_level": null,
+        "alliance": null
+    },
+    "#09 \u5341-7": {
+        "power": "9,817,212",
+        "main_level": null,
+        "alliance": null
+    },
+    "#44 MonaAyala": {
+        "power": "9,812,590",
+        "main_level": "36-51",
+        "alliance": null
+    },
+    "#35 lanmao": {
+        "power": "9,803,744",
+        "main_level": "38-49",
+        "alliance": null
+    },
+    "#14 \u6d45\u7b11\u5b89\u7136": {
+        "power": "9,801,740",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#14 \u5915\u75d5": {
+        "power": "9,792,067",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#39 ChadMeyer": {
+        "power": "9,784,520",
+        "main_level": "40-49",
+        "alliance": null
+    },
+    "#18 Ruler": {
+        "power": "9,779,614",
+        "main_level": "64-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#43 \u82b3\u534e\u4e4b\u7ea6": {
+        "power": "9,773,308",
+        "main_level": "40-44",
+        "alliance": null
+    },
+    "#24 JustANoob": {
+        "power": "9,752,113",
+        "main_level": "46-46",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#43 Zerolove": {
+        "power": "9,750,361",
+        "main_level": "36-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#32 QuintinaPage": {
+        "power": "9,750,128",
+        "main_level": "52-43",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#45 EmersonHall": {
+        "power": "9,735,740",
+        "main_level": "46-49",
+        "alliance": null
+    },
+    "#21 SmallBoss": {
+        "power": "9,722,154",
+        "main_level": "40-49",
+        "alliance": null
+    },
+    "#41 wangshier": {
+        "power": "9,720,825",
+        "main_level": null,
+        "alliance": null
+    },
+    "#36 \u5929\u9053\u916c\u52e4": {
+        "power": "9,720,323",
+        "main_level": "55-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#42 \u7c73\u5357\u5a1c\u59b9\u513f": {
+        "power": "9,718,232",
+        "main_level": null,
+        "alliance": null
+    },
+    "#39 \u653b\u9677\u4e4b\u795e": {
+        "power": "9,706,512",
+        "main_level": null,
+        "alliance": null
+    },
+    "#04 \u51b0\u706b\u5723\u6bbf": {
+        "power": "9,706,001",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#40 OswaldSmith": {
+        "power": "9,702,400",
+        "main_level": "39-50",
+        "alliance": null
+    },
+    "#04 \u591c\u718a\u6708": {
+        "power": "9,690,294",
+        "main_level": null,
+        "alliance": null
+    },
+    "#18 AndreShort": {
+        "power": "9,681,415",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#43 \u9b42\u7275\u68a6\u7ed5": {
+        "power": "9,669,464",
+        "main_level": null,
+        "alliance": null
+    },
+    "#40 KOIM": {
+        "power": "9,667,892",
+        "main_level": null,
+        "alliance": null
+    },
+    "#36 Dannyknapp": {
+        "power": "9,660,378",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#46 FrankieAdams": {
+        "power": "9,652,520",
+        "main_level": "39-50",
+        "alliance": null
+    },
+    "#24 \u7b80\u7d20": {
+        "power": "9,638,219",
+        "main_level": "53-18",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#42 CliffHenry": {
+        "power": "9,634,010",
+        "main_level": null,
+        "alliance": null
+    },
+    "#17 \u753b\u5e08": {
+        "power": "9,633,762",
+        "main_level": null,
+        "alliance": null
+    },
+    "#26 \u9a6c\u4fdd\u56fd": {
+        "power": "9,626,259",
+        "main_level": "54-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#02 Heart": {
+        "power": "9,620,714",
+        "main_level": "46-35",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#21 Lagaffe": {
+        "power": "9,602,998",
+        "main_level": "35-14",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#45 \u9053\u8fdc\u9053\u957f": {
+        "power": "9,601,277",
+        "main_level": "40-49",
+        "alliance": null
+    },
+    "#14 }}": {
+        "power": "9,595,541",
+        "main_level": null,
+        "alliance": null
+    },
+    "#47 \u5fc6\u5f80\u60dc": {
+        "power": "9,595,111",
+        "main_level": "38-49",
+        "alliance": null
+    },
+    "#22 kenshin": {
+        "power": "9,590,319",
+        "main_level": "33-0",
+        "alliance": null
+    },
+    "#49 \u5f27\u57ce": {
+        "power": "9,585,186",
+        "main_level": "60-27",
+        "alliance": null
+    },
+    "#37 ;;": {
+        "power": "9,579,905",
+        "main_level": null,
+        "alliance": null
+    },
+    "#41 \u5e7c\u7a1a\u83f2": {
+        "power": "9,579,641",
+        "main_level": null,
+        "alliance": null
+    },
+    "#47 \u9149\u91ce\u4e03\u6fd1": {
+        "power": "9,572,600",
+        "main_level": null,
+        "alliance": null
+    },
+    "#43 \u5927\u9b5a\u4e7e": {
+        "power": "9,566,153",
+        "main_level": null,
+        "alliance": "\u591c\u6f80"
+    },
+    "#36 Jokouol": {
+        "power": "9,559,965",
+        "main_level": "36-51",
+        "alliance": null
+    },
+    "#45 Dorothycain": {
+        "power": "9,557,370",
+        "main_level": null,
+        "alliance": null
+    },
+    "#02 \u62cd\u5730\u677f\u62bd\u5361": {
+        "power": "9,541,768",
+        "main_level": "40-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#35 YuTian": {
+        "power": "9,539,208",
+        "main_level": "40-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#18 \u5723\u987a\u4e4b\u7687": {
+        "power": "9,530,976",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#47 \u5730\u4e0a\u7684\u6708\u5f71": {
+        "power": "9,525,091",
+        "main_level": "45-49",
+        "alliance": null
+    },
+    "#06 \u4e86>\u5341\u4e8e1\u4e8f\u513f": {
+        "power": "9,519,703",
+        "main_level": null,
+        "alliance": null
+    },
+    "#21 \u4e0d\u4e88\u98ce\u96e8": {
+        "power": "9,516,209",
+        "main_level": "53-48",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#47 miaoyun": {
+        "power": "9,495,412",
+        "main_level": "46-51",
+        "alliance": null
+    },
+    "#08 \u795e\u4e00": {
+        "power": "9,482,901",
+        "main_level": "47-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#18 KirigayaKasuto": {
+        "power": "9,481,959",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#45 HEXO04": {
+        "power": "9,469,261",
+        "main_level": "46-46",
+        "alliance": null
+    },
+    "#24 Parwyn": {
+        "power": "9,457,940",
+        "main_level": "35-51",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#42 \u6770\u91cc": {
+        "power": "9,453,013",
+        "main_level": null,
+        "alliance": null
+    },
+    "#09 Nihiru": {
+        "power": "9,452,179",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#17 \u5165\u513f\u4e8cp\u3009": {
+        "power": "9,445,220",
+        "main_level": null,
+        "alliance": null
+    },
+    "#44 rongrong": {
+        "power": "9,428,517",
+        "main_level": "43-52",
+        "alliance": null
+    },
+    "#33 MAPLE": {
+        "power": "9,413,789",
+        "main_level": null,
+        "alliance": null
+    },
+    "#05 LC#": {
+        "power": "9,408,811",
+        "main_level": null,
+        "alliance": null
+    },
+    "#23 MarciaGould": {
+        "power": "9,401,040",
+        "main_level": "40-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#41 Bewbalicious": {
+        "power": "9,395,479",
+        "main_level": "41-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#22 MabelMack": {
+        "power": "9,380,414",
+        "main_level": "37-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#08 \u7b2c\u4e00\u5e8f\u5217": {
+        "power": "9,351,921",
+        "main_level": "46-45",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#22 Lopez": {
+        "power": "9,347,053",
+        "main_level": "49-46",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#35 \u4e0d\u5f52": {
+        "power": "9,345,443",
+        "main_level": "42-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#21 GregaryPate": {
+        "power": "9,340,159",
+        "main_level": "35-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#08 \u51dd\u51dd\u5b50": {
+        "power": "9,338,369",
+        "main_level": "62-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#41 Websterkline": {
+        "power": "9,337,481",
+        "main_level": null,
+        "alliance": null
+    },
+    "#24 Guyan": {
+        "power": "9,334,736",
+        "main_level": "32-38",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#46 taylor": {
+        "power": "9,327,315",
+        "main_level": "37-50",
+        "alliance": null
+    },
+    "#42 \u98de\u5929\u4e01\u5b57\u88e4": {
+        "power": "9,325,562",
+        "main_level": null,
+        "alliance": null
+    },
+    "#18 yamero": {
+        "power": "9,305,558",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#43 chengx": {
+        "power": "9,303,329",
+        "main_level": null,
+        "alliance": null
+    },
+    "#19 ZeroCraig": {
+        "power": "9,296,769",
+        "main_level": "46-2",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#39 ChristByrne": {
+        "power": "9,286,543",
+        "main_level": "39-49",
+        "alliance": null
+    },
+    "#24 \u7c73\u8fe6\u52d2": {
+        "power": "9,281,927",
+        "main_level": "48-47",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#21 \u6653\u5b87": {
+        "power": "9,244,896",
+        "main_level": "70-29",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#47 \u6d41\u9b3c": {
+        "power": "9,243,004",
+        "main_level": "45-52",
+        "alliance": null
+    },
+    "#36 Catheis": {
+        "power": "9,237,485",
+        "main_level": "44-51",
+        "alliance": null
+    },
+    "#33 \u62fe\u516d": {
+        "power": "9,228,403",
+        "main_level": "48-32",
+        "alliance": null
+    },
+    "#08 \u8001\u5b50\u8d85\u840c": {
+        "power": "9,214,188",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#41 EliBrock": {
+        "power": "9,212,104",
+        "main_level": "41-49",
+        "alliance": null
+    },
+    "#47 IngemarJoyce": {
+        "power": "9,210,511",
+        "main_level": "41-39",
+        "alliance": null
+    },
+    "#17 NotCopper7": {
+        "power": "9,201,182",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#44 12186": {
+        "power": "9,194,227",
+        "main_level": "37-49",
+        "alliance": null
+    },
+    "#06 \u8d1d\u4e9a\u7279\u4e1d": {
+        "power": "9,191,544",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#21 RosemaryBritt": {
+        "power": "9,189,000",
+        "main_level": "64-20",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#39 \u54c8\u54c8\u54bb": {
+        "power": "9,188,316",
+        "main_level": null,
+        "alliance": null
+    },
+    "#35 Earllevy": {
+        "power": "9,178,226",
+        "main_level": "63-26",
+        "alliance": null
+    },
+    "#24 WoiZzZ": {
+        "power": "9,175,579",
+        "main_level": null,
+        "alliance": null
+    },
+    "#03 JaxLee": {
+        "power": "9,161,420",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#44 Mikeorr": {
+        "power": "9,151,994",
+        "main_level": "40-1",
+        "alliance": null
+    },
+    "#47 \u9ec4\u5c0f\u6843": {
+        "power": "9,144,606",
+        "main_level": "47-30",
+        "alliance": null
+    },
+    "#47 \u516d\u58ec\u795e\u9ac1": {
+        "power": "9,138,153",
+        "main_level": null,
+        "alliance": null
+    },
+    "#11 Vivianlloyd": {
+        "power": "9,137,873",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#39 Qiao": {
+        "power": "9,133,160",
+        "main_level": null,
+        "alliance": null
+    },
+    "#11 \u9ed1\u4e1d\u6700\u65e0\u654c": {
+        "power": "9,127,585",
+        "main_level": "35-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#45 ZaraSykes": {
+        "power": "9,117,344",
+        "main_level": "42-13",
+        "alliance": null
+    },
+    "#20 AlvaBrady": {
+        "power": "9,075,403",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#44 \u591c`": {
+        "power": "9,067,634",
+        "main_level": "38-49",
+        "alliance": null
+    },
+    "#26 \u51b0\u7483\u661f": {
+        "power": "9,054,584",
+        "main_level": "44-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#43 SidneyFrye": {
+        "power": "9,047,793",
+        "main_level": "41-46",
+        "alliance": null
+    },
+    "#44 AshSears": {
+        "power": "9,047,021",
+        "main_level": "44-52",
+        "alliance": null
+    },
+    "#24 asha": {
+        "power": "9,044,200",
+        "main_level": "37-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#20 EmmaBritt": {
+        "power": "9,037,679",
+        "main_level": null,
+        "alliance": null
+    },
+    "#41 \u8d24\u8005C0\u4e2d": {
+        "power": "9,029,718",
+        "main_level": "40-0",
+        "alliance": null
+    },
+    "#24 MirandaWelch": {
+        "power": "9,022,797",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#21 sayaka": {
+        "power": "9,006,786",
+        "main_level": "39-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#25 Victoriaknox": {
+        "power": "9,001,214",
+        "main_level": "33-0",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#41 \u4ec5\u4ec5\u79cd\u6811": {
+        "power": "8,996,884",
+        "main_level": "45-49",
+        "alliance": null
+    },
+    "#08 BartTwain": {
+        "power": "8,993,282",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#43 InaRiley": {
+        "power": "8,986,882",
+        "main_level": "38-49",
+        "alliance": null
+    },
+    "#36 \u56fd\u8272\u65e0\u53cc": {
+        "power": "8,981,215",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#10 \u83ca\u82b1\u521a\u7206\u4f60": {
+        "power": "8,978,878",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#10 \u91c7\u697c": {
+        "power": "8,974,220",
+        "main_level": "39-28",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#22 \u7435\u9ed8": {
+        "power": "8,969,958",
+        "main_level": "35-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#42 KaiRivas": {
+        "power": "8,964,848",
+        "main_level": "38-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#48 \u7267\u9a6c\u4eba`": {
+        "power": "8,954,538",
+        "main_level": null,
+        "alliance": null
+    },
+    "#47 ShimakazeGo": {
+        "power": "8,935,713",
+        "main_level": "50-52",
+        "alliance": null
+    },
+    "#39 \u6e10\u6e10\u8150\u574f": {
+        "power": "8,924,305",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#02 AldieFA": {
+        "power": "8,895,458",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#45 \u7f57\u4f2f\u7279": {
+        "power": "8,895,356",
+        "main_level": "46-48",
+        "alliance": null
+    },
+    "#22 \u591c\u837c\u9761": {
+        "power": "8,880,309",
+        "main_level": "42-14",
+        "alliance": null
+    },
+    "#43 \u5c0f\u6768": {
+        "power": "8,879,091",
+        "main_level": "38-49",
+        "alliance": null
+    },
+    "#36 \u77ed\u6307\u7532\u9f99\u5b50": {
+        "power": "8,873,940",
+        "main_level": "41-27",
+        "alliance": null
+    },
+    "#52 AlvaHuff": {
+        "power": "8,868,487",
+        "main_level": "37-37",
+        "alliance": null
+    },
+    "#47 MaddoxMarks": {
+        "power": "8,868,335",
+        "main_level": "51-30",
+        "alliance": null
+    },
+    "#23 Rosalindlevy": {
+        "power": "8,865,448",
+        "main_level": "29-34",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#44 CrOSS": {
+        "power": "8,853,376",
+        "main_level": "55-52",
+        "alliance": null
+    },
+    "#22 MasonLopez": {
+        "power": "8,842,371",
+        "main_level": "35-50",
+        "alliance": null
+    },
+    "#42 CTanUH": {
+        "power": "8,841,671",
+        "main_level": null,
+        "alliance": null
+    },
+    "#36 cchsucym": {
+        "power": "8,841,252",
+        "main_level": null,
+        "alliance": null
+    },
+    "#17 BennieEffie": {
+        "power": "8,794,851",
+        "main_level": "36-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#06 BadabuN": {
+        "power": "8,791,601",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#44 \u5723291\u4e52\u5929": {
+        "power": "8,788,637",
+        "main_level": null,
+        "alliance": null
+    },
+    "#02 \u515c\u515c\u5566": {
+        "power": "8,788,133",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#21 Kyoiri": {
+        "power": "8,785,141",
+        "main_level": null,
+        "alliance": null
+    },
+    "#46 \u91d1\u9c7c\u6765\u4e86": {
+        "power": "8,780,659",
+        "main_level": "48-48",
+        "alliance": null
+    },
+    "#25 \u591c\u6a31\u6893": {
+        "power": "8,775,040",
+        "main_level": "32-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#39 \u80d6\u6b21\u80d6\u6b21": {
+        "power": "8,759,486",
+        "main_level": "39-49",
+        "alliance": null
+    },
+    "#39 TonyBooth": {
+        "power": "8,755,688",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#46 LoganWhyet": {
+        "power": "8,754,623",
+        "main_level": "46-46",
+        "alliance": null
+    },
+    "#46 SigridCline42": {
+        "power": "8,751,439",
+        "main_level": null,
+        "alliance": "\u591c\u6f80"
+    },
+    "#42 Issei": {
+        "power": "8,749,268",
+        "main_level": null,
+        "alliance": null
+    },
+    "#06 Yue\u6708": {
+        "power": "8,733,140",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#10 HannahTwain": {
+        "power": "8,728,431",
+        "main_level": "40-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#02 Agnes": {
+        "power": "8,722,158",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#45 Longer": {
+        "power": "8,710,481",
+        "main_level": null,
+        "alliance": null
+    },
+    "#19 \u6301\u4e4b\u4ee5\u6052": {
+        "power": "8,702,966",
+        "main_level": "48-46",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#46 YZ240225": {
+        "power": "8,685,288",
+        "main_level": null,
+        "alliance": null
+    },
+    "#19 \u4e91\u79cb": {
+        "power": "8,683,891",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#19 \u76f4\u7537\u4e00\u501c": {
+        "power": "8,666,434",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#39 RoryCrane": {
+        "power": "8,661,797",
+        "main_level": null,
+        "alliance": null
+    },
+    "#25 KerryDoyle": {
+        "power": "8,654,666",
+        "main_level": "34-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#44 \u76d0\u6c34\u5575\u5575\u51b0": {
+        "power": "8,654,180",
+        "main_level": "35-49",
+        "alliance": null
+    },
+    "#47 LeslieWiley": {
+        "power": "8,638,247",
+        "main_level": null,
+        "alliance": null
+    },
+    "#43 \u864e\u592a\u90ce": {
+        "power": "8,628,799",
+        "main_level": "35-49",
+        "alliance": null
+    },
+    "#48 Gamevuil": {
+        "power": "8,619,532",
+        "main_level": null,
+        "alliance": null
+    },
+    "#20 \u5b87\u57a3\u7f20": {
+        "power": "8,611,854",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#43 DorisWong": {
+        "power": "8,610,998",
+        "main_level": null,
+        "alliance": null
+    },
+    "#23 Yatendouji": {
+        "power": "8,599,622",
+        "main_level": "34-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#46 \u8299\u6d1b\u73bb": {
+        "power": "8,596,597",
+        "main_level": "39-49",
+        "alliance": null
+    },
+    "#43 \u6c42\u627e\u634f\u634f\u56af": {
+        "power": "8,593,093",
+        "main_level": null,
+        "alliance": null
+    },
+    "#17 PhoebePotts": {
+        "power": "8,581,560",
+        "main_level": "39-49",
+        "alliance": null
+    },
+    "#35 UndeathMia": {
+        "power": "8,580,610",
+        "main_level": null,
+        "alliance": null
+    },
+    "#36 \u53f8\u590f": {
+        "power": "8,578,538",
+        "main_level": "41-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#43 LiPiwy": {
+        "power": "8,572,031",
+        "main_level": null,
+        "alliance": null
+    },
+    "#02 Raizer": {
+        "power": "8,559,712",
+        "main_level": null,
+        "alliance": null
+    },
+    "#02 Lmao": {
+        "power": "8,549,634",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#45 \u6211\u8981\u539f\u795e\u6b7b": {
+        "power": "8,541,959",
+        "main_level": "40-49",
+        "alliance": null
+    },
+    "#44 \u6211\u662f\u4f60\u5927\u8205": {
+        "power": "8,523,345",
+        "main_level": null,
+        "alliance": null
+    },
+    "#46 \u96ea\u5154": {
+        "power": "8,516,782",
+        "main_level": null,
+        "alliance": null
+    },
+    "#02 JoanAbe": {
+        "power": "8,495,337",
+        "main_level": "38-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#46 \u51cc\u8f69": {
+        "power": "8,489,438",
+        "main_level": "45-5",
+        "alliance": null
+    },
+    "#25 \u5434\u4f69\u54e6\u5bf9": {
+        "power": "8,480,854",
+        "main_level": "48-4",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#20 Akihn": {
+        "power": "8,466,163",
+        "main_level": "36-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#11 Rengoku": {
+        "power": "8,460,011",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#46 robiak": {
+        "power": "8,455,924",
+        "main_level": null,
+        "alliance": null
+    },
+    "#02 Quinnlynch": {
+        "power": "8,454,862",
+        "main_level": "42-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#44 \u8fbe\u79cb1": {
+        "power": "8,450,046",
+        "main_level": "33-49",
+        "alliance": null
+    },
+    "#45 VanessaDale": {
+        "power": "8,445,820",
+        "main_level": "44-49",
+        "alliance": null
+    },
+    "#45 \u5750\u5fd8\u9053\u7ea2\u4e2d": {
+        "power": "8,441,801",
+        "main_level": "37-27",
+        "alliance": null
+    },
+    "#42 LanceAvila": {
+        "power": "8,431,047",
+        "main_level": null,
+        "alliance": null
+    },
+    "#26 nini23": {
+        "power": "8,424,483",
+        "main_level": "34-13",
+        "alliance": null
+    },
+    "#10 OlivePeggy": {
+        "power": "8,424,227",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#44 \u718a\u732b\u70c8\u9152": {
+        "power": "8,417,812",
+        "main_level": "34-0",
+        "alliance": null
+    },
+    "#45 Missoupai": {
+        "power": "8,410,338",
+        "main_level": "38-39",
+        "alliance": null
+    },
+    "#46 CycrlBest": {
+        "power": "8,397,167",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#44 BroderickWoods": {
+        "power": "8,390,701",
+        "main_level": "37-49",
+        "alliance": null
+    },
+    "#19 ZeroRen": {
+        "power": "8,388,564",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#17 \u7a7a\u56de\u7981\u972a": {
+        "power": "8,382,194",
+        "main_level": "37-1",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#35 DephineBell": {
+        "power": "8,372,215",
+        "main_level": null,
+        "alliance": null
+    },
+    "#42 \u80a5\u7acb": {
+        "power": "8,371,406",
+        "main_level": "38-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#45 GlenFry": {
+        "power": "8,368,066",
+        "main_level": null,
+        "alliance": null
+    },
+    "#11 PPT\u4e4b\u795e": {
+        "power": "8,341,362",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#47 \u6492\u6253\u7b97123": {
+        "power": "8,340,531",
+        "main_level": null,
+        "alliance": null
+    },
+    "#46 \u79cb\u96ea": {
+        "power": "8,332,185",
+        "main_level": null,
+        "alliance": null
+    },
+    "#45 LGDSuKi": {
+        "power": "8,328,266",
+        "main_level": null,
+        "alliance": null
+    },
+    "#44 \u5929\u90090\u4eba": {
+        "power": "8,322,712",
+        "main_level": "73-27",
+        "alliance": null
+    },
+    "#45 Spla77er": {
+        "power": "8,313,511",
+        "main_level": null,
+        "alliance": null
+    },
+    "#23 LynnDrake": {
+        "power": "8,313,089",
+        "main_level": "45-42",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#26 \u5343\u68a6\u4e00\u7720": {
+        "power": "8,306,943",
+        "main_level": "45-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#17 Xandrian33": {
+        "power": "8,304,952",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#48 \u7897\u84b8\u86cb": {
+        "power": "8,298,157",
+        "main_level": null,
+        "alliance": null
+    },
+    "#46 \u65cb\u8f6c\u8fea\u514b": {
+        "power": "8,297,432",
+        "main_level": null,
+        "alliance": null
+    },
+    "#46 kageneko": {
+        "power": "8,294,306",
+        "main_level": null,
+        "alliance": null
+    },
+    "#50 TaylorJean": {
+        "power": "8,282,510",
+        "main_level": "35-49",
+        "alliance": null
+    },
+    "#02 \u5343\u54cd": {
+        "power": "8,282,037",
+        "main_level": "41-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#25 lanHill": {
+        "power": "8,265,525",
+        "main_level": "36-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#17 DaneDuffy": {
+        "power": "8,240,877",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#25 Mint": {
+        "power": "8,240,621",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#02 \u732b\u4ed4\u7231\u6293\u9c7c": {
+        "power": "8,239,248",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#45 ZEROX": {
+        "power": "8,236,443",
+        "main_level": "43-52",
+        "alliance": null
+    },
+    "#22 irene": {
+        "power": "8,215,962",
+        "main_level": "33-9",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#46 \u8150\u574f\u5df2\u7ecf": {
+        "power": "8,192,475",
+        "main_level": "41-52",
+        "alliance": null
+    },
+    "#19 \u8d64\u7583\u72fc": {
+        "power": "8,182,649",
+        "main_level": "36-31",
+        "alliance": null
+    },
+    "#26 \u697c\u6aa0": {
+        "power": "8,181,579",
+        "main_level": "39-14",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#48 yaheiya": {
+        "power": "8,159,525",
+        "main_level": "36-49",
+        "alliance": null
+    },
+    "#22 Tristalvan": {
+        "power": "8,156,698",
+        "main_level": "33-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#17 Femida": {
+        "power": "8,150,345",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#19 speedello": {
+        "power": "8,138,000",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#10 \u672c\u8335": {
+        "power": "8,135,458",
+        "main_level": "33-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#47 TroyHowe": {
+        "power": "8,123,172",
+        "main_level": null,
+        "alliance": null
+    },
+    "#11 TrickSword": {
+        "power": "8,121,232",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#48 Judekane": {
+        "power": "8,114,430",
+        "main_level": "40-49",
+        "alliance": null
+    },
+    "#10 \u5341\u62bd\u51fa\u4e94\u91d1": {
+        "power": "8,114,199",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#50 \u5bb6\u56ed\u9ad8\u624b": {
+        "power": "8,111,833",
+        "main_level": "40-49",
+        "alliance": null
+    },
+    "#42 zjcaster": {
+        "power": "8,108,582",
+        "main_level": "36-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#42 SsssdV": {
+        "power": "8,103,530",
+        "main_level": null,
+        "alliance": null
+    },
+    "#47 ZZWRE": {
+        "power": "8,094,882",
+        "main_level": "37-52",
+        "alliance": null
+    },
+    "#10 \u5929\u7136\u5446": {
+        "power": "8,080,709",
+        "main_level": "46-45",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#19 firedevil": {
+        "power": "8,059,231",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#20 MortimerWalls": {
+        "power": "8,045,867",
+        "main_level": null,
+        "alliance": null
+    },
+    "#21 AdamHaley": {
+        "power": "8,045,411",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#48 KaiAlsop": {
+        "power": "8,034,370",
+        "main_level": null,
+        "alliance": null
+    },
+    "#46 Atwoodkirby": {
+        "power": "8,021,732",
+        "main_level": null,
+        "alliance": null
+    },
+    "#45 Necner": {
+        "power": "8,017,476",
+        "main_level": "37-49",
+        "alliance": null
+    },
+    "#46 Gabrielcheng": {
+        "power": "8,000,535",
+        "main_level": null,
+        "alliance": null
+    },
+    "#47 \u81ea\u7531\u5703\u5ea6": {
+        "power": "7,981,867",
+        "main_level": null,
+        "alliance": null
+    },
+    "#43 StoryBK": {
+        "power": "7,969,665",
+        "main_level": null,
+        "alliance": null
+    },
+    "#44 88888": {
+        "power": "7,968,282",
+        "main_level": null,
+        "alliance": null
+    },
+    "#48 BevBell": {
+        "power": "7,966,392",
+        "main_level": null,
+        "alliance": null
+    },
+    "#47 \u6850\u82b1\u96e8": {
+        "power": "7,955,661",
+        "main_level": "45-50",
+        "alliance": null
+    },
+    "#43 KUAI": {
+        "power": "7,953,450",
+        "main_level": "44-49",
+        "alliance": null
+    },
+    "#43 \u84dd\u8f69": {
+        "power": "7,933,209",
+        "main_level": "36-50",
+        "alliance": null
+    },
+    "#47 freeze": {
+        "power": "7,921,064",
+        "main_level": null,
+        "alliance": null
+    },
+    "#46 Michelllowe": {
+        "power": "7,913,645",
+        "main_level": null,
+        "alliance": null
+    },
+    "#45 ChanningTate": {
+        "power": "7,909,303",
+        "main_level": "42-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#43 XiYangyang": {
+        "power": "7,908,876",
+        "main_level": null,
+        "alliance": null
+    },
+    "#21 DemodarWien": {
+        "power": "7,893,146",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#22 moyuyu": {
+        "power": "7,891,895",
+        "main_level": "40-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#25 Naiko": {
+        "power": "7,886,589",
+        "main_level": "36-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#48 JesseWare": {
+        "power": "7,881,540",
+        "main_level": null,
+        "alliance": null
+    },
+    "#46 \u6c38\u6052\u6c38\u6052": {
+        "power": "7,876,623",
+        "main_level": null,
+        "alliance": null
+    },
+    "#44 FrankyLyons": {
+        "power": "7,873,137",
+        "main_level": null,
+        "alliance": null
+    },
+    "#44 Crotch": {
+        "power": "7,871,646",
+        "main_level": null,
+        "alliance": null
+    },
+    "#48 Moirasims": {
+        "power": "7,844,923",
+        "main_level": "34-49",
+        "alliance": null
+    },
+    "#21 KOKIA": {
+        "power": "7,841,122",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#45 MichellEstes": {
+        "power": "7,837,120",
+        "main_level": null,
+        "alliance": null
+    },
+    "#46 MandyMays": {
+        "power": "7,821,039",
+        "main_level": null,
+        "alliance": null
+    },
+    "#48 \u661f\u843d\u4e09\u5343": {
+        "power": "7,819,327",
+        "main_level": "35-0",
+        "alliance": null
+    },
+    "#47 \u6d6a\u5ba2\u98de\u4ed9": {
+        "power": "7,812,863",
+        "main_level": "39-49",
+        "alliance": null
+    },
+    "#46 KeSo": {
+        "power": "7,800,311",
+        "main_level": null,
+        "alliance": null
+    },
+    "#11 \u9f20\u6211\u554a": {
+        "power": "7,761,997",
+        "main_level": "51-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#44 Lowkey": {
+        "power": "7,759,450",
+        "main_level": "33-0",
+        "alliance": null
+    },
+    "#45 DevinCross": {
+        "power": "7,757,741",
+        "main_level": "37-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#22 Nergigante": {
+        "power": "7,745,356",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#24 Mikeo4miky": {
+        "power": "7,736,296",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#47 \u5343\u8299": {
+        "power": "7,729,021",
+        "main_level": null,
+        "alliance": null
+    },
+    "#47 RoderickGreer": {
+        "power": "7,727,594",
+        "main_level": null,
+        "alliance": null
+    },
+    "#43 JackieWatts": {
+        "power": "7,706,784",
+        "main_level": null,
+        "alliance": null
+    },
+    "#43 \u6d3e\u8499\u7761\u4e0d\u9192": {
+        "power": "7,691,070",
+        "main_level": null,
+        "alliance": null
+    },
+    "#48 \u5b89\u5d0e": {
+        "power": "7,690,690",
+        "main_level": "37-49",
+        "alliance": null
+    },
+    "#47 Onyon": {
+        "power": "7,650,261",
+        "main_level": null,
+        "alliance": null
+    },
+    "#23 \u4eca\u665a\u6253\u8001\u9f20": {
+        "power": "7,647,458",
+        "main_level": "37-39",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#10 \u83ca\u6c60\u98ce\u9999": {
+        "power": "7,637,299",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#45 ElliotPratt": {
+        "power": "7,627,588",
+        "main_level": "44-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#47 \u6708\u6751\u771f\u7531": {
+        "power": "7,624,035",
+        "main_level": "54-1",
+        "alliance": null
+    },
+    "#23 EnochSloan": {
+        "power": "7,622,485",
+        "main_level": "",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#10 )'\u73ab": {
+        "power": "7,618,529",
+        "main_level": null,
+        "alliance": null
+    },
+    "#50 \u5fc3\u65e0\u65c1\u9a9b": {
+        "power": "7,607,312",
+        "main_level": "45-49",
+        "alliance": null
+    },
+    "#43 MosesSears": {
+        "power": "7,603,915",
+        "main_level": "36-39",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#43 Myst": {
+        "power": "7,592,170",
+        "main_level": null,
+        "alliance": null
+    },
+    "#47 tearsteare": {
+        "power": "7,585,517",
+        "main_level": null,
+        "alliance": null
+    },
+    "#48 GregaryMays": {
+        "power": "7,579,508",
+        "main_level": "47-52",
+        "alliance": null
+    },
+    "#48 VicRojas": {
+        "power": "7,562,796",
+        "main_level": null,
+        "alliance": null
+    },
+    "#48 \u4e09\u66f4\u6708": {
+        "power": "7,561,945",
+        "main_level": "47-48",
+        "alliance": null
+    },
+    "#48 DeliaStout": {
+        "power": "7,535,949",
+        "main_level": null,
+        "alliance": null
+    },
+    "#48 vitalityk": {
+        "power": "7,523,719",
+        "main_level": null,
+        "alliance": null
+    },
+    "#26 Jinnie": {
+        "power": "7,523,101",
+        "main_level": "34-0",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#48 yunllzl": {
+        "power": "7,502,802",
+        "main_level": "45-49",
+        "alliance": null
+    },
+    "#24 CoryRowe": {
+        "power": "7,501,743",
+        "main_level": "34-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#24 tmt": {
+        "power": "7,493,889",
+        "main_level": "31-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#23 ArcheWolfe": {
+        "power": "7,486,174",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#21 BinhMinh": {
+        "power": "7,467,478",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#49 AnnSims": {
+        "power": "7,463,399",
+        "main_level": "36-18",
+        "alliance": null
+    },
+    "#10 VivianTitus": {
+        "power": "7,446,129",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#48 MoonLuvLight": {
+        "power": "7,439,448",
+        "main_level": "34-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#50 \u7ec8\u7109\u5e0c": {
+        "power": "7,431,363",
+        "main_level": "35-49",
+        "alliance": null
+    },
+    "#10 JuliusEllis": {
+        "power": "7,401,281",
+        "main_level": "35-35",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#51 \u5343\u5c71\u9e1f\u98de\u7edd": {
+        "power": "7,369,694",
+        "main_level": "42-42",
+        "alliance": null
+    },
+    "#10 BblytheVan": {
+        "power": "7,359,544",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#48 VicCohen": {
+        "power": "7,355,999",
+        "main_level": "38-49",
+        "alliance": null
+    },
+    "#48 \u4e8c\u53f7\u673axuan": {
+        "power": "7,347,109",
+        "main_level": null,
+        "alliance": null
+    },
+    "#21 CecilMays": {
+        "power": "7,345,971",
+        "main_level": "36-4",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#22 HarlanDixon": {
+        "power": "7,336,812",
+        "main_level": "34-30",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#48 \u70ed\u5fc3\u7f51\u53cb": {
+        "power": "7,332,985",
+        "main_level": null,
+        "alliance": null
+    },
+    "#48 Deity": {
+        "power": "7,332,924",
+        "main_level": null,
+        "alliance": null
+    },
+    "#50 \u591c\u6c500": {
+        "power": "7,302,530",
+        "main_level": "40-49",
+        "alliance": null
+    },
+    "#10 KeithBryan": {
+        "power": "7,213,129",
+        "main_level": "34-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#22 GeoffreyBird": {
+        "power": "7,198,131",
+        "main_level": "31-50",
+        "alliance": null
+    },
+    "#21 SilverHale": {
+        "power": "7,178,299",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#21 Hixen": {
+        "power": "7,175,880",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#10 HUNG": {
+        "power": "7,073,045",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#10 \u5f20\u6709\u5fd7\u8bf4": {
+        "power": "7,059,069",
+        "main_level": "46-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#10 Rustyhim": {
+        "power": "7,054,617",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#50 Siitsu": {
+        "power": "7,023,947",
+        "main_level": "45-49",
+        "alliance": null
+    },
+    "#49 \u6a58\u5b50\u6c41\u5e72\u676f": {
+        "power": "7,002,532",
+        "main_level": "55-47",
+        "alliance": null
+    },
+    "#24 \u5c15\u5c0f\u82b1": {
+        "power": "6,973,352",
+        "main_level": "29-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#49 Greystar": {
+        "power": "6,944,642",
+        "main_level": null,
+        "alliance": null
+    },
+    "#25 Taim": {
+        "power": "6,942,971",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#49 YehudiMunoz": {
+        "power": "6,910,962",
+        "main_level": null,
+        "alliance": null
+    },
+    "#50 Lanchesterx": {
+        "power": "6,892,263",
+        "main_level": "35-50",
+        "alliance": null
+    },
+    "#50 PandoraRoy": {
+        "power": "6,856,520",
+        "main_level": null,
+        "alliance": null
+    },
+    "#50 Rickuuuuuui": {
+        "power": "6,826,049",
+        "main_level": "36-46",
+        "alliance": null
+    },
+    "#51 \u5218\u8001\u7a76": {
+        "power": "6,817,435",
+        "main_level": "36-44",
+        "alliance": null
+    },
+    "#23 \u5c0f\u53ef\u5317\u9f3b": {
+        "power": "6,796,993",
+        "main_level": "30-27",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#25 ViBttR": {
+        "power": "6,791,055",
+        "main_level": "31-17",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#25 \u955c\u5b50": {
+        "power": "6,777,508",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#24 zabudeBon": {
+        "power": "6,774,579",
+        "main_level": null,
+        "alliance": null
+    },
+    "#10 \u6770\u65af\u517dGX": {
+        "power": "6,751,610",
+        "main_level": "37-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#26 \u5e7b\u841d\u767e\u591c\u66f2": {
+        "power": "6,730,278",
+        "main_level": "43-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#25 Marvin": {
+        "power": "6,704,397",
+        "main_level": "37-33",
+        "alliance": null
+    },
+    "#25 DarkElf3Gru": {
+        "power": "6,689,459",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#49 \u7231\u9b3c": {
+        "power": "6,673,198",
+        "main_level": null,
+        "alliance": null
+    },
+    "#23 \u5c0f\u591c\u5e7b": {
+        "power": "6,658,359",
+        "main_level": "32-15",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#10 \u5947\u602a\u7684\u4e1c\u897f": {
+        "power": "6,606,184",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#10 brynhildr": {
+        "power": "6,597,574",
+        "main_level": "37-52",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#23 Yvier": {
+        "power": "6,535,007",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#49 AliLeon": {
+        "power": "6,530,961",
+        "main_level": null,
+        "alliance": null
+    },
+    "#23 jonertl": {
+        "power": "6,475,054",
+        "main_level": "30-30",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#23 \u71ac\u88e4\u5211\u8b66": {
+        "power": "6,465,794",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#49 Judeowen": {
+        "power": "6,448,601",
+        "main_level": "38-40",
+        "alliance": null
+    },
+    "#50 \u7fb2\u6012": {
+        "power": "6,424,818",
+        "main_level": null,
+        "alliance": null
+    },
+    "#23 \u52bf\u5fb7\u6e29\u535a\u987f": {
+        "power": "6,412,247",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#50 Gothsoul": {
+        "power": "6,393,814",
+        "main_level": "36-52",
+        "alliance": null
+    },
+    "#51 \u871c\u8c0d": {
+        "power": "6,392,892",
+        "main_level": null,
+        "alliance": null
+    },
+    "#51 Dmimiuck": {
+        "power": "6,371,959",
+        "main_level": "45-35",
+        "alliance": null
+    },
+    "#23 \u4e8f\u8a00": {
+        "power": "6,368,373",
+        "main_level": null,
+        "alliance": null
+    },
+    "#24 Shirosora": {
+        "power": "6,362,857",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#50 Marsss": {
+        "power": "6,340,218",
+        "main_level": null,
+        "alliance": null
+    },
+    "#50 TonyTeo": {
+        "power": "6,330,315",
+        "main_level": "36-49",
+        "alliance": null
+    },
+    "#26 \u68a6\u9b47\u851a": {
+        "power": "6,292,385",
+        "main_level": "28-1",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#25 SeeleV": {
+        "power": "6,267,068",
+        "main_level": "31-0",
+        "alliance": null
+    },
+    "#49 YvonneRoy": {
+        "power": "6,246,620",
+        "main_level": "33-51",
+        "alliance": null
+    },
+    "#51 UBW": {
+        "power": "6,232,014",
+        "main_level": null,
+        "alliance": null
+    },
+    "#49 \u8fd8\u6709\u9ad8\u624b": {
+        "power": "6,231,409",
+        "main_level": "49-52",
+        "alliance": null
+    },
+    "#25 MIEQA": {
+        "power": "6,230,663",
+        "main_level": "32-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#25 )\u6258\u8389": {
+        "power": "6,187,520",
+        "main_level": "32-30",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#49 MiSaki": {
+        "power": "6,158,243",
+        "main_level": null,
+        "alliance": null
+    },
+    "#25 Hanzo9029": {
+        "power": "6,136,375",
+        "main_level": null,
+        "alliance": null
+    },
+    "#50 BorisWeiss": {
+        "power": "6,132,616",
+        "main_level": null,
+        "alliance": null
+    },
+    "#26 CarrWalsh": {
+        "power": "6,126,009",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#50 VirginiaWyatt": {
+        "power": "6,115,787",
+        "main_level": null,
+        "alliance": null
+    },
+    "#50 ConstanceClay": {
+        "power": "6,111,118",
+        "main_level": null,
+        "alliance": null
+    },
+    "#49 \u54d4\u54e9": {
+        "power": "6,106,434",
+        "main_level": "36-49",
+        "alliance": null
+    },
+    "#26 BoyceBooth": {
+        "power": "6,093,126",
+        "main_level": "27-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#50 LouisPate": {
+        "power": "6,028,911",
+        "main_level": null,
+        "alliance": null
+    },
+    "#50 \u97e6\u8bda": {
+        "power": "6,009,309",
+        "main_level": null,
+        "alliance": null
+    },
+    "#50 Jacufier": {
+        "power": "6,005,344",
+        "main_level": null,
+        "alliance": null
+    },
+    "#49 LesleyCain": {
+        "power": "6,004,092",
+        "main_level": null,
+        "alliance": null
+    },
+    "#51 baga": {
+        "power": "5,990,733",
+        "main_level": null,
+        "alliance": null
+    },
+    "#51 dabaicai": {
+        "power": "5,989,034",
+        "main_level": null,
+        "alliance": null
+    },
+    "#50 Aprilolson": {
+        "power": "5,980,117",
+        "main_level": null,
+        "alliance": null
+    },
+    "#51 LeopoldDean": {
+        "power": "5,969,335",
+        "main_level": "29-50",
+        "alliance": null
+    },
+    "#51 Rickuuuuui": {
+        "power": "5,957,907",
+        "main_level": "32-49",
+        "alliance": null
+    },
+    "#50 LaneEmma": {
+        "power": "5,864,613",
+        "main_level": "33-49",
+        "alliance": null
+    },
+    "#50 \u5c0f\u9ebb\u4ed4": {
+        "power": "5,850,754",
+        "main_level": "36-0",
+        "alliance": null
+    },
+    "#50 00000UUUUU": {
+        "power": "5,850,643",
+        "main_level": "34-49",
+        "alliance": null
+    },
+    "#25 Juuken": {
+        "power": "5,845,720",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#49 BoluoT": {
+        "power": "5,813,328",
+        "main_level": null,
+        "alliance": null
+    },
+    "#49 \u5927\u54aa\u54aa": {
+        "power": "5,807,211",
+        "main_level": "34-21",
+        "alliance": null
+    },
+    "#50 BillyHicks": {
+        "power": "5,756,851",
+        "main_level": "44-40",
+        "alliance": null
+    },
+    "#50 BlairRich": {
+        "power": "5,756,269",
+        "main_level": null,
+        "alliance": null
+    },
+    "#49 \u6211\u53bb\u4e70\u6a58\u5b50": {
+        "power": "5,748,424",
+        "main_level": "36-0",
+        "alliance": null
+    },
+    "#52 \u611f\u6fc0\u9047\u89c1": {
+        "power": "5,740,256",
+        "main_level": "41-49",
+        "alliance": null
+    },
+    "#49 \u98ce\u95f4\u7409\u7483": {
+        "power": "5,717,456",
+        "main_level": "33-49",
+        "alliance": "\u591c\u6f80"
+    },
+    "#49 LeonBerry": {
+        "power": "5,716,994",
+        "main_level": null,
+        "alliance": null
+    },
+    "#49 FelixKoch": {
+        "power": "5,703,157",
+        "main_level": null,
+        "alliance": null
+    },
+    "#26 Boartorias": {
+        "power": "5,682,317",
+        "main_level": "31-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#49 ViolaRoman": {
+        "power": "5,681,250",
+        "main_level": null,
+        "alliance": null
+    },
+    "#52 heer": {
+        "power": "5,661,121",
+        "main_level": "31-42",
+        "alliance": null
+    },
+    "#49 MonroeMarsh": {
+        "power": "5,638,144",
+        "main_level": "32-50",
+        "alliance": null
+    },
+    "#51 \u5fc6\u5f80\u6614": {
+        "power": "5,629,233",
+        "main_level": "33-52",
+        "alliance": null
+    },
+    "#49 \u62c9\u4e0d\u5927": {
+        "power": "5,589,347",
+        "main_level": "32-51",
+        "alliance": null
+    },
+    "#26 SUE": {
+        "power": "5,585,787",
+        "main_level": "27-43",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#49 BruceSnow": {
+        "power": "5,560,948",
+        "main_level": null,
+        "alliance": null
+    },
+    "#49 Hirus": {
+        "power": "5,559,336",
+        "main_level": null,
+        "alliance": null
+    },
+    "#26 JackieFrank": {
+        "power": "5,514,917",
+        "main_level": "29-16",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#49 godAubing": {
+        "power": "5,510,955",
+        "main_level": null,
+        "alliance": null
+    },
+    "#52 ArvinTyler": {
+        "power": "5,482,160",
+        "main_level": "44-52",
+        "alliance": null
+    },
+    "#49 BevEffie": {
+        "power": "5,471,021",
+        "main_level": null,
+        "alliance": null
+    },
+    "#51 \u9752\u5c71\u5c45": {
+        "power": "5,430,483",
+        "main_level": null,
+        "alliance": "\u591c\u6f80"
+    },
+    "#52 \u5434\u5fc5\u53ef\u7231": {
+        "power": "5,357,435",
+        "main_level": "40-49",
+        "alliance": null
+    },
+    "#51 \u60b2\u9505": {
+        "power": "5,354,898",
+        "main_level": "49-45",
+        "alliance": "\u8ff7\u4eba\u53c8\u53ef\u7231\u7684"
+    },
+    "#52 ReyXD": {
+        "power": "5,310,519",
+        "main_level": "27-49",
+        "alliance": null
+    },
+    "#26 SweetDevilyi": {
+        "power": "5,302,594",
+        "main_level": "25-5",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#26 NONI": {
+        "power": "5,287,616",
+        "main_level": "25-5",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#52 MarkCash": {
+        "power": "5,237,277",
+        "main_level": null,
+        "alliance": null
+    },
+    "#51 ProtoAB": {
+        "power": "5,193,906",
+        "main_level": null,
+        "alliance": null
+    },
+    "#51 Tianyue": {
+        "power": "5,173,084",
+        "main_level": null,
+        "alliance": null
+    },
+    "#51 \u5f98\u7b71\u82d2": {
+        "power": "5,104,286",
+        "main_level": null,
+        "alliance": null
+    },
+    "#51 \u6cf0\u6cf0": {
+        "power": "5,079,875",
+        "main_level": null,
+        "alliance": null
+    },
+    "#51 Colbyknapp": {
+        "power": "5,073,163",
+        "main_level": "37-49",
+        "alliance": null
+    },
+    "#51 \u970e\u51e1": {
+        "power": "5,062,753",
+        "main_level": null,
+        "alliance": null
+    },
+    "#51 \u4e0a\u6708\u7531\u4ec1\u5b50": {
+        "power": "5,057,650",
+        "main_level": "31-49",
+        "alliance": null
+    },
+    "#51 Serpentus": {
+        "power": "5,017,429",
+        "main_level": null,
+        "alliance": null
+    },
+    "#26 SkylarQuinn": {
+        "power": "4,994,178",
+        "main_level": "25-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#51 TannerWare": {
+        "power": "4,973,461",
+        "main_level": "30-49",
+        "alliance": null
+    },
+    "#26 GojoDolls": {
+        "power": "4,956,690",
+        "main_level": "27-49",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#26 ChapmanDiaz": {
+        "power": "4,877,259",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#51 DXD": {
+        "power": "4,847,811",
+        "main_level": "30-28",
+        "alliance": null
+    },
+    "#52 Sola\u6c50": {
+        "power": "4,811,105",
+        "main_level": null,
+        "alliance": null
+    },
+    "#51 \u674e\u7530\u6240": {
+        "power": "4,768,844",
+        "main_level": null,
+        "alliance": null
+    },
+    "#52 \u5218\u8001\u7a768": {
+        "power": "4,724,273",
+        "main_level": "31-49",
+        "alliance": null
+    },
+    "#26 MEQA": {
+        "power": "4,711,806",
+        "main_level": "24-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#51 qian12138": {
+        "power": "4,708,325",
+        "main_level": null,
+        "alliance": null
+    },
+    "#51 \u8001\u864e\u6850": {
+        "power": "4,618,089",
+        "main_level": null,
+        "alliance": null
+    },
+    "#51 Wkuisangt": {
+        "power": "4,526,491",
+        "main_level": null,
+        "alliance": null
+    },
+    "#52 Xigua\u9149\u74dc": {
+        "power": "4,458,919",
+        "main_level": null,
+        "alliance": null
+    },
+    "#52 nortoneryan": {
+        "power": "4,343,983",
+        "main_level": "27-49",
+        "alliance": null
+    },
+    "#52 VeryHappy": {
+        "power": "4,255,168",
+        "main_level": "24-49",
+        "alliance": null
+    },
+    "#52 AK4TinNJ": {
+        "power": "4,232,617",
+        "main_level": null,
+        "alliance": null
+    },
+    "#52 PaulaStone": {
+        "power": "4,193,786",
+        "main_level": "29-52",
+        "alliance": null
+    },
+    "#52 \u96ea\u7126\u5703": {
+        "power": "4,186,560",
+        "main_level": null,
+        "alliance": null
+    },
+    "#52 \u5e3d\u5b50": {
+        "power": "4,155,958",
+        "main_level": "24-49",
+        "alliance": null
+    },
+    "#52 ely": {
+        "power": "4,115,434",
+        "main_level": null,
+        "alliance": null
+    },
+    "#52 Clemlucas": {
+        "power": "4,083,365",
+        "main_level": "24-50",
+        "alliance": null
+    },
+    "#26 Moirachan": {
+        "power": "4,072,712",
+        "main_level": null,
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#52 \u8537\u8587\u82b1\u5e26\u523a": {
+        "power": "4,072,496",
+        "main_level": null,
+        "alliance": null
+    },
+    "#52 eros": {
+        "power": "4,066,231",
+        "main_level": null,
+        "alliance": null
+    },
+    "#52 IngemarRushzzee": {
+        "power": "4,065,217",
+        "main_level": null,
+        "alliance": null
+    },
+    "#52 Chesteryang": {
+        "power": "4,023,370",
+        "main_level": null,
+        "alliance": null
+    },
+    "#52 \u827e\u9179\u65af\u6d1b\u514b": {
+        "power": "4,011,998",
+        "main_level": null,
+        "alliance": null
+    },
+    "#52 \u9c7c`": {
+        "power": "3,973,989",
+        "main_level": null,
+        "alliance": null
+    },
+    "#52 \u963f\u4fee": {
+        "power": "3,971,860",
+        "main_level": "25-50",
+        "alliance": null
+    },
+    "#52 MagFry": {
+        "power": "3,942,695",
+        "main_level": null,
+        "alliance": null
+    },
+    "#26 Tinek": {
+        "power": "3,919,652",
+        "main_level": "22-50",
+        "alliance": "\u8dd1\u8def\u4e86"
+    },
+    "#37 LouTran": {
+        "power": "17,067",
+        "main_level": "49-52",
+        "alliance": null
+    }
+}

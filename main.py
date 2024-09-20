@@ -1,4 +1,5 @@
 import gzip
+import zlib
 import re
 from datetime import datetime, timezone
 from pathlib import Path
@@ -163,6 +164,7 @@ def packet_analysis(player_data,packets,corrections,record_server):
                     data_len.append(next_packet_len)
                 else:
                     continue
+                print(Complete_data)
                 binary_data = gzip.decompress(bytes.fromhex(Complete_data[10:]))
                 # SCLogic_RankInfoBack
                 if b'\x53\x43\x4c\x6f\x67\x69\x63\x5f\x52\x61\x6e\x6b\x49\x6e\x66\x6f\x42\x61\x63\x6b' != binary_data[8:28]:
@@ -193,13 +195,16 @@ def packet_analysis(player_data,packets,corrections,record_server):
         except (OSError, IOError) as e:
             print(f"{server} 處理 gzip 文件時發生錯誤：", e)
 
+        except zlib.error as e:
+            print(f"Decompression error: {e}")  
+
     print('')
     print(f'最長:{max(data_len)} 最短{min(data_len)}')
     return player_data,record_server
 
 
 if __name__ == '__main__':    
-    DEBUG = True
+    DEBUG = False
     # output_date = datetime.now(timezone.utc).strftime("%m%d")
     output_date = '0920'
 
