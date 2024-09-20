@@ -77,8 +77,8 @@ def update_json_files(local_path, server_path, data, DEBUG):
 
 def date_record(date,DEBUG):
     month, day = date[:2], date[2:]
-    local_path = Path("data/date_options.json")
-    server_path = Path("C:/wamp64/ranking/data/date_options.json")
+    local_path = Path("local_data/date_options.json")
+    server_path = Path("data/date_options.json")
 
     date_options = read_json(server_path)
 
@@ -89,8 +89,8 @@ def date_record(date,DEBUG):
     update_json_files(local_path, server_path, date_options, DEBUG)
 
 def server_record(server,DEBUG):
-    local_path = Path("data/filter_options.json")
-    server_path = Path("C:/wamp64/ranking/data/filter_options.json")
+    local_path = Path("local_data/filter_options.json")
+    server_path = Path("data/filter_options.json")
 
     filter_options = read_json(server_path)
 
@@ -115,7 +115,7 @@ def Data_collation(data, output_date, DEBUG):
         parts = item[1]["main_level"].split("-")
         return tuple(safe_int(part) for part in parts[:2])
     
-    base_path = Path("C:/wamp64/ranking/data")
+    base_path = Path("data")
     
     for type_key in ["power", "main_level"]:
         filtered_data = {k: v for k, v in data.items() if v.get(type_key)}
@@ -132,7 +132,7 @@ def Data_collation(data, output_date, DEBUG):
         if not DEBUG:
             file_path = base_path / f"2024{output_date}_{file_type}.json"
             write_json(file_path, sorted_data)
-        file_path = Path("data") / f"2024{output_date}_{file_type}.json"
+        file_path = Path("local_data") / f"2024{output_date}_{file_type}.json"
         write_json(file_path, sorted_data)
        
     date_record(output_date,DEBUG)
@@ -143,8 +143,6 @@ def packet_analysis(player_data,packets,corrections,record_server):
     LOGIN_PATTERN = re.compile(rb'"serverId":(.*?),', re.DOTALL)
 
     server=0
-    # 初始化 cache_packet_data 在循環外部
-    cache_packet_data = ""
     cache_data = []
     data_len = []
 
@@ -152,59 +150,51 @@ def packet_analysis(player_data,packets,corrections,record_server):
         packet_data = packet["_source"]["layers"]["tcp"]['tcp.payload'].replace(":", "") 
         packet_len = int(packet["_source"]["layers"]["tcp"]['tcp.len'])
         packet_seq = int(packet["_source"]["layers"]["tcp"]['tcp.seq'])
-        
-        # 跳過無效的 packet
-        # if packet_len < 10:
-        #     continue
 
         try:
             if packet_data[10:14] == '1f8b':  # Gzip 文件頭檢查
                 next_packet_data = packets[no+1]["_source"]["layers"]["tcp"]['tcp.payload'].replace(":", "")
+                next_packet_len = int(packets[no+1]["_source"]["layers"]["tcp"]['tcp.len'])
                 if packet_data[-4:] == '0000':  # Gzip 結尾檢查
-                    Complete_data = packet_data  
-                # 下一個封包結尾檢查
-                elif next_packet_data[-4:] == '0000':
+                    Complete_data = packet_data      
+                    data_len.append(packet_len)         
+                elif next_packet_data[-4:] == '0000':   # 下一個封包結尾檢查
                     Complete_data = packet_data + next_packet_data
+                    data_len.append(next_packet_len)
                 else:
                     continue
                 binary_data = gzip.decompress(bytes.fromhex(Complete_data[10:]))
                 # SCLogic_RankInfoBack
                 if b'\x53\x43\x4c\x6f\x67\x69\x63\x5f\x52\x61\x6e\x6b\x49\x6e\x66\x6f\x42\x61\x63\x6b' != binary_data[8:28]:
                     continue
-                    # print(binary_data)
                 
                 # 搜索模式匹配
                 matches = PATTERN.findall(binary_data[42:])
-                print(matches)
+                # print(matches)
                 if not matches:
                     continue
                 
                 # 將符合條件的匹配數據加入 cache_data
                 cache_data += [encode_data for encode_data in matches if len(encode_data) > 1]
-                data_len.append(packet_len)
-
-            elif packet_data[30:40] == '4c6f67696e':  # "Login" 標識檢查
-                # print(packet_data[60:80])
+                
+            
+            elif packet_data[26:52] == '53434c6f67696e5f4c6f67696e':  # "SCLogin_Login" 標識檢查
                 binary_data = bytes.fromhex(packet_data[128:168])
                 # binary_data = bytes.fromhex(packet_data)
-                print(LOGIN_PATTERN.search(binary_data))
+                print(binary_data)
+
                 server = int(LOGIN_PATTERN.search(binary_data).group(1))
                 player_data = get_ranking(player_data, cache_data, server, corrections)
                 data_len.append(packet_len)
                 if cache_data != []:
                     record_server.append(server)
                 cache_data = []
-                cache_packet_data = ""
-
-            
 
         except (OSError, IOError) as e:
             print(f"{server} 處理 gzip 文件時發生錯誤：", e)
 
-    
-
-    
     print('')
+    print(f'最長:{max(data_len)} 最短{min(data_len)}')
     return player_data,record_server
 
 
@@ -236,9 +226,10 @@ if __name__ == '__main__':
     print(f'共{max(record_server)}區； 少{", ".join(map(str, missing_servers))}區')
 
     server_record(max(record_server),DEBUG)
-    write_txt('result',debug_result)
+    # write_txt('result',debug_result)
     player_data=alliance_data(player_data)
 
 
     Data_collation(player_data,output_date,DEBUG)
-    print(f'最長:{max(data_len)} 最短{min(data_len)}')
+
+    
