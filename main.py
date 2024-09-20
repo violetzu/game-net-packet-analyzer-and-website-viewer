@@ -206,7 +206,7 @@ def packet_analysis(player_data,packets,corrections,record_server):
 
 
 if __name__ == '__main__':    
-    DEBUG = False
+    DEBUG = True
     # output_date = datetime.now(timezone.utc).strftime("%m%d")
     output_date = '0920'
 
