@@ -148,29 +148,45 @@ def packet_analysis(player_data,packets,corrections,record_server):
     cache_data = []
     data_len = []
 
-    for packet in packets:
-        
-        # try:
-        #     packet_data = packet["_source"]["layers"]["data"]['data.data'].replace(":", "")
-        #     packet_len = int(packet["_source"]["layers"]["data"]['data.len'])
-        # except (KeyError):
-        #     print('沒有')
-        
-        packet_data = packet["_source"]["layers"]["tcp"]['tcp.payload'].replace(":", "")
+    for no,packet in enumerate(packets): 
+        packet_data = packet["_source"]["layers"]["tcp"]['tcp.payload'].replace(":", "") 
         packet_len = int(packet["_source"]["layers"]["tcp"]['tcp.len'])
+        packet_seq = int(packet["_source"]["layers"]["tcp"]['tcp.seq'])
         
         # 跳過無效的 packet
-        if packet_len < 10:
-            continue
+        # if packet_len < 10:
+        #     continue
 
         try:
-            if packet_data[10:14] == '1f8b':  # Gzip 文件頭的檢查
-                cache_packet_data = packet_data  # 儲存 packet_data 到 cache_packet_data
+            if packet_data[10:14] == '1f8b':  # Gzip 文件頭檢查
+                next_packet_data = packets[no+1]["_source"]["layers"]["tcp"]['tcp.payload'].replace(":", "")
+                if packet_data[-4:] == '0000':  # Gzip 結尾檢查
+                    Complete_data = packet_data  
+                # 下一個封包結尾檢查
+                elif next_packet_data[-4:] == '0000':
+                    Complete_data = packet_data + next_packet_data
+                else:
+                    continue
+                binary_data = gzip.decompress(bytes.fromhex(Complete_data[10:]))
+                # SCLogic_RankInfoBack
+                if b'\x53\x43\x4c\x6f\x67\x69\x63\x5f\x52\x61\x6e\x6b\x49\x6e\x66\x6f\x42\x61\x63\x6b' != binary_data[8:28]:
+                    continue
+                    # print(binary_data)
+                
+                # 搜索模式匹配
+                matches = PATTERN.findall(binary_data[42:])
+                print(matches)
+                if not matches:
+                    continue
+                
+                # 將符合條件的匹配數據加入 cache_data
+                cache_data += [encode_data for encode_data in matches if len(encode_data) > 1]
+                data_len.append(packet_len)
 
             elif packet_data[30:40] == '4c6f67696e':  # "Login" 標識檢查
                 # print(packet_data[60:80])
-                # binary_data = bytes.fromhex(packet_data[128:168])
-                binary_data = bytes.fromhex(packet_data)
+                binary_data = bytes.fromhex(packet_data[128:168])
+                # binary_data = bytes.fromhex(packet_data)
                 print(LOGIN_PATTERN.search(binary_data))
                 server = int(LOGIN_PATTERN.search(binary_data).group(1))
                 player_data = get_ranking(player_data, cache_data, server, corrections)
@@ -180,22 +196,9 @@ def packet_analysis(player_data,packets,corrections,record_server):
                 cache_data = []
                 cache_packet_data = ""
 
-            # 檢查結尾是否為 '0000'
-            if packet_data[-4:] == '0000':
-                # 拼接之前的 cache_packet_data 和當前 packet_data
-                packet_data = cache_packet_data + packet_data
-                binary_data = gzip.decompress(bytes.fromhex(packet_data[10:]))
-                
-                # 搜索模式匹配
-                matches = PATTERN.findall(binary_data[42:])
-                if not matches:
-                    continue
-                
-                # 將符合條件的匹配數據加入 cache_data
-                cache_data += [encode_data for encode_data in matches if len(encode_data) > 1]
-                data_len.append(packet_len)
+            
 
-        except (OSError, IOError, EOFError, KeyError) as e:
+        except (OSError, IOError) as e:
             print(f"{server} 處理 gzip 文件時發生錯誤：", e)
 
     
