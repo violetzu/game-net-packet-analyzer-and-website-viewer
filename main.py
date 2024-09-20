@@ -218,14 +218,14 @@ if __name__ == '__main__':
     record_server=[]
     printf={key: [] for key in range(1, 101)}
 
-    packets = read_json(f'{output_date}.json')
+    packets = read_json(f'wireshark rawdata/{output_date}.json')
     player_data,record_server = packet_analysis(player_data,packets,corrections,record_server)
 
-    # packets = read_json(f'{output_date}01.json')
+    # packets = read_json(f'wireshark rawdata/{output_date}01.json')
     # player_data,record_server = packet_analysis(player_data,packets,corrections,record_server)
-    # packets = read_json(f'{output_date}02.json')
+    # packets = read_json(f'wireshark rawdata/{output_date}02.json')
     # player_data,record_server = packet_analysis(player_data,packets,corrections,record_server)
-    # packets = read_json(f'{output_date}03.json')
+    # packets = read_json(f'wireshark rawdata/{output_date}03.json')
     # player_data,record_server = packet_analysis(player_data,packets,corrections,record_server)
     
     # print(printf)
