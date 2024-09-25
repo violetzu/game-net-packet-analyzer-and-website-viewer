@@ -14251,7 +14251,7 @@
     },
     "#106 熊九东": {
         "power": "11,287,750",
-        "main_level": "48",
+        "main_level": "48-3",
         "alliance": null
     },
     "#39 JudyRee": {
@@ -22576,7 +22576,7 @@
     },
     "#106 PixelBlob": {
         "power": "2,809,345",
-        "main_level": "19",
+        "main_level": "19-0",
         "alliance": null
     },
     "#48 TabCha": {
@@ -24164,6 +24164,11 @@
         "main_level": "8-44",
         "alliance": null
     },
+    "#53 MonaCra": {
+        "power": "949,800",
+        "main_level": null,
+        "alliance": null
+    },
     "#114 Ku": {
         "power": "948,905",
         "main_level": null,
@@ -24211,6 +24216,11 @@
     },
     "#114 IsidoreLo": {
         "power": "882,443",
+        "main_level": null,
+        "alliance": null
+    },
+    "#46 kamiotuka853": {
+        "power": "880,097",
         "main_level": null,
         "alliance": null
     },
@@ -24534,6 +24544,11 @@
         "main_level": null,
         "alliance": null
     },
+    "#97 MaxVerstarpe": {
+        "power": "79,418",
+        "main_level": null,
+        "alliance": null
+    },
     "#54 EllisCha": {
         "power": "71,140",
         "main_level": null,
@@ -24594,24 +24609,9 @@
         "main_level": "1-2",
         "alliance": null
     },
-    "#53 MonaCra": {
-        "power": "949,8",
-        "main_level": null,
-        "alliance": null
-    },
-    "#46 kamiotuka853": {
-        "power": "880,0",
-        "main_level": null,
-        "alliance": null
-    },
     "#09 Rayna": {
         "power": "3,516",
         "main_level": "1-1",
-        "alliance": null
-    },
-    "#97 MaxVerstarpe": {
-        "power": "79,",
-        "main_level": null,
         "alliance": null
     }
 }

@@ -12314,6 +12314,11 @@
         "main_level": "48-3",
         "alliance": null
     },
+    "#106 熊九东": {
+        "power": "11,287,750",
+        "main_level": "48-3",
+        "alliance": null
+    },
     "#73 Verlinez": {
         "power": "20,029,719",
         "main_level": "48-2",
@@ -12372,11 +12377,6 @@
     "#70 男たちのロマン": {
         "power": "13,435,891",
         "main_level": "48-0",
-        "alliance": null
-    },
-    "#106 熊九东": {
-        "power": "11,287,750",
-        "main_level": "48",
         "alliance": null
     },
     "#83 JordanCru": {
@@ -15244,6 +15244,11 @@
         "main_level": "42-9",
         "alliance": null
     },
+    "#79 雨夜的风": {
+        "power": null,
+        "main_level": "42-7",
+        "alliance": null
+    },
     "#11 tomokana": {
         "power": "10,822,501",
         "main_level": "42-6",
@@ -15282,11 +15287,6 @@
     "#36 司夏": {
         "power": null,
         "main_level": "42-0",
-        "alliance": null
-    },
-    "#79 雨夜的风": {
-        "power": null,
-        "main_level": "42",
         "alliance": null
     },
     "#73 KiranTra": {
@@ -23019,6 +23019,11 @@
         "main_level": "19-0",
         "alliance": null
     },
+    "#106 PixelBlob": {
+        "power": "2,809,345",
+        "main_level": "19-0",
+        "alliance": null
+    },
     "#103 stt": {
         "power": "2,307,700",
         "main_level": "19-0",
@@ -23027,11 +23032,6 @@
     "#110 AlexYan": {
         "power": null,
         "main_level": "19-0",
-        "alliance": null
-    },
-    "#106 PixelBlob": {
-        "power": "2,809,345",
-        "main_level": "19",
         "alliance": null
     },
     "#107 Sinap": {
