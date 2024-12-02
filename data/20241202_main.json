@@ -1,0 +1,997 @@
+{
+    "#59 弱不禁风": {
+        "power": "559,716,968",
+        "main_level": "223-12",
+        "alliance": "可爱又迷人的"
+    },
+    "#28 米拉": {
+        "power": "255,287,078",
+        "main_level": "223-12",
+        "alliance": "玉子烧的小屋"
+    },
+    "#65 TeddyRY": {
+        "power": "214,563,278",
+        "main_level": "213-31",
+        "alliance": "可爱又迷人的"
+    },
+    "#70 MatthewWiley": {
+        "power": "209,578,878",
+        "main_level": "201-31",
+        "alliance": "可爱又迷人的"
+    },
+    "#43 rua优香肉腿": {
+        "power": "163,385,666",
+        "main_level": "194-31",
+        "alliance": "可爱又迷人的"
+    },
+    "#18 DennyAyala": {
+        "power": "168,492,332",
+        "main_level": "190-31",
+        "alliance": "跑路了"
+    },
+    "#45 4号病房": {
+        "power": "153,228,541",
+        "main_level": "188-31",
+        "alliance": "可爱又迷人的"
+    },
+    "#12 别逗我笑了": {
+        "power": "154,692,725",
+        "main_level": "186-31",
+        "alliance": "可爱又迷人的"
+    },
+    "#01 闻心": {
+        "power": "154,673,939",
+        "main_level": "186-31",
+        "alliance": "跑路了"
+    },
+    "#03 苏晴": {
+        "power": "138,411,291",
+        "main_level": "186-31",
+        "alliance": null
+    },
+    "#81 酒酿圆子": {
+        "power": "135,893,849",
+        "main_level": "186-31",
+        "alliance": "可爱又迷人的"
+    },
+    "#64 ElsaMoses": {
+        "power": "127,982,327",
+        "main_level": "186-31",
+        "alliance": "可爱又迷人的"
+    },
+    "#27 libai": {
+        "power": "122,135,589",
+        "main_level": "186-31",
+        "alliance": "跑路了"
+    },
+    "#71 梁师娘LUONG": {
+        "power": "119,685,353",
+        "main_level": "186-24",
+        "alliance": "可爱又迷人的"
+    },
+    "#77 树先生": {
+        "power": "164,492,029",
+        "main_level": "184-33",
+        "alliance": "可爱又迷人的"
+    },
+    "#05 梅吟雪": {
+        "power": "112,970,029",
+        "main_level": "183-34",
+        "alliance": "跑路了"
+    },
+    "#07 βίος": {
+        "power": "113,474,972",
+        "main_level": "174-33",
+        "alliance": "跑路了"
+    },
+    "#10 千山暮雪": {
+        "power": "70,178,138",
+        "main_level": "172-32",
+        "alliance": "跑路了"
+    },
+    "#01 琉紫": {
+        "power": "102,150,959",
+        "main_level": "169-33",
+        "alliance": "可爱又迷人的"
+    },
+    "#63 Nick嫖嫖乐": {
+        "power": "132,622,799",
+        "main_level": "167-36",
+        "alliance": "跑路了"
+    },
+    "#60 SprinG": {
+        "power": "123,112,537",
+        "main_level": "162-1",
+        "alliance": "跑路了"
+    },
+    "#01 ILuckyI": {
+        "power": "110,167,139",
+        "main_level": "161-4",
+        "alliance": "跑路了"
+    },
+    "#78 肃然起敬": {
+        "power": "85,386,044",
+        "main_level": "158-5",
+        "alliance": "可爱又迷人的"
+    },
+    "#05 梦叶": {
+        "power": "105,116,919",
+        "main_level": "158-2",
+        "alliance": "可爱又迷人的"
+    },
+    "#29 Sailor": {
+        "power": "95,344,627",
+        "main_level": "157-52",
+        "alliance": "可爱又迷人的"
+    },
+    "#51 皮特格里芬": {
+        "power": "87,633,211",
+        "main_level": "157-52",
+        "alliance": "可爱又迷人的"
+    },
+    "#61 ShayLee": {
+        "power": "103,951,030",
+        "main_level": "157-51",
+        "alliance": null
+    },
+    "#71 可畏": {
+        "power": "92,761,724",
+        "main_level": "157-51",
+        "alliance": "可爱又迷人的"
+    },
+    "#32 影子迟到王": {
+        "power": "91,181,152",
+        "main_level": "157-48",
+        "alliance": "可爱又迷人的"
+    },
+    "#42 白鹤淮": {
+        "power": "96,070,176",
+        "main_level": "157-1",
+        "alliance": "可爱又迷人的"
+    },
+    "#28 伊之猪": {
+        "power": "87,214,045",
+        "main_level": "157-1",
+        "alliance": "玉子烧的小屋"
+    },
+    "#68 JessieHenry": {
+        "power": "69,394,395",
+        "main_level": "157-1",
+        "alliance": "迷人又可爱的"
+    },
+    "#01 青芝": {
+        "power": "92,155,415",
+        "main_level": "156-19",
+        "alliance": "跑路了"
+    },
+    "#19 朝比奈真東": {
+        "power": "92,543,101",
+        "main_level": "155-2",
+        "alliance": "可爱又迷人的"
+    },
+    "#44 南留": {
+        "power": "108,270,259",
+        "main_level": "155-1",
+        "alliance": "可爱又迷人的"
+    },
+    "#47 勾勾又丢丢": {
+        "power": "106,141,153",
+        "main_level": "154-4",
+        "alliance": "可爱又迷人的"
+    },
+    "#48 不负遇见": {
+        "power": "97,352,200",
+        "main_level": "153-10",
+        "alliance": "可爱又迷人的"
+    },
+    "#71 阿欧": {
+        "power": "100,170,935",
+        "main_level": "153-4",
+        "alliance": "跑路了"
+    },
+    "#101 迩言丶": {
+        "power": "99,409,677",
+        "main_level": "153-1",
+        "alliance": "可爱又迷人的"
+    },
+    "#35 KirovReporting": {
+        "power": "98,845,156",
+        "main_level": "153-1",
+        "alliance": "可爱又迷人的"
+    },
+    "#12 OrvilleWhyet": {
+        "power": "98,357,783",
+        "main_level": "150-48",
+        "alliance": "可爱又迷人的"
+    },
+    "#02 摸鱼小酱": {
+        "power": "90,200,181",
+        "main_level": "149-4",
+        "alliance": "迷人又可爱的"
+    },
+    "#05 人之初": {
+        "power": "106,058,690",
+        "main_level": "149-2",
+        "alliance": "可爱又迷人的"
+    },
+    "#58 无需多盐": {
+        "power": "87,808,353",
+        "main_level": "148-4",
+        "alliance": "可爱又迷人的"
+    },
+    "#28 JeffreyTyler": {
+        "power": "87,561,346",
+        "main_level": "146-1",
+        "alliance": "迷人又可爱的"
+    },
+    "#43 啪啪p": {
+        "power": "83,350,324",
+        "main_level": "145-4",
+        "alliance": null
+    },
+    "#27 夏沫梦漓": {
+        "power": null,
+        "main_level": "143-2",
+        "alliance": null
+    },
+    "#37 百合换": {
+        "power": "100,750,354",
+        "main_level": "142-2",
+        "alliance": "可爱又迷人的"
+    },
+    "#30 韶华未央": {
+        "power": "89,020,165",
+        "main_level": "141-4",
+        "alliance": "可爱又迷人的"
+    },
+    "#28 opop123": {
+        "power": "79,348,127",
+        "main_level": "140-3",
+        "alliance": "跑路了"
+    },
+    "#35 萨菲洛斯": {
+        "power": "69,838,045",
+        "main_level": "140-3",
+        "alliance": "可爱又迷人的"
+    },
+    "#27 夜雨花落": {
+        "power": null,
+        "main_level": "140-1",
+        "alliance": null
+    },
+    "#91 U喻白U": {
+        "power": "87,615,169",
+        "main_level": "139-2",
+        "alliance": "可爱又迷人的"
+    },
+    "#25 暗改爆率": {
+        "power": "113,271,212",
+        "main_level": "139-1",
+        "alliance": "可爱又迷人的"
+    },
+    "#71 一朵伊人": {
+        "power": "85,297,455",
+        "main_level": "139-1",
+        "alliance": "可爱又迷人的"
+    },
+    "#72 孤高曼波": {
+        "power": "73,972,145",
+        "main_level": "139-1",
+        "alliance": "迷人又可爱的"
+    },
+    "#37 念予千殇": {
+        "power": "84,613,449",
+        "main_level": "138-5",
+        "alliance": "迷人又可爱的"
+    },
+    "#15 月下天使": {
+        "power": "87,953,601",
+        "main_level": "135-4",
+        "alliance": "夜澀"
+    },
+    "#55 一次就好": {
+        "power": "71,206,735",
+        "main_level": "135-1",
+        "alliance": "夜澀"
+    },
+    "#27 夜谷幽兰": {
+        "power": null,
+        "main_level": "135-1",
+        "alliance": null
+    },
+    "#73 araset": {
+        "power": "108,293,803",
+        "main_level": "134-4",
+        "alliance": "可爱又迷人的"
+    },
+    "#03 绯涩": {
+        "power": "108,267,828",
+        "main_level": "134-1",
+        "alliance": "跑路了"
+    },
+    "#01 阿黔啦": {
+        "power": "94,338,507",
+        "main_level": "133-3",
+        "alliance": "NOVOLAND"
+    },
+    "#61 wwwww": {
+        "power": "107,650,051",
+        "main_level": "133-1",
+        "alliance": "可爱又迷人的"
+    },
+    "#40 来点狱卒": {
+        "power": "81,605,469",
+        "main_level": "133-1",
+        "alliance": null
+    },
+    "#50 背信的红": {
+        "power": "67,232,136",
+        "main_level": "133-1",
+        "alliance": "可爱又迷人的"
+    },
+    "#27 Meaqua": {
+        "power": "68,700,253",
+        "main_level": "132-4",
+        "alliance": "跑路了"
+    },
+    "#28 颜值有理": {
+        "power": "84,665,165",
+        "main_level": "132-1",
+        "alliance": "可爱又迷人的"
+    },
+    "#28 妖妖幻想": {
+        "power": "73,093,080",
+        "main_level": "132-1",
+        "alliance": "跑路了"
+    },
+    "#44 贺兰": {
+        "power": "80,405,484",
+        "main_level": "131-45",
+        "alliance": "迷人又可爱的"
+    },
+    "#70 SaxonWolf": {
+        "power": "70,829,539",
+        "main_level": "131-45",
+        "alliance": "可爱又迷人的"
+    },
+    "#31 Misaaaaa": {
+        "power": "111,700,736",
+        "main_level": "131-15",
+        "alliance": "跑路了"
+    },
+    "#46 金鱼来了": {
+        "power": "68,495,441",
+        "main_level": "131-4",
+        "alliance": null
+    },
+    "#52 AKinJS": {
+        "power": null,
+        "main_level": "131-4",
+        "alliance": null
+    },
+    "#35 守護金礦": {
+        "power": "65,112,177",
+        "main_level": "131-3",
+        "alliance": "可爱又迷人的"
+    },
+    "#52 AKinBJ": {
+        "power": null,
+        "main_level": "131-3",
+        "alliance": null
+    },
+    "#87 北老师": {
+        "power": "62,452,991",
+        "main_level": "131-2",
+        "alliance": "迷人又可爱的"
+    },
+    "#42 TinaPatel": {
+        "power": "102,356,985",
+        "main_level": "131-1",
+        "alliance": null
+    },
+    "#01 DaLaDiDaLa": {
+        "power": "95,448,399",
+        "main_level": "131-1",
+        "alliance": "跑路了"
+    },
+    "#60 Kingselve": {
+        "power": "92,600,577",
+        "main_level": "131-1",
+        "alliance": null
+    },
+    "#21 慢慢伤心": {
+        "power": "87,560,521",
+        "main_level": "131-1",
+        "alliance": "夜澀"
+    },
+    "#07 ArcheNorth": {
+        "power": "86,935,677",
+        "main_level": "131-1",
+        "alliance": "夜澀"
+    },
+    "#62 Regsey": {
+        "power": "82,969,505",
+        "main_level": "131-1",
+        "alliance": "跑路了"
+    },
+    "#30 想入非非": {
+        "power": "75,861,784",
+        "main_level": "131-1",
+        "alliance": "跑路了"
+    },
+    "#57 EAS": {
+        "power": "75,536,873",
+        "main_level": "131-1",
+        "alliance": null
+    },
+    "#69 猫桑": {
+        "power": "72,667,817",
+        "main_level": "131-1",
+        "alliance": null
+    },
+    "#35 灵药": {
+        "power": "70,991,282",
+        "main_level": "131-1",
+        "alliance": null
+    },
+    "#42 fanQAQ": {
+        "power": "69,638,952",
+        "main_level": "131-1",
+        "alliance": "跑路了"
+    },
+    "#35 九龍魔法陣": {
+        "power": "64,707,295",
+        "main_level": "131-1",
+        "alliance": "可爱又迷人的"
+    },
+    "#87 星夜の暗": {
+        "power": null,
+        "main_level": "131-1",
+        "alliance": "迷人又可爱的"
+    },
+    "#69 熾燚": {
+        "power": "73,531,687",
+        "main_level": "130-53",
+        "alliance": null
+    },
+    "#62 EnidKent": {
+        "power": null,
+        "main_level": "130-46",
+        "alliance": "可爱又迷人的"
+    },
+    "#35 穆先生": {
+        "power": null,
+        "main_level": "130-46",
+        "alliance": null
+    },
+    "#19 偃月": {
+        "power": "72,911,274",
+        "main_level": "130-45",
+        "alliance": null
+    },
+    "#66 李梦琳": {
+        "power": "62,255,282",
+        "main_level": "130-45",
+        "alliance": "迷人又可爱的"
+    },
+    "#16 赤霄": {
+        "power": null,
+        "main_level": "130-45",
+        "alliance": null
+    },
+    "#86 几何": {
+        "power": null,
+        "main_level": "130-45",
+        "alliance": "可爱又迷人的"
+    },
+    "#91 匿名用户": {
+        "power": null,
+        "main_level": "130-45",
+        "alliance": "玉子烧的小屋"
+    },
+    "#66 TammyHobbs": {
+        "power": null,
+        "main_level": "130-45",
+        "alliance": "可爱又迷人的"
+    },
+    "#81 铭依怜": {
+        "power": null,
+        "main_level": "130-5",
+        "alliance": null
+    },
+    "#27 Fantasy丶Kiss": {
+        "power": "76,979,452",
+        "main_level": "130-3",
+        "alliance": "可爱又迷人的"
+    },
+    "#70 路人Z": {
+        "power": null,
+        "main_level": "130-3",
+        "alliance": null
+    },
+    "#30 香香哒": {
+        "power": "74,149,824",
+        "main_level": "130-2",
+        "alliance": "迷人又可爱的"
+    },
+    "#51 RobinKey": {
+        "power": "66,425,991",
+        "main_level": "130-2",
+        "alliance": null
+    },
+    "#77 三花喵": {
+        "power": null,
+        "main_level": "130-2",
+        "alliance": null
+    },
+    "#75 折言": {
+        "power": "72,610,953",
+        "main_level": "129-2",
+        "alliance": "可爱又迷人的"
+    },
+    "#20 星刻夜曲": {
+        "power": "88,297,080",
+        "main_level": "128-3",
+        "alliance": "可爱又迷人的"
+    },
+    "#28 qqq": {
+        "power": "72,871,246",
+        "main_level": "128-3",
+        "alliance": "qqq"
+    },
+    "#79 loveyi": {
+        "power": null,
+        "main_level": "128-3",
+        "alliance": "可爱又迷人的"
+    },
+    "#30 四杀": {
+        "power": null,
+        "main_level": "127-45",
+        "alliance": null
+    },
+    "#57 呆唯喵": {
+        "power": "64,792,962",
+        "main_level": "127-3",
+        "alliance": "跑路了"
+    },
+    "#53 玩玩小香游": {
+        "power": null,
+        "main_level": "127-2",
+        "alliance": "玉子烧的小屋"
+    },
+    "#27 Elo": {
+        "power": "71,508,096",
+        "main_level": "126-3",
+        "alliance": null
+    },
+    "#90 线性代数": {
+        "power": null,
+        "main_level": "126-3",
+        "alliance": "可爱又迷人的"
+    },
+    "#82 BaobhanSith": {
+        "power": null,
+        "main_level": "126-2",
+        "alliance": "夜澀"
+    },
+    "#85 含羞蓓蕾": {
+        "power": null,
+        "main_level": "126-2",
+        "alliance": "迷人又可爱的"
+    },
+    "#44 面对疾风吧": {
+        "power": null,
+        "main_level": "125-53",
+        "alliance": null
+    },
+    "#08 3567Ægirシグマ": {
+        "power": "74,241,311",
+        "main_level": "125-1",
+        "alliance": "ロスモンティス"
+    },
+    "#33 maybe陆垚": {
+        "power": "87,072,797",
+        "main_level": "124-4",
+        "alliance": "可爱又迷人的"
+    },
+    "#28 夏不至": {
+        "power": "63,732,982",
+        "main_level": "124-2",
+        "alliance": "跑路了"
+    },
+    "#71 游y": {
+        "power": "69,688,283",
+        "main_level": "124-0",
+        "alliance": "跑路了"
+    },
+    "#73 LLHJ2024": {
+        "power": "68,340,301",
+        "main_level": "122-10",
+        "alliance": "跑路了"
+    },
+    "#83 小手B冰凉": {
+        "power": null,
+        "main_level": "121-3",
+        "alliance": "迷人又可爱的"
+    },
+    "#50 南明史": {
+        "power": "61,933,938",
+        "main_level": "121-2",
+        "alliance": "玉子烧的小屋"
+    },
+    "#63 松冈绫音": {
+        "power": null,
+        "main_level": "120-1",
+        "alliance": null
+    },
+    "#88 小乔流水咯": {
+        "power": null,
+        "main_level": "119-4",
+        "alliance": null
+    },
+    "#58 迷迷糊糊": {
+        "power": "62,545,765",
+        "main_level": "118-2",
+        "alliance": "玉子烧的小屋"
+    },
+    "#83 采薇": {
+        "power": null,
+        "main_level": "118-2",
+        "alliance": "夜澀"
+    },
+    "#36 啊嗨斯": {
+        "power": "68,128,884",
+        "main_level": "117-2",
+        "alliance": null
+    },
+    "#60 Water": {
+        "power": "62,881,743",
+        "main_level": "116-2",
+        "alliance": "跑路了"
+    },
+    "#01 kaiwan": {
+        "power": null,
+        "main_level": "115-44",
+        "alliance": "迷人又可爱的"
+    },
+    "#88 HarperHood": {
+        "power": "69,016,766",
+        "main_level": "115-13",
+        "alliance": "跑路了"
+    },
+    "#03 奏憶": {
+        "power": "99,477,882",
+        "main_level": "114-53",
+        "alliance": "可爱又迷人的"
+    },
+    "#48 PrimaReye": {
+        "power": null,
+        "main_level": "114-3",
+        "alliance": null
+    },
+    "#58 施凤兰": {
+        "power": null,
+        "main_level": "114-2",
+        "alliance": "迷人又可爱的"
+    },
+    "#81 水灯芯": {
+        "power": null,
+        "main_level": "113-3",
+        "alliance": null
+    },
+    "#09 玄能改命": {
+        "power": "80,601,344",
+        "main_level": "112-45",
+        "alliance": "可爱又迷人的"
+    },
+    "#31 AshtonHobbs": {
+        "power": "92,098,609",
+        "main_level": "112-5",
+        "alliance": null
+    },
+    "#86 Linearlimit": {
+        "power": null,
+        "main_level": "112-3",
+        "alliance": null
+    },
+    "#36 天使圆舞曲": {
+        "power": "100,186,713",
+        "main_level": "111-28",
+        "alliance": null
+    },
+    "#37 RonGrant": {
+        "power": "62,058,600",
+        "main_level": "111-28",
+        "alliance": "跑路了"
+    },
+    "#65 麦田小西": {
+        "power": null,
+        "main_level": "111-25",
+        "alliance": null
+    },
+    "#01 JayChou": {
+        "power": "67,429,921",
+        "main_level": "111-24",
+        "alliance": "跑路了"
+    },
+    "#38 本间心鈴": {
+        "power": null,
+        "main_level": "111-22",
+        "alliance": null
+    },
+    "#51 DeliaBeard": {
+        "power": null,
+        "main_level": "111-21",
+        "alliance": null
+    },
+    "#65 番茄熊": {
+        "power": null,
+        "main_level": "111-2",
+        "alliance": "迷人又可爱的"
+    },
+    "#64 XXIO": {
+        "power": null,
+        "main_level": "110-28",
+        "alliance": "玉子烧的小屋"
+    },
+    "#66 特级揉奈师": {
+        "power": null,
+        "main_level": "110-28",
+        "alliance": null
+    },
+    "#67 cheary": {
+        "power": "63,702,431",
+        "main_level": "110-24",
+        "alliance": "迷人又可爱的"
+    },
+    "#46 芙芙の勋爵": {
+        "power": null,
+        "main_level": "110-24",
+        "alliance": null
+    },
+    "#81 爆炒大湿胸": {
+        "power": null,
+        "main_level": "110-24",
+        "alliance": null
+    },
+    "#28 CashWolf": {
+        "power": "80,513,391",
+        "main_level": "110-22",
+        "alliance": null
+    },
+    "#52 鱼丶": {
+        "power": "72,248,192",
+        "main_level": "110-22",
+        "alliance": "迷人又可爱的"
+    },
+    "#09 叶知秋": {
+        "power": null,
+        "main_level": "110-22",
+        "alliance": null
+    },
+    "#58 CecilMoran": {
+        "power": null,
+        "main_level": "110-22",
+        "alliance": null
+    },
+    "#56 楚庶灵缘": {
+        "power": null,
+        "main_level": "110-22",
+        "alliance": null
+    },
+    "#86 VictoriaRuiz": {
+        "power": null,
+        "main_level": "110-22",
+        "alliance": null
+    },
+    "#47 ZEROZ": {
+        "power": "75,001,498",
+        "main_level": "110-21",
+        "alliance": null
+    },
+    "#56 ksame": {
+        "power": "71,970,097",
+        "main_level": "110-21",
+        "alliance": null
+    },
+    "#13 钟茉雅": {
+        "power": null,
+        "main_level": "110-13",
+        "alliance": null
+    },
+    "#29 PatriciaPac": {
+        "power": "62,691,530",
+        "main_level": "110-6",
+        "alliance": null
+    },
+    "#53 王元鹅": {
+        "power": null,
+        "main_level": "110-6",
+        "alliance": "迷人又可爱的"
+    },
+    "#40 萌丶正义": {
+        "power": "95,757,025",
+        "main_level": "109-34",
+        "alliance": "迷人又可爱的"
+    },
+    "#12 暴超小萝莉": {
+        "power": "95,053,722",
+        "main_level": "109-28",
+        "alliance": "可爱又迷人的"
+    },
+    "#03 Mirilya": {
+        "power": "83,918,684",
+        "main_level": "109-28",
+        "alliance": "跑路了"
+    },
+    "#78 不会火球": {
+        "power": "75,738,253",
+        "main_level": "109-28",
+        "alliance": "跑路了"
+    },
+    "#49 epicktroll": {
+        "power": null,
+        "main_level": "109-28",
+        "alliance": null
+    },
+    "#70 DannyBoon": {
+        "power": null,
+        "main_level": "109-28",
+        "alliance": null
+    },
+    "#03 符离": {
+        "power": null,
+        "main_level": "109-26",
+        "alliance": null
+    },
+    "#58 路终有尽": {
+        "power": null,
+        "main_level": "109-26",
+        "alliance": null
+    },
+    "#05 寄摆": {
+        "power": "92,124,137",
+        "main_level": "109-25",
+        "alliance": "one"
+    },
+    "#28 under": {
+        "power": "78,417,543",
+        "main_level": "109-25",
+        "alliance": null
+    },
+    "#28 EmmaHenr": {
+        "power": "100,513,277",
+        "main_level": "109-24",
+        "alliance": null
+    },
+    "#01 点烟看片": {
+        "power": "92,876,005",
+        "main_level": "109-24",
+        "alliance": null
+    },
+    "#11 静女其姝": {
+        "power": null,
+        "main_level": "109-24",
+        "alliance": null
+    },
+    "#17 Chimera": {
+        "power": null,
+        "main_level": "109-24",
+        "alliance": null
+    },
+    "#38 爱坤人士": {
+        "power": null,
+        "main_level": "109-24",
+        "alliance": null
+    },
+    "#101 楽鵡": {
+        "power": null,
+        "main_level": "109-24",
+        "alliance": "迷人又可爱的"
+    },
+    "#58 メジロマックイーン": {
+        "power": null,
+        "main_level": "109-23",
+        "alliance": "玉子烧的小屋"
+    },
+    "#63 烧鸭腿饭": {
+        "power": null,
+        "main_level": "109-22",
+        "alliance": "迷人又可爱的"
+    },
+    "#65 YettaHay": {
+        "power": null,
+        "main_level": "109-22",
+        "alliance": null
+    },
+    "#72 ReneeDuffy": {
+        "power": null,
+        "main_level": "109-22",
+        "alliance": null
+    },
+    "#71 SkylerKan": {
+        "power": "63,402,292",
+        "main_level": "109-21",
+        "alliance": "跑路了"
+    },
+    "#52 醉酒当长歌": {
+        "power": "62,449,177",
+        "main_level": "109-21",
+        "alliance": null
+    },
+    "#28 GeoffreyPate": {
+        "power": null,
+        "main_level": "109-11",
+        "alliance": null
+    },
+    "#08 Fiona噔": {
+        "power": "88,095,315",
+        "main_level": "109-6",
+        "alliance": "跑路了"
+    },
+    "#18 RiverAlsop": {
+        "power": "63,007,413",
+        "main_level": "109-6",
+        "alliance": "跑路了"
+    },
+    "#30 CXL007": {
+        "power": null,
+        "main_level": "108-28",
+        "alliance": null
+    },
+    "#76 光头": {
+        "power": null,
+        "main_level": "108-28",
+        "alliance": null
+    },
+    "#30 老马": {
+        "power": null,
+        "main_level": "108-27",
+        "alliance": null
+    },
+    "#47 疾风的屁股": {
+        "power": "62,564,139",
+        "main_level": "108-24",
+        "alliance": null
+    },
+    "#29 World": {
+        "power": null,
+        "main_level": "108-24",
+        "alliance": null
+    },
+    "#108 MadelineSilva": {
+        "power": "63,755,517",
+        "main_level": "108-23",
+        "alliance": "夜澀"
+    },
+    "#91 ImGodkiller": {
+        "power": "64,634,872",
+        "main_level": "108-22",
+        "alliance": "可爱又迷人的"
+    },
+    "#84 病得真不轻": {
+        "power": "63,918,745",
+        "main_level": "108-22",
+        "alliance": "迷人又可爱的"
+    },
+    "#06 RivaMeg": {
+        "power": null,
+        "main_level": "108-22",
+        "alliance": null
+    },
+    "#69 SamHuu": {
+        "power": null,
+        "main_level": "108-22",
+        "alliance": null
+    },
+    "#04 Sango37": {
+        "power": "82,368,925",
+        "main_level": "108-21",
+        "alliance": "迷人又可爱的"
+    },
+    "#16 夏纱沫": {
+        "power": "68,520,526",
+        "main_level": "108-21",
+        "alliance": "迷人又可爱的"
+    }
+}

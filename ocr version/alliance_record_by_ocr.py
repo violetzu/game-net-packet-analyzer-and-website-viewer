@@ -2,17 +2,13 @@ import os
 import easyocr
 import cv2
 import json
-directory = "alliance"
+directory = "C:/wamp64/ranking/ocr version/alliance"
 
 # alliance_name="迷人又可爱的"
 # alliance_name="可爱又迷人的"
 alliance_name="夜澀"
 # alliance_name="ロスモンティス"
-def write_txt(filename,File):
-    with open(f"{filename}.txt", "w", encoding="utf-8") as file:
-        for item in File:
-            file.write(str(item) + "\n")
-    
+
 # 1920*1920 input
 
 with open("corrections.json", "r", encoding="utf-8") as f:
@@ -24,7 +20,8 @@ def perform_ocr():
     member=[]
     for filenum, filename in enumerate(files):
         print(f'{filenum+1}')
-        img_path = os.path.join(directory, filename)
+        # img_path = os.path.join(directory, filename)
+        img_path = f'{directory}/{filename}'
         img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
         # result = reader.readtext(img[250:1840,1060:1500], detail=0)
         result = reader.readtext(img, detail=0)
@@ -46,7 +43,7 @@ def perform_ocr():
 member = perform_ocr()
 
 def main(member):
-    with open('alliance.json', 'r', encoding='utf-8') as file:
+    with open('../alliance.json', 'r', encoding='utf-8') as file:
         alliance = json.load(file)
 
     old_member = alliance[alliance_name]
@@ -71,7 +68,7 @@ while True:
     alliance=main(member)
     check=str(input('是否儲存(Y):'))
     if check=='Y':
-        with open('alliance.json', 'w', encoding='utf-8') as file:
+        with open('../alliance.json', 'w', encoding='utf-8') as file:
             json.dump(alliance, file, ensure_ascii=False, indent=4)
             break
     elif check=='N':

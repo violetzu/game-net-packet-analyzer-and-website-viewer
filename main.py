@@ -78,12 +78,12 @@ def alliance_data(player_data):
 
     return player_data
 
-def date_record(date):
+def date_record(date, all=False):
     month, day = date[:2], date[2:]
     path = "data/date_options.json"
     date_options = read_json(path)
 
-    new_date = {"value": f"2024{month}{day}", "label": f"2024/{month}/{day}"}
+    new_date = {"value": f"2024{month}{day}", "label": f"2024/{month}/{day+" (总榜)" if all else day}"}
     if new_date not in date_options:
         date_options.insert(0, new_date)
 
@@ -98,7 +98,7 @@ def server_record(server):
 
     write_json(path, filter_options)
 
-def Data_collation(data, output_date):
+def Data_collation(data, output_date, all=False):
     def safe_int(value, default=0):
         try:
             return int(value.replace(",", ""))
@@ -130,7 +130,7 @@ def Data_collation(data, output_date):
         file_path = f"data/2024{output_date}_{file_type}.json"
         write_json(file_path, sorted_data)
        
-    date_record(output_date)
+    date_record(output_date,all)
 
 def packet_analysis(player_data,packets,corrections,record_server):
     PATTERN = re.compile(rb'\x00\x00\x00(.*?)\x00', re.DOTALL)

@@ -2,7 +2,7 @@ import gzip
 import re
 from main import *
 player_data={}
-output_date = '1107'
+output_date = '1202'
 packets = read_json(f'wireshark rawdata/{output_date}.json')
 def get_ranking(player_data,packet_data,corrections):
     binary_data =  gzip.decompress(bytes.fromhex(packet_data[10:]))
@@ -82,4 +82,4 @@ for no,packet in enumerate(packets):
         all_packet_data=''
 
 player_data=alliance_data(player_data)
-Data_collation(player_data,output_date)
+Data_collation(player_data,output_date,True)
